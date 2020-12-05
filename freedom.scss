@@ -55,6 +55,12 @@ margin;
         margin: auto !important;
     }
 
+    @media screen and (max-width: $breakpoint-tablet) {
+        &-m-auto {
+            margin: auto !important;
+        }
+    }
+
     @for $i from 1 through 25 {
         &-#{$i} {
             margin: #{$i}rem !important;
@@ -168,6 +174,12 @@ margin;
 .p {
     &-auto {
         padding: auto !important;
+    }
+
+    @media screen and (max-width: $breakpoint-tablet) {
+        &-m-auto {
+            padding: auto !important;
+        }
     }
 
     @for $i from 1 through 25 {

@@ -70,6 +70,11 @@
 .m-auto {
   margin: auto !important;
 }
+@media screen and (max-width: 1000px) {
+  .m-m-auto {
+    margin: auto !important;
+  }
+}
 .m-1 {
   margin: 1rem !important;
 }
@@ -1106,6 +1111,11 @@
 /*Padding*/
 .p-auto {
   padding: auto !important;
+}
+@media screen and (max-width: 1000px) {
+  .p-m-auto {
+    padding: auto !important;
+  }
 }
 .p-1 {
   padding: 1rem !important;
