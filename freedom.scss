@@ -434,81 +434,79 @@ $prop: padding,
 margin;
 
 .m {
-    &-auto {
+    @media screen and (max-width: $breakpoint-tablet) {
+        &-m-auto {
+            margin: auto !important;
+        }
+    }
+
+    @for $i from 0 through 25 {
+        @media screen and (max-width: $breakpoint-tablet) {
+            &-m-#{$i} {
+                margin: #{$i}rem !important;
+            }
+        }
+    }
+
+    &t {
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-auto {
-                margin: auto !important;
+                margin-top: auto !important;
             }
         }
 
         @for $i from 0 through 25 {
             @media screen and (max-width: $breakpoint-tablet) {
                 &-m-#{$i} {
-                    margin: #{$i}rem !important;
+                    margin-top: #{$i}rem !important;
                 }
             }
         }
+    }
 
-        &t {
-            @media screen and (max-width: $breakpoint-tablet) {
-                &-m-auto {
-                    margin-top: auto !important;
-                }
-            }
-
-            @for $i from 0 through 25 {
-                @media screen and (max-width: $breakpoint-tablet) {
-                    &-m-#{$i} {
-                        margin-top: #{$i}rem !important;
-                    }
-                }
+    &b {
+        @media screen and (max-width: $breakpoint-tablet) {
+            &-m-auto {
+                margin-bottom: auto !important;
             }
         }
 
-        &b {
+        @for $i from 0 through 25 {
             @media screen and (max-width: $breakpoint-tablet) {
-                &-m-auto {
-                    margin-bottom: auto !important;
-                }
-            }
-
-            @for $i from 0 through 25 {
-                @media screen and (max-width: $breakpoint-tablet) {
-                    &-m-#{$i} {
-                        margin-bottom: #{$i}rem !important;
-                    }
+                &-m-#{$i} {
+                    margin-bottom: #{$i}rem !important;
                 }
             }
         }
+    }
 
-        &r {
-            @media screen and (max-width: $breakpoint-tablet) {
-                &-m-auto {
-                    margin-right: auto !important;
-                }
-            }
-
-            @for $i from 0 through 25 {
-                @media screen and (max-width: $breakpoint-tablet) {
-                    &-m-#{$i} {
-                        margin-right: #{$i}rem !important;
-                    }
-                }
+    &r {
+        @media screen and (max-width: $breakpoint-tablet) {
+            &-m-auto {
+                margin-right: auto !important;
             }
         }
 
-        &l {
+        @for $i from 0 through 25 {
             @media screen and (max-width: $breakpoint-tablet) {
-                &-m-auto {
-                    margin-left: auto !important;
+                &-m-#{$i} {
+                    margin-right: #{$i}rem !important;
                 }
             }
+        }
+    }
 
-            @for $i from 0 through 25 {
-                @media screen and (max-width: $breakpoint-tablet) {
-                    &-m-#{$i} {
-                        margin-left: #{$i}rem !important;
-                    }
+    &l {
+        @media screen and (max-width: $breakpoint-tablet) {
+            &-m-auto {
+                margin-left: auto !important;
+            }
+        }
+
+        @for $i from 0 through 25 {
+            @media screen and (max-width: $breakpoint-tablet) {
+                &-m-#{$i} {
+                    margin-left: #{$i}rem !important;
                 }
             }
         }
