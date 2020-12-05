@@ -13,6 +13,22 @@ $colors: (white:#fff,
     fade-blue: #34435E,
     transparent: transparent);
 
+/*DESKTOP STYLES*/
+/*Variables*/
+$breakpoint-tablet: 1000px;
+$colors: (white:#fff,
+    light:#dee2e6,
+    black:#000,
+    grey:#6c757d,
+    dark-grey:darkgrey,
+    red:red,
+    dark-red:#dc3545,
+    green:#27e178,
+    blue:#279EDA,
+    yellow:#ffc107,
+    fade-blue: #34435E,
+    transparent: transparent);
+
 /*Display*/
 .d {
     $display: flex, inline, table, list-item, block, none;
@@ -20,12 +36,6 @@ $colors: (white:#fff,
     @each $prop in $display {
         &-#{$prop} {
             display: $prop !important;
-        }
-
-        @media screen and (max-width: $breakpoint-tablet) {
-            &-m-#{$prop} {
-                display: $prop !important;
-            }
         }
     }
 }
@@ -36,12 +46,6 @@ $colors: (white:#fff,
     @each $prop in $direction {
         &-#{$prop} {
             flex-direction: $prop !important;
-        }
-
-        @media screen and (max-width: $breakpoint-tablet) {
-            &-m-#{$prop} {
-                flex-direction: $prop !important;
-            }
         }
     }
 }
@@ -55,21 +59,9 @@ margin;
         margin: auto !important;
     }
 
-    @media screen and (max-width: $breakpoint-tablet) {
-        &-m-auto {
-            margin: auto !important;
-        }
-    }
-
     @for $i from 0 through 25 {
         &-#{$i} {
             margin: #{$i}rem !important;
-        }
-
-        @media screen and (max-width: $breakpoint-tablet) {
-            &-m-#{$i} {
-                margin: #{$i}rem !important;
-            }
         }
     }
 
@@ -78,21 +70,9 @@ margin;
             margin-top: auto !important;
         }
 
-        @media screen and (max-width: $breakpoint-tablet) {
-            &-m-auto {
-                margin-top: auto !important;
-            }
-        }
-
         @for $i from 0 through 25 {
             &-#{$i} {
                 margin-top: #{$i}rem !important;
-            }
-
-            @media screen and (max-width: $breakpoint-tablet) {
-                &-m-#{$i} {
-                    margin-top: #{$i}rem !important;
-                }
             }
         }
     }
@@ -102,21 +82,9 @@ margin;
             margin-bottom: auto !important;
         }
 
-        @media screen and (max-width: $breakpoint-tablet) {
-            &-m-auto {
-                margin-bottom: auto !important;
-            }
-        }
-
         @for $i from 0 through 25 {
             &-#{$i} {
                 margin-bottom: #{$i}rem !important;
-            }
-
-            @media screen and (max-width: $breakpoint-tablet) {
-                &-m-#{$i} {
-                    margin-bottom: #{$i}rem !important;
-                }
             }
         }
     }
@@ -126,21 +94,9 @@ margin;
             margin-right: auto !important;
         }
 
-        @media screen and (max-width: $breakpoint-tablet) {
-            &-m-auto {
-                margin-right: auto !important;
-            }
-        }
-
         @for $i from 0 through 25 {
             &-#{$i} {
                 margin-right: #{$i}rem !important;
-            }
-
-            @media screen and (max-width: $breakpoint-tablet) {
-                &-m-#{$i} {
-                    margin-right: #{$i}rem !important;
-                }
             }
         }
     }
@@ -150,21 +106,9 @@ margin;
             margin-left: auto !important;
         }
 
-        @media screen and (max-width: $breakpoint-tablet) {
-            &-m-auto {
-                margin-left: auto !important;
-            }
-        }
-
         @for $i from 0 through 25 {
             &-#{$i} {
                 margin-left: #{$i}rem !important;
-            }
-
-            @media screen and (max-width: $breakpoint-tablet) {
-                &-m-#{$i} {
-                    margin-left: #{$i}rem !important;
-                }
             }
         }
     }
@@ -176,21 +120,9 @@ margin;
         padding: auto !important;
     }
 
-    @media screen and (max-width: $breakpoint-tablet) {
-        &-m-auto {
-            padding: auto !important;
-        }
-    }
-
     @for $i from 0 through 25 {
         &-#{$i} {
             padding: #{$i}rem !important;
-        }
-
-        @media screen and (max-width: $breakpoint-tablet) {
-            &-m-#{$i} {
-                padding: #{$i}rem !important;
-            }
         }
     }
 
@@ -199,21 +131,9 @@ margin;
             padding-top: auto !important;
         }
 
-        @media screen and (max-width: $breakpoint-tablet) {
-            &-m-auto {
-                padding-top: auto !important;
-            }
-        }
-
         @for $i from 0 through 25 {
             &-#{$i} {
                 padding-top: #{$i}rem !important;
-            }
-
-            @media screen and (max-width: $breakpoint-tablet) {
-                &-m-#{$i} {
-                    padding-top: #{$i}rem !important;
-                }
             }
         }
     }
@@ -223,21 +143,9 @@ margin;
             padding-bottom: auto !important;
         }
 
-        @media screen and (max-width: $breakpoint-tablet) {
-            &-m-auto {
-                padding-bottom: auto !important;
-            }
-        }
-
         @for $i from 0 through 25 {
             &-#{$i} {
                 padding-bottom: #{$i}rem !important;
-            }
-
-            @media screen and (max-width: $breakpoint-tablet) {
-                &-m-#{$i} {
-                    padding-bottom: #{$i}rem !important;
-                }
             }
         }
     }
@@ -247,21 +155,9 @@ margin;
             padding-right: auto !important;
         }
 
-        @media screen and (max-width: $breakpoint-tablet) {
-            &-m-auto {
-                padding-right: auto !important;
-            }
-        }
-
         @for $i from 0 through 25 {
             &-#{$i} {
                 padding-right: #{$i}rem !important;
-            }
-
-            @media screen and (max-width: $breakpoint-tablet) {
-                &-m-#{$i} {
-                    padding-right: #{$i}rem !important;
-                }
             }
         }
     }
@@ -271,21 +167,9 @@ margin;
             padding-left: auto !important;
         }
 
-        @media screen and (max-width: $breakpoint-tablet) {
-            &-m-auto {
-                padding-left: auto !important;
-            }
-        }
-
         @for $i from 0 through 25 {
             &-#{$i} {
                 padding-left: #{$i}rem !important;
-            }
-
-            @media screen and (max-width: $breakpoint-tablet) {
-                &-m-#{$i} {
-                    padding-left: #{$i}rem !important;
-                }
             }
         }
     }
@@ -302,12 +186,6 @@ margin;
         &-#{$i} {
             width: $i * 1% !important;
         }
-
-        @media screen and (max-width: $breakpoint-tablet) {
-            &-m-#{$i} {
-                width: $i * 1% !important;
-            }
-        }
     }
 }
 
@@ -321,12 +199,6 @@ margin;
         &-#{$i} {
             height: $i * 1% !important;
         }
-
-        @media screen and (max-width: $breakpoint-tablet) {
-            &-m-#{$i} {
-                height: $i * 1% !important;
-            }
-        }
     }
 }
 
@@ -336,24 +208,12 @@ margin;
         &-#{$i} {
             border: #{$i}px solid white !important;
         }
-
-        @media screen and (max-width: $breakpoint-tablet) {
-            &-m-#{$i} {
-                border: #{$i}px solid white !important;
-            }
-        }
     }
 
     &r {
         @for $i from 0 through 5 {
             &-#{$i} {
                 border-right: #{$i}px solid white !important;
-            }
-
-            @media screen and (max-width: $breakpoint-tablet) {
-                &-m-#{$i} {
-                    border-right: #{$i}px solid white !important;
-                }
             }
         }
     }
@@ -363,12 +223,6 @@ margin;
             &-#{$i} {
                 border-top: #{$i}px solid white !important;
             }
-
-            @media screen and (max-width: $breakpoint-tablet) {
-                &-m-#{$i} {
-                    border-top: #{$i}px solid white !important;
-                }
-            }
         }
     }
 
@@ -376,12 +230,6 @@ margin;
         @for $i from 0 through 5 {
             &-#{$i} {
                 border-bottom: #{$i}px solid white !important;
-            }
-
-            @media screen and (max-width: $breakpoint-tablet) {
-                &-m-#{$i} {
-                    border-bottom: #{$i}px solid white !important;
-                }
             }
         }
     }
@@ -391,12 +239,6 @@ margin;
             &-#{$i} {
                 border-left: #{$i}px solid white !important;
             }
-
-            @media screen and (max-width: $breakpoint-tablet) {
-                &-m-#{$i} {
-                    border-left: #{$i}px solid white !important;
-                }
-            }
         }
     }
 
@@ -404,12 +246,6 @@ margin;
     $code in $colors {
         &-#{$prop} {
             border-color: $code !important;
-        }
-
-        @media screen and (max-width: $breakpoint-tablet) {
-            &-m-#{$prop} {
-                border-color: $code !important;
-            }
         }
     }
 }
@@ -516,23 +352,11 @@ text-bottom;
         &-#{$prop} {
             text-align: $prop !important;
         }
-
-        @media screen and (max-width: $breakpoint-tablet) {
-            &-m-#{$prop} {
-                text-align: $prop !important;
-            }
-        }
     }
 
     @each $prop in $vertical {
         &-#{$prop} {
             vertical-align: $prop !important;
-        }
-
-        @media screen and (max-width: $breakpoint-tablet) {
-            &-m-#{$prop} {
-                vertical-align: $prop !important;
-            }
         }
     }
 
@@ -540,12 +364,6 @@ text-bottom;
     $code in $colors {
         &-#{$prop} {
             color: $code !important;
-        }
-
-        @media screen and (max-width: $breakpoint-tablet) {
-            &-m-#{$prop} {
-                color: $code !important;
-            }
         }
     }
 }
@@ -563,7 +381,352 @@ bottom;
             left: 0 !important;
             z-index: 1030 !important;
         }
+    }
+}
 
+.bg {
+
+    @each $prop,
+    $code in $colors {
+        &-#{$prop} {
+            background-color: $code !important;
+        }
+    }
+}
+
+.opacity {
+    @for $i from 0 through 10 {
+        &-#{$i} {
+            opacity: $i * 10% !important;
+        }
+    }
+}
+
+
+/*MOBILE STYLES*/
+/*Display*/
+.d {
+    $display: flex, inline, table, list-item, block, none;
+
+    @each $prop in $display {
+        @media screen and (max-width: $breakpoint-tablet) {
+            &-m-#{$prop} {
+                display: $prop !important;
+            }
+        }
+    }
+}
+
+.flex {
+    $direction: row, column;
+
+    @each $prop in $direction {
+        @media screen and (max-width: $breakpoint-tablet) {
+            &-m-#{$prop} {
+                flex-direction: $prop !important;
+            }
+        }
+    }
+}
+
+/*Margin & Padding*/
+$prop: padding,
+margin;
+
+.m {
+    &-auto {
+        @media screen and (max-width: $breakpoint-tablet) {
+            &-m-auto {
+                margin: auto !important;
+            }
+        }
+
+        @for $i from 0 through 25 {
+            @media screen and (max-width: $breakpoint-tablet) {
+                &-m-#{$i} {
+                    margin: #{$i}rem !important;
+                }
+            }
+        }
+
+        &t {
+            @media screen and (max-width: $breakpoint-tablet) {
+                &-m-auto {
+                    margin-top: auto !important;
+                }
+            }
+
+            @for $i from 0 through 25 {
+                @media screen and (max-width: $breakpoint-tablet) {
+                    &-m-#{$i} {
+                        margin-top: #{$i}rem !important;
+                    }
+                }
+            }
+        }
+
+        &b {
+            @media screen and (max-width: $breakpoint-tablet) {
+                &-m-auto {
+                    margin-bottom: auto !important;
+                }
+            }
+
+            @for $i from 0 through 25 {
+                @media screen and (max-width: $breakpoint-tablet) {
+                    &-m-#{$i} {
+                        margin-bottom: #{$i}rem !important;
+                    }
+                }
+            }
+        }
+
+        &r {
+            @media screen and (max-width: $breakpoint-tablet) {
+                &-m-auto {
+                    margin-right: auto !important;
+                }
+            }
+
+            @for $i from 0 through 25 {
+                @media screen and (max-width: $breakpoint-tablet) {
+                    &-m-#{$i} {
+                        margin-right: #{$i}rem !important;
+                    }
+                }
+            }
+        }
+
+        &l {
+            @media screen and (max-width: $breakpoint-tablet) {
+                &-m-auto {
+                    margin-left: auto !important;
+                }
+            }
+
+            @for $i from 0 through 25 {
+                @media screen and (max-width: $breakpoint-tablet) {
+                    &-m-#{$i} {
+                        margin-left: #{$i}rem !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*Padding*/
+.p {
+    @media screen and (max-width: $breakpoint-tablet) {
+        &-m-auto {
+            padding: auto !important;
+        }
+    }
+
+    @for $i from 0 through 25 {
+        @media screen and (max-width: $breakpoint-tablet) {
+            &-m-#{$i} {
+                padding: #{$i}rem !important;
+            }
+        }
+    }
+
+    &t {
+        @media screen and (max-width: $breakpoint-tablet) {
+            &-m-auto {
+                padding-top: auto !important;
+            }
+        }
+
+        @for $i from 0 through 25 {
+            @media screen and (max-width: $breakpoint-tablet) {
+                &-m-#{$i} {
+                    padding-top: #{$i}rem !important;
+                }
+            }
+        }
+    }
+
+    &b {
+        @media screen and (max-width: $breakpoint-tablet) {
+            &-m-auto {
+                padding-bottom: auto !important;
+            }
+        }
+
+        @for $i from 0 through 25 {
+            @media screen and (max-width: $breakpoint-tablet) {
+                &-m-#{$i} {
+                    padding-bottom: #{$i}rem !important;
+                }
+            }
+        }
+    }
+
+    &r {
+        @media screen and (max-width: $breakpoint-tablet) {
+            &-m-auto {
+                padding-right: auto !important;
+            }
+        }
+
+        @for $i from 0 through 25 {
+            @media screen and (max-width: $breakpoint-tablet) {
+                &-m-#{$i} {
+                    padding-right: #{$i}rem !important;
+                }
+            }
+        }
+    }
+
+    &l {
+        @media screen and (max-width: $breakpoint-tablet) {
+            &-m-auto {
+                padding-left: auto !important;
+            }
+        }
+
+        @for $i from 0 through 25 {
+            @media screen and (max-width: $breakpoint-tablet) {
+                &-m-#{$i} {
+                    padding-left: #{$i}rem !important;
+                }
+            }
+        }
+    }
+}
+
+/*Sizing*/
+/*Width*/
+.w {
+    @for $i from 0 through 100 {
+        @media screen and (max-width: $breakpoint-tablet) {
+            &-m-#{$i} {
+                width: $i * 1% !important;
+            }
+        }
+    }
+}
+
+/*Height*/
+.h {
+    @for $i from 0 through 100 {
+        @media screen and (max-width: $breakpoint-tablet) {
+            &-m-#{$i} {
+                height: $i * 1% !important;
+            }
+        }
+    }
+}
+
+/*Borders*/
+.b {
+    @for $i from 0 through 5 {
+        @media screen and (max-width: $breakpoint-tablet) {
+            &-m-#{$i} {
+                border: #{$i}px solid white !important;
+            }
+        }
+    }
+
+    &r {
+        @for $i from 0 through 5 {
+            @media screen and (max-width: $breakpoint-tablet) {
+                &-m-#{$i} {
+                    border-right: #{$i}px solid white !important;
+                }
+            }
+        }
+    }
+
+    &t {
+        @for $i from 0 through 5 {
+            @media screen and (max-width: $breakpoint-tablet) {
+                &-m-#{$i} {
+                    border-top: #{$i}px solid white !important;
+                }
+            }
+        }
+    }
+
+    &b {
+        @for $i from 0 through 5 {
+            @media screen and (max-width: $breakpoint-tablet) {
+                &-m-#{$i} {
+                    border-bottom: #{$i}px solid white !important;
+                }
+            }
+        }
+    }
+
+    &l {
+        @for $i from 0 through 5 {
+            @media screen and (max-width: $breakpoint-tablet) {
+                &-m-#{$i} {
+                    border-left: #{$i}px solid white !important;
+                }
+            }
+        }
+    }
+
+    @each $prop,
+    $code in $colors {
+        @media screen and (max-width: $breakpoint-tablet) {
+            &-m-#{$prop} {
+                border-color: $code !important;
+            }
+        }
+    }
+}
+
+$alignment: center,
+justify,
+right,
+left,
+start,
+end,
+unset;
+
+$vertical: top,
+bottom,
+middle,
+baseline,
+text-top,
+text-bottom;
+
+.text {
+    @each $prop in $alignment {
+        @media screen and (max-width: $breakpoint-tablet) {
+            &-m-#{$prop} {
+                text-align: $prop !important;
+            }
+        }
+    }
+
+    @each $prop in $vertical {
+        @media screen and (max-width: $breakpoint-tablet) {
+            &-m-#{$prop} {
+                vertical-align: $prop !important;
+            }
+        }
+    }
+
+    @each $prop,
+    $code in $colors {
+        @media screen and (max-width: $breakpoint-tablet) {
+            &-m-#{$prop} {
+                color: $code !important;
+            }
+        }
+    }
+}
+
+/*Block Styles*/
+$position: top,
+bottom;
+
+.fixed {
+    @each $prop in $position {
         @media screen and (max-width: $breakpoint-tablet) {
             &-#{$prop} {
                 position: fixed !important;
@@ -580,10 +743,6 @@ bottom;
 
     @each $prop,
     $code in $colors {
-        &-#{$prop} {
-            background-color: $code !important;
-        }
-
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-#{$prop} {
                 background-color: $code !important;
@@ -594,10 +753,6 @@ bottom;
 
 .opacity {
     @for $i from 0 through 10 {
-        &-#{$i} {
-            opacity: $i * 10% !important;
-        }
-
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-#{$i} {
                 opacity: $i * 10% !important;
