@@ -18,14 +18,14 @@ $colors: (white:#fff,
     $display: flex, inline, table, list-item, block, none;
 
     @each $prop in $display {
+        &-#{$prop} {
+            display: $prop !important;
+        }
+
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-#{$prop} {
                 display: $prop !important;
             }
-        }
-
-        &-#{$prop} {
-            display: $prop !important;
         }
     }
 }
@@ -34,14 +34,14 @@ $colors: (white:#fff,
     $direction: row, column;
 
     @each $prop in $direction {
+        &-#{$prop} {
+            flex-direction: $prop !important;
+        }
+
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-#{$prop} {
                 flex-direction: $prop !important;
             }
-        }
-
-        &-#{$prop} {
-            flex-direction: $prop !important;
         }
     }
 }
@@ -51,120 +51,120 @@ $prop: padding,
 margin;
 
 .m {
+    &-auto {
+        margin: auto !important;
+    }
+
     @media screen and (max-width: $breakpoint-tablet) {
         &-m-auto {
             margin: auto !important;
         }
     }
 
-    &-auto {
-        margin: auto !important;
-    }
-
     @for $i from 0 through 25 {
+        &-#{$i} {
+            margin: #{$i}rem !important;
+        }
+
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-#{$i} {
                 margin: #{$i}rem !important;
             }
         }
-
-        &-#{$i} {
-            margin: #{$i}rem !important;
-        }
     }
 
     &t {
+        &-auto {
+            margin-top: auto !important;
+        }
+
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-auto {
                 margin-top: auto !important;
             }
         }
 
-        &-auto {
-            margin-top: auto !important;
-        }
-
         @for $i from 0 through 25 {
+            &-#{$i} {
+                margin-top: #{$i}rem !important;
+            }
+
             @media screen and (max-width: $breakpoint-tablet) {
                 &-m-#{$i} {
                     margin-top: #{$i}rem !important;
                 }
             }
-
-            &-#{$i} {
-                margin-top: #{$i}rem !important;
-            }
         }
     }
 
     &b {
+        &-auto {
+            margin-bottom: auto !important;
+        }
+
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-auto {
                 margin-bottom: auto !important;
             }
         }
 
-        &-auto {
-            margin-bottom: auto !important;
-        }
-
         @for $i from 0 through 25 {
+            &-#{$i} {
+                margin-bottom: #{$i}rem !important;
+            }
+
             @media screen and (max-width: $breakpoint-tablet) {
                 &-m-#{$i} {
                     margin-bottom: #{$i}rem !important;
                 }
             }
-
-            &-#{$i} {
-                margin-bottom: #{$i}rem !important;
-            }
         }
     }
 
     &r {
+        &-auto {
+            margin-right: auto !important;
+        }
+
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-auto {
                 margin-right: auto !important;
             }
         }
 
-        &-auto {
-            margin-right: auto !important;
-        }
-
         @for $i from 0 through 25 {
+            &-#{$i} {
+                margin-right: #{$i}rem !important;
+            }
+
             @media screen and (max-width: $breakpoint-tablet) {
                 &-m-#{$i} {
                     margin-right: #{$i}rem !important;
                 }
             }
-
-            &-#{$i} {
-                margin-right: #{$i}rem !important;
-            }
         }
     }
 
     &l {
+        &-auto {
+            margin-left: auto !important;
+        }
+
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-auto {
                 margin-left: auto !important;
             }
         }
 
-        &-auto {
-            margin-left: auto !important;
-        }
-
         @for $i from 0 through 25 {
+            &-#{$i} {
+                margin-left: #{$i}rem !important;
+            }
+
             @media screen and (max-width: $breakpoint-tablet) {
                 &-m-#{$i} {
                     margin-left: #{$i}rem !important;
                 }
-            }
-            
-            &-#{$i} {
-                margin-left: #{$i}rem !important;
             }
         }
     }
