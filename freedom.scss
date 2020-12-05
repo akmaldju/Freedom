@@ -61,7 +61,7 @@ margin;
         }
     }
 
-    @for $i from 1 through 25 {
+    @for $i from 0 through 25 {
         &-#{$i} {
             margin: #{$i}rem !important;
         }
@@ -84,7 +84,7 @@ margin;
             }
         }
 
-        @for $i from 1 through 25 {
+        @for $i from 0 through 25 {
             &-#{$i} {
                 margin-top: #{$i}rem !important;
             }
@@ -108,7 +108,7 @@ margin;
             }
         }
 
-        @for $i from 1 through 25 {
+        @for $i from 0 through 25 {
             &-#{$i} {
                 margin-bottom: #{$i}rem !important;
             }
@@ -132,7 +132,7 @@ margin;
             }
         }
 
-        @for $i from 1 through 25 {
+        @for $i from 0 through 25 {
             &-#{$i} {
                 margin-right: #{$i}rem !important;
             }
@@ -156,7 +156,7 @@ margin;
             }
         }
 
-        @for $i from 1 through 25 {
+        @for $i from 0 through 25 {
             &-#{$i} {
                 margin-left: #{$i}rem !important;
             }
@@ -182,7 +182,7 @@ margin;
         }
     }
 
-    @for $i from 1 through 25 {
+    @for $i from 0 through 25 {
         &-#{$i} {
             padding: #{$i}rem !important;
         }
@@ -205,7 +205,7 @@ margin;
             }
         }
 
-        @for $i from 1 through 25 {
+        @for $i from 0 through 25 {
             &-#{$i} {
                 padding-top: #{$i}rem !important;
             }
@@ -229,7 +229,7 @@ margin;
             }
         }
 
-        @for $i from 1 through 25 {
+        @for $i from 0 through 25 {
             &-#{$i} {
                 padding-bottom: #{$i}rem !important;
             }
@@ -253,7 +253,7 @@ margin;
             }
         }
 
-        @for $i from 1 through 25 {
+        @for $i from 0 through 25 {
             &-#{$i} {
                 padding-right: #{$i}rem !important;
             }
@@ -277,7 +277,7 @@ margin;
             }
         }
 
-        @for $i from 1 through 25 {
+        @for $i from 0 through 25 {
             &-#{$i} {
                 padding-left: #{$i}rem !important;
             }
@@ -298,7 +298,7 @@ margin;
         width: auto !important;
     }
 
-    @for $i from 1 through 100 {
+    @for $i from 0 through 100 {
         &-#{$i} {
             width: $i * 1% !important;
         }
@@ -317,7 +317,7 @@ margin;
         height: auto !important;
     }
 
-    @for $i from 1 through 100 {
+    @for $i from 0 through 100 {
         &-#{$i} {
             height: $i * 1% !important;
         }
@@ -332,7 +332,7 @@ margin;
 
 /*Borders*/
 .b {
-    @for $i from 1 through 5 {
+    @for $i from 0 through 5 {
         &-#{$i} {
             border: #{$i}px solid white !important;
         }
@@ -345,7 +345,7 @@ margin;
     }
 
     &r {
-        @for $i from 1 through 5 {
+        @for $i from 0 through 5 {
             &-#{$i} {
                 border-right: #{$i}px solid white !important;
             }
@@ -359,7 +359,7 @@ margin;
     }
 
     &t {
-        @for $i from 1 through 5 {
+        @for $i from 0 through 5 {
             &-#{$i} {
                 border-top: #{$i}px solid white !important;
             }
@@ -373,7 +373,7 @@ margin;
     }
 
     &b {
-        @for $i from 1 through 5 {
+        @for $i from 0 through 5 {
             &-#{$i} {
                 border-bottom: #{$i}px solid white !important;
             }
@@ -387,7 +387,7 @@ margin;
     }
 
     &l {
-        @for $i from 1 through 5 {
+        @for $i from 0 through 5 {
             &-#{$i} {
                 border-left: #{$i}px solid white !important;
             }
@@ -593,7 +593,7 @@ bottom;
 }
 
 .opacity {
-    @for $i from 1 through 10 {
+    @for $i from 0 through 10 {
         &-#{$i} {
             opacity: $i * 10% !important;
         }
