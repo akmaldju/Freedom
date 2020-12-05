@@ -8,19 +8,19 @@
     display: flex;
   }
 }
-.d-flex {
+.d-block {
   display: block;
 }
 @media screen and (max-width: 1000px) {
-  .d-m-flex {
+  .d-m-block {
     display: block;
   }
 }
-.d-flex {
+.d-none {
   display: none;
 }
 @media screen and (max-width: 1000px) {
-  .d-m-flex {
+  .d-m-none {
     display: none;
   }
 }

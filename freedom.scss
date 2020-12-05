@@ -7,12 +7,12 @@ $colors: (white:#fff, black:#000, grey:grey, dark-grey:darkgrey, red:red, green:
     $display: flex, block, none;
 
     @each $prop in $display {
-        &-flex {
+        &-#{$prop} {
             display: $prop;
         }
 
         @media screen and (max-width: $breakpoint-tablet) {
-            &-m-flex {
+            &-m-#{$prop} {
                 display: $prop;
             }
         }
