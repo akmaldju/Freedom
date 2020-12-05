@@ -1,10 +1,21 @@
 /*Variables*/
 $breakpoint-tablet: 1000px;
-$colors: (white:#fff, black:#000, grey:grey, dark-grey:darkgrey, red:red, green:#27e178, blue:#279EDA, fade-blue: #34435E);
+$colors: (white:#fff,
+    light:#dee2e6,
+    black:#000,
+    grey:#6c757d,
+    dark-grey:darkgrey,
+    red:red,
+    dark-red:#dc3545,
+    green:#27e178,
+    blue:#279EDA,
+    yellow:#ffc107,
+    fade-blue: #34435E,
+    transparent: transparent);
 
 /*Display*/
 .d {
-    $display: flex, block, none;
+    $display: flex, inline, table, list-item, block, none;
 
     @each $prop in $display {
         &-#{$prop} {
@@ -268,6 +279,45 @@ margin;
     }
 }
 
+/*Sizing*/
+/*Width*/
+.w {
+    &-auto {
+        width: auto;
+    }
+
+    @for $i from 1 through 100 {
+        &-#{$i} {
+            width: $i * 1%;
+        }
+
+        @media screen and (max-width: $breakpoint-tablet) {
+            &-m-#{$i} {
+                width: $i * 1%;
+            }
+        }
+    }
+}
+
+/*Height*/
+.h {
+    &-auto {
+        height: auto;
+    }
+
+    @for $i from 1 through 100 {
+        &-#{$i} {
+            height: $i * 1%;
+        }
+
+        @media screen and (max-width: $breakpoint-tablet) {
+            &-m-#{$i} {
+                height: $i * 1%;
+            }
+        }
+    }
+}
+
 /*Borders*/
 .b {
     @for $i from 1 through 5 {
@@ -337,6 +387,19 @@ margin;
             }
         }
     }
+
+    @each $prop,
+    $code in $colors {
+        &-#{$prop} {
+            border-color: $code;
+        }
+
+        @media screen and (max-width: $breakpoint-tablet) {
+            &-m-#{$prop} {
+                border-color: $code;
+            }
+        }
+    }
 }
 
 //TODO: Add border colors and styles
@@ -389,15 +452,52 @@ margin;
     font-style: normal;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
 .quote {
     font-family: 'Handlee', sans-serif;
     font-weight: bold;
+
+    &-footer {
+        display: block;
+        font-size: 80%;
+        color: #6c757d;
+    }
+}
+
+.monospace {
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
 }
 
 $alignment: center,
 justify,
 right,
-left;
+left,
+start,
+end,
+unset;
+
+$vertical: top,
+bottom,
+middle,
+baseline,
+text-top,
+text-bottom;
 
 .text {
     @each $prop in $alignment {
@@ -408,6 +508,18 @@ left;
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-#{$prop} {
                 text-align: $prop;
+            }
+        }
+    }
+
+    @each $prop in $vertical {
+        &-#{$prop} {
+            vertical-align: $prop;
+        }
+
+        @media screen and (max-width: $breakpoint-tablet) {
+            &-m-#{$prop} {
+                vertical-align: $prop;
             }
         }
     }
@@ -427,9 +539,29 @@ left;
 }
 
 /*Block Styles*/
-.bg-black {
-    background-color: rgb(1, 1, 1, 0.7);
-    border-radius: 4px;
+$position: top,
+bottom;
+
+.fixed {
+    @each $prop in $position {
+        &-#{$prop} {
+            position: fixed;
+            #{$prop}: 0;
+            right: 0;
+            left: 0;
+            z-index: 1030;
+        }
+
+        @media screen and (max-width: $breakpoint-tablet) {
+            &-#{$prop} {
+                position: fixed;
+                #{$prop}: 0;
+                right: 0;
+                left: 0;
+                z-index: 1030;
+            }
+        }
+    }
 }
 
 .bg {
@@ -442,7 +574,7 @@ left;
 
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-#{$prop} {
-                color: $code;
+                background-color: $code;
             }
         }
     }
