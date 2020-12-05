@@ -19,12 +19,12 @@ $colors: (white:#fff,
 
     @each $prop in $display {
         &-#{$prop} {
-            display: $prop;
+            display: $prop !important;
         }
 
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-#{$prop} {
-                display: $prop;
+                display: $prop !important;
             }
         }
     }
@@ -35,12 +35,12 @@ $colors: (white:#fff,
 
     @each $prop in $direction {
         &-#{$prop} {
-            flex-direction: $prop;
+            flex-direction: $prop !important;
         }
 
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-#{$prop} {
-                flex-direction: $prop;
+                flex-direction: $prop !important;
             }
         }
     }
@@ -52,40 +52,40 @@ margin;
 
 .m {
     &-auto {
-        margin: auto;
+        margin: auto !important;
     }
 
     @for $i from 1 through 25 {
         &-#{$i} {
-            margin: #{$i}rem;
+            margin: #{$i}rem !important;
         }
 
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-#{$i} {
-                margin: #{$i}rem;
+                margin: #{$i}rem !important;
             }
         }
     }
 
     &t {
         &-auto {
-            margin-top: auto;
+            margin-top: auto !important;
         }
 
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-auto {
-                margin-top: auto;
+                margin-top: auto !important;
             }
         }
 
         @for $i from 1 through 25 {
             &-#{$i} {
-                margin-top: #{$i}rem;
+                margin-top: #{$i}rem !important;
             }
 
             @media screen and (max-width: $breakpoint-tablet) {
                 &-m-#{$i} {
-                    margin-top: #{$i}rem;
+                    margin-top: #{$i}rem !important;
                 }
             }
         }
@@ -93,23 +93,23 @@ margin;
 
     &b {
         &-auto {
-            margin-bottom: auto;
+            margin-bottom: auto !important;
         }
 
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-auto {
-                margin-bottom: auto;
+                margin-bottom: auto !important;
             }
         }
 
         @for $i from 1 through 25 {
             &-#{$i} {
-                margin-bottom: #{$i}rem;
+                margin-bottom: #{$i}rem !important;
             }
 
             @media screen and (max-width: $breakpoint-tablet) {
                 &-m-#{$i} {
-                    margin-bottom: #{$i}rem;
+                    margin-bottom: #{$i}rem !important;
                 }
             }
         }
@@ -117,23 +117,23 @@ margin;
 
     &r {
         &-auto {
-            margin-right: auto;
+            margin-right: auto !important;
         }
 
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-auto {
-                margin-right: auto;
+                margin-right: auto !important;
             }
         }
 
         @for $i from 1 through 25 {
             &-#{$i} {
-                margin-right: #{$i}rem;
+                margin-right: #{$i}rem !important;
             }
 
             @media screen and (max-width: $breakpoint-tablet) {
                 &-m-#{$i} {
-                    margin-right: #{$i}rem;
+                    margin-right: #{$i}rem !important;
                 }
             }
         }
@@ -141,23 +141,23 @@ margin;
 
     &l {
         &-auto {
-            margin-left: auto;
+            margin-left: auto !important;
         }
 
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-auto {
-                margin-left: auto;
+                margin-left: auto !important;
             }
         }
 
         @for $i from 1 through 25 {
             &-#{$i} {
-                margin-left: #{$i}rem;
+                margin-left: #{$i}rem !important;
             }
 
             @media screen and (max-width: $breakpoint-tablet) {
                 &-m-#{$i} {
-                    margin-left: #{$i}rem;
+                    margin-left: #{$i}rem !important;
                 }
             }
         }
@@ -167,40 +167,40 @@ margin;
 /*Padding*/
 .p {
     &-auto {
-        padding: auto;
+        padding: auto !important;
     }
 
     @for $i from 1 through 25 {
         &-#{$i} {
-            padding: #{$i}rem;
+            padding: #{$i}rem !important;
         }
 
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-#{$i} {
-                padding: #{$i}rem;
+                padding: #{$i}rem !important;
             }
         }
     }
 
     &t {
         &-auto {
-            padding-top: auto;
+            padding-top: auto !important;
         }
 
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-auto {
-                padding-top: auto;
+                padding-top: auto !important;
             }
         }
 
         @for $i from 1 through 25 {
             &-#{$i} {
-                padding-top: #{$i}rem;
+                padding-top: #{$i}rem !important;
             }
 
             @media screen and (max-width: $breakpoint-tablet) {
                 &-m-#{$i} {
-                    padding-top: #{$i}rem;
+                    padding-top: #{$i}rem !important;
                 }
             }
         }
@@ -208,23 +208,23 @@ margin;
 
     &b {
         &-auto {
-            padding-bottom: auto;
+            padding-bottom: auto !important;
         }
 
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-auto {
-                padding-bottom: auto;
+                padding-bottom: auto !important;
             }
         }
 
         @for $i from 1 through 25 {
             &-#{$i} {
-                padding-bottom: #{$i}rem;
+                padding-bottom: #{$i}rem !important;
             }
 
             @media screen and (max-width: $breakpoint-tablet) {
                 &-m-#{$i} {
-                    padding-bottom: #{$i}rem;
+                    padding-bottom: #{$i}rem !important;
                 }
             }
         }
@@ -232,23 +232,23 @@ margin;
 
     &r {
         &-auto {
-            padding-right: auto;
+            padding-right: auto !important;
         }
 
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-auto {
-                padding-right: auto;
+                padding-right: auto !important;
             }
         }
 
         @for $i from 1 through 25 {
             &-#{$i} {
-                padding-right: #{$i}rem;
+                padding-right: #{$i}rem !important;
             }
 
             @media screen and (max-width: $breakpoint-tablet) {
                 &-m-#{$i} {
-                    padding-right: #{$i}rem;
+                    padding-right: #{$i}rem !important;
                 }
             }
         }
@@ -256,23 +256,23 @@ margin;
 
     &l {
         &-auto {
-            padding-left: auto;
+            padding-left: auto !important;
         }
 
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-auto {
-                padding-left: auto;
+                padding-left: auto !important;
             }
         }
 
         @for $i from 1 through 25 {
             &-#{$i} {
-                padding-left: #{$i}rem;
+                padding-left: #{$i}rem !important;
             }
 
             @media screen and (max-width: $breakpoint-tablet) {
                 &-m-#{$i} {
-                    padding-left: #{$i}rem;
+                    padding-left: #{$i}rem !important;
                 }
             }
         }
@@ -283,17 +283,17 @@ margin;
 /*Width*/
 .w {
     &-auto {
-        width: auto;
+        width: auto !important;
     }
 
     @for $i from 1 through 100 {
         &-#{$i} {
-            width: $i * 1%;
+            width: $i * 1% !important;
         }
 
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-#{$i} {
-                width: $i * 1%;
+                width: $i * 1% !important;
             }
         }
     }
@@ -302,17 +302,17 @@ margin;
 /*Height*/
 .h {
     &-auto {
-        height: auto;
+        height: auto !important;
     }
 
     @for $i from 1 through 100 {
         &-#{$i} {
-            height: $i * 1%;
+            height: $i * 1% !important;
         }
 
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-#{$i} {
-                height: $i * 1%;
+                height: $i * 1% !important;
             }
         }
     }
@@ -322,12 +322,12 @@ margin;
 .b {
     @for $i from 1 through 5 {
         &-#{$i} {
-            border: #{$i}px solid white;
+            border: #{$i}px solid white !important;
         }
 
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-#{$i} {
-                border: #{$i}px solid white;
+                border: #{$i}px solid white !important;
             }
         }
     }
@@ -335,12 +335,12 @@ margin;
     &r {
         @for $i from 1 through 5 {
             &-#{$i} {
-                border-right: #{$i}px solid white;
+                border-right: #{$i}px solid white !important;
             }
 
             @media screen and (max-width: $breakpoint-tablet) {
                 &-m-#{$i} {
-                    border-right: #{$i}px solid white;
+                    border-right: #{$i}px solid white !important;
                 }
             }
         }
@@ -349,12 +349,12 @@ margin;
     &t {
         @for $i from 1 through 5 {
             &-#{$i} {
-                border-top: #{$i}px solid white;
+                border-top: #{$i}px solid white !important;
             }
 
             @media screen and (max-width: $breakpoint-tablet) {
                 &-m-#{$i} {
-                    border-top: #{$i}px solid white;
+                    border-top: #{$i}px solid white !important;
                 }
             }
         }
@@ -363,12 +363,12 @@ margin;
     &b {
         @for $i from 1 through 5 {
             &-#{$i} {
-                border-bottom: #{$i}px solid white;
+                border-bottom: #{$i}px solid white !important;
             }
 
             @media screen and (max-width: $breakpoint-tablet) {
                 &-m-#{$i} {
-                    border-bottom: #{$i}px solid white;
+                    border-bottom: #{$i}px solid white !important;
                 }
             }
         }
@@ -377,12 +377,12 @@ margin;
     &l {
         @for $i from 1 through 5 {
             &-#{$i} {
-                border-left: #{$i}px solid white;
+                border-left: #{$i}px solid white !important;
             }
 
             @media screen and (max-width: $breakpoint-tablet) {
                 &-m-#{$i} {
-                    border-left: #{$i}px solid white;
+                    border-left: #{$i}px solid white !important;
                 }
             }
         }
@@ -391,12 +391,12 @@ margin;
     @each $prop,
     $code in $colors {
         &-#{$prop} {
-            border-color: $code;
+            border-color: $code !important;
         }
 
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-#{$prop} {
-                border-color: $code;
+                border-color: $code !important;
             }
         }
     }
@@ -407,81 +407,81 @@ margin;
 /*Headings*/
 //TODO: Calculate size in rem
 .h1 {
-    font-size: xxx-large;
+    font-size: xxx-large !important;
 }
 
 .h2 {
-    font-size: xx-large;
+    font-size: xx-large !important;
 }
 
 .h3 {
-    font-size: x-large;
+    font-size: x-large !important;
 }
 
 .h4 {
-    font-size: large;
+    font-size: large !important;
 }
 
 .h5 {
-    font-size: medium;
+    font-size: medium !important;
 }
 
 .h6 {
-    font-size: small;
+    font-size: small !important;
 }
 
 .h7 {
-    font-size: x-small;
+    font-size: x-small !important;
 }
 
 .h8 {
-    font-size: xx-small;
+    font-size: xx-small !important;
 }
 
 /*Text Styling*/
 .bold {
-    font-weight: bold;
+    font-weight: bold !important;
 }
 
 .italic {
-    font-style: italic;
+    font-style: italic !important;
 }
 
 .normal {
-    font-weight: normal;
-    font-style: normal;
+    font-weight: normal !important;
+    font-style: normal !important;
 }
 
 .uppercase {
-    text-transform: uppercase;
+    text-transform: uppercase !important;
 }
 
 .lowercase {
-    text-transform: lowercase;
+    text-transform: lowercase !important;
 }
 
 .capitalize {
-    text-transform: capitalize;
+    text-transform: capitalize !important;
 }
 
 .quote {
-    font-family: 'Handlee', sans-serif;
-    font-weight: bold;
+    font-family: 'Handlee', sans-serif !important;
+    font-weight: bold !important;
 
     &-footer {
-        display: block;
-        font-size: 80%;
-        color: #6c757d;
+        display: block !important;
+        font-size: 80% !important;
+        color: #6c757d !important;
     }
 }
 
 .monospace {
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
 }
 
 .lead {
-    font-size: 1.25rem;
-    font-weight: 300;
+    font-size: 1.25rem !important;
+    font-weight: 300 !important;
 }
 
 $alignment: center,
@@ -502,24 +502,24 @@ text-bottom;
 .text {
     @each $prop in $alignment {
         &-#{$prop} {
-            text-align: $prop;
+            text-align: $prop !important;
         }
 
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-#{$prop} {
-                text-align: $prop;
+                text-align: $prop !important;
             }
         }
     }
 
     @each $prop in $vertical {
         &-#{$prop} {
-            vertical-align: $prop;
+            vertical-align: $prop !important;
         }
 
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-#{$prop} {
-                vertical-align: $prop;
+                vertical-align: $prop !important;
             }
         }
     }
@@ -527,12 +527,12 @@ text-bottom;
     @each $prop,
     $code in $colors {
         &-#{$prop} {
-            color: $code;
+            color: $code !important;
         }
 
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-#{$prop} {
-                color: $code;
+                color: $code !important;
             }
         }
     }
@@ -545,20 +545,20 @@ bottom;
 .fixed {
     @each $prop in $position {
         &-#{$prop} {
-            position: fixed;
-            #{$prop}: 0;
-            right: 0;
-            left: 0;
-            z-index: 1030;
+            position: fixed !important;
+            #{$prop}: 0 !important;
+            right: 0 !important;
+            left: 0 !important;
+            z-index: 1030 !important;
         }
 
         @media screen and (max-width: $breakpoint-tablet) {
             &-#{$prop} {
-                position: fixed;
-                #{$prop}: 0;
-                right: 0;
-                left: 0;
-                z-index: 1030;
+                position: fixed !important;
+                #{$prop}: 0 !important;
+                right: 0 !important;
+                left: 0 !important;
+                z-index: 1030 !important;
             }
         }
     }
@@ -569,12 +569,12 @@ bottom;
     @each $prop,
     $code in $colors {
         &-#{$prop} {
-            background-color: $code;
+            background-color: $code !important;
         }
 
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-#{$prop} {
-                background-color: $code;
+                background-color: $code !important;
             }
         }
     }
@@ -583,12 +583,12 @@ bottom;
 .opacity {
     @for $i from 1 through 10 {
         &-#{$i} {
-            opacity: $i * 10%;
+            opacity: $i * 10% !important;
         }
 
         @media screen and (max-width: $breakpoint-tablet) {
             &-m-#{$i} {
-                opacity: $i * 10%;
+                opacity: $i * 10% !important;
             }
         }
     }
