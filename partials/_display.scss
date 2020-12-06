@@ -1,0 +1,19 @@
+@import 'variables';
+/*Display*/
+.d {
+    @each $prop in $display {
+        &-#{$prop} {
+            display: $prop !important;
+        }
+    }
+}
+
+.flex {
+    
+
+    @each $prop in $direction {
+        &-#{$prop} {
+            flex-direction: $prop !important;
+        }
+    }
+}

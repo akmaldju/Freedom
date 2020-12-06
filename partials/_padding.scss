@@ -1,0 +1,60 @@
+/*Padding*/
+.p {
+    &-auto {
+        padding: auto !important;
+    }
+
+    @for $i from 0 through 25 {
+        &-#{$i} {
+            padding: #{$i}rem !important;
+        }
+    }
+
+    &t {
+        &-auto {
+            padding-top: auto !important;
+        }
+
+        @for $i from 0 through 25 {
+            &-#{$i} {
+                padding-top: #{$i}rem !important;
+            }
+        }
+    }
+
+    &b {
+        &-auto {
+            padding-bottom: auto !important;
+        }
+
+        @for $i from 0 through 25 {
+            &-#{$i} {
+                padding-bottom: #{$i}rem !important;
+            }
+        }
+    }
+
+    &r {
+        &-auto {
+            padding-right: auto !important;
+        }
+
+        @for $i from 0 through 25 {
+            &-#{$i} {
+                padding-right: #{$i}rem !important;
+            }
+        }
+    }
+
+    &l {
+        &-auto {
+            padding-left: auto !important;
+        }
+
+        @for $i from 0 through 25 {
+            &-#{$i} {
+                padding-left: #{$i}rem !important;
+            }
+        }
+    }
+}

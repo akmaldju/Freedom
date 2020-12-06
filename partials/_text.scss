@@ -1,0 +1,101 @@
+@import 'variables';
+/*Headings*/
+//TODO: Calculate size in rem
+.h1 {
+    font-size: xxx-large !important;
+}
+
+.h2 {
+    font-size: xx-large !important;
+}
+
+.h3 {
+    font-size: x-large !important;
+}
+
+.h4 {
+    font-size: large !important;
+}
+
+.h5 {
+    font-size: medium !important;
+}
+
+.h6 {
+    font-size: small !important;
+}
+
+.h7 {
+    font-size: x-small !important;
+}
+
+.h8 {
+    font-size: xx-small !important;
+}
+
+/*Text Styling*/
+.bold {
+    font-weight: bold !important;
+}
+
+.italic {
+    font-style: italic !important;
+}
+
+.normal {
+    font-weight: normal !important;
+    font-style: normal !important;
+}
+
+.uppercase {
+    text-transform: uppercase !important;
+}
+
+.lowercase {
+    text-transform: lowercase !important;
+}
+
+.capitalize {
+    text-transform: capitalize !important;
+}
+
+.quote {
+    font-family: 'Handlee', sans-serif !important;
+    font-weight: bold !important;
+
+    &-footer {
+        display: block !important;
+        font-size: 80% !important;
+        color: #6c757d !important;
+    }
+}
+
+.monospace {
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+}
+
+.lead {
+    font-size: 1.25rem !important;
+    font-weight: 300 !important;
+}
+
+.text {
+    @each $prop in $alignment {
+        &-#{$prop} {
+            text-align: $prop !important;
+        }
+    }
+
+    @each $prop in $vertical {
+        &-#{$prop} {
+            vertical-align: $prop !important;
+        }
+    }
+
+    @each $prop,
+    $code in $colors {
+        &-#{$prop} {
+            color: $code !important;
+        }
+    }
+}

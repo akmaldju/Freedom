@@ -1,0 +1,35 @@
+/*Variables*/
+$breakpoint-tablet: 1000px;
+$colors: (white:#fff,
+    light:#dee2e6,
+    black:#000,
+    grey:#6c757d,
+    dark-grey:darkgrey,
+    red:red,
+    dark-red:#dc3545,
+    green:#27e178,
+    blue:#279EDA,
+    yellow:#ffc107,
+    fade-blue: #34435E,
+    transparent: transparent);
+
+$display: flex, inline, table, list-item, block, none;
+
+$direction: row, column;
+
+$alignment: center,
+justify,
+right,
+left,
+start,
+end,
+unset;
+
+$vertical: top,
+bottom,
+middle,
+baseline,
+text-top,
+text-bottom;
+
+$position: top, bottom;

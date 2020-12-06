@@ -1,0 +1,26 @@
+/*Sizing*/
+/*Width*/
+.w {
+    &-auto {
+        width: auto !important;
+    }
+
+    @for $i from 0 through 100 {
+        &-#{$i} {
+            width: $i * 1% !important;
+        }
+    }
+}
+
+/*Height*/
+.h {
+    &-auto {
+        height: auto !important;
+    }
+
+    @for $i from 0 through 100 {
+        &-#{$i} {
+            height: $i * 1% !important;
+        }
+    }
+}

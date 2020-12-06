@@ -1,0 +1,31 @@
+@import 'variables';
+/*Block Styles*/
+.fixed {
+    @each $prop in $position {
+        &-#{$prop} {
+            position: fixed !important;
+            #{$prop}: 0 !important;
+            right: 0 !important;
+            left: 0 !important;
+            z-index: 1030 !important;
+        }
+    }
+}
+
+.bg {
+
+    @each $prop,
+    $code in $colors {
+        &-#{$prop} {
+            background-color: $code !important;
+        }
+    }
+}
+
+.opacity {
+    @for $i from 0 through 10 {
+        &-#{$i} {
+            opacity: $i * 10% !important;
+        }
+    }
+}

@@ -1,0 +1,60 @@
+/*Margin & Padding*/
+.m {
+    &-auto {
+        margin: auto !important;
+    }
+
+    @for $i from 0 through 25 {
+        &-#{$i} {
+            margin: #{$i}rem !important;
+        }
+    }
+
+    &t {
+        &-auto {
+            margin-top: auto !important;
+        }
+
+        @for $i from 0 through 25 {
+            &-#{$i} {
+                margin-top: #{$i}rem !important;
+            }
+        }
+    }
+
+    &b {
+        &-auto {
+            margin-bottom: auto !important;
+        }
+
+        @for $i from 0 through 25 {
+            &-#{$i} {
+                margin-bottom: #{$i}rem !important;
+            }
+        }
+    }
+
+    &r {
+        &-auto {
+            margin-right: auto !important;
+        }
+
+        @for $i from 0 through 25 {
+            &-#{$i} {
+                margin-right: #{$i}rem !important;
+            }
+        }
+    }
+
+    &l {
+        &-auto {
+            margin-left: auto !important;
+        }
+
+        @for $i from 0 through 25 {
+            &-#{$i} {
+                margin-left: #{$i}rem !important;
+            }
+        }
+    }
+}
