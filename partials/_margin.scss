@@ -1,3 +1,4 @@
+@import 'variables';
 /*Margin & Padding*/
 .m {
     &-auto {
@@ -54,6 +55,69 @@
         @for $i from 0 through 25 {
             &-#{$i} {
                 margin-left: #{$i}rem !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+    /*Margin Mobile*/
+    .m {
+        &-m-auto {
+            margin: auto !important;
+        }
+
+        @for $i from 0 through 25 {
+            &-m-#{$i} {
+                margin: #{$i}rem !important;
+            }
+        }
+
+        &t {
+            &-m-auto {
+                margin-top: auto !important;
+            }
+
+            @for $i from 0 through 25 {
+                &-m-#{$i} {
+                    margin-top: #{$i}rem !important;
+                }
+            }
+        }
+
+        &b {
+            &-m-auto {
+                margin-bottom: auto !important;
+            }
+
+            @for $i from 0 through 25 {
+                &-m-#{$i} {
+                    margin-bottom: #{$i}rem !important;
+                }
+            }
+        }
+
+        &r {
+            &-m-auto {
+                margin-right: auto !important;
+            }
+
+            @for $i from 0 through 25 {
+                &-m-#{$i} {
+                    margin-right: #{$i}rem !important;
+                }
+            }
+        }
+
+        &l {
+            &-m-auto {
+                margin-left: auto !important;
+            }
+
+            @for $i from 0 through 25 {
+                &-m-#{$i} {
+                    margin-left: #{$i}rem !important;
+                }
             }
         }
     }

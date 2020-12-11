@@ -46,3 +46,54 @@
         }
     }
 }
+
+@media screen and (max-width: $breakpoint-tablet) {
+
+    /*Borders Mobile*/
+    .b {
+        @for $i from 0 through 5 {
+            &-m-#{$i} {
+                border: #{$i}px solid white !important;
+            }
+        }
+
+        &r {
+            @for $i from 0 through 5 {
+                &-m-#{$i} {
+                    border-right: #{$i}px solid white !important;
+                }
+            }
+        }
+
+        &t {
+            @for $i from 0 through 5 {
+                &-m-#{$i} {
+                    border-top: #{$i}px solid white !important;
+                }
+            }
+        }
+
+        &b {
+            @for $i from 0 through 5 {
+                &-m-#{$i} {
+                    border-bottom: #{$i}px solid white !important;
+                }
+            }
+        }
+
+        &l {
+            @for $i from 0 through 5 {
+                &-m-#{$i} {
+                    border-left: #{$i}px solid white !important;
+                }
+            }
+        }
+
+        @each $prop,
+        $code in $colors {
+            &-m-#{$prop} {
+                border-color: $code !important;
+            }
+        }
+    }
+}

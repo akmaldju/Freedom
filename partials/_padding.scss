@@ -1,3 +1,4 @@
+@import 'variables';
 /*Padding*/
 .p {
     &-auto {
@@ -57,4 +58,68 @@
             }
         }
     }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+    /*Padding Mobile*/
+    .p {
+        &-m-auto {
+            padding: auto !important;
+        }
+
+        @for $i from 0 through 25 {
+            &-m-#{$i} {
+                padding: #{$i}rem !important;
+            }
+        }
+
+        &t {
+            &-m-auto {
+                padding-top: auto !important;
+            }
+
+            @for $i from 0 through 25 {
+                &-m-#{$i} {
+                    padding-top: #{$i}rem !important;
+                }
+            }
+        }
+
+        &b {
+            &-m-auto {
+                padding-bottom: auto !important;
+            }
+
+            @for $i from 0 through 25 {
+                &-m-#{$i} {
+                    padding-bottom: #{$i}rem !important;
+                }
+            }
+        }
+
+        &r {
+            &-m-auto {
+                padding-right: auto !important;
+            }
+
+            @for $i from 0 through 25 {
+                &-m-#{$i} {
+                    padding-right: #{$i}rem !important;
+                }
+            }
+        }
+
+        &l {
+            &-m-auto {
+                padding-left: auto !important;
+            }
+
+            @for $i from 0 through 25 {
+                &-m-#{$i} {
+                    padding-left: #{$i}rem !important;
+                }
+            }
+        }
+    }
+
 }

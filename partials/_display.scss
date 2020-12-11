@@ -17,3 +17,24 @@
         }
     }
 }
+
+@media screen and (max-width: $breakpoint-tablet) {
+    /*Display Mobile*/
+    .d {
+        @each $prop in $display {
+            &-m-#{$prop} {
+                display: $prop !important;
+            }
+        }
+    }
+
+    .flex {
+
+
+        @each $prop in $direction {
+            &-m-#{$prop} {
+                flex-direction: $prop !important;
+            }
+        }
+    }
+}

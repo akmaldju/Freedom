@@ -1,3 +1,4 @@
+@import 'variables';
 /*Sizing*/
 /*Width*/
 .w {
@@ -23,4 +24,34 @@
             height: $i * 1% !important;
         }
     }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+    /*Sizing Mobile*/
+    /*Width*/
+    .w {
+        &-m-auto {
+            width: auto !important;
+        }
+
+        @for $i from 0 through 100 {
+            &-m-#{$i} {
+                width: $i * 1% !important;
+            }
+        }
+    }
+
+    /*Height*/
+    .h {
+        &-m-auto {
+            height: auto !important;
+        }
+
+        @for $i from 0 through 100 {
+            &-m-#{$i} {
+                height: $i * 1% !important;
+            }
+        }
+    }
+
 }
