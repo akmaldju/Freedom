@@ -1,0 +1,106 @@
+@import 'variables';
+
+/*Forms*/
+
+.form {
+    &-group {
+        margin-bottom: 1rem;
+    }
+
+    &-control {
+        display: block;
+        width: 100%;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+        &-file,
+        &-range {
+            display: block;
+            width: 100%;
+        }
+    }
+
+    &-inline {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+
+    @media (min-width: 576px) {
+        &-inline &-control {
+            display: inline-block;
+            width: auto;
+            vertical-align: middle;
+        }
+    }
+}
+
+.custom {
+    &-file {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: calc(2.25rem + 2px);
+        margin-bottom: 0;
+
+        &-input {
+            position: relative;
+            z-index: 2;
+            width: 100%;
+            height: calc(2.25rem + 2px);
+            margin: 0;
+            opacity: 0;
+        }
+
+        &-label {
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            z-index: 1;
+            height: calc(2.25rem + 2px);
+            padding: .375rem .75rem;
+            line-height: 1.5;
+            color: #495057;
+            background-color: #fff;
+            border: 1px solid #ced4da;
+            border-radius: .25rem;
+        }
+    }
+
+    &-range {
+        width: 100%;
+        padding-left: 0;
+        background-color: transparent;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+}
+
+.custom-select.is-valid, .form-control.is-valid, .custom-select:valid, .form-control:valid {
+    border-color: #28a745;
+}
+
+.custom-select.is-invalid, .form-control.is-invalid, .custom-select:invalid, .form-control:invalid {
+    border-color: #dc3545;
+}
+
+.invalid-feedback {
+    display: none;
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+.custom-select.is-invalid~.invalid-feedback, .custom-select.is-invalid~.invalid-tooltip, .form-control.is-invalid~.invalid-feedback, .form-control.is-invalid~.invalid-tooltip, .was-validated .custom-select:invalid~.invalid-feedback, .was-validated .custom-select:invalid~.invalid-tooltip, .was-validated .form-control:invalid~.invalid-feedback, .was-validated .form-control:invalid~.invalid-tooltip {
+    display: block;
+}
