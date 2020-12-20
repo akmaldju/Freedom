@@ -66,19 +66,24 @@
 }
 
 .underline {
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
 
 .overline {
-    text-decoration: overline;
+    text-decoration: overline !important;
 }
 
 .noline {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .line-through {
-    text-decoration: line-through;
+    text-decoration: line-through !important;
+}
+
+.highlight {
+    padding: .2em !important;
+    background-color: #fcf8e3 !important;
 }
 
 .quote {

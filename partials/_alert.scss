@@ -7,4 +7,16 @@
     margin-bottom: 1rem;
     border: 1px solid transparent;
     border-radius: .25rem;
+
+    &-dismissible {
+        padding-right: 3rem;
+
+        .btn-close {
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 2;
+            padding: 1.25rem 1rem;
+        }
+    }
 }

@@ -6,6 +6,69 @@
   border: 1px solid transparent;
   border-radius: 0.25rem;
 }
+.alert-dismissible {
+  padding-right: 3rem;
+}
+.alert-dismissible .btn-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  padding: 1.25rem 1rem;
+}
+
+/*Badge*/
+.badge {
+  display: inline-block;
+  padding: 0.35em 0.65em;
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+.badge-white {
+  background-color: #fff;
+}
+.badge-light {
+  background-color: #dee2e6;
+}
+.badge-black {
+  background-color: #000;
+}
+.badge-grey {
+  background-color: #6c757d;
+}
+.badge-dark-grey {
+  background-color: darkgrey;
+}
+.badge-red {
+  background-color: red;
+}
+.badge-dark-red {
+  background-color: #dc3545;
+}
+.badge-green {
+  background-color: #27e178;
+}
+.badge-blue {
+  background-color: #279EDA;
+}
+.badge-yellow {
+  background-color: #ffc107;
+}
+.badge-fade-blue {
+  background-color: #34435E;
+}
+.badge-transparent {
+  background-color: transparent;
+}
+.badge .round {
+  border-radius: 50rem;
+}
 
 /*Cards*/
 .card {
@@ -6266,19 +6329,24 @@
 }
 
 .underline {
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 
 .overline {
-  text-decoration: overline;
+  text-decoration: overline !important;
 }
 
 .noline {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .line-through {
-  text-decoration: line-through;
+  text-decoration: line-through !important;
+}
+
+.highlight {
+  padding: 0.2em !important;
+  background-color: #fcf8e3 !important;
 }
 
 .quote {

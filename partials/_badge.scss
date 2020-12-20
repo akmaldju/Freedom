@@ -1,0 +1,26 @@
+@import 'variables';
+/*Badge*/
+
+.badge {
+    display: inline-block;
+    padding: .35em .65em;
+    font-size: .75em;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+
+    @each $prop,
+    $code in $colors {
+        &-#{$prop} {
+            background-color: $code;
+        }
+    }
+
+    .round {
+        border-radius: 50rem;
+    }
+}
