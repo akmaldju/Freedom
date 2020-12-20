@@ -1,0 +1,48 @@
+@import '_variables';
+
+/*outlines*/
+.o {
+    @for $i from 0 through 5 {
+        &-#{$i} {
+            outline-width: #{$i}px !important;
+        }
+    }
+
+    @each $prop,
+    $code in $colors {
+        &-#{$prop} {
+            outline-color: $code !important;
+        }
+    }
+
+    @each $prop in $border-styles {
+        &-#{$prop} {
+            outline-style: $prop !important;
+        }
+    }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+
+    /*outlines Mobile*/
+    .o {
+        @for $i from 0 through 5 {
+            &-m-#{$i} {
+                outline-width: #{$i}px !important;
+            }
+        }
+
+        @each $prop,
+        $code in $colors {
+            &-m-#{$prop} {
+                outline-color: $code !important;
+            }
+        }
+
+        @each $prop in $border-styles {
+            &-m-#{$prop} {
+                outline-style: $prop !important;
+            }
+        }
+    }
+}

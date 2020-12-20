@@ -1,4 +1,15 @@
+$alignment: center,
+justify,
+right,
+left,
+start,
+end,
+unset;
+
+$border-styles: dotted, dashed, solid, double, groove, ridge, inset, outset;
+
 $breakpoint-tablet: 1000px;
+
 $colors: (white:#fff,
     light:#dee2e6,
     black:#000,
@@ -12,17 +23,11 @@ $colors: (white:#fff,
     fade-blue: #34435E,
     transparent: transparent);
 
-$display: flex, inline, table, list-item, block, none;
-
 $direction: row, column;
 
-$alignment: center,
-justify,
-right,
-left,
-start,
-end,
-unset;
+$display: flex, inline, table, list-item, block, none;
+
+$position: top, bottom;
 
 $vertical: top,
 bottom,
@@ -30,5 +35,3 @@ middle,
 baseline,
 text-top,
 text-bottom;
-
-$position: top, bottom;

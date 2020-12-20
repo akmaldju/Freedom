@@ -1,6 +1,7 @@
 @import 'variables';
 /*Headings*/
 //TODO: Calculate size in rem
+//TODO: Add text shadow
 .h1 {
     font-size: xxx-large !important;
 }
@@ -57,6 +58,22 @@
 
 .capitalize {
     text-transform: capitalize !important;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.noline {
+    text-decoration: none;
+}
+
+.line-through {
+    text-decoration: line-through;
 }
 
 .quote {

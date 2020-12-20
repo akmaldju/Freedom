@@ -1,16 +1,17 @@
 @import '_variables';
+
 /*Borders*/
 .b {
     @for $i from 0 through 5 {
         &-#{$i} {
-            border: #{$i}px solid white !important;
+            border-width: #{$i}px !important;
         }
     }
 
     &r {
         @for $i from 0 through 5 {
             &-#{$i} {
-                border-right: #{$i}px solid white !important;
+                border-right-width: #{$i}px !important;
             }
         }
     }
@@ -18,7 +19,7 @@
     &t {
         @for $i from 0 through 5 {
             &-#{$i} {
-                border-top: #{$i}px solid white !important;
+                border-top-width: #{$i}px !important;
             }
         }
     }
@@ -26,7 +27,7 @@
     &b {
         @for $i from 0 through 5 {
             &-#{$i} {
-                border-bottom: #{$i}px solid white !important;
+                border-bottom-width: #{$i}px !important;
             }
         }
     }
@@ -34,7 +35,7 @@
     &l {
         @for $i from 0 through 5 {
             &-#{$i} {
-                border-left: #{$i}px solid white !important;
+                border-left-width: #{$i}px !important;
             }
         }
     }
@@ -45,6 +46,32 @@
             border-color: $code !important;
         }
     }
+
+    @each $prop in $border-styles {
+        &-#{$prop} {
+            border-style: $prop !important;
+        }
+    }
+
+    &-normal {
+        border-radius: 0px !important;
+    }
+
+    &-material {
+        border-radius: 3px !important;
+    }
+
+    &-round {
+        border-radius: 5px !important;
+    }
+
+    &-rounder {
+        border-radius: 8px !important;
+    }
+
+    &-roundest {
+        border-radius: 12px !important;
+    }
 }
 
 @media screen and (max-width: $breakpoint-tablet) {
@@ -53,14 +80,14 @@
     .b {
         @for $i from 0 through 5 {
             &-m-#{$i} {
-                border: #{$i}px solid white !important;
+                border-width: #{$i}px !important;
             }
         }
 
         &r {
             @for $i from 0 through 5 {
                 &-m-#{$i} {
-                    border-right: #{$i}px solid white !important;
+                    border-right-width: #{$i}px !important;
                 }
             }
         }
@@ -68,7 +95,7 @@
         &t {
             @for $i from 0 through 5 {
                 &-m-#{$i} {
-                    border-top: #{$i}px solid white !important;
+                    border-top-width: #{$i}px !important;
                 }
             }
         }
@@ -76,7 +103,7 @@
         &b {
             @for $i from 0 through 5 {
                 &-m-#{$i} {
-                    border-bottom: #{$i}px solid white !important;
+                    border-bottom-width: #{$i}px !important;
                 }
             }
         }
@@ -84,7 +111,7 @@
         &l {
             @for $i from 0 through 5 {
                 &-m-#{$i} {
-                    border-left: #{$i}px solid white !important;
+                    border-left-width: #{$i}px !important;
                 }
             }
         }
@@ -94,6 +121,32 @@
             &-m-#{$prop} {
                 border-color: $code !important;
             }
+        }
+
+        @each $prop in $border-styles {
+            &-m-#{$prop} {
+                border-style: $prop !important;
+            }
+        }
+
+        &-m-normal {
+            border-radius: 0px !important;
+        }
+
+        &-m-material {
+            border-radius: 3px !important;
+        }
+
+        &-m-round {
+            border-radius: 5px !important;
+        }
+
+        &-m-rounder {
+            border-radius: 8px !important;
+        }
+
+        &-m-roundest {
+            border-radius: 12px !important;
         }
     }
 }

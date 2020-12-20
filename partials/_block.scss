@@ -21,6 +21,14 @@
             background-color: $code !important;
         }
     }
+
+    &-fixed {
+        background-attachment: fixed !important;
+    }
+
+    &-scroll {
+        background-attachment: scroll !important;
+    }
 }
 
 .opacity {
@@ -54,6 +62,14 @@
             &-m-#{$prop} {
                 background-color: $code !important;
             }
+        }
+
+        &-m-fixed {
+            background-attachment: fixed !important;
+        }
+    
+        &-m-scroll {
+            background-attachment: scroll !important;
         }
     }
 
