@@ -11,6 +11,30 @@
             width: $i * 1% !important;
         }
     }
+
+    &-min {
+        &-auto {
+            min-width: auto !important;
+        }
+    
+        @for $i from 0 through 100 {
+            &-#{$i} {
+                min-width: $i * 1% !important;
+            }
+        }
+    }
+
+    &-max {
+        &-auto {
+            max-width: auto !important;
+        }
+    
+        @for $i from 0 through 100 {
+            &-#{$i} {
+                max-width: $i * 1% !important;
+            }
+        }
+    }
 }
 
 /*Height*/
@@ -22,6 +46,30 @@
     @for $i from 0 through 100 {
         &-#{$i} {
             height: $i * 1% !important;
+        }
+    }
+
+    &-min {
+        &-auto {
+            min-height: auto !important;
+        }
+    
+        @for $i from 0 through 100 {
+            &-#{$i} {
+                min-height: $i * 1% !important;
+            }
+        }
+    }
+
+    &-max {
+        &-auto {
+            max-height: auto !important;
+        }
+    
+        @for $i from 0 through 100 {
+            &-#{$i} {
+                max-height: $i * 1% !important;
+            }
         }
     }
 }
@@ -39,6 +87,30 @@
                 width: $i * 1% !important;
             }
         }
+
+        &-min {
+            &-auto {
+                min-width: auto !important;
+            }
+        
+            @for $i from 0 through 100 {
+                &-#{$i} {
+                    min-width: $i * 1% !important;
+                }
+            }
+        }
+    
+        &-max {
+            &-auto {
+                max-width: auto !important;
+            }
+        
+            @for $i from 0 through 100 {
+                &-#{$i} {
+                    max-width: $i * 1% !important;
+                }
+            }
+        }
     }
 
     /*Height*/
@@ -50,6 +122,30 @@
         @for $i from 0 through 100 {
             &-m-#{$i} {
                 height: $i * 1% !important;
+            }
+        }
+
+        &-min {
+            &-auto {
+                min-height: auto !important;
+            }
+        
+            @for $i from 0 through 100 {
+                &-#{$i} {
+                    min-height: $i * 1% !important;
+                }
+            }
+        }
+    
+        &-max {
+            &-auto {
+                max-height: auto !important;
+            }
+        
+            @for $i from 0 through 100 {
+                &-#{$i} {
+                    max-height: $i * 1% !important;
+                }
             }
         }
     }

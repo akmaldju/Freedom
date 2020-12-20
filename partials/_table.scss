@@ -1,0 +1,121 @@
+@import 'variables';
+/*Tables*/
+
+.table {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-bottom: 1rem !important;
+    background-color: transparent !important;
+
+    td,
+    th {
+        padding: .75rem !important;
+        border-top: 1px solid #dee2e6 !important;
+    }
+
+    &-responsive {
+        display: block !important;
+        width: 100% !important;
+        overflow-x: auto !important;
+    }
+
+    &-dark {
+        color: #fff !important;
+        background-color: #212529 !important;
+
+        td,
+        th,
+        thead th {
+            border-color: #32383e !important;
+        }
+    }
+
+    &-striped {
+        tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, .05) !important;
+        }
+    }
+
+    &-bordered {
+        border: 1px solid #dee2e6 !important;
+    }
+
+    &-borderless {
+
+        tbody+tbody,
+        td,
+        th,
+        thead th {
+            border: 0 !important;
+        }
+    }
+
+    &-small {
+
+        td,
+        th {
+            padding: .3rem !important;
+        }
+    }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+    /*Tables Mobile*/
+    .table {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-bottom: 1rem !important;
+        background-color: transparent !important;
+    
+        td,
+        th {
+            padding: .75rem !important;
+            border-top: 1px solid #dee2e6 !important;
+        }
+    
+        &-m-responsive {
+            display: block !important;
+            width: 100% !important;
+            overflow-x: auto !important;
+        }
+    
+        &-m-dark {
+            color: #fff !important;
+            background-color: #212529 !important;
+    
+            td,
+            th,
+            thead th {
+                border-color: #32383e !important;
+            }
+        }
+    
+        &-m-striped {
+            tbody tr:nth-of-type(odd) {
+                background-color: rgba(0, 0, 0, .05) !important;
+            }
+        }
+    
+        &-m-bordered {
+            border: 1px solid #dee2e6 !important;
+        }
+    
+        &-m-borderless {
+    
+            tbody+tbody,
+            td,
+            th,
+            thead th {
+                border: 0 !important;
+            }
+        }
+    
+        &-m-small {
+    
+            td,
+            th {
+                padding: .3rem !important;
+            }
+        }
+    }
+}

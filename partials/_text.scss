@@ -60,6 +60,11 @@
     text-transform: capitalize !important;
 }
 
+.revert {
+    direction: rtl !important;
+    unicode-bidi: bidi-override !important;
+}
+
 .underline {
     text-decoration: underline;
 }
