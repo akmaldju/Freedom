@@ -4,14 +4,14 @@
 .b {
     @for $i from 0 through 5 {
         &-#{$i} {
-            border-width: #{$i}px !important;
+            border: #{$i}px solid white !important;
         }
     }
 
     &r {
         @for $i from 0 through 5 {
             &-#{$i} {
-                border-right-width: #{$i}px !important;
+                border-right: #{$i}px solid white !important;
             }
         }
     }
@@ -19,7 +19,7 @@
     &t {
         @for $i from 0 through 5 {
             &-#{$i} {
-                border-top-width: #{$i}px !important;
+                border-top: #{$i}px solid white !important;
             }
         }
     }
@@ -27,7 +27,7 @@
     &b {
         @for $i from 0 through 5 {
             &-#{$i} {
-                border-bottom-width: #{$i}px !important;
+                border-bottom: #{$i}px solid white !important;
             }
         }
     }
@@ -35,7 +35,7 @@
     &l {
         @for $i from 0 through 5 {
             &-#{$i} {
-                border-left-width: #{$i}px !important;
+                border-left: #{$i}px solid white !important;
             }
         }
     }
@@ -80,14 +80,14 @@
     .b {
         @for $i from 0 through 5 {
             &-m-#{$i} {
-                border-width: #{$i}px !important;
+                border: #{$i}px solid white !important;
             }
         }
 
         &r {
             @for $i from 0 through 5 {
                 &-m-#{$i} {
-                    border-right-width: #{$i}px !important;
+                    border-right: #{$i}px solid white !important;
                 }
             }
         }
@@ -95,7 +95,7 @@
         &t {
             @for $i from 0 through 5 {
                 &-m-#{$i} {
-                    border-top-width: #{$i}px !important;
+                    border-top: #{$i}px solid white !important;
                 }
             }
         }
@@ -103,7 +103,7 @@
         &b {
             @for $i from 0 through 5 {
                 &-m-#{$i} {
-                    border-bottom-width: #{$i}px !important;
+                    border-bottom: #{$i}px solid white !important;
                 }
             }
         }
@@ -111,7 +111,7 @@
         &l {
             @for $i from 0 through 5 {
                 &-m-#{$i} {
-                    border-left-width: #{$i}px !important;
+                    border-left: #{$i}px solid white !important;
                 }
             }
         }
