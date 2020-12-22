@@ -126,3 +126,25 @@
         }
     }
 }
+
+.t {
+    @for $i from 1 through 50 {
+        &-#{$i}-px {
+            font-size: #{$i}px !important;
+        }
+
+        &-#{$i}-pt {
+            font-size: #{$i}pt !important;
+        }
+    }
+
+    @for $i from 1 through 10 {
+        &-#{$i}-rem {
+            font-size: #{$i}rem !important;
+        }
+
+        &-#{$i}-em {
+            font-size: #{$i}em !important;
+        }
+    }
+}
