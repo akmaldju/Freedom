@@ -1,10 +1,23 @@
-$alignment: center,
-justify,
-right,
-left,
-start,
-end,
-unset;
+$alignment: 
+    center,
+    justify,
+    right,
+    left,
+    start,
+    end,
+    unset;
+
+$alignment-content:
+    center,
+    justify,
+    right,
+    left,
+    start,
+    end,
+    space-around,
+    space-between,
+    space-evenly,
+    unset;
 
 $border-styles: dotted, dashed, solid, double, groove, ridge, inset, outset;
 
@@ -29,9 +42,10 @@ $display: flex, inline, table, list-item, block, none;
 
 $position: top, bottom;
 
-$vertical: top,
-bottom,
-middle,
-baseline,
-text-top,
-text-bottom;
+$vertical: 
+    top,
+    bottom,
+    middle,
+    baseline,
+    text-top,
+    text-bottom;

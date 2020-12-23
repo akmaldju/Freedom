@@ -18,6 +18,14 @@
     }
 }
 
+.justify-content {
+    @each $prop in $alignment-content {
+        &-#{$prop} {
+            justify-content: $prop !important;
+        }
+    }
+}
+
 @media screen and (max-width: $breakpoint-tablet) {
     /*Display Mobile*/
     .d {
@@ -34,6 +42,14 @@
         @each $prop in $direction {
             &-m-#{$prop} {
                 flex-direction: $prop !important;
+            }
+        }
+    }
+
+    .justify-content {
+        @each $prop in $alignment-content {
+            &-m-#{$prop} {
+                justify-content: $prop !important;
             }
         }
     }
