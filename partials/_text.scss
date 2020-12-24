@@ -77,11 +77,11 @@
     text-decoration: none !important;
 }
 
-.line-through {
+.line-through, .del {
     text-decoration: line-through !important;
 }
 
-.highlight {
+.highlight, .mark {
     padding: .2em !important;
     background-color: #fcf8e3 !important;
 }
@@ -104,6 +104,10 @@
 .lead {
     font-size: 1.25rem !important;
     font-weight: 300 !important;
+}
+
+.small {
+    font-size: 85% !important;
 }
 
 .text {
