@@ -8,6 +8,22 @@
     }
 }
 
+.hide, .hidden {
+    display: none !important;
+}
+
+.show {
+    display: block !important;
+}
+
+.invisible {
+    visibility: hidden !important;
+}
+
+.visible {
+    visibility: visible !important;
+}
+
 .flex {
     
 
@@ -37,8 +53,6 @@
     }
 
     .flex {
-
-
         @each $prop in $direction {
             &-m-#{$prop} {
                 flex-direction: $prop !important;

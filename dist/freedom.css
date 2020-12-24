@@ -18,6 +18,22 @@
   display: none !important;
 }
 
+.hide, .hidden {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
+
+.invisible {
+  visibility: hidden !important;
+}
+
+.visible {
+  visibility: visible !important;
+}
+
 .flex-row {
   flex-direction: row !important;
 }
