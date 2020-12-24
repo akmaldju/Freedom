@@ -7,7 +7,7 @@
 
     @for $i from 0 through 25 {
         &-#{$i} {
-            margin: #{$i}rem !important;
+            margin: #{$i/4}rem !important;
         }
     }
 
@@ -18,7 +18,7 @@
 
         @for $i from 0 through 25 {
             &-#{$i} {
-                margin-top: #{$i}rem !important;
+                margin-top: #{$i/4}rem !important;
             }
         }
     }
@@ -30,7 +30,7 @@
 
         @for $i from 0 through 25 {
             &-#{$i} {
-                margin-bottom: #{$i}rem !important;
+                margin-bottom: #{$i/4}rem !important;
             }
         }
     }
@@ -42,7 +42,7 @@
 
         @for $i from 0 through 25 {
             &-#{$i} {
-                margin-right: #{$i}rem !important;
+                margin-right: #{$i/4}rem !important;
             }
         }
     }
@@ -54,7 +54,7 @@
 
         @for $i from 0 through 25 {
             &-#{$i} {
-                margin-left: #{$i}rem !important;
+                margin-left: #{$i/4}rem !important;
             }
         }
     }
@@ -67,8 +67,8 @@
 
         @for $i from 0 through 25 {
             &-m-#{$i} {
-                margin-right: #{$i}rem !important;
-                margin-left: #{$i}rem !important;
+                margin-right: #{$i/4}rem !important;
+                margin-left: #{$i/4}rem !important;
             }
         }
     }
@@ -81,8 +81,8 @@
 
         @for $i from 0 through 25 {
             &-m-#{$i} {
-                margin-top: #{$i}rem !important;
-                margin-bottom: #{$i}rem !important;
+                margin-top: #{$i/4}rem !important;
+                margin-bottom: #{$i/4}rem !important;
             }
         }
     }
@@ -97,7 +97,7 @@
 
         @for $i from 0 through 25 {
             &-m-#{$i} {
-                margin: #{$i}rem !important;
+                margin: #{$i/4}rem !important;
             }
         }
 
@@ -108,7 +108,7 @@
 
             @for $i from 0 through 25 {
                 &-m-#{$i} {
-                    margin-top: #{$i}rem !important;
+                    margin-top: #{$i/4}rem !important;
                 }
             }
         }
@@ -120,7 +120,7 @@
 
             @for $i from 0 through 25 {
                 &-m-#{$i} {
-                    margin-bottom: #{$i}rem !important;
+                    margin-bottom: #{$i/4}rem !important;
                 }
             }
         }
@@ -132,7 +132,7 @@
 
             @for $i from 0 through 25 {
                 &-m-#{$i} {
-                    margin-right: #{$i}rem !important;
+                    margin-right: #{$i/4}rem !important;
                 }
             }
         }
@@ -144,7 +144,7 @@
 
             @for $i from 0 through 25 {
                 &-m-#{$i} {
-                    margin-left: #{$i}rem !important;
+                    margin-left: #{$i/4}rem !important;
                 }
             }
         }
@@ -157,8 +157,8 @@
     
             @for $i from 0 through 25 {
                 &-m-#{$i} {
-                    margin-right: #{$i}rem !important;
-                    margin-left: #{$i}rem !important;
+                    margin-right: #{$i/4}rem !important;
+                    margin-left: #{$i/4}rem !important;
                 }
             }
         }
@@ -171,8 +171,8 @@
     
             @for $i from 0 through 25 {
                 &-m-#{$i} {
-                    margin-top: #{$i}rem !important;
-                    margin-bottom: #{$i}rem !important;
+                    margin-top: #{$i/4}rem !important;
+                    margin-bottom: #{$i/4}rem !important;
                 }
             }
         }

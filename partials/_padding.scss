@@ -7,7 +7,7 @@
 
     @for $i from 0 through 25 {
         &-#{$i} {
-            padding: #{$i}rem !important;
+            padding: #{$i/4}rem !important;
         }
     }
 
@@ -18,7 +18,7 @@
 
         @for $i from 0 through 25 {
             &-#{$i} {
-                padding-top: #{$i}rem !important;
+                padding-top: #{$i/4}rem !important;
             }
         }
     }
@@ -30,7 +30,7 @@
 
         @for $i from 0 through 25 {
             &-#{$i} {
-                padding-bottom: #{$i}rem !important;
+                padding-bottom: #{$i/4}rem !important;
             }
         }
     }
@@ -42,7 +42,7 @@
 
         @for $i from 0 through 25 {
             &-#{$i} {
-                padding-right: #{$i}rem !important;
+                padding-right: #{$i/4}rem !important;
             }
         }
     }
@@ -54,7 +54,7 @@
 
         @for $i from 0 through 25 {
             &-#{$i} {
-                padding-left: #{$i}rem !important;
+                padding-left: #{$i/4}rem !important;
             }
         }
     }
@@ -67,8 +67,8 @@
 
         @for $i from 0 through 25 {
             &-#{$i} {
-                padding-right: #{$i}rem !important;
-                padding-left: #{$i}rem !important;
+                padding-right: #{$i/4}rem !important;
+                padding-left: #{$i/4}rem !important;
             }
         }
     }
@@ -81,8 +81,8 @@
 
         @for $i from 0 through 25 {
             &-#{$i} {
-                padding-top: #{$i}rem !important;
-                padding-bottom: #{$i}rem !important;
+                padding-top: #{$i/4}rem !important;
+                padding-bottom: #{$i/4}rem !important;
             }
         }
     }
@@ -97,7 +97,7 @@
 
         @for $i from 0 through 25 {
             &-m-#{$i} {
-                padding: #{$i}rem !important;
+                padding: #{$i/4}rem !important;
             }
         }
 
@@ -108,7 +108,7 @@
 
             @for $i from 0 through 25 {
                 &-m-#{$i} {
-                    padding-top: #{$i}rem !important;
+                    padding-top: #{$i/4}rem !important;
                 }
             }
         }
@@ -120,7 +120,7 @@
 
             @for $i from 0 through 25 {
                 &-m-#{$i} {
-                    padding-bottom: #{$i}rem !important;
+                    padding-bottom: #{$i/4}rem !important;
                 }
             }
         }
@@ -132,7 +132,7 @@
 
             @for $i from 0 through 25 {
                 &-m-#{$i} {
-                    padding-right: #{$i}rem !important;
+                    padding-right: #{$i/4}rem !important;
                 }
             }
         }
@@ -144,7 +144,7 @@
 
             @for $i from 0 through 25 {
                 &-m-#{$i} {
-                    padding-left: #{$i}rem !important;
+                    padding-left: #{$i/4}rem !important;
                 }
             }
         }
@@ -157,8 +157,8 @@
     
             @for $i from 0 through 25 {
                 &-m-#{$i} {
-                    padding-right: #{$i}rem !important;
-                    padding-left: #{$i}rem !important;
+                    padding-right: #{$i/4}rem !important;
+                    padding-left: #{$i/4}rem !important;
                 }
             }
         }
@@ -171,7 +171,7 @@
     
             @for $i from 0 through 25 {
                 &-m-#{$i} {
-                    padding-top: #{$i}rem !important;
+                    padding-top: #{$i/4}rem !important;
                     padding-bottom: #{$i}rem !important;
                 }
             }
