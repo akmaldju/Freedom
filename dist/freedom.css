@@ -2644,6 +2644,9 @@
 .bg-white {
   background-color: #fff !important;
 }
+.bg-whitesmoke {
+  background-color: whitesmoke !important;
+}
 .bg-light {
   background-color: #dee2e6 !important;
 }
@@ -2737,6 +2740,9 @@
 
   .bg-m-white {
     background-color: #fff !important;
+  }
+  .bg-m-whitesmoke {
+    background-color: whitesmoke !important;
   }
   .bg-m-light {
     background-color: #dee2e6 !important;
@@ -2906,6 +2912,9 @@
 .b-white {
   border-color: #fff !important;
 }
+.b-whitesmoke {
+  border-color: whitesmoke !important;
+}
 .b-light {
   border-color: #dee2e6 !important;
 }
@@ -3074,6 +3083,9 @@
   .b-m-white {
     border-color: #fff !important;
   }
+  .b-m-whitesmoke {
+    border-color: whitesmoke !important;
+  }
   .b-m-light {
     border-color: #dee2e6 !important;
   }
@@ -3169,6 +3181,9 @@
 .o-white {
   outline-color: #fff !important;
 }
+.o-whitesmoke {
+  outline-color: whitesmoke !important;
+}
 .o-light {
   outline-color: #dee2e6 !important;
 }
@@ -3249,6 +3264,9 @@
   }
   .o-m-white {
     outline-color: #fff !important;
+  }
+  .o-m-whitesmoke {
+    outline-color: whitesmoke !important;
   }
   .o-m-light {
     outline-color: #dee2e6 !important;
@@ -10777,6 +10795,9 @@
 .text-white {
   color: #fff !important;
 }
+.text-whitesmoke {
+  color: whitesmoke !important;
+}
 .text-light {
   color: #dee2e6 !important;
 }
@@ -11207,6 +11228,9 @@
 .badge-white {
   background-color: #fff;
 }
+.badge-whitesmoke {
+  background-color: whitesmoke;
+}
 .badge-light {
   background-color: #dee2e6;
 }
@@ -11262,6 +11286,9 @@
 .btn-white {
   background-color: #fff !important;
 }
+.btn-whitesmoke {
+  background-color: whitesmoke !important;
+}
 .btn-light {
   background-color: #dee2e6 !important;
 }
@@ -11299,6 +11326,11 @@
   background-color: transparent !important;
   color: #fff !important;
   border-color: #fff !important;
+}
+.btn-outline-whitesmoke {
+  background-color: transparent !important;
+  color: whitesmoke !important;
+  border-color: whitesmoke !important;
 }
 .btn-outline-light {
   background-color: transparent !important;
