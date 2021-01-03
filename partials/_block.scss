@@ -22,6 +22,13 @@
         }
     }
 
+    @each $prop in $all-colors {
+        &-#{$prop} {
+            background-color: $prop !important;
+        }
+
+    }
+
     &-fixed {
         background-attachment: fixed !important;
     }
@@ -62,6 +69,13 @@
             &-m-#{$prop} {
                 background-color: $code !important;
             }
+        }
+
+        @each $prop in $all-colors {
+            &-m-#{$prop} {
+                background-color: $prop !important;
+            }
+    
         }
 
         &-m-fixed {
