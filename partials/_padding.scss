@@ -89,6 +89,98 @@
 }
 
 @media screen and (max-width: $breakpoint-tablet) {
+    /*Padding Tablet*/
+    .p {
+        &-t-auto {
+            padding: auto !important;
+        }
+
+        @for $i from 0 through 25 {
+            &-t-#{$i} {
+                padding: #{$i/4}rem !important;
+            }
+        }
+
+        &t {
+            &-t-auto {
+                padding-top: auto !important;
+            }
+
+            @for $i from 0 through 25 {
+                &-t-#{$i} {
+                    padding-top: #{$i/4}rem !important;
+                }
+            }
+        }
+
+        &b {
+            &-t-auto {
+                padding-bottom: auto !important;
+            }
+
+            @for $i from 0 through 25 {
+                &-t-#{$i} {
+                    padding-bottom: #{$i/4}rem !important;
+                }
+            }
+        }
+
+        &r {
+            &-t-auto {
+                padding-right: auto !important;
+            }
+
+            @for $i from 0 through 25 {
+                &-t-#{$i} {
+                    padding-right: #{$i/4}rem !important;
+                }
+            }
+        }
+
+        &l {
+            &-t-auto {
+                padding-left: auto !important;
+            }
+
+            @for $i from 0 through 25 {
+                &-t-#{$i} {
+                    padding-left: #{$i/4}rem !important;
+                }
+            }
+        }
+
+        &x {
+            &-t-auto {
+                padding-right: auto !important;
+                padding-left: auto !important;
+            }
+    
+            @for $i from 0 through 25 {
+                &-t-#{$i} {
+                    padding-right: #{$i/4}rem !important;
+                    padding-left: #{$i/4}rem !important;
+                }
+            }
+        }
+    
+        &y {
+            &-t-auto {
+                padding-top: auto !important;
+                padding-bottom: auto !important;
+            }
+    
+            @for $i from 0 through 25 {
+                &-t-#{$i} {
+                    padding-top: #{$i/4}rem !important;
+                    padding-bottom: #{$i}rem !important;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
     /*Padding Mobile*/
     .p {
         &-m-auto {

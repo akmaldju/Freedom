@@ -24,6 +24,31 @@
 
 @media screen and (max-width: $breakpoint-tablet) {
 
+    /*outlines Tablet*/
+    .o {
+        @for $i from 0 through 5 {
+            &-t-#{$i} {
+                outline-width: #{$i}px !important;
+            }
+        }
+
+        @each $prop,
+        $code in $colors {
+            &-t-#{$prop} {
+                outline-color: $code !important;
+            }
+        }
+
+        @each $prop in $border-styles {
+            &-t-#{$prop} {
+                outline-style: $prop !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
     /*outlines Mobile*/
     .o {
         @for $i from 0 through 5 {

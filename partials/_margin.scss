@@ -89,6 +89,97 @@
 }
 
 @media screen and (max-width: $breakpoint-tablet) {
+    /*Margin Tablet*/
+    .m {
+        &-t-auto {
+            margin: auto !important;
+        }
+
+        @for $i from 0 through 25 {
+            &-t-#{$i} {
+                margin: #{$i/4}rem !important;
+            }
+        }
+
+        &t {
+            &-t-auto {
+                margin-top: auto !important;
+            }
+
+            @for $i from 0 through 25 {
+                &-t-#{$i} {
+                    margin-top: #{$i/4}rem !important;
+                }
+            }
+        }
+
+        &b {
+            &-t-auto {
+                margin-bottom: auto !important;
+            }
+
+            @for $i from 0 through 25 {
+                &-t-#{$i} {
+                    margin-bottom: #{$i/4}rem !important;
+                }
+            }
+        }
+
+        &r {
+            &-t-auto {
+                margin-right: auto !important;
+            }
+
+            @for $i from 0 through 25 {
+                &-t-#{$i} {
+                    margin-right: #{$i/4}rem !important;
+                }
+            }
+        }
+
+        &l {
+            &-t-auto {
+                margin-left: auto !important;
+            }
+
+            @for $i from 0 through 25 {
+                &-t-#{$i} {
+                    margin-left: #{$i/4}rem !important;
+                }
+            }
+        }
+
+        &x {
+            &-t-auto {
+                margin-right: auto !important;
+                margin-left: auto !important;
+            }
+    
+            @for $i from 0 through 25 {
+                &-t-#{$i} {
+                    margin-right: #{$i/4}rem !important;
+                    margin-left: #{$i/4}rem !important;
+                }
+            }
+        }
+    
+        &y {
+            &-t-auto {
+                margin-top: auto !important;
+                margin-bottom: auto !important;
+            }
+    
+            @for $i from 0 through 25 {
+                &-t-#{$i} {
+                    margin-top: #{$i/4}rem !important;
+                    margin-bottom: #{$i/4}rem !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
     /*Margin Mobile*/
     .m {
         &-m-auto {

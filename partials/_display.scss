@@ -43,6 +43,33 @@
 }
 
 @media screen and (max-width: $breakpoint-tablet) {
+    /*Display Tablet*/
+    .d {
+        @each $prop in $display {
+            &-t-#{$prop} {
+                display: $prop !important;
+            }
+        }
+    }
+
+    .flex {
+        @each $prop in $direction {
+            &-t-#{$prop} {
+                flex-direction: $prop !important;
+            }
+        }
+    }
+
+    .justify-content {
+        @each $prop in $alignment-content {
+            &-t-#{$prop} {
+                justify-content: $prop !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
     /*Display Mobile*/
     .d {
         @each $prop in $display {

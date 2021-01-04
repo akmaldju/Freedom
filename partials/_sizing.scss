@@ -99,6 +99,108 @@
 }
 
 @media screen and (max-width: $breakpoint-tablet) {
+    /*Sizing Tablet*/
+    /*Width*/
+    .w {
+        &-t-auto {
+            width: auto !important;
+        }
+
+        @for $i from 0 through 100 {
+            &-t-#{$i} {
+                width: $i * 1% !important;
+            }
+
+            &-t-#{$i}-vw {
+                width: #{$i}vw !important;
+            }
+        }
+
+        &-min {
+            &-t-auto {
+                min-width: auto !important;
+            }
+        
+            @for $i from 0 through 100 {
+                &-t-#{$i} {
+                    min-width: $i * 1% !important;
+                }
+
+                &-t-#{$i}-vw {
+                    min-width: #{$i}vw !important;
+                }
+            }
+        }
+    
+        &-max {
+            &-t-auto {
+                max-width: auto !important;
+            }
+        
+            @for $i from 0 through 100 {
+                &-t-#{$i} {
+                    max-width: $i * 1% !important;
+                }
+
+                &-t-#{$i}-vw {
+                    max-width: #{$i}vw !important;
+                }
+            }
+        }
+    }
+
+    /*Height*/
+    .h {
+        &-t-auto {
+            height: auto !important;
+        }
+
+        @for $i from 0 through 100 {
+            &-t-#{$i} {
+                height: $i * 1% !important;
+            }
+
+            &-t-#{$i}-vh {
+                height: #{$i}vh !important;
+            }
+        }
+
+        &-min {
+            &-t-auto {
+                min-height: auto !important;
+            }
+        
+            @for $i from 0 through 100 {
+                &-t-#{$i} {
+                    min-height: $i * 1% !important;
+                }
+
+                &-t-#{$i}-vh {
+                    min-height: #{$i}vh !important;
+                }
+            }
+        }
+    
+        &-max {
+            &-t-auto {
+                max-height: auto !important;
+            }
+        
+            @for $i from 0 through 100 {
+                &-t-#{$i} {
+                    max-height: $i * 1% !important;
+                }
+
+                &-t-#{$i}-vh {
+                    max-height: #{$i}vh !important;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
     /*Sizing Mobile*/
     /*Width*/
     .w {

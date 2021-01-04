@@ -48,6 +48,57 @@
 
 @media screen and (max-width: $breakpoint-tablet) {
 
+    /*Block Styles Tablet*/
+    .fixed {
+        @each $prop in $position {
+            &-t-#{$prop} {
+                position: fixed !important;
+                #{$prop}: 0 !important;
+                right: 0 !important;
+                left: 0 !important;
+                z-index: 1030 !important;
+            }
+
+        }
+    }
+
+    .bg {
+
+        @each $prop,
+        $code in $colors {
+            &-t-#{$prop} {
+                background-color: $code !important;
+            }
+        }
+
+        @each $prop in $all-colors {
+            &-t-#{$prop} {
+                background-color: $prop !important;
+            }
+    
+        }
+
+        &-t-fixed {
+            background-attachment: fixed !important;
+        }
+    
+        &-t-scroll {
+            background-attachment: scroll !important;
+        }
+    }
+
+    .opacity {
+        @for $i from 0 through 10 {
+            &-t-#{$i} {
+                opacity: $i * 10% !important;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
     /*Block Styles Mobile*/
     .fixed {
         @each $prop in $position {

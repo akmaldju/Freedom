@@ -76,6 +76,83 @@
 
 @media screen and (max-width: $breakpoint-tablet) {
 
+    /*Borders Tablet*/
+    .b {
+        @for $i from 0 through 5 {
+            &-t-#{$i} {
+                border: #{$i}px solid white !important;
+            }
+        }
+
+        &r {
+            @for $i from 0 through 5 {
+                &-t-#{$i} {
+                    border-right: #{$i}px solid white !important;
+                }
+            }
+        }
+
+        &t {
+            @for $i from 0 through 5 {
+                &-t-#{$i} {
+                    border-top: #{$i}px solid white !important;
+                }
+            }
+        }
+
+        &b {
+            @for $i from 0 through 5 {
+                &-t-#{$i} {
+                    border-bottom: #{$i}px solid white !important;
+                }
+            }
+        }
+
+        &l {
+            @for $i from 0 through 5 {
+                &-t-#{$i} {
+                    border-left: #{$i}px solid white !important;
+                }
+            }
+        }
+
+        @each $prop,
+        $code in $colors {
+            &-t-#{$prop} {
+                border-color: $code !important;
+            }
+        }
+
+        @each $prop in $border-styles {
+            &-t-#{$prop} {
+                border-style: $prop !important;
+            }
+        }
+
+        &-t-normal {
+            border-radius: 0px !important;
+        }
+
+        &-t-material {
+            border-radius: 3px !important;
+        }
+
+        &-t-round {
+            border-radius: 5px !important;
+        }
+
+        &-t-rounder {
+            border-radius: 8px !important;
+        }
+
+        &-t-roundest {
+            border-radius: 12px !important;
+        }
+    }
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
     /*Borders Mobile*/
     .b {
         @for $i from 0 through 5 {
