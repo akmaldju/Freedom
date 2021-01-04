@@ -6,6 +6,9 @@
 .d-inline {
   display: inline !important;
 }
+.d-inline-grid {
+  display: inline-grid !important;
+}
 .d-table {
   display: table !important;
 }
@@ -14,6 +17,9 @@
 }
 .d-block {
   display: block !important;
+}
+.d-grid {
+  display: grid !important;
 }
 .d-none {
   display: none !important;
@@ -81,6 +87,9 @@
   .d-m-inline {
     display: inline !important;
   }
+  .d-m-inline-grid {
+    display: inline-grid !important;
+  }
   .d-m-table {
     display: table !important;
   }
@@ -89,6 +98,9 @@
   }
   .d-m-block {
     display: block !important;
+  }
+  .d-m-grid {
+    display: grid !important;
   }
   .d-m-none {
     display: none !important;
