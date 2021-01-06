@@ -8,6 +8,14 @@
     }
 }
 
+.position, .pos {
+    @each $prop in $position {
+        &-#{$prop} {
+            position: $prop !important;
+        }
+    }
+}
+
 .hide, .hidden {
     display: none !important;
 }
@@ -52,6 +60,14 @@
         }
     }
 
+    .position, .pos {
+        @each $prop in $position {
+            &-t-#{$prop} {
+                position: $prop !important;
+            }
+        }
+    }
+
     .flex {
         @each $prop in $direction {
             &-t-#{$prop} {
@@ -75,6 +91,14 @@
         @each $prop in $display {
             &-m-#{$prop} {
                 display: $prop !important;
+            }
+        }
+    }
+
+    .position, .pos {
+        @each $prop in $position {
+            &-m-#{$prop} {
+                position: $prop !important;
             }
         }
     }

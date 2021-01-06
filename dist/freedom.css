@@ -25,6 +25,34 @@
   display: none !important;
 }
 
+.position-absolute, .pos-absolute {
+  position: absolute !important;
+}
+.position-fixed, .pos-fixed {
+  position: fixed !important;
+}
+.position-inherit, .pos-inherit {
+  position: inherit !important;
+}
+.position-initial, .pos-initial {
+  position: initial !important;
+}
+.position-relative, .pos-relative {
+  position: relative !important;
+}
+.position-revert, .pos-revert {
+  position: revert !important;
+}
+.position-static, .pos-static {
+  position: static !important;
+}
+.position-sticky, .pos-sticky {
+  position: sticky !important;
+}
+.position-unset, .pos-unset {
+  position: unset !important;
+}
+
 .hide, .hidden {
   display: none !important;
 }
@@ -106,6 +134,34 @@
     display: none !important;
   }
 
+  .position-t-absolute, .pos-t-absolute {
+    position: absolute !important;
+  }
+  .position-t-fixed, .pos-t-fixed {
+    position: fixed !important;
+  }
+  .position-t-inherit, .pos-t-inherit {
+    position: inherit !important;
+  }
+  .position-t-initial, .pos-t-initial {
+    position: initial !important;
+  }
+  .position-t-relative, .pos-t-relative {
+    position: relative !important;
+  }
+  .position-t-revert, .pos-t-revert {
+    position: revert !important;
+  }
+  .position-t-static, .pos-t-static {
+    position: static !important;
+  }
+  .position-t-sticky, .pos-t-sticky {
+    position: sticky !important;
+  }
+  .position-t-unset, .pos-t-unset {
+    position: unset !important;
+  }
+
   .flex-t-row {
     flex-direction: row !important;
   }
@@ -169,6 +225,34 @@
   }
   .d-m-none {
     display: none !important;
+  }
+
+  .position-m-absolute, .pos-m-absolute {
+    position: absolute !important;
+  }
+  .position-m-fixed, .pos-m-fixed {
+    position: fixed !important;
+  }
+  .position-m-inherit, .pos-m-inherit {
+    position: inherit !important;
+  }
+  .position-m-initial, .pos-m-initial {
+    position: initial !important;
+  }
+  .position-m-relative, .pos-m-relative {
+    position: relative !important;
+  }
+  .position-m-revert, .pos-m-revert {
+    position: revert !important;
+  }
+  .position-m-static, .pos-m-static {
+    position: static !important;
+  }
+  .position-m-sticky, .pos-m-sticky {
+    position: sticky !important;
+  }
+  .position-m-unset, .pos-m-unset {
+    position: unset !important;
   }
 
   .flex-m-row {
