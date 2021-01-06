@@ -52,7 +52,7 @@
     .#{$placement} {
         @for $i from 0 through 25 {
             &-#{$i} {
-                #{$placement}: #{$i}px !important;
+                #{$placement}: #{$i*4}px !important;
             }
         }
     }
@@ -96,7 +96,7 @@
         .#{$placement} {
             @for $i from 0 through 25 {
                 &-t-#{$i} {
-                    #{$placement}: #{$i}px !important;
+                    #{$placement}: #{$i*4}px !important;
                 }
             }
         }
