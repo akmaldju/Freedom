@@ -141,7 +141,7 @@
         .#{$placement} {
             @for $i from 0 through 25 {
                 &-m-#{$i} {
-                    #{$placement}: #{$i}px !important;
+                    #{$placement}: #{$i*4}px !important;
                 }
             }
         }
