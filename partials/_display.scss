@@ -33,8 +33,6 @@
 }
 
 .flex {
-    
-
     @each $prop in $direction {
         &-#{$prop} {
             flex-direction: $prop !important;
@@ -42,7 +40,7 @@
     }
 }
 
-.justify-content {
+.justify-content, .jc {
     @each $prop in $alignment-content {
         &-#{$prop} {
             justify-content: $prop !important;
@@ -76,7 +74,7 @@
         }
     }
 
-    .justify-content {
+    .justify-content, .jc {
         @each $prop in $alignment-content {
             &-t-#{$prop} {
                 justify-content: $prop !important;
@@ -111,7 +109,7 @@
         }
     }
 
-    .justify-content {
+    .justify-content, .jc {
         @each $prop in $alignment-content {
             &-m-#{$prop} {
                 justify-content: $prop !important;
