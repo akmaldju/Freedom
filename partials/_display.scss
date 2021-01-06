@@ -48,6 +48,16 @@
     }
 }
 
+@each $placement in $placements {
+    .#{$placement} {
+        @for $i from 0 through 25 {
+            &-#{$i} {
+                #{$placement}: #{$i}px !important;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: $breakpoint-tablet) {
     /*Display Tablet*/
     .d {
@@ -78,6 +88,16 @@
         @each $prop in $alignment-content {
             &-t-#{$prop} {
                 justify-content: $prop !important;
+            }
+        }
+    }
+
+    @each $placement in $placements {
+        .#{$placement} {
+            @for $i from 0 through 25 {
+                &-t-#{$i} {
+                    #{$placement}: #{$i}px !important;
+                }
             }
         }
     }
@@ -113,6 +133,16 @@
         @each $prop in $alignment-content {
             &-m-#{$prop} {
                 justify-content: $prop !important;
+            }
+        }
+    }
+
+    @each $placement in $placements {
+        .#{$placement} {
+            @for $i from 0 through 25 {
+                &-m-#{$i} {
+                    #{$placement}: #{$i}px !important;
+                }
             }
         }
     }

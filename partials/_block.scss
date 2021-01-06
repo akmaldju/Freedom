@@ -1,7 +1,7 @@
 @import 'variables';
 /*Block Styles*/
 .fixed {
-    @each $prop in $placement {
+    @each $prop in $placementY {
         &-#{$prop} {
             position: fixed !important;
             #{$prop}: 0 !important;
@@ -50,7 +50,7 @@
 
     /*Block Styles Tablet*/
     .fixed {
-        @each $prop in $placement {
+        @each $prop in $placementY {
             &-t-#{$prop} {
                 position: fixed !important;
                 #{$prop}: 0 !important;
@@ -101,7 +101,7 @@
 
     /*Block Styles Mobile*/
     .fixed {
-        @each $prop in $placement {
+        @each $prop in $placementY {
             &-m-#{$prop} {
                 position: fixed !important;
                 #{$prop}: 0 !important;

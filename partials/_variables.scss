@@ -41,7 +41,9 @@ $direction: row, column;
 
 $display: flex, inline, inline-grid, table, list-item, block, grid, none;
 
-$placement: top, bottom;
+$placements: top, bottom, right, left;
+
+$placementY: top, bottom;
 
 $position: absolute, fixed, inherit, initial, relative, revert, static, sticky, unset;
 
