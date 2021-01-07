@@ -16,6 +16,14 @@
     }
 }
 
+.zi, .z-index {
+    @for $i from 0 through 100 {
+        &-#{$i} {
+            z-index: $i !important;
+        }
+    }
+}
+
 .hide, .hidden {
     display: none !important;
 }
