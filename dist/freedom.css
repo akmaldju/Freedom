@@ -1546,6 +1546,33 @@
   }
 }
 /*Image Styles*/
+.img-fit-contain, .img-object-fit-contain, .img-of-contain {
+  object-fit: contain !important;
+}
+.img-fit-cover, .img-object-fit-cover, .img-of-cover {
+  object-fit: cover !important;
+}
+.img-fit-fill, .img-object-fit-fill, .img-of-fill {
+  object-fit: fill !important;
+}
+.img-fit-inherit, .img-object-fit-inherit, .img-of-inherit {
+  object-fit: inherit !important;
+}
+.img-fit-initial, .img-object-fit-initial, .img-of-initial {
+  object-fit: initial !important;
+}
+.img-fit-none, .img-object-fit-none, .img-of-none {
+  object-fit: none !important;
+}
+.img-fit-revert, .img-object-fit-revert, .img-of-revert {
+  object-fit: revert !important;
+}
+.img-fit-scale-down, .img-object-fit-scale-down, .img-of-scale-down {
+  object-fit: scale-down !important;
+}
+.img-fit-unset, .img-object-fit-unset, .img-of-unset {
+  object-fit: unset !important;
+}
 .img-rounded {
   border-radius: 6px;
 }

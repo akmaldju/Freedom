@@ -2,6 +2,14 @@
 
 /*Image Styles*/
 .img {
+    &-fit, &-object-fit, &-of {
+        @each $prop in $scale {
+            &-#{$prop} {
+                object-fit: $prop !important;
+            }
+        }
+    }
+
     &-rounded {
         border-radius: 6px;
     }
