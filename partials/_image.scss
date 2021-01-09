@@ -1,0 +1,98 @@
+@import 'variables';
+
+/*Image Styles*/
+.img {
+    &-rounded {
+        border-radius: 6px;
+    }
+
+    &-circle {
+        border-radius: 50%;
+    }
+
+    &-thumbnail {
+        padding: 4px;
+        line-height: 1.42857143;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        -webkit-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+        display: inline-block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    &-responsive {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+    /*Display Tablet*/
+    .img-t {
+        &-rounded {
+            border-radius: 6px;
+        }
+    
+        &-circle {
+            border-radius: 50%;
+        }
+    
+        &-thumbnail {
+            padding: 4px;
+            line-height: 1.42857143;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            -webkit-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;
+            display: inline-block;
+            max-width: 100%;
+            height: auto;
+        }
+    
+        &-responsive {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+    /*Display Mobile*/
+    .img-m {
+        &-rounded {
+            border-radius: 6px;
+        }
+    
+        &-circle {
+            border-radius: 50%;
+        }
+    
+        &-thumbnail {
+            padding: 4px;
+            line-height: 1.42857143;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            -webkit-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;
+            display: inline-block;
+            max-width: 100%;
+            height: auto;
+        }
+    
+        &-responsive {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
