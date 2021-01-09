@@ -6972,32 +6972,425 @@
 .bl-5 {
   border-left: 5px solid white !important;
 }
-.b-light {
-  border-color: #dee2e6 !important;
+.b-aliceblue {
+  border-color: aliceblue !important;
 }
-.b-grey {
-  border-color: #6c757d !important;
+.b-antiquewhite {
+  border-color: antiquewhite !important;
+}
+.b-aqua {
+  border-color: aqua !important;
+}
+.b-aquamarine {
+  border-color: aquamarine !important;
+}
+.b-azure {
+  border-color: azure !important;
+}
+.b-beige {
+  border-color: beige !important;
+}
+.b-bisque {
+  border-color: bisque !important;
+}
+.b-black {
+  border-color: black !important;
+}
+.b-blanchedalmond {
+  border-color: blanchedalmond !important;
+}
+.b-blue {
+  border-color: blue !important;
+}
+.b-blueviolet {
+  border-color: blueviolet !important;
+}
+.b-brown {
+  border-color: brown !important;
+}
+.b-burlywood {
+  border-color: burlywood !important;
+}
+.b-cadetblue {
+  border-color: cadetblue !important;
+}
+.b-chartreuse {
+  border-color: chartreuse !important;
+}
+.b-chocolate {
+  border-color: chocolate !important;
+}
+.b-coral {
+  border-color: coral !important;
+}
+.b-cornflowerblue {
+  border-color: cornflowerblue !important;
+}
+.b-cornsilk {
+  border-color: cornsilk !important;
+}
+.b-crimson {
+  border-color: crimson !important;
+}
+.b-cyan {
+  border-color: cyan !important;
+}
+.b-darkblue {
+  border-color: darkblue !important;
+}
+.b-darkcyan {
+  border-color: darkcyan !important;
+}
+.b-darkgoldenrod {
+  border-color: darkgoldenrod !important;
+}
+.b-darkgray {
+  border-color: darkgray !important;
+}
+.b-darkgreen {
+  border-color: darkgreen !important;
+}
+.b-darkkhaki {
+  border-color: darkkhaki !important;
+}
+.b-darkmagenta {
+  border-color: darkmagenta !important;
+}
+.b-darkolivegreen {
+  border-color: darkolivegreen !important;
+}
+.b-darkorange {
+  border-color: darkorange !important;
+}
+.b-darkorchid {
+  border-color: darkorchid !important;
+}
+.b-darkred {
+  border-color: darkred !important;
+}
+.b-darksalmon {
+  border-color: darksalmon !important;
+}
+.b-darkseagreen {
+  border-color: darkseagreen !important;
+}
+.b-darkslateblue {
+  border-color: darkslateblue !important;
+}
+.b-darkslategray {
+  border-color: darkslategray !important;
+}
+.b-darkturquoise {
+  border-color: darkturquoise !important;
+}
+.b-darkviolet {
+  border-color: darkviolet !important;
+}
+.b-deeppink {
+  border-color: deeppink !important;
+}
+.b-deepskyblue {
+  border-color: deepskyblue !important;
+}
+.b-dimgray {
+  border-color: dimgray !important;
+}
+.b-dodgerblue {
+  border-color: dodgerblue !important;
+}
+.b-firebrick {
+  border-color: firebrick !important;
+}
+.b-floralwhite {
+  border-color: floralwhite !important;
+}
+.b-forestgreen {
+  border-color: forestgreen !important;
+}
+.b-fuchsia {
+  border-color: fuchsia !important;
+}
+.b-gainsboro {
+  border-color: gainsboro !important;
+}
+.b-ghostwhite {
+  border-color: ghostwhite !important;
+}
+.b-gold {
+  border-color: gold !important;
+}
+.b-goldenrod {
+  border-color: goldenrod !important;
+}
+.b-gray {
+  border-color: gray !important;
+}
+.b-green {
+  border-color: green !important;
+}
+.b-greenyellow {
+  border-color: greenyellow !important;
+}
+.b-honeydew {
+  border-color: honeydew !important;
+}
+.b-hotpink {
+  border-color: hotpink !important;
+}
+.b-indianred  {
+  border-color: indianred  !important;
+}
+.b-indigo  {
+  border-color: indigo  !important;
+}
+.b-ivory {
+  border-color: ivory !important;
+}
+.b-khaki {
+  border-color: khaki !important;
+}
+.b-lavender {
+  border-color: lavender !important;
+}
+.b-lavenderblush {
+  border-color: lavenderblush !important;
+}
+.b-lawngreen {
+  border-color: lawngreen !important;
+}
+.b-lemonchiffon {
+  border-color: lemonchiffon !important;
+}
+.b-lightblue {
+  border-color: lightblue !important;
+}
+.b-lightcoral {
+  border-color: lightcoral !important;
+}
+.b-lightcyan {
+  border-color: lightcyan !important;
+}
+.b-lightgoldenrodyellow {
+  border-color: lightgoldenrodyellow !important;
+}
+.b-lightgrey {
+  border-color: lightgrey !important;
+}
+.b-lightgreen {
+  border-color: lightgreen !important;
+}
+.b-lightpink {
+  border-color: lightpink !important;
+}
+.b-lightsalmon {
+  border-color: lightsalmon !important;
+}
+.b-lightseagreen {
+  border-color: lightseagreen !important;
+}
+.b-lightskyblue {
+  border-color: lightskyblue !important;
+}
+.b-lightslategray {
+  border-color: lightslategray !important;
+}
+.b-lightsteelblue {
+  border-color: lightsteelblue !important;
+}
+.b-lightyellow {
+  border-color: lightyellow !important;
+}
+.b-lime {
+  border-color: lime !important;
+}
+.b-limegreen {
+  border-color: limegreen !important;
+}
+.b-linen {
+  border-color: linen !important;
+}
+.b-magenta {
+  border-color: magenta !important;
+}
+.b-maroon {
+  border-color: maroon !important;
+}
+.b-mediumaquamarine {
+  border-color: mediumaquamarine !important;
+}
+.b-mediumblue {
+  border-color: mediumblue !important;
+}
+.b-mediumorchid {
+  border-color: mediumorchid !important;
+}
+.b-mediumpurple {
+  border-color: mediumpurple !important;
+}
+.b-mediumseagreen {
+  border-color: mediumseagreen !important;
+}
+.b-mediumslateblue {
+  border-color: mediumslateblue !important;
+}
+.b-mediumspringgreen {
+  border-color: mediumspringgreen !important;
+}
+.b-mediumturquoise {
+  border-color: mediumturquoise !important;
+}
+.b-mediumvioletred {
+  border-color: mediumvioletred !important;
+}
+.b-midnightblue {
+  border-color: midnightblue !important;
+}
+.b-mintcream {
+  border-color: mintcream !important;
+}
+.b-mistyrose {
+  border-color: mistyrose !important;
+}
+.b-moccasin {
+  border-color: moccasin !important;
+}
+.b-navajowhite {
+  border-color: navajowhite !important;
+}
+.b-navy {
+  border-color: navy !important;
+}
+.b-oldlace {
+  border-color: oldlace !important;
+}
+.b-olive {
+  border-color: olive !important;
+}
+.b-olivedrab {
+  border-color: olivedrab !important;
+}
+.b-orange {
+  border-color: orange !important;
+}
+.b-orangered {
+  border-color: orangered !important;
+}
+.b-orchid {
+  border-color: orchid !important;
+}
+.b-palegoldenrod {
+  border-color: palegoldenrod !important;
+}
+.b-palegreen {
+  border-color: palegreen !important;
+}
+.b-paleturquoise {
+  border-color: paleturquoise !important;
+}
+.b-palevioletred {
+  border-color: palevioletred !important;
+}
+.b-papayawhip {
+  border-color: papayawhip !important;
+}
+.b-peachpuff {
+  border-color: peachpuff !important;
+}
+.b-peru {
+  border-color: peru !important;
+}
+.b-pink {
+  border-color: pink !important;
+}
+.b-plum {
+  border-color: plum !important;
+}
+.b-powderblue {
+  border-color: powderblue !important;
+}
+.b-purple {
+  border-color: purple !important;
 }
 .b-red {
   border-color: red !important;
 }
-.b-dark-red {
-  border-color: #dc3545 !important;
+.b-rosybrown {
+  border-color: rosybrown !important;
 }
-.b-green {
-  border-color: #27e178 !important;
+.b-royalblue {
+  border-color: royalblue !important;
 }
-.b-blue {
-  border-color: #279EDA !important;
+.b-saddlebrown {
+  border-color: saddlebrown !important;
+}
+.b-salmon {
+  border-color: salmon !important;
+}
+.b-sandybrown {
+  border-color: sandybrown !important;
+}
+.b-seagreen {
+  border-color: seagreen !important;
+}
+.b-seashell {
+  border-color: seashell !important;
+}
+.b-sienna {
+  border-color: sienna !important;
+}
+.b-silver {
+  border-color: silver !important;
+}
+.b-skyblue {
+  border-color: skyblue !important;
+}
+.b-slateblue {
+  border-color: slateblue !important;
+}
+.b-slategray {
+  border-color: slategray !important;
+}
+.b-snow {
+  border-color: snow !important;
+}
+.b-springgreen {
+  border-color: springgreen !important;
+}
+.b-steelblue {
+  border-color: steelblue !important;
+}
+.b-tan {
+  border-color: tan !important;
+}
+.b-teal {
+  border-color: teal !important;
+}
+.b-thistle {
+  border-color: thistle !important;
+}
+.b-tomato {
+  border-color: tomato !important;
+}
+.b-turquoise {
+  border-color: turquoise !important;
+}
+.b-violet {
+  border-color: violet !important;
+}
+.b-wheat {
+  border-color: wheat !important;
+}
+.b-white {
+  border-color: white !important;
+}
+.b-whitesmoke {
+  border-color: whitesmoke !important;
 }
 .b-yellow {
-  border-color: #ffc107 !important;
+  border-color: yellow !important;
 }
-.b-fade-blue {
-  border-color: #34435E !important;
-}
-.b-transparent {
-  border-color: transparent !important;
+.b-yellowgreen {
+  border-color: yellowgreen !important;
 }
 .b-dotted {
   border-style: dotted !important;

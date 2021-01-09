@@ -40,10 +40,9 @@
         }
     }
 
-    @each $prop,
-    $code in $colors {
+    @each $prop in $all-colors {
         &-#{$prop} {
-            border-color: $code !important;
+            border-color: $prop !important;
         }
     }
 
