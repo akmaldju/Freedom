@@ -9,8 +9,9 @@
   "scripts": {
     "compile": "node-sass scss/freedom.scss dist/freedom.css --output-style expanded",
     "minify": "node-sass scss/freedom.scss dist/freedom.min.css --output-style compressed",
-    "watch": "node-sass --watch scss -o dist --output-style expanded",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish": "npm publish",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node-sass --watch scss -o dist --output-style expanded"
   },
   "repository": {
     "type": "git",
