@@ -1817,10 +1817,108 @@
   height: auto;
 }
 
+.img-hover-light:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 0.7;
+}
+
+.img-hover-shadow:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .img-responsive {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.img-filter-blur,
+.filter-blur,
+.if-blur {
+  filter: blur(5px);
+}
+
+.img-filter-brightness,
+.filter-brightness,
+.if-brightness {
+  filter: brightness(0.3);
+}
+
+.img-filter-contrast,
+.filter-contrast,
+.if-contrast {
+  filter: contrast(180%);
+}
+
+.img-filter-grayscale,
+.filter-grayscale,
+.if-grayscale {
+  filter: grayscale(100%);
+}
+
+.img-filter-huerotate,
+.filter-huerotate,
+.if-huerotate {
+  filter: hue-rotate(180deg);
+}
+
+.img-filter-invert,
+.filter-invert,
+.if-invert {
+  filter: invert(100%);
+}
+
+.img-filter-opacity,
+.filter-opacity,
+.if-opacity {
+  filter: opacity(50%);
+}
+
+.img-filter-saturate,
+.filter-saturate,
+.if-saturate {
+  filter: saturate(7);
+}
+
+.img-filter-sepia,
+.filter-sepia,
+.if-sepia {
+  filter: sepia(100%);
+}
+
+.img-filter-shadow,
+.filter-shadow,
+.if-shadow {
+  filter: drop-shadow(8px 8px 10px gray);
+}
+
+.img-flip,
+.flip,
+.flipped {
+  transform: scaleX(-1);
+}
+
+.img-flip-x,
+.flip-x,
+.flipped-x {
+  transform: scaleX(-1);
+}
+
+.img-flip-y,
+.flip-y,
+.flipped-y {
+  transform: scaleY(-1);
+}
+
+.img-avatar,
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
 @media screen and (max-width: 1000px) {
