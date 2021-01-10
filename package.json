@@ -1,0 +1,31 @@
+{
+  "name": "freedom",
+  "version": "0.0.1",
+  "description": "CSS FreeDOM - a light-weight simplified and improved version of Bootstrap.",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "scripts": {
+    "compile": "node-sass scss/freedom.scss dist/freedom.css --output-style expanded",
+    "minify": "node-sass scss/freedom.scss dist/freedom.min.css --output-style compressed",
+    "watch": "node-sass --watch scss -o dist --output-style expanded",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akmaldju/Freedom.git"
+  },
+  "keywords": [
+    "freedom",
+    "css",
+    "scss",
+    "classes"
+  ],
+  "author": "Akmal Djumakhodjaev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akmaldju/Freedom/issues"
+  },
+  "homepage": "https://github.com/akmaldju/Freedom#readme"
+}
