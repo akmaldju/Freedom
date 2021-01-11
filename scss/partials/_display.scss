@@ -1,4 +1,5 @@
 @import 'variables';
+
 /*Display*/
 .d {
     @each $prop in $display {
@@ -8,7 +9,8 @@
     }
 }
 
-.position, .pos {
+.position,
+.pos {
     @each $prop in $position {
         &-#{$prop} {
             position: $prop !important;
@@ -16,7 +18,8 @@
     }
 }
 
-.zi, .z-index {
+.zi,
+.z-index {
     @for $i from 0 through 100 {
         &-#{$i} {
             z-index: $i !important;
@@ -24,7 +27,8 @@
     }
 }
 
-.hide, .hidden {
+.hide,
+.hidden {
     display: none !important;
 }
 
@@ -46,9 +50,16 @@
             flex-direction: $prop !important;
         }
     }
+
+    @each $prop in $wrap {
+        &-#{$prop} {
+            flex-wrap: $prop !important;
+        }
+    }
 }
 
-.justify-content, .jc {
+.justify-content,
+.jc {
     @each $prop in $alignment-content {
         &-#{$prop} {
             justify-content: $prop !important;
@@ -67,6 +78,7 @@
 }
 
 @media screen and (max-width: $breakpoint-tablet) {
+
     /*Display Tablet*/
     .d {
         @each $prop in $display {
@@ -76,7 +88,8 @@
         }
     }
 
-    .position, .pos {
+    .position,
+    .pos {
         @each $prop in $position {
             &-t-#{$prop} {
                 position: $prop !important;
@@ -90,9 +103,16 @@
                 flex-direction: $prop !important;
             }
         }
+
+        @each $prop in $wrap {
+            &-t-#{$prop} {
+                flex-wrap: $prop !important;
+            }
+        }
     }
 
-    .justify-content, .jc {
+    .justify-content,
+    .jc {
         @each $prop in $alignment-content {
             &-t-#{$prop} {
                 justify-content: $prop !important;
@@ -112,6 +132,7 @@
 }
 
 @media screen and (max-width: $breakpoint-mobile) {
+
     /*Display Mobile*/
     .d {
         @each $prop in $display {
@@ -121,7 +142,8 @@
         }
     }
 
-    .position, .pos {
+    .position,
+    .pos {
         @each $prop in $position {
             &-m-#{$prop} {
                 position: $prop !important;
@@ -135,9 +157,16 @@
                 flex-direction: $prop !important;
             }
         }
+
+        @each $prop in $wrap {
+            &-m-#{$prop} {
+                flex-wrap: $prop !important;
+            }
+        }
     }
 
-    .justify-content, .jc {
+    .justify-content,
+    .jc {
         @each $prop in $alignment-content {
             &-m-#{$prop} {
                 justify-content: $prop !important;
