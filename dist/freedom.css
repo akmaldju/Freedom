@@ -22257,40 +22257,564 @@
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
-.btn-light {
-  background-color: #dee2e6 !important;
+.btn-aliceblue {
+  background-color: !important;
 }
 
-.btn-grey {
-  background-color: #6c757d !important;
+.btn-antiquewhite {
+  background-color: !important;
 }
 
-.btn-red {
-  background-color: red !important;
+.btn-aqua {
+  background-color: !important;
 }
 
-.btn-dark-red {
-  background-color: #dc3545 !important;
+.btn-aquamarine {
+  background-color: !important;
 }
 
-.btn-green {
-  background-color: #27e178 !important;
+.btn-azure {
+  background-color: !important;
+}
+
+.btn-beige {
+  background-color: !important;
+}
+
+.btn-bisque {
+  background-color: !important;
+}
+
+.btn-black {
+  background-color: !important;
+}
+
+.btn-blanchedalmond {
+  background-color: !important;
 }
 
 .btn-blue {
-  background-color: #279EDA !important;
+  background-color: !important;
+}
+
+.btn-blueviolet {
+  background-color: !important;
+}
+
+.btn-brown {
+  background-color: !important;
+}
+
+.btn-burlywood {
+  background-color: !important;
+}
+
+.btn-cadetblue {
+  background-color: !important;
+}
+
+.btn-chartreuse {
+  background-color: !important;
+}
+
+.btn-chocolate {
+  background-color: !important;
+}
+
+.btn-coral {
+  background-color: !important;
+}
+
+.btn-cornflowerblue {
+  background-color: !important;
+}
+
+.btn-cornsilk {
+  background-color: !important;
+}
+
+.btn-crimson {
+  background-color: !important;
+}
+
+.btn-cyan {
+  background-color: !important;
+}
+
+.btn-darkblue {
+  background-color: !important;
+}
+
+.btn-darkcyan {
+  background-color: !important;
+}
+
+.btn-darkgoldenrod {
+  background-color: !important;
+}
+
+.btn-darkgray {
+  background-color: !important;
+}
+
+.btn-darkgreen {
+  background-color: !important;
+}
+
+.btn-darkkhaki {
+  background-color: !important;
+}
+
+.btn-darkmagenta {
+  background-color: !important;
+}
+
+.btn-darkolivegreen {
+  background-color: !important;
+}
+
+.btn-darkorange {
+  background-color: !important;
+}
+
+.btn-darkorchid {
+  background-color: !important;
+}
+
+.btn-darkred {
+  background-color: !important;
+}
+
+.btn-darksalmon {
+  background-color: !important;
+}
+
+.btn-darkseagreen {
+  background-color: !important;
+}
+
+.btn-darkslateblue {
+  background-color: !important;
+}
+
+.btn-darkslategray {
+  background-color: !important;
+}
+
+.btn-darkturquoise {
+  background-color: !important;
+}
+
+.btn-darkviolet {
+  background-color: !important;
+}
+
+.btn-deeppink {
+  background-color: !important;
+}
+
+.btn-deepskyblue {
+  background-color: !important;
+}
+
+.btn-dimgray {
+  background-color: !important;
+}
+
+.btn-dodgerblue {
+  background-color: !important;
+}
+
+.btn-firebrick {
+  background-color: !important;
+}
+
+.btn-floralwhite {
+  background-color: !important;
+}
+
+.btn-forestgreen {
+  background-color: !important;
+}
+
+.btn-fuchsia {
+  background-color: !important;
+}
+
+.btn-gainsboro {
+  background-color: !important;
+}
+
+.btn-ghostwhite {
+  background-color: !important;
+}
+
+.btn-gold {
+  background-color: !important;
+}
+
+.btn-goldenrod {
+  background-color: !important;
+}
+
+.btn-gray {
+  background-color: !important;
+}
+
+.btn-green {
+  background-color: !important;
+}
+
+.btn-greenyellow {
+  background-color: !important;
+}
+
+.btn-honeydew {
+  background-color: !important;
+}
+
+.btn-hotpink {
+  background-color: !important;
+}
+
+.btn-indianred  {
+  background-color: !important;
+}
+
+.btn-indigo  {
+  background-color: !important;
+}
+
+.btn-ivory {
+  background-color: !important;
+}
+
+.btn-khaki {
+  background-color: !important;
+}
+
+.btn-lavender {
+  background-color: !important;
+}
+
+.btn-lavenderblush {
+  background-color: !important;
+}
+
+.btn-lawngreen {
+  background-color: !important;
+}
+
+.btn-lemonchiffon {
+  background-color: !important;
+}
+
+.btn-lightblue {
+  background-color: !important;
+}
+
+.btn-lightcoral {
+  background-color: !important;
+}
+
+.btn-lightcyan {
+  background-color: !important;
+}
+
+.btn-lightgoldenrodyellow {
+  background-color: !important;
+}
+
+.btn-lightgrey {
+  background-color: !important;
+}
+
+.btn-lightgreen {
+  background-color: !important;
+}
+
+.btn-lightpink {
+  background-color: !important;
+}
+
+.btn-lightsalmon {
+  background-color: !important;
+}
+
+.btn-lightseagreen {
+  background-color: !important;
+}
+
+.btn-lightskyblue {
+  background-color: !important;
+}
+
+.btn-lightslategray {
+  background-color: !important;
+}
+
+.btn-lightsteelblue {
+  background-color: !important;
+}
+
+.btn-lightyellow {
+  background-color: !important;
+}
+
+.btn-lime {
+  background-color: !important;
+}
+
+.btn-limegreen {
+  background-color: !important;
+}
+
+.btn-linen {
+  background-color: !important;
+}
+
+.btn-magenta {
+  background-color: !important;
+}
+
+.btn-maroon {
+  background-color: !important;
+}
+
+.btn-mediumaquamarine {
+  background-color: !important;
+}
+
+.btn-mediumblue {
+  background-color: !important;
+}
+
+.btn-mediumorchid {
+  background-color: !important;
+}
+
+.btn-mediumpurple {
+  background-color: !important;
+}
+
+.btn-mediumseagreen {
+  background-color: !important;
+}
+
+.btn-mediumslateblue {
+  background-color: !important;
+}
+
+.btn-mediumspringgreen {
+  background-color: !important;
+}
+
+.btn-mediumturquoise {
+  background-color: !important;
+}
+
+.btn-mediumvioletred {
+  background-color: !important;
+}
+
+.btn-midnightblue {
+  background-color: !important;
+}
+
+.btn-mintcream {
+  background-color: !important;
+}
+
+.btn-mistyrose {
+  background-color: !important;
+}
+
+.btn-moccasin {
+  background-color: !important;
+}
+
+.btn-navajowhite {
+  background-color: !important;
+}
+
+.btn-navy {
+  background-color: !important;
+}
+
+.btn-oldlace {
+  background-color: !important;
+}
+
+.btn-olive {
+  background-color: !important;
+}
+
+.btn-olivedrab {
+  background-color: !important;
+}
+
+.btn-orange {
+  background-color: !important;
+}
+
+.btn-orangered {
+  background-color: !important;
+}
+
+.btn-orchid {
+  background-color: !important;
+}
+
+.btn-palegoldenrod {
+  background-color: !important;
+}
+
+.btn-palegreen {
+  background-color: !important;
+}
+
+.btn-paleturquoise {
+  background-color: !important;
+}
+
+.btn-palevioletred {
+  background-color: !important;
+}
+
+.btn-papayawhip {
+  background-color: !important;
+}
+
+.btn-peachpuff {
+  background-color: !important;
+}
+
+.btn-peru {
+  background-color: !important;
+}
+
+.btn-pink {
+  background-color: !important;
+}
+
+.btn-plum {
+  background-color: !important;
+}
+
+.btn-powderblue {
+  background-color: !important;
+}
+
+.btn-purple {
+  background-color: !important;
+}
+
+.btn-red {
+  background-color: !important;
+}
+
+.btn-rosybrown {
+  background-color: !important;
+}
+
+.btn-royalblue {
+  background-color: !important;
+}
+
+.btn-saddlebrown {
+  background-color: !important;
+}
+
+.btn-salmon {
+  background-color: !important;
+}
+
+.btn-sandybrown {
+  background-color: !important;
+}
+
+.btn-seagreen {
+  background-color: !important;
+}
+
+.btn-seashell {
+  background-color: !important;
+}
+
+.btn-sienna {
+  background-color: !important;
+}
+
+.btn-silver {
+  background-color: !important;
+}
+
+.btn-skyblue {
+  background-color: !important;
+}
+
+.btn-slateblue {
+  background-color: !important;
+}
+
+.btn-slategray {
+  background-color: !important;
+}
+
+.btn-snow {
+  background-color: !important;
+}
+
+.btn-springgreen {
+  background-color: !important;
+}
+
+.btn-steelblue {
+  background-color: !important;
+}
+
+.btn-tan {
+  background-color: !important;
+}
+
+.btn-teal {
+  background-color: !important;
+}
+
+.btn-thistle {
+  background-color: !important;
+}
+
+.btn-tomato {
+  background-color: !important;
+}
+
+.btn-turquoise {
+  background-color: !important;
+}
+
+.btn-violet {
+  background-color: !important;
+}
+
+.btn-wheat {
+  background-color: !important;
+}
+
+.btn-white {
+  background-color: !important;
+}
+
+.btn-whitesmoke {
+  background-color: !important;
 }
 
 .btn-yellow {
-  background-color: #ffc107 !important;
+  background-color: !important;
 }
 
-.btn-fade-blue {
-  background-color: #34435E !important;
-}
-
-.btn-transparent {
-  background-color: transparent !important;
+.btn-yellowgreen {
+  background-color: !important;
 }
 
 .btn-outline-light {
