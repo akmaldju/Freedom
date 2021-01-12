@@ -23,8 +23,8 @@
 }
 
 @each $breakpoint,
-$width in $breakpoints {
-    @media screen and (max-width: $width) {
+$minWidth, $maxWidth in $breakpoints {
+    @media screen and (min-width: $minWidth) and (max-width: $maxWidth) {
 
         /*outlines*/
         .o {

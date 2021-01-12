@@ -90,9 +90,9 @@
 }
 
 @each $breakpoint,
-$width in $breakpoints {
+$minWidth, $maxWidth in $breakpoints {
 
-    @media screen and (max-width: $width) {
+    @media screen and (min-width: $minWidth) and (max-width: $maxWidth) {
 
         /*Padding*/
         .p {
