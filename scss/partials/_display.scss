@@ -77,108 +77,103 @@
     }
 }
 
-@media screen and (max-width: $breakpoint-tablet) {
+@each $breakpoint,
+$width in $breakpoints {
+    @media screen and (max-width: $width) {
 
-    /*Display Tablet*/
-    .d {
-        @each $prop in $display {
-            &-t-#{$prop} {
-                display: $prop !important;
-            }
-        }
-    }
-
-    .position,
-    .pos {
-        @each $prop in $position {
-            &-t-#{$prop} {
-                position: $prop !important;
-            }
-        }
-    }
-
-    .flex {
-        @each $prop in $direction {
-            &-t-#{$prop} {
-                flex-direction: $prop !important;
-            }
-        }
-
-        @each $prop in $wrap {
-            &-t-#{$prop} {
-                flex-wrap: $prop !important;
-            }
-        }
-    }
-
-    .justify-content,
-    .jc {
-        @each $prop in $alignment-content {
-            &-t-#{$prop} {
-                justify-content: $prop !important;
-            }
-        }
-    }
-
-    @each $placement in $placements {
-        .#{$placement} {
-            @for $i from 0 through 25 {
-                &-t-#{$i} {
-                    #{$placement}: #{$i*4}px !important;
+        /*Display*/
+        .d {
+            &-#{$breakpoint} {
+                @each $prop in $display {
+                    &-#{$prop} {
+                        display: $prop !important;
+                    }
                 }
             }
         }
-    }
-}
 
-@media screen and (max-width: $breakpoint-mobile) {
-
-    /*Display Mobile*/
-    .d {
-        @each $prop in $display {
-            &-m-#{$prop} {
-                display: $prop !important;
-            }
-        }
-    }
-
-    .position,
-    .pos {
-        @each $prop in $position {
-            &-m-#{$prop} {
-                position: $prop !important;
-            }
-        }
-    }
-
-    .flex {
-        @each $prop in $direction {
-            &-m-#{$prop} {
-                flex-direction: $prop !important;
+        .position,
+        .pos {
+            &-#{$breakpoint} {
+                @each $prop in $position {
+                    &-#{$prop} {
+                        position: $prop !important;
+                    }
+                }
             }
         }
 
-        @each $prop in $wrap {
-            &-m-#{$prop} {
-                flex-wrap: $prop !important;
+        .zi,
+        .z-index {
+            &-#{$breakpoint} {
+                @for $i from 0 through 100 {
+                    &-#{$i} {
+                        z-index: $i !important;
+                    }
+                }
             }
         }
-    }
 
-    .justify-content,
-    .jc {
-        @each $prop in $alignment-content {
-            &-m-#{$prop} {
-                justify-content: $prop !important;
+        .hide,
+        .hidden {
+            &-#{$breakpoint} {
+                display: none !important;
             }
         }
-    }
 
-    @each $placement in $placements {
-        .#{$placement} {
-            @for $i from 0 through 25 {
-                &-m-#{$i} {
-                    #{$placement}: #{$i*4}px !important;
+        .show {
+            &-#{$breakpoint} {
+                display: block !important;
+            }
+        }
+
+        .invisible {
+            &-#{$breakpoint} {
+                visibility: hidden !important;
+            }
+        }
+
+        .visible {
+            &-#{$breakpoint} {
+                visibility: visible !important;
+            }
+        }
+
+        .flex {
+            &-#{$breakpoint} {
+                @each $prop in $direction {
+                    &-#{$prop} {
+                        flex-direction: $prop !important;
+                    }
+                }
+
+                @each $prop in $wrap {
+                    &-#{$prop} {
+                        flex-wrap: $prop !important;
+                    }
+                }
+            }
+        }
+
+        .justify-content,
+        .jc {
+            &-#{$breakpoint} {
+                @each $prop in $alignment-content {
+                    &-#{$prop} {
+                        justify-content: $prop !important;
+                    }
+                }
+            }
+        }
+
+        @each $placement in $placements {
+            .#{$placement} {
+                &-#{$breakpoint} {
+                    @for $i from 0 through 25 {
+                        &-#{$i} {
+                            #{$placement}: #{$i*4}px !important;
+                        }
+                    }
                 }
             }
         }

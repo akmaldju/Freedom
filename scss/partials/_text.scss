@@ -1,4 +1,5 @@
 @import 'variables';
+
 /*Headings*/
 //TODO: Calculate size in rem
 //TODO: Add text shadow
@@ -77,11 +78,13 @@
     text-decoration: none !important;
 }
 
-.line-through, .del {
+.line-through,
+.del {
     text-decoration: line-through !important;
 }
 
-.highlight, .mark {
+.highlight,
+.mark {
     padding: .2em !important;
     background-color: #fcf8e3 !important;
 }
@@ -149,6 +152,218 @@
 
         &-#{$i}-em {
             font-size: #{$i}em !important;
+        }
+    }
+}
+
+@each $breakpoint,
+$width in $breakpoints {
+    @media screen and (max-width: $width) {
+
+        /*Headings*/
+        .h1 {
+            &-#{$breakpoint} {
+                font-size: xxx-large !important;
+            }
+        }
+
+        .h2 {
+            &-#{$breakpoint} {
+                font-size: xx-large !important;
+            }
+        }
+
+        .h3 {
+            &-#{$breakpoint} {
+                font-size: x-large !important;
+            }
+        }
+
+        .h4 {
+            &-#{$breakpoint} {
+                font-size: large !important;
+            }
+        }
+
+        .h5 {
+            &-#{$breakpoint} {
+                font-size: medium !important;
+            }
+        }
+
+        .h6 {
+            &-#{$breakpoint} {
+                font-size: small !important;
+            }
+        }
+
+        .h7 {
+            &-#{$breakpoint} {
+                font-size: x-small !important;
+            }
+        }
+
+        .h8 {
+            &-#{$breakpoint} {
+                font-size: xx-small !important;
+            }
+        }
+
+        /*Text Styling*/
+        .bold {
+            &-#{$breakpoint} {
+                font-weight: bold !important;
+            }
+        }
+
+        .italic {
+            &-#{$breakpoint} {
+                font-style: italic !important;
+            }
+        }
+
+        .normal {
+            &-#{$breakpoint} {
+                font-weight: normal !important;
+                font-style: normal !important;
+            }
+        }
+
+        .uppercase {
+            &-#{$breakpoint} {
+                text-transform: uppercase !important;
+            }
+        }
+
+        .lowercase {
+            &-#{$breakpoint} {
+                text-transform: lowercase !important;
+            }
+        }
+
+        .capitalize {
+            &-#{$breakpoint} {
+                text-transform: capitalize !important;
+            }
+        }
+
+        .revert {
+            &-#{$breakpoint} {
+                direction: rtl !important;
+                unicode-bidi: bidi-override !important;
+            }
+        }
+
+        .underline {
+            &-#{$breakpoint} {
+                text-decoration: underline !important;
+            }
+        }
+
+        .overline {
+            &-#{$breakpoint} {
+                text-decoration: overline !important;
+            }
+        }
+
+        .noline {
+            &-#{$breakpoint} {
+                text-decoration: none !important;
+            }
+        }
+
+        .line-through,
+        .del {
+            &-#{$breakpoint} {
+                text-decoration: line-through !important;
+            }
+        }
+
+        .highlight,
+        .mark {
+            &-#{$breakpoint} {
+                padding: .2em !important;
+                background-color: #fcf8e3 !important;
+            }
+        }
+
+        .quote {
+            &-#{$breakpoint} {
+                font-family: 'Handlee', sans-serif !important;
+                font-weight: bold !important;
+
+                &-footer {
+                    display: block !important;
+                    font-size: 80% !important;
+                    color: #6c757d !important;
+                }
+            }
+        }
+
+        .monospace {
+            &-#{$breakpoint} {
+                font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+            }
+        }
+
+        .lead {
+            &-#{$breakpoint} {
+                font-size: 1.25rem !important;
+                font-weight: 300 !important;
+            }
+        }
+
+        .small {
+            &-#{$breakpoint} {
+                font-size: 85% !important;
+            }
+        }
+
+        .text {
+            &-#{$breakpoint} {
+                @each $prop in $alignment {
+                    &-#{$prop} {
+                        text-align: $prop !important;
+                    }
+                }
+
+                @each $prop in $vertical {
+                    &-#{$prop} {
+                        vertical-align: $prop !important;
+                    }
+                }
+
+                @each $prop,
+                $code in $colors {
+                    &-#{$prop} {
+                        color: $code !important;
+                    }
+                }
+            }
+        }
+
+        .t {
+            &-#{$breakpoint} {
+                @for $i from 1 through 50 {
+                    &-#{$i}-px {
+                        font-size: #{$i}px !important;
+                    }
+
+                    &-#{$i}-pt {
+                        font-size: #{$i}pt !important;
+                    }
+                }
+
+                @for $i from 1 through 10 {
+                    &-#{$i}-rem {
+                        font-size: #{$i}rem !important;
+                    }
+
+                    &-#{$i}-em {
+                        font-size: #{$i}em !important;
+                    }
+                }
+            }
         }
     }
 }

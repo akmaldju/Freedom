@@ -1,4 +1,5 @@
 @import 'variables';
+
 /*Sizing*/
 /*Width*/
 .w {
@@ -20,7 +21,7 @@
         &-auto {
             min-width: auto !important;
         }
-    
+
         @for $i from 0 through 100 {
             &-#{$i} {
                 min-width: $i * 1% !important;
@@ -36,7 +37,7 @@
         &-auto {
             max-width: auto !important;
         }
-    
+
         @for $i from 0 through 100 {
             &-#{$i} {
                 max-width: $i * 1% !important;
@@ -69,7 +70,7 @@
         &-auto {
             min-height: auto !important;
         }
-    
+
         @for $i from 0 through 100 {
             &-#{$i} {
                 min-height: $i * 1% !important;
@@ -85,7 +86,7 @@
         &-auto {
             max-height: auto !important;
         }
-    
+
         @for $i from 0 through 100 {
             &-#{$i} {
                 max-height: $i * 1% !important;
@@ -98,206 +99,120 @@
     }
 }
 
-@media screen and (max-width: $breakpoint-tablet) {
-    /*Sizing Tablet*/
-    /*Width*/
-    .w {
-        &-t-auto {
-            width: auto !important;
-        }
+@each $breakpoint,
+$width in $breakpoints {
+    @media screen and (max-width: $width) {
 
-        @for $i from 0 through 100 {
-            &-t-#{$i} {
-                width: $i * 1% !important;
-            }
-
-            &-t-#{$i}-vw {
-                width: #{$i}vw !important;
-            }
-        }
-
-        &-min {
-            &-t-auto {
-                min-width: auto !important;
-            }
-        
-            @for $i from 0 through 100 {
-                &-t-#{$i} {
-                    min-width: $i * 1% !important;
+        /*Sizing*/
+        /*Width*/
+        .w {
+            &-#{$breakpoint} {
+                &-auto {
+                    width: auto !important;
                 }
 
-                &-t-#{$i}-vw {
-                    min-width: #{$i}vw !important;
+                @for $i from 0 through 100 {
+                    &-#{$i} {
+                        width: $i * 1% !important;
+                    }
+
+                    &-#{$i}-vw {
+                        width: #{$i}vw !important;
+                    }
+                }
+            }
+
+            &-min {
+                &-#{$breakpoint} {
+                    &-auto {
+                        min-width: auto !important;
+                    }
+
+                    @for $i from 0 through 100 {
+                        &-#{$i} {
+                            min-width: $i * 1% !important;
+                        }
+
+                        &-#{$i}-vw {
+                            min-width: #{$i}vw !important;
+                        }
+                    }
+                }
+            }
+
+            &-max {
+                &-#{$breakpoint} {
+                    &-auto {
+                        max-width: auto !important;
+                    }
+
+                    @for $i from 0 through 100 {
+                        &-#{$i} {
+                            max-width: $i * 1% !important;
+                        }
+
+                        &-#{$i}-vw {
+                            max-width: #{$i}vw !important;
+                        }
+                    }
                 }
             }
         }
-    
-        &-max {
-            &-t-auto {
-                max-width: auto !important;
-            }
-        
-            @for $i from 0 through 100 {
-                &-t-#{$i} {
-                    max-width: $i * 1% !important;
+
+        /*Height*/
+        .h {
+            &-#{$breakpoint} {
+                &-auto {
+                    height: auto !important;
                 }
 
-                &-t-#{$i}-vw {
-                    max-width: #{$i}vw !important;
+                @for $i from 0 through 100 {
+                    &-#{$i} {
+                        height: $i * 1% !important;
+                    }
+
+                    &-#{$i}-vh {
+                        height: #{$i}vh !important;
+                    }
+                }
+            }
+
+            &-min {
+                &-#{$breakpoint} {
+                    &-auto {
+                        min-height: auto !important;
+                    }
+
+                    @for $i from 0 through 100 {
+                        &-#{$i} {
+                            min-height: $i * 1% !important;
+                        }
+
+                        &-#{$i}-vh {
+                            min-height: #{$i}vh !important;
+                        }
+                    }
+                }
+            }
+
+            &-max {
+                &-#{$breakpoint} {
+                    &-auto {
+                        max-height: auto !important;
+                    }
+
+                    @for $i from 0 through 100 {
+                        &-#{$i} {
+                            max-height: $i * 1% !important;
+                        }
+
+                        &-#{$i}-vh {
+                            max-height: #{$i}vh !important;
+                        }
+                    }
                 }
             }
         }
+
     }
-
-    /*Height*/
-    .h {
-        &-t-auto {
-            height: auto !important;
-        }
-
-        @for $i from 0 through 100 {
-            &-t-#{$i} {
-                height: $i * 1% !important;
-            }
-
-            &-t-#{$i}-vh {
-                height: #{$i}vh !important;
-            }
-        }
-
-        &-min {
-            &-t-auto {
-                min-height: auto !important;
-            }
-        
-            @for $i from 0 through 100 {
-                &-t-#{$i} {
-                    min-height: $i * 1% !important;
-                }
-
-                &-t-#{$i}-vh {
-                    min-height: #{$i}vh !important;
-                }
-            }
-        }
-    
-        &-max {
-            &-t-auto {
-                max-height: auto !important;
-            }
-        
-            @for $i from 0 through 100 {
-                &-t-#{$i} {
-                    max-height: $i * 1% !important;
-                }
-
-                &-t-#{$i}-vh {
-                    max-height: #{$i}vh !important;
-                }
-            }
-        }
-    }
-
-}
-
-@media screen and (max-width: $breakpoint-mobile) {
-    /*Sizing Mobile*/
-    /*Width*/
-    .w {
-        &-m-auto {
-            width: auto !important;
-        }
-
-        @for $i from 0 through 100 {
-            &-m-#{$i} {
-                width: $i * 1% !important;
-            }
-
-            &-m-#{$i}-vw {
-                width: #{$i}vw !important;
-            }
-        }
-
-        &-min {
-            &-m-auto {
-                min-width: auto !important;
-            }
-        
-            @for $i from 0 through 100 {
-                &-m-#{$i} {
-                    min-width: $i * 1% !important;
-                }
-
-                &-m-#{$i}-vw {
-                    min-width: #{$i}vw !important;
-                }
-            }
-        }
-    
-        &-max {
-            &-m-auto {
-                max-width: auto !important;
-            }
-        
-            @for $i from 0 through 100 {
-                &-m-#{$i} {
-                    max-width: $i * 1% !important;
-                }
-
-                &-m-#{$i}-vw {
-                    max-width: #{$i}vw !important;
-                }
-            }
-        }
-    }
-
-    /*Height*/
-    .h {
-        &-m-auto {
-            height: auto !important;
-        }
-
-        @for $i from 0 through 100 {
-            &-m-#{$i} {
-                height: $i * 1% !important;
-            }
-
-            &-m-#{$i}-vh {
-                height: #{$i}vh !important;
-            }
-        }
-
-        &-min {
-            &-m-auto {
-                min-height: auto !important;
-            }
-        
-            @for $i from 0 through 100 {
-                &-m-#{$i} {
-                    min-height: $i * 1% !important;
-                }
-
-                &-m-#{$i}-vh {
-                    min-height: #{$i}vh !important;
-                }
-            }
-        }
-    
-        &-max {
-            &-m-auto {
-                max-height: auto !important;
-            }
-        
-            @for $i from 0 through 100 {
-                &-m-#{$i} {
-                    max-height: $i * 1% !important;
-                }
-
-                &-m-#{$i}-vh {
-                    max-height: #{$i}vh !important;
-                }
-            }
-        }
-    }
-
 }

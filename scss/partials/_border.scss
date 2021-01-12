@@ -73,156 +73,95 @@
     }
 }
 
-@media screen and (max-width: $breakpoint-tablet) {
+@each $breakpoint,
+$width in $breakpoints {
+    @media screen and (max-width: $width) {
 
-    /*Borders Tablet*/
-    .b {
-        @for $i from 0 through 5 {
-            &-t-#{$i} {
-                border: #{$i}px solid white !important;
-            }
-        }
-
-        &r {
+        /*Borders*/
+        .b {
             @for $i from 0 through 5 {
-                &-t-#{$i} {
-                    border-right: #{$i}px solid white !important;
+                &-#{$breakpoint} {
+                    &-#{$i} {
+                        border: #{$i}px solid white !important;
+                    }
+                }
+            }
+
+            &r {
+                &-#{$breakpoint} {
+                    @for $i from 0 through 5 {
+                        &-#{$i} {
+                            border-right: #{$i}px solid white !important;
+                        }
+                    }
+                }
+            }
+
+            &t {
+                &-#{$breakpoint} {
+                    @for $i from 0 through 5 {
+                        &-#{$i} {
+                            border-top: #{$i}px solid white !important;
+                        }
+                    }
+                }
+            }
+
+            &b {
+                &-#{$breakpoint} {
+                    @for $i from 0 through 5 {
+                        &-#{$i} {
+                            border-bottom: #{$i}px solid white !important;
+                        }
+                    }
+                }
+            }
+
+            &l {
+                &-#{$breakpoint} {
+                    @for $i from 0 through 5 {
+                        &-#{$i} {
+                            border-left: #{$i}px solid white !important;
+                        }
+                    }
+                }
+            }
+
+            &-#{$breakpoint} {
+
+                @each $prop in $all-colors {
+                    &-#{$prop} {
+                        border-color: $prop !important;
+                    }
+                }
+
+                @each $prop in $border-styles {
+                    &-#{$prop} {
+                        border-style: $prop !important;
+                    }
+                }
+
+                &-normal {
+                    border-radius: 0px !important;
+                }
+
+                &-material {
+                    border-radius: 3px !important;
+                }
+
+                &-round {
+                    border-radius: 5px !important;
+                }
+
+                &-rounder {
+                    border-radius: 8px !important;
+                }
+
+                &-roundest {
+                    border-radius: 12px !important;
                 }
             }
         }
 
-        &t {
-            @for $i from 0 through 5 {
-                &-t-#{$i} {
-                    border-top: #{$i}px solid white !important;
-                }
-            }
-        }
-
-        &b {
-            @for $i from 0 through 5 {
-                &-t-#{$i} {
-                    border-bottom: #{$i}px solid white !important;
-                }
-            }
-        }
-
-        &l {
-            @for $i from 0 through 5 {
-                &-t-#{$i} {
-                    border-left: #{$i}px solid white !important;
-                }
-            }
-        }
-
-        @each $prop,
-        $code in $colors {
-            &-t-#{$prop} {
-                border-color: $code !important;
-            }
-        }
-
-        @each $prop in $border-styles {
-            &-t-#{$prop} {
-                border-style: $prop !important;
-            }
-        }
-
-        &-t-normal {
-            border-radius: 0px !important;
-        }
-
-        &-t-material {
-            border-radius: 3px !important;
-        }
-
-        &-t-round {
-            border-radius: 5px !important;
-        }
-
-        &-t-rounder {
-            border-radius: 8px !important;
-        }
-
-        &-t-roundest {
-            border-radius: 12px !important;
-        }
-    }
-}
-
-@media screen and (max-width: $breakpoint-mobile) {
-
-    /*Borders Mobile*/
-    .b {
-        @for $i from 0 through 5 {
-            &-m-#{$i} {
-                border: #{$i}px solid white !important;
-            }
-        }
-
-        &r {
-            @for $i from 0 through 5 {
-                &-m-#{$i} {
-                    border-right: #{$i}px solid white !important;
-                }
-            }
-        }
-
-        &t {
-            @for $i from 0 through 5 {
-                &-m-#{$i} {
-                    border-top: #{$i}px solid white !important;
-                }
-            }
-        }
-
-        &b {
-            @for $i from 0 through 5 {
-                &-m-#{$i} {
-                    border-bottom: #{$i}px solid white !important;
-                }
-            }
-        }
-
-        &l {
-            @for $i from 0 through 5 {
-                &-m-#{$i} {
-                    border-left: #{$i}px solid white !important;
-                }
-            }
-        }
-
-        @each $prop,
-        $code in $colors {
-            &-m-#{$prop} {
-                border-color: $code !important;
-            }
-        }
-
-        @each $prop in $border-styles {
-            &-m-#{$prop} {
-                border-style: $prop !important;
-            }
-        }
-
-        &-m-normal {
-            border-radius: 0px !important;
-        }
-
-        &-m-material {
-            border-radius: 3px !important;
-        }
-
-        &-m-round {
-            border-radius: 5px !important;
-        }
-
-        &-m-rounder {
-            border-radius: 8px !important;
-        }
-
-        &-m-roundest {
-            border-radius: 12px !important;
-        }
     }
 }

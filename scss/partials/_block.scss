@@ -1,4 +1,5 @@
 @import 'variables';
+
 /*Block Styles*/
 .fixed {
     @each $prop in $placementY {
@@ -46,104 +47,61 @@
     }
 }
 
-@media screen and (max-width: $breakpoint-tablet) {
+@each $breakpoint,
+$width in $breakpoints {
+    @media screen and (max-width: $width) {
 
-    /*Block Styles Tablet*/
-    .fixed {
-        @each $prop in $placementY {
-            &-t-#{$prop} {
-                position: fixed !important;
-                #{$prop}: 0 !important;
-                right: 0 !important;
-                left: 0 !important;
-                z-index: 1030 !important;
-            }
+        /*Block Styles*/
+        .fixed {
+            &-#{$breakpoint} {
+                @each $prop in $placementY {
+                    &-#{$prop} {
+                        position: fixed !important;
+                        #{$prop}: 0 !important;
+                        right: 0 !important;
+                        left: 0 !important;
+                        z-index: 1030 !important;
+                    }
 
-        }
-    }
-
-    .bg {
-
-        @each $prop,
-        $code in $colors {
-            &-t-#{$prop} {
-                background-color: $code !important;
+                }
             }
         }
 
-        @each $prop in $all-colors {
-            &-t-#{$prop} {
-                background-color: $prop !important;
-            }
-    
-        }
+        .bg {
+            &-#{$breakpoint} {
 
-        &-t-fixed {
-            background-attachment: fixed !important;
-        }
-    
-        &-t-scroll {
-            background-attachment: scroll !important;
-        }
-    }
+                @each $prop,
+                $code in $colors {
+                    &-#{$prop} {
+                        background-color: $code !important;
+                    }
+                }
 
-    .opacity {
-        @for $i from 0 through 10 {
-            &-t-#{$i} {
-                opacity: $i * 10% !important;
-            }
-        }
-    }
+                @each $prop in $all-colors {
+                    &-#{$prop} {
+                        background-color: $prop !important;
+                    }
 
-}
+                }
 
-@media screen and (max-width: $breakpoint-mobile) {
+                &-fixed {
+                    background-attachment: fixed !important;
+                }
 
-    /*Block Styles Mobile*/
-    .fixed {
-        @each $prop in $placementY {
-            &-m-#{$prop} {
-                position: fixed !important;
-                #{$prop}: 0 !important;
-                right: 0 !important;
-                left: 0 !important;
-                z-index: 1030 !important;
-            }
-
-        }
-    }
-
-    .bg {
-
-        @each $prop,
-        $code in $colors {
-            &-m-#{$prop} {
-                background-color: $code !important;
+                &-scroll {
+                    background-attachment: scroll !important;
+                }
             }
         }
 
-        @each $prop in $all-colors {
-            &-m-#{$prop} {
-                background-color: $prop !important;
-            }
-    
-        }
-
-        &-m-fixed {
-            background-attachment: fixed !important;
-        }
-    
-        &-m-scroll {
-            background-attachment: scroll !important;
-        }
-    }
-
-    .opacity {
-        @for $i from 0 through 10 {
-            &-m-#{$i} {
-                opacity: $i * 10% !important;
+        .opacity {
+            &-#{$breakpoint} {
+                @for $i from 0 through 10 {
+                    &-#{$i} {
+                        opacity: $i * 10% !important;
+                    }
+                }
             }
         }
     }
-
 }

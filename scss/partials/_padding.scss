@@ -1,4 +1,5 @@
 @import 'variables';
+
 /*Padding*/
 .p {
     &-auto {
@@ -88,186 +89,112 @@
     }
 }
 
-@media screen and (max-width: $breakpoint-tablet) {
-    /*Padding Tablet*/
-    .p {
-        &-t-auto {
-            padding: auto !important;
-        }
+@each $breakpoint,
+$width in $breakpoints {
 
-        @for $i from 0 through 25 {
-            &-t-#{$i} {
-                padding: #{$i/4}rem !important;
-            }
-        }
+    @media screen and (max-width: $width) {
 
-        &t {
-            &-t-auto {
-                padding-top: auto !important;
-            }
+        /*Padding*/
+        .p {
+            &-#{$breakpoint} {
+                &-auto {
+                    padding: auto !important;
+                }
 
-            @for $i from 0 through 25 {
-                &-t-#{$i} {
-                    padding-top: #{$i/4}rem !important;
+                @for $i from 0 through 25 {
+                    &-#{$i} {
+                        padding: #{$i/4}rem !important;
+                    }
                 }
             }
-        }
 
-        &b {
-            &-t-auto {
-                padding-bottom: auto !important;
-            }
+            &t {
+                &-#{$breakpoint} {
+                    &-auto {
+                        padding-top: auto !important;
+                    }
 
-            @for $i from 0 through 25 {
-                &-t-#{$i} {
-                    padding-bottom: #{$i/4}rem !important;
+                    @for $i from 0 through 25 {
+                        &-#{$i} {
+                            padding-top: #{$i/4}rem !important;
+                        }
+                    }
                 }
             }
-        }
 
-        &r {
-            &-t-auto {
-                padding-right: auto !important;
-            }
+            &b {
+                &-#{$breakpoint} {
+                    &-auto {
+                        padding-bottom: auto !important;
+                    }
 
-            @for $i from 0 through 25 {
-                &-t-#{$i} {
-                    padding-right: #{$i/4}rem !important;
+                    @for $i from 0 through 25 {
+                        &-#{$i} {
+                            padding-bottom: #{$i/4}rem !important;
+                        }
+                    }
                 }
             }
-        }
 
-        &l {
-            &-t-auto {
-                padding-left: auto !important;
-            }
+            &r {
+                &-#{$breakpoint} {
+                    &-auto {
+                        padding-right: auto !important;
+                    }
 
-            @for $i from 0 through 25 {
-                &-t-#{$i} {
-                    padding-left: #{$i/4}rem !important;
+                    @for $i from 0 through 25 {
+                        &-#{$i} {
+                            padding-right: #{$i/4}rem !important;
+                        }
+                    }
                 }
             }
-        }
 
-        &x {
-            &-t-auto {
-                padding-right: auto !important;
-                padding-left: auto !important;
-            }
-    
-            @for $i from 0 through 25 {
-                &-t-#{$i} {
-                    padding-right: #{$i/4}rem !important;
-                    padding-left: #{$i/4}rem !important;
+            &l {
+                &-#{$breakpoint} {
+                    &-auto {
+                        padding-left: auto !important;
+                    }
+
+                    @for $i from 0 through 25 {
+                        &-#{$i} {
+                            padding-left: #{$i/4}rem !important;
+                        }
+                    }
                 }
             }
-        }
-    
-        &y {
-            &-t-auto {
-                padding-top: auto !important;
-                padding-bottom: auto !important;
-            }
-    
-            @for $i from 0 through 25 {
-                &-t-#{$i} {
-                    padding-top: #{$i/4}rem !important;
-                    padding-bottom: #{$i}rem !important;
+
+            &x {
+                &-#{$breakpoint} {
+                    &-auto {
+                        padding-right: auto !important;
+                        padding-left: auto !important;
+                    }
+
+                    @for $i from 0 through 25 {
+                        &-#{$i} {
+                            padding-right: #{$i/4}rem !important;
+                            padding-left: #{$i/4}rem !important;
+                        }
+                    }
                 }
             }
-        }
-    }
 
-}
+            &y {
+                &-#{$breakpoint} {
+                    &-auto {
+                        padding-top: auto !important;
+                        padding-bottom: auto !important;
+                    }
 
-@media screen and (max-width: $breakpoint-mobile) {
-    /*Padding Mobile*/
-    .p {
-        &-m-auto {
-            padding: auto !important;
-        }
-
-        @for $i from 0 through 25 {
-            &-m-#{$i} {
-                padding: #{$i/4}rem !important;
-            }
-        }
-
-        &t {
-            &-m-auto {
-                padding-top: auto !important;
-            }
-
-            @for $i from 0 through 25 {
-                &-m-#{$i} {
-                    padding-top: #{$i/4}rem !important;
-                }
-            }
-        }
-
-        &b {
-            &-m-auto {
-                padding-bottom: auto !important;
-            }
-
-            @for $i from 0 through 25 {
-                &-m-#{$i} {
-                    padding-bottom: #{$i/4}rem !important;
-                }
-            }
-        }
-
-        &r {
-            &-m-auto {
-                padding-right: auto !important;
-            }
-
-            @for $i from 0 through 25 {
-                &-m-#{$i} {
-                    padding-right: #{$i/4}rem !important;
-                }
-            }
-        }
-
-        &l {
-            &-m-auto {
-                padding-left: auto !important;
-            }
-
-            @for $i from 0 through 25 {
-                &-m-#{$i} {
-                    padding-left: #{$i/4}rem !important;
-                }
-            }
-        }
-
-        &x {
-            &-m-auto {
-                padding-right: auto !important;
-                padding-left: auto !important;
-            }
-    
-            @for $i from 0 through 25 {
-                &-m-#{$i} {
-                    padding-right: #{$i/4}rem !important;
-                    padding-left: #{$i/4}rem !important;
-                }
-            }
-        }
-    
-        &y {
-            &-m-auto {
-                padding-top: auto !important;
-                padding-bottom: auto !important;
-            }
-    
-            @for $i from 0 through 25 {
-                &-m-#{$i} {
-                    padding-top: #{$i/4}rem !important;
-                    padding-bottom: #{$i}rem !important;
+                    @for $i from 0 through 25 {
+                        &-#{$i} {
+                            padding-top: #{$i/4}rem !important;
+                            padding-bottom: #{$i/4}rem !important;
+                        }
+                    }
                 }
             }
         }
     }
-
 }
