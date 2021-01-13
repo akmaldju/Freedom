@@ -1961,7 +1961,7 @@
   }
 }
 
-@media screen and (min-width: none) and (max-width: 1000px) {
+@media screen and (min-width: 0) and (max-width: 1000px) {
   /*Display*/
   .d-t-flex {
     display: flex !important;
@@ -3974,7 +3974,7 @@
   }
 }
 
-@media screen and (min-width: none) and (max-width: 1000px) {
+@media screen and (min-width: 0) and (max-width: 1000px) {
   /*Image Styles*/
   .img-t-fit-contain, .img-t-object-fit-contain, .img-t-of-contain {
     object-fit: contain !important;
@@ -5670,7 +5670,7 @@
   }
 }
 
-@media screen and (min-width: none) and (max-width: 1000px) {
+@media screen and (min-width: 0) and (max-width: 1000px) {
   /*Margin*/
   .m-t-auto {
     margin: auto !important;
@@ -8356,7 +8356,7 @@
   }
 }
 
-@media screen and (min-width: none) and (max-width: 1000px) {
+@media screen and (min-width: 0) and (max-width: 1000px) {
   /*Padding*/
   .p-t-auto {
     padding: auto !important;
@@ -10775,7 +10775,7 @@
   }
 }
 
-@media screen and (min-width: none) and (max-width: 1000px) {
+@media screen and (min-width: 0) and (max-width: 1000px) {
   /*Block Styles*/
   .fixed-t-top {
     position: fixed !important;
@@ -13069,7 +13069,7 @@
   }
 }
 
-@media screen and (min-width: none) and (max-width: 1000px) {
+@media screen and (min-width: 0) and (max-width: 1000px) {
   /*Borders*/
   .b-t-0 {
     border: 0px solid white !important;
@@ -14341,7 +14341,7 @@
   }
 }
 
-@media screen and (min-width: none) and (max-width: 1000px) {
+@media screen and (min-width: 0) and (max-width: 1000px) {
   /*outlines*/
   .o-t-0 {
     outline-width: 0px !important;
@@ -23022,7 +23022,7 @@
   }
 }
 
-@media screen and (min-width: none) and (max-width: 1000px) {
+@media screen and (min-width: 0) and (max-width: 1000px) {
   /*Sizing*/
   /*Width*/
   .w-t-auto {
@@ -31536,7 +31536,7 @@
   }
 }
 
-@media screen and (min-width: none) and (max-width: 1000px) {
+@media screen and (min-width: 0) and (max-width: 1000px) {
   /*Headings*/
   .h1-t {
     font-size: xxx-large !important;
