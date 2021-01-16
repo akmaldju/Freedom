@@ -113,7 +113,9 @@
     font-size: 85% !important;
 }
 
-.text {
+.text,
+.t,
+.font {
     @each $prop in $alignment {
         &-#{$prop} {
             text-align: $prop !important;
@@ -132,9 +134,7 @@
             color: $code !important;
         }
     }
-}
 
-.t {
     @for $i from 1 through 50 {
         &-#{$i}-px {
             font-size: #{$i}px !important;
@@ -157,7 +157,8 @@
 }
 
 @each $breakpoint,
-$minWidth, $maxWidth in $breakpoints {
+$minWidth,
+$maxWidth in $breakpoints {
     @media screen and (min-width: $minWidth) and (max-width: $maxWidth) {
 
         /*Headings*/
@@ -319,7 +320,9 @@ $minWidth, $maxWidth in $breakpoints {
             }
         }
 
-        .text {
+        .text,
+        .t,
+        .font {
             &-#{$breakpoint} {
                 @each $prop in $alignment {
                     &-#{$prop} {
@@ -339,11 +342,7 @@ $minWidth, $maxWidth in $breakpoints {
                         color: $code !important;
                     }
                 }
-            }
-        }
 
-        .t {
-            &-#{$breakpoint} {
                 @for $i from 1 through 50 {
                     &-#{$i}-px {
                         font-size: #{$i}px !important;

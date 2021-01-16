@@ -1,4 +1,4 @@
-@import 'variables';
+@import "variables";
 
 /*Padding*/
 .p {
@@ -90,8 +90,8 @@
 }
 
 @each $breakpoint,
-$minWidth, $maxWidth in $breakpoints {
-
+$minWidth,
+$maxWidth in $breakpoints {
     @media screen and (min-width: $minWidth) and (max-width: $maxWidth) {
 
         /*Padding*/

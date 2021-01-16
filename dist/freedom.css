@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*Display*/
 .d-flex {
   display: flex !important;
@@ -9863,6 +9862,10 @@
   background-color: gray !important;
 }
 
+.bg-grey {
+  background-color: grey !important;
+}
+
 .bg-green {
   background-color: green !important;
 }
@@ -9879,12 +9882,12 @@
   background-color: hotpink !important;
 }
 
-.bg-indianred  {
-  background-color: indianred  !important;
+.bg-indianred {
+  background-color: indianred !important;
 }
 
-.bg-indigo  {
-  background-color: indigo  !important;
+.bg-indigo {
+  background-color: indigo !important;
 }
 
 .bg-ivory {
@@ -10467,6 +10470,9 @@
   .bg-xl-gray {
     background-color: gray !important;
   }
+  .bg-xl-grey {
+    background-color: grey !important;
+  }
   .bg-xl-green {
     background-color: green !important;
   }
@@ -10479,11 +10485,11 @@
   .bg-xl-hotpink {
     background-color: hotpink !important;
   }
-  .bg-xl-indianred  {
-    background-color: indianred  !important;
+  .bg-xl-indianred {
+    background-color: indianred !important;
   }
-  .bg-xl-indigo  {
-    background-color: indigo  !important;
+  .bg-xl-indigo {
+    background-color: indigo !important;
   }
   .bg-xl-ivory {
     background-color: ivory !important;
@@ -10971,6 +10977,9 @@
   .bg-t-gray {
     background-color: gray !important;
   }
+  .bg-t-grey {
+    background-color: grey !important;
+  }
   .bg-t-green {
     background-color: green !important;
   }
@@ -10983,11 +10992,11 @@
   .bg-t-hotpink {
     background-color: hotpink !important;
   }
-  .bg-t-indianred  {
-    background-color: indianred  !important;
+  .bg-t-indianred {
+    background-color: indianred !important;
   }
-  .bg-t-indigo  {
-    background-color: indigo  !important;
+  .bg-t-indigo {
+    background-color: indigo !important;
   }
   .bg-t-ivory {
     background-color: ivory !important;
@@ -11475,6 +11484,9 @@
   .bg-m-gray {
     background-color: gray !important;
   }
+  .bg-m-grey {
+    background-color: grey !important;
+  }
   .bg-m-green {
     background-color: green !important;
   }
@@ -11487,11 +11499,11 @@
   .bg-m-hotpink {
     background-color: hotpink !important;
   }
-  .bg-m-indianred  {
-    background-color: indianred  !important;
+  .bg-m-indianred {
+    background-color: indianred !important;
   }
-  .bg-m-indigo  {
-    background-color: indigo  !important;
+  .bg-m-indigo {
+    background-color: indigo !important;
   }
   .bg-m-ivory {
     background-color: ivory !important;
@@ -12108,6 +12120,10 @@
   border-color: gray !important;
 }
 
+.b-grey {
+  border-color: grey !important;
+}
+
 .b-green {
   border-color: green !important;
 }
@@ -12124,12 +12140,12 @@
   border-color: hotpink !important;
 }
 
-.b-indianred  {
-  border-color: indianred  !important;
+.b-indianred {
+  border-color: indianred !important;
 }
 
-.b-indigo  {
-  border-color: indigo  !important;
+.b-indigo {
+  border-color: indigo !important;
 }
 
 .b-ivory {
@@ -12761,6 +12777,9 @@
   .b-xl-gray {
     border-color: gray !important;
   }
+  .b-xl-grey {
+    border-color: grey !important;
+  }
   .b-xl-green {
     border-color: green !important;
   }
@@ -12773,11 +12792,11 @@
   .b-xl-hotpink {
     border-color: hotpink !important;
   }
-  .b-xl-indianred  {
-    border-color: indianred  !important;
+  .b-xl-indianred {
+    border-color: indianred !important;
   }
-  .b-xl-indigo  {
-    border-color: indigo  !important;
+  .b-xl-indigo {
+    border-color: indigo !important;
   }
   .b-xl-ivory {
     border-color: ivory !important;
@@ -13314,6 +13333,9 @@
   .b-t-gray {
     border-color: gray !important;
   }
+  .b-t-grey {
+    border-color: grey !important;
+  }
   .b-t-green {
     border-color: green !important;
   }
@@ -13326,11 +13348,11 @@
   .b-t-hotpink {
     border-color: hotpink !important;
   }
-  .b-t-indianred  {
-    border-color: indianred  !important;
+  .b-t-indianred {
+    border-color: indianred !important;
   }
-  .b-t-indigo  {
-    border-color: indigo  !important;
+  .b-t-indigo {
+    border-color: indigo !important;
   }
   .b-t-ivory {
     border-color: ivory !important;
@@ -13867,6 +13889,9 @@
   .b-m-gray {
     border-color: gray !important;
   }
+  .b-m-grey {
+    border-color: grey !important;
+  }
   .b-m-green {
     border-color: green !important;
   }
@@ -13879,11 +13904,11 @@
   .b-m-hotpink {
     border-color: hotpink !important;
   }
-  .b-m-indianred  {
-    border-color: indianred  !important;
+  .b-m-indianred {
+    border-color: indianred !important;
   }
-  .b-m-indigo  {
-    border-color: indigo  !important;
+  .b-m-indigo {
+    border-color: indigo !important;
   }
   .b-m-ivory {
     border-color: ivory !important;
@@ -30453,571 +30478,855 @@
   font-size: 85% !important;
 }
 
-.text-center {
+.text-center,
+.t-center,
+.font-center {
   text-align: center !important;
 }
 
-.text-justify {
+.text-justify,
+.t-justify,
+.font-justify {
   text-align: justify !important;
 }
 
-.text-right {
+.text-right,
+.t-right,
+.font-right {
   text-align: right !important;
 }
 
-.text-left {
+.text-left,
+.t-left,
+.font-left {
   text-align: left !important;
 }
 
-.text-start {
+.text-start,
+.t-start,
+.font-start {
   text-align: start !important;
 }
 
-.text-end {
+.text-end,
+.t-end,
+.font-end {
   text-align: end !important;
 }
 
-.text-unset {
+.text-unset,
+.t-unset,
+.font-unset {
   text-align: unset !important;
 }
 
-.text-tops {
+.text-tops,
+.t-tops,
+.font-tops {
   vertical-align: tops !important;
 }
 
-.text-bottom {
+.text-bottom,
+.t-bottom,
+.font-bottom {
   vertical-align: bottom !important;
 }
 
-.text-middle {
+.text-middle,
+.t-middle,
+.font-middle {
   vertical-align: middle !important;
 }
 
-.text-baseline {
+.text-baseline,
+.t-baseline,
+.font-baseline {
   vertical-align: baseline !important;
 }
 
-.text-text-top {
+.text-text-top,
+.t-text-top,
+.font-text-top {
   vertical-align: text-top !important;
 }
 
-.text-text-bottom {
+.text-text-bottom,
+.t-text-bottom,
+.font-text-bottom {
   vertical-align: text-bottom !important;
 }
 
-.text-light {
+.text-light,
+.t-light,
+.font-light {
   color: #dee2e6 !important;
 }
 
-.text-grey {
+.text-grey,
+.t-grey,
+.font-grey {
   color: #6c757d !important;
 }
 
-.text-red {
+.text-red,
+.t-red,
+.font-red {
   color: red !important;
 }
 
-.text-dark-red {
+.text-dark-red,
+.t-dark-red,
+.font-dark-red {
   color: #dc3545 !important;
 }
 
-.text-green {
+.text-green,
+.t-green,
+.font-green {
   color: #27e178 !important;
 }
 
-.text-blue {
+.text-blue,
+.t-blue,
+.font-blue {
   color: #279EDA !important;
 }
 
-.text-yellow {
+.text-yellow,
+.t-yellow,
+.font-yellow {
   color: #ffc107 !important;
 }
 
-.text-fade-blue {
+.text-fade-blue,
+.t-fade-blue,
+.font-fade-blue {
   color: #34435E !important;
 }
 
-.text-transparent {
+.text-transparent,
+.t-transparent,
+.font-transparent {
   color: transparent !important;
 }
 
-.t-1-px {
+.text-1-px,
+.t-1-px,
+.font-1-px {
   font-size: 1px !important;
 }
 
-.t-1-pt {
+.text-1-pt,
+.t-1-pt,
+.font-1-pt {
   font-size: 1pt !important;
 }
 
-.t-2-px {
+.text-2-px,
+.t-2-px,
+.font-2-px {
   font-size: 2px !important;
 }
 
-.t-2-pt {
+.text-2-pt,
+.t-2-pt,
+.font-2-pt {
   font-size: 2pt !important;
 }
 
-.t-3-px {
+.text-3-px,
+.t-3-px,
+.font-3-px {
   font-size: 3px !important;
 }
 
-.t-3-pt {
+.text-3-pt,
+.t-3-pt,
+.font-3-pt {
   font-size: 3pt !important;
 }
 
-.t-4-px {
+.text-4-px,
+.t-4-px,
+.font-4-px {
   font-size: 4px !important;
 }
 
-.t-4-pt {
+.text-4-pt,
+.t-4-pt,
+.font-4-pt {
   font-size: 4pt !important;
 }
 
-.t-5-px {
+.text-5-px,
+.t-5-px,
+.font-5-px {
   font-size: 5px !important;
 }
 
-.t-5-pt {
+.text-5-pt,
+.t-5-pt,
+.font-5-pt {
   font-size: 5pt !important;
 }
 
-.t-6-px {
+.text-6-px,
+.t-6-px,
+.font-6-px {
   font-size: 6px !important;
 }
 
-.t-6-pt {
+.text-6-pt,
+.t-6-pt,
+.font-6-pt {
   font-size: 6pt !important;
 }
 
-.t-7-px {
+.text-7-px,
+.t-7-px,
+.font-7-px {
   font-size: 7px !important;
 }
 
-.t-7-pt {
+.text-7-pt,
+.t-7-pt,
+.font-7-pt {
   font-size: 7pt !important;
 }
 
-.t-8-px {
+.text-8-px,
+.t-8-px,
+.font-8-px {
   font-size: 8px !important;
 }
 
-.t-8-pt {
+.text-8-pt,
+.t-8-pt,
+.font-8-pt {
   font-size: 8pt !important;
 }
 
-.t-9-px {
+.text-9-px,
+.t-9-px,
+.font-9-px {
   font-size: 9px !important;
 }
 
-.t-9-pt {
+.text-9-pt,
+.t-9-pt,
+.font-9-pt {
   font-size: 9pt !important;
 }
 
-.t-10-px {
+.text-10-px,
+.t-10-px,
+.font-10-px {
   font-size: 10px !important;
 }
 
-.t-10-pt {
+.text-10-pt,
+.t-10-pt,
+.font-10-pt {
   font-size: 10pt !important;
 }
 
-.t-11-px {
+.text-11-px,
+.t-11-px,
+.font-11-px {
   font-size: 11px !important;
 }
 
-.t-11-pt {
+.text-11-pt,
+.t-11-pt,
+.font-11-pt {
   font-size: 11pt !important;
 }
 
-.t-12-px {
+.text-12-px,
+.t-12-px,
+.font-12-px {
   font-size: 12px !important;
 }
 
-.t-12-pt {
+.text-12-pt,
+.t-12-pt,
+.font-12-pt {
   font-size: 12pt !important;
 }
 
-.t-13-px {
+.text-13-px,
+.t-13-px,
+.font-13-px {
   font-size: 13px !important;
 }
 
-.t-13-pt {
+.text-13-pt,
+.t-13-pt,
+.font-13-pt {
   font-size: 13pt !important;
 }
 
-.t-14-px {
+.text-14-px,
+.t-14-px,
+.font-14-px {
   font-size: 14px !important;
 }
 
-.t-14-pt {
+.text-14-pt,
+.t-14-pt,
+.font-14-pt {
   font-size: 14pt !important;
 }
 
-.t-15-px {
+.text-15-px,
+.t-15-px,
+.font-15-px {
   font-size: 15px !important;
 }
 
-.t-15-pt {
+.text-15-pt,
+.t-15-pt,
+.font-15-pt {
   font-size: 15pt !important;
 }
 
-.t-16-px {
+.text-16-px,
+.t-16-px,
+.font-16-px {
   font-size: 16px !important;
 }
 
-.t-16-pt {
+.text-16-pt,
+.t-16-pt,
+.font-16-pt {
   font-size: 16pt !important;
 }
 
-.t-17-px {
+.text-17-px,
+.t-17-px,
+.font-17-px {
   font-size: 17px !important;
 }
 
-.t-17-pt {
+.text-17-pt,
+.t-17-pt,
+.font-17-pt {
   font-size: 17pt !important;
 }
 
-.t-18-px {
+.text-18-px,
+.t-18-px,
+.font-18-px {
   font-size: 18px !important;
 }
 
-.t-18-pt {
+.text-18-pt,
+.t-18-pt,
+.font-18-pt {
   font-size: 18pt !important;
 }
 
-.t-19-px {
+.text-19-px,
+.t-19-px,
+.font-19-px {
   font-size: 19px !important;
 }
 
-.t-19-pt {
+.text-19-pt,
+.t-19-pt,
+.font-19-pt {
   font-size: 19pt !important;
 }
 
-.t-20-px {
+.text-20-px,
+.t-20-px,
+.font-20-px {
   font-size: 20px !important;
 }
 
-.t-20-pt {
+.text-20-pt,
+.t-20-pt,
+.font-20-pt {
   font-size: 20pt !important;
 }
 
-.t-21-px {
+.text-21-px,
+.t-21-px,
+.font-21-px {
   font-size: 21px !important;
 }
 
-.t-21-pt {
+.text-21-pt,
+.t-21-pt,
+.font-21-pt {
   font-size: 21pt !important;
 }
 
-.t-22-px {
+.text-22-px,
+.t-22-px,
+.font-22-px {
   font-size: 22px !important;
 }
 
-.t-22-pt {
+.text-22-pt,
+.t-22-pt,
+.font-22-pt {
   font-size: 22pt !important;
 }
 
-.t-23-px {
+.text-23-px,
+.t-23-px,
+.font-23-px {
   font-size: 23px !important;
 }
 
-.t-23-pt {
+.text-23-pt,
+.t-23-pt,
+.font-23-pt {
   font-size: 23pt !important;
 }
 
-.t-24-px {
+.text-24-px,
+.t-24-px,
+.font-24-px {
   font-size: 24px !important;
 }
 
-.t-24-pt {
+.text-24-pt,
+.t-24-pt,
+.font-24-pt {
   font-size: 24pt !important;
 }
 
-.t-25-px {
+.text-25-px,
+.t-25-px,
+.font-25-px {
   font-size: 25px !important;
 }
 
-.t-25-pt {
+.text-25-pt,
+.t-25-pt,
+.font-25-pt {
   font-size: 25pt !important;
 }
 
-.t-26-px {
+.text-26-px,
+.t-26-px,
+.font-26-px {
   font-size: 26px !important;
 }
 
-.t-26-pt {
+.text-26-pt,
+.t-26-pt,
+.font-26-pt {
   font-size: 26pt !important;
 }
 
-.t-27-px {
+.text-27-px,
+.t-27-px,
+.font-27-px {
   font-size: 27px !important;
 }
 
-.t-27-pt {
+.text-27-pt,
+.t-27-pt,
+.font-27-pt {
   font-size: 27pt !important;
 }
 
-.t-28-px {
+.text-28-px,
+.t-28-px,
+.font-28-px {
   font-size: 28px !important;
 }
 
-.t-28-pt {
+.text-28-pt,
+.t-28-pt,
+.font-28-pt {
   font-size: 28pt !important;
 }
 
-.t-29-px {
+.text-29-px,
+.t-29-px,
+.font-29-px {
   font-size: 29px !important;
 }
 
-.t-29-pt {
+.text-29-pt,
+.t-29-pt,
+.font-29-pt {
   font-size: 29pt !important;
 }
 
-.t-30-px {
+.text-30-px,
+.t-30-px,
+.font-30-px {
   font-size: 30px !important;
 }
 
-.t-30-pt {
+.text-30-pt,
+.t-30-pt,
+.font-30-pt {
   font-size: 30pt !important;
 }
 
-.t-31-px {
+.text-31-px,
+.t-31-px,
+.font-31-px {
   font-size: 31px !important;
 }
 
-.t-31-pt {
+.text-31-pt,
+.t-31-pt,
+.font-31-pt {
   font-size: 31pt !important;
 }
 
-.t-32-px {
+.text-32-px,
+.t-32-px,
+.font-32-px {
   font-size: 32px !important;
 }
 
-.t-32-pt {
+.text-32-pt,
+.t-32-pt,
+.font-32-pt {
   font-size: 32pt !important;
 }
 
-.t-33-px {
+.text-33-px,
+.t-33-px,
+.font-33-px {
   font-size: 33px !important;
 }
 
-.t-33-pt {
+.text-33-pt,
+.t-33-pt,
+.font-33-pt {
   font-size: 33pt !important;
 }
 
-.t-34-px {
+.text-34-px,
+.t-34-px,
+.font-34-px {
   font-size: 34px !important;
 }
 
-.t-34-pt {
+.text-34-pt,
+.t-34-pt,
+.font-34-pt {
   font-size: 34pt !important;
 }
 
-.t-35-px {
+.text-35-px,
+.t-35-px,
+.font-35-px {
   font-size: 35px !important;
 }
 
-.t-35-pt {
+.text-35-pt,
+.t-35-pt,
+.font-35-pt {
   font-size: 35pt !important;
 }
 
-.t-36-px {
+.text-36-px,
+.t-36-px,
+.font-36-px {
   font-size: 36px !important;
 }
 
-.t-36-pt {
+.text-36-pt,
+.t-36-pt,
+.font-36-pt {
   font-size: 36pt !important;
 }
 
-.t-37-px {
+.text-37-px,
+.t-37-px,
+.font-37-px {
   font-size: 37px !important;
 }
 
-.t-37-pt {
+.text-37-pt,
+.t-37-pt,
+.font-37-pt {
   font-size: 37pt !important;
 }
 
-.t-38-px {
+.text-38-px,
+.t-38-px,
+.font-38-px {
   font-size: 38px !important;
 }
 
-.t-38-pt {
+.text-38-pt,
+.t-38-pt,
+.font-38-pt {
   font-size: 38pt !important;
 }
 
-.t-39-px {
+.text-39-px,
+.t-39-px,
+.font-39-px {
   font-size: 39px !important;
 }
 
-.t-39-pt {
+.text-39-pt,
+.t-39-pt,
+.font-39-pt {
   font-size: 39pt !important;
 }
 
-.t-40-px {
+.text-40-px,
+.t-40-px,
+.font-40-px {
   font-size: 40px !important;
 }
 
-.t-40-pt {
+.text-40-pt,
+.t-40-pt,
+.font-40-pt {
   font-size: 40pt !important;
 }
 
-.t-41-px {
+.text-41-px,
+.t-41-px,
+.font-41-px {
   font-size: 41px !important;
 }
 
-.t-41-pt {
+.text-41-pt,
+.t-41-pt,
+.font-41-pt {
   font-size: 41pt !important;
 }
 
-.t-42-px {
+.text-42-px,
+.t-42-px,
+.font-42-px {
   font-size: 42px !important;
 }
 
-.t-42-pt {
+.text-42-pt,
+.t-42-pt,
+.font-42-pt {
   font-size: 42pt !important;
 }
 
-.t-43-px {
+.text-43-px,
+.t-43-px,
+.font-43-px {
   font-size: 43px !important;
 }
 
-.t-43-pt {
+.text-43-pt,
+.t-43-pt,
+.font-43-pt {
   font-size: 43pt !important;
 }
 
-.t-44-px {
+.text-44-px,
+.t-44-px,
+.font-44-px {
   font-size: 44px !important;
 }
 
-.t-44-pt {
+.text-44-pt,
+.t-44-pt,
+.font-44-pt {
   font-size: 44pt !important;
 }
 
-.t-45-px {
+.text-45-px,
+.t-45-px,
+.font-45-px {
   font-size: 45px !important;
 }
 
-.t-45-pt {
+.text-45-pt,
+.t-45-pt,
+.font-45-pt {
   font-size: 45pt !important;
 }
 
-.t-46-px {
+.text-46-px,
+.t-46-px,
+.font-46-px {
   font-size: 46px !important;
 }
 
-.t-46-pt {
+.text-46-pt,
+.t-46-pt,
+.font-46-pt {
   font-size: 46pt !important;
 }
 
-.t-47-px {
+.text-47-px,
+.t-47-px,
+.font-47-px {
   font-size: 47px !important;
 }
 
-.t-47-pt {
+.text-47-pt,
+.t-47-pt,
+.font-47-pt {
   font-size: 47pt !important;
 }
 
-.t-48-px {
+.text-48-px,
+.t-48-px,
+.font-48-px {
   font-size: 48px !important;
 }
 
-.t-48-pt {
+.text-48-pt,
+.t-48-pt,
+.font-48-pt {
   font-size: 48pt !important;
 }
 
-.t-49-px {
+.text-49-px,
+.t-49-px,
+.font-49-px {
   font-size: 49px !important;
 }
 
-.t-49-pt {
+.text-49-pt,
+.t-49-pt,
+.font-49-pt {
   font-size: 49pt !important;
 }
 
-.t-50-px {
+.text-50-px,
+.t-50-px,
+.font-50-px {
   font-size: 50px !important;
 }
 
-.t-50-pt {
+.text-50-pt,
+.t-50-pt,
+.font-50-pt {
   font-size: 50pt !important;
 }
 
-.t-1-rem {
+.text-1-rem,
+.t-1-rem,
+.font-1-rem {
   font-size: 1rem !important;
 }
 
-.t-1-em {
+.text-1-em,
+.t-1-em,
+.font-1-em {
   font-size: 1em !important;
 }
 
-.t-2-rem {
+.text-2-rem,
+.t-2-rem,
+.font-2-rem {
   font-size: 2rem !important;
 }
 
-.t-2-em {
+.text-2-em,
+.t-2-em,
+.font-2-em {
   font-size: 2em !important;
 }
 
-.t-3-rem {
+.text-3-rem,
+.t-3-rem,
+.font-3-rem {
   font-size: 3rem !important;
 }
 
-.t-3-em {
+.text-3-em,
+.t-3-em,
+.font-3-em {
   font-size: 3em !important;
 }
 
-.t-4-rem {
+.text-4-rem,
+.t-4-rem,
+.font-4-rem {
   font-size: 4rem !important;
 }
 
-.t-4-em {
+.text-4-em,
+.t-4-em,
+.font-4-em {
   font-size: 4em !important;
 }
 
-.t-5-rem {
+.text-5-rem,
+.t-5-rem,
+.font-5-rem {
   font-size: 5rem !important;
 }
 
-.t-5-em {
+.text-5-em,
+.t-5-em,
+.font-5-em {
   font-size: 5em !important;
 }
 
-.t-6-rem {
+.text-6-rem,
+.t-6-rem,
+.font-6-rem {
   font-size: 6rem !important;
 }
 
-.t-6-em {
+.text-6-em,
+.t-6-em,
+.font-6-em {
   font-size: 6em !important;
 }
 
-.t-7-rem {
+.text-7-rem,
+.t-7-rem,
+.font-7-rem {
   font-size: 7rem !important;
 }
 
-.t-7-em {
+.text-7-em,
+.t-7-em,
+.font-7-em {
   font-size: 7em !important;
 }
 
-.t-8-rem {
+.text-8-rem,
+.t-8-rem,
+.font-8-rem {
   font-size: 8rem !important;
 }
 
-.t-8-em {
+.text-8-em,
+.t-8-em,
+.font-8-em {
   font-size: 8em !important;
 }
 
-.t-9-rem {
+.text-9-rem,
+.t-9-rem,
+.font-9-rem {
   font-size: 9rem !important;
 }
 
-.t-9-em {
+.text-9-em,
+.t-9-em,
+.font-9-em {
   font-size: 9em !important;
 }
 
-.t-10-rem {
+.text-10-rem,
+.t-10-rem,
+.font-10-rem {
   font-size: 10rem !important;
 }
 
-.t-10-em {
+.text-10-em,
+.t-10-em,
+.font-10-em {
   font-size: 10em !important;
 }
 
@@ -31108,430 +31417,714 @@
   .small-xl {
     font-size: 85% !important;
   }
-  .text-xl-center {
+  .text-xl-center,
+  .t-xl-center,
+  .font-xl-center {
     text-align: center !important;
   }
-  .text-xl-justify {
+  .text-xl-justify,
+  .t-xl-justify,
+  .font-xl-justify {
     text-align: justify !important;
   }
-  .text-xl-right {
+  .text-xl-right,
+  .t-xl-right,
+  .font-xl-right {
     text-align: right !important;
   }
-  .text-xl-left {
+  .text-xl-left,
+  .t-xl-left,
+  .font-xl-left {
     text-align: left !important;
   }
-  .text-xl-start {
+  .text-xl-start,
+  .t-xl-start,
+  .font-xl-start {
     text-align: start !important;
   }
-  .text-xl-end {
+  .text-xl-end,
+  .t-xl-end,
+  .font-xl-end {
     text-align: end !important;
   }
-  .text-xl-unset {
+  .text-xl-unset,
+  .t-xl-unset,
+  .font-xl-unset {
     text-align: unset !important;
   }
-  .text-xl-tops {
+  .text-xl-tops,
+  .t-xl-tops,
+  .font-xl-tops {
     vertical-align: tops !important;
   }
-  .text-xl-bottom {
+  .text-xl-bottom,
+  .t-xl-bottom,
+  .font-xl-bottom {
     vertical-align: bottom !important;
   }
-  .text-xl-middle {
+  .text-xl-middle,
+  .t-xl-middle,
+  .font-xl-middle {
     vertical-align: middle !important;
   }
-  .text-xl-baseline {
+  .text-xl-baseline,
+  .t-xl-baseline,
+  .font-xl-baseline {
     vertical-align: baseline !important;
   }
-  .text-xl-text-top {
+  .text-xl-text-top,
+  .t-xl-text-top,
+  .font-xl-text-top {
     vertical-align: text-top !important;
   }
-  .text-xl-text-bottom {
+  .text-xl-text-bottom,
+  .t-xl-text-bottom,
+  .font-xl-text-bottom {
     vertical-align: text-bottom !important;
   }
-  .text-xl-light {
+  .text-xl-light,
+  .t-xl-light,
+  .font-xl-light {
     color: #dee2e6 !important;
   }
-  .text-xl-grey {
+  .text-xl-grey,
+  .t-xl-grey,
+  .font-xl-grey {
     color: #6c757d !important;
   }
-  .text-xl-red {
+  .text-xl-red,
+  .t-xl-red,
+  .font-xl-red {
     color: red !important;
   }
-  .text-xl-dark-red {
+  .text-xl-dark-red,
+  .t-xl-dark-red,
+  .font-xl-dark-red {
     color: #dc3545 !important;
   }
-  .text-xl-green {
+  .text-xl-green,
+  .t-xl-green,
+  .font-xl-green {
     color: #27e178 !important;
   }
-  .text-xl-blue {
+  .text-xl-blue,
+  .t-xl-blue,
+  .font-xl-blue {
     color: #279EDA !important;
   }
-  .text-xl-yellow {
+  .text-xl-yellow,
+  .t-xl-yellow,
+  .font-xl-yellow {
     color: #ffc107 !important;
   }
-  .text-xl-fade-blue {
+  .text-xl-fade-blue,
+  .t-xl-fade-blue,
+  .font-xl-fade-blue {
     color: #34435E !important;
   }
-  .text-xl-transparent {
+  .text-xl-transparent,
+  .t-xl-transparent,
+  .font-xl-transparent {
     color: transparent !important;
   }
-  .t-xl-1-px {
+  .text-xl-1-px,
+  .t-xl-1-px,
+  .font-xl-1-px {
     font-size: 1px !important;
   }
-  .t-xl-1-pt {
+  .text-xl-1-pt,
+  .t-xl-1-pt,
+  .font-xl-1-pt {
     font-size: 1pt !important;
   }
-  .t-xl-2-px {
+  .text-xl-2-px,
+  .t-xl-2-px,
+  .font-xl-2-px {
     font-size: 2px !important;
   }
-  .t-xl-2-pt {
+  .text-xl-2-pt,
+  .t-xl-2-pt,
+  .font-xl-2-pt {
     font-size: 2pt !important;
   }
-  .t-xl-3-px {
+  .text-xl-3-px,
+  .t-xl-3-px,
+  .font-xl-3-px {
     font-size: 3px !important;
   }
-  .t-xl-3-pt {
+  .text-xl-3-pt,
+  .t-xl-3-pt,
+  .font-xl-3-pt {
     font-size: 3pt !important;
   }
-  .t-xl-4-px {
+  .text-xl-4-px,
+  .t-xl-4-px,
+  .font-xl-4-px {
     font-size: 4px !important;
   }
-  .t-xl-4-pt {
+  .text-xl-4-pt,
+  .t-xl-4-pt,
+  .font-xl-4-pt {
     font-size: 4pt !important;
   }
-  .t-xl-5-px {
+  .text-xl-5-px,
+  .t-xl-5-px,
+  .font-xl-5-px {
     font-size: 5px !important;
   }
-  .t-xl-5-pt {
+  .text-xl-5-pt,
+  .t-xl-5-pt,
+  .font-xl-5-pt {
     font-size: 5pt !important;
   }
-  .t-xl-6-px {
+  .text-xl-6-px,
+  .t-xl-6-px,
+  .font-xl-6-px {
     font-size: 6px !important;
   }
-  .t-xl-6-pt {
+  .text-xl-6-pt,
+  .t-xl-6-pt,
+  .font-xl-6-pt {
     font-size: 6pt !important;
   }
-  .t-xl-7-px {
+  .text-xl-7-px,
+  .t-xl-7-px,
+  .font-xl-7-px {
     font-size: 7px !important;
   }
-  .t-xl-7-pt {
+  .text-xl-7-pt,
+  .t-xl-7-pt,
+  .font-xl-7-pt {
     font-size: 7pt !important;
   }
-  .t-xl-8-px {
+  .text-xl-8-px,
+  .t-xl-8-px,
+  .font-xl-8-px {
     font-size: 8px !important;
   }
-  .t-xl-8-pt {
+  .text-xl-8-pt,
+  .t-xl-8-pt,
+  .font-xl-8-pt {
     font-size: 8pt !important;
   }
-  .t-xl-9-px {
+  .text-xl-9-px,
+  .t-xl-9-px,
+  .font-xl-9-px {
     font-size: 9px !important;
   }
-  .t-xl-9-pt {
+  .text-xl-9-pt,
+  .t-xl-9-pt,
+  .font-xl-9-pt {
     font-size: 9pt !important;
   }
-  .t-xl-10-px {
+  .text-xl-10-px,
+  .t-xl-10-px,
+  .font-xl-10-px {
     font-size: 10px !important;
   }
-  .t-xl-10-pt {
+  .text-xl-10-pt,
+  .t-xl-10-pt,
+  .font-xl-10-pt {
     font-size: 10pt !important;
   }
-  .t-xl-11-px {
+  .text-xl-11-px,
+  .t-xl-11-px,
+  .font-xl-11-px {
     font-size: 11px !important;
   }
-  .t-xl-11-pt {
+  .text-xl-11-pt,
+  .t-xl-11-pt,
+  .font-xl-11-pt {
     font-size: 11pt !important;
   }
-  .t-xl-12-px {
+  .text-xl-12-px,
+  .t-xl-12-px,
+  .font-xl-12-px {
     font-size: 12px !important;
   }
-  .t-xl-12-pt {
+  .text-xl-12-pt,
+  .t-xl-12-pt,
+  .font-xl-12-pt {
     font-size: 12pt !important;
   }
-  .t-xl-13-px {
+  .text-xl-13-px,
+  .t-xl-13-px,
+  .font-xl-13-px {
     font-size: 13px !important;
   }
-  .t-xl-13-pt {
+  .text-xl-13-pt,
+  .t-xl-13-pt,
+  .font-xl-13-pt {
     font-size: 13pt !important;
   }
-  .t-xl-14-px {
+  .text-xl-14-px,
+  .t-xl-14-px,
+  .font-xl-14-px {
     font-size: 14px !important;
   }
-  .t-xl-14-pt {
+  .text-xl-14-pt,
+  .t-xl-14-pt,
+  .font-xl-14-pt {
     font-size: 14pt !important;
   }
-  .t-xl-15-px {
+  .text-xl-15-px,
+  .t-xl-15-px,
+  .font-xl-15-px {
     font-size: 15px !important;
   }
-  .t-xl-15-pt {
+  .text-xl-15-pt,
+  .t-xl-15-pt,
+  .font-xl-15-pt {
     font-size: 15pt !important;
   }
-  .t-xl-16-px {
+  .text-xl-16-px,
+  .t-xl-16-px,
+  .font-xl-16-px {
     font-size: 16px !important;
   }
-  .t-xl-16-pt {
+  .text-xl-16-pt,
+  .t-xl-16-pt,
+  .font-xl-16-pt {
     font-size: 16pt !important;
   }
-  .t-xl-17-px {
+  .text-xl-17-px,
+  .t-xl-17-px,
+  .font-xl-17-px {
     font-size: 17px !important;
   }
-  .t-xl-17-pt {
+  .text-xl-17-pt,
+  .t-xl-17-pt,
+  .font-xl-17-pt {
     font-size: 17pt !important;
   }
-  .t-xl-18-px {
+  .text-xl-18-px,
+  .t-xl-18-px,
+  .font-xl-18-px {
     font-size: 18px !important;
   }
-  .t-xl-18-pt {
+  .text-xl-18-pt,
+  .t-xl-18-pt,
+  .font-xl-18-pt {
     font-size: 18pt !important;
   }
-  .t-xl-19-px {
+  .text-xl-19-px,
+  .t-xl-19-px,
+  .font-xl-19-px {
     font-size: 19px !important;
   }
-  .t-xl-19-pt {
+  .text-xl-19-pt,
+  .t-xl-19-pt,
+  .font-xl-19-pt {
     font-size: 19pt !important;
   }
-  .t-xl-20-px {
+  .text-xl-20-px,
+  .t-xl-20-px,
+  .font-xl-20-px {
     font-size: 20px !important;
   }
-  .t-xl-20-pt {
+  .text-xl-20-pt,
+  .t-xl-20-pt,
+  .font-xl-20-pt {
     font-size: 20pt !important;
   }
-  .t-xl-21-px {
+  .text-xl-21-px,
+  .t-xl-21-px,
+  .font-xl-21-px {
     font-size: 21px !important;
   }
-  .t-xl-21-pt {
+  .text-xl-21-pt,
+  .t-xl-21-pt,
+  .font-xl-21-pt {
     font-size: 21pt !important;
   }
-  .t-xl-22-px {
+  .text-xl-22-px,
+  .t-xl-22-px,
+  .font-xl-22-px {
     font-size: 22px !important;
   }
-  .t-xl-22-pt {
+  .text-xl-22-pt,
+  .t-xl-22-pt,
+  .font-xl-22-pt {
     font-size: 22pt !important;
   }
-  .t-xl-23-px {
+  .text-xl-23-px,
+  .t-xl-23-px,
+  .font-xl-23-px {
     font-size: 23px !important;
   }
-  .t-xl-23-pt {
+  .text-xl-23-pt,
+  .t-xl-23-pt,
+  .font-xl-23-pt {
     font-size: 23pt !important;
   }
-  .t-xl-24-px {
+  .text-xl-24-px,
+  .t-xl-24-px,
+  .font-xl-24-px {
     font-size: 24px !important;
   }
-  .t-xl-24-pt {
+  .text-xl-24-pt,
+  .t-xl-24-pt,
+  .font-xl-24-pt {
     font-size: 24pt !important;
   }
-  .t-xl-25-px {
+  .text-xl-25-px,
+  .t-xl-25-px,
+  .font-xl-25-px {
     font-size: 25px !important;
   }
-  .t-xl-25-pt {
+  .text-xl-25-pt,
+  .t-xl-25-pt,
+  .font-xl-25-pt {
     font-size: 25pt !important;
   }
-  .t-xl-26-px {
+  .text-xl-26-px,
+  .t-xl-26-px,
+  .font-xl-26-px {
     font-size: 26px !important;
   }
-  .t-xl-26-pt {
+  .text-xl-26-pt,
+  .t-xl-26-pt,
+  .font-xl-26-pt {
     font-size: 26pt !important;
   }
-  .t-xl-27-px {
+  .text-xl-27-px,
+  .t-xl-27-px,
+  .font-xl-27-px {
     font-size: 27px !important;
   }
-  .t-xl-27-pt {
+  .text-xl-27-pt,
+  .t-xl-27-pt,
+  .font-xl-27-pt {
     font-size: 27pt !important;
   }
-  .t-xl-28-px {
+  .text-xl-28-px,
+  .t-xl-28-px,
+  .font-xl-28-px {
     font-size: 28px !important;
   }
-  .t-xl-28-pt {
+  .text-xl-28-pt,
+  .t-xl-28-pt,
+  .font-xl-28-pt {
     font-size: 28pt !important;
   }
-  .t-xl-29-px {
+  .text-xl-29-px,
+  .t-xl-29-px,
+  .font-xl-29-px {
     font-size: 29px !important;
   }
-  .t-xl-29-pt {
+  .text-xl-29-pt,
+  .t-xl-29-pt,
+  .font-xl-29-pt {
     font-size: 29pt !important;
   }
-  .t-xl-30-px {
+  .text-xl-30-px,
+  .t-xl-30-px,
+  .font-xl-30-px {
     font-size: 30px !important;
   }
-  .t-xl-30-pt {
+  .text-xl-30-pt,
+  .t-xl-30-pt,
+  .font-xl-30-pt {
     font-size: 30pt !important;
   }
-  .t-xl-31-px {
+  .text-xl-31-px,
+  .t-xl-31-px,
+  .font-xl-31-px {
     font-size: 31px !important;
   }
-  .t-xl-31-pt {
+  .text-xl-31-pt,
+  .t-xl-31-pt,
+  .font-xl-31-pt {
     font-size: 31pt !important;
   }
-  .t-xl-32-px {
+  .text-xl-32-px,
+  .t-xl-32-px,
+  .font-xl-32-px {
     font-size: 32px !important;
   }
-  .t-xl-32-pt {
+  .text-xl-32-pt,
+  .t-xl-32-pt,
+  .font-xl-32-pt {
     font-size: 32pt !important;
   }
-  .t-xl-33-px {
+  .text-xl-33-px,
+  .t-xl-33-px,
+  .font-xl-33-px {
     font-size: 33px !important;
   }
-  .t-xl-33-pt {
+  .text-xl-33-pt,
+  .t-xl-33-pt,
+  .font-xl-33-pt {
     font-size: 33pt !important;
   }
-  .t-xl-34-px {
+  .text-xl-34-px,
+  .t-xl-34-px,
+  .font-xl-34-px {
     font-size: 34px !important;
   }
-  .t-xl-34-pt {
+  .text-xl-34-pt,
+  .t-xl-34-pt,
+  .font-xl-34-pt {
     font-size: 34pt !important;
   }
-  .t-xl-35-px {
+  .text-xl-35-px,
+  .t-xl-35-px,
+  .font-xl-35-px {
     font-size: 35px !important;
   }
-  .t-xl-35-pt {
+  .text-xl-35-pt,
+  .t-xl-35-pt,
+  .font-xl-35-pt {
     font-size: 35pt !important;
   }
-  .t-xl-36-px {
+  .text-xl-36-px,
+  .t-xl-36-px,
+  .font-xl-36-px {
     font-size: 36px !important;
   }
-  .t-xl-36-pt {
+  .text-xl-36-pt,
+  .t-xl-36-pt,
+  .font-xl-36-pt {
     font-size: 36pt !important;
   }
-  .t-xl-37-px {
+  .text-xl-37-px,
+  .t-xl-37-px,
+  .font-xl-37-px {
     font-size: 37px !important;
   }
-  .t-xl-37-pt {
+  .text-xl-37-pt,
+  .t-xl-37-pt,
+  .font-xl-37-pt {
     font-size: 37pt !important;
   }
-  .t-xl-38-px {
+  .text-xl-38-px,
+  .t-xl-38-px,
+  .font-xl-38-px {
     font-size: 38px !important;
   }
-  .t-xl-38-pt {
+  .text-xl-38-pt,
+  .t-xl-38-pt,
+  .font-xl-38-pt {
     font-size: 38pt !important;
   }
-  .t-xl-39-px {
+  .text-xl-39-px,
+  .t-xl-39-px,
+  .font-xl-39-px {
     font-size: 39px !important;
   }
-  .t-xl-39-pt {
+  .text-xl-39-pt,
+  .t-xl-39-pt,
+  .font-xl-39-pt {
     font-size: 39pt !important;
   }
-  .t-xl-40-px {
+  .text-xl-40-px,
+  .t-xl-40-px,
+  .font-xl-40-px {
     font-size: 40px !important;
   }
-  .t-xl-40-pt {
+  .text-xl-40-pt,
+  .t-xl-40-pt,
+  .font-xl-40-pt {
     font-size: 40pt !important;
   }
-  .t-xl-41-px {
+  .text-xl-41-px,
+  .t-xl-41-px,
+  .font-xl-41-px {
     font-size: 41px !important;
   }
-  .t-xl-41-pt {
+  .text-xl-41-pt,
+  .t-xl-41-pt,
+  .font-xl-41-pt {
     font-size: 41pt !important;
   }
-  .t-xl-42-px {
+  .text-xl-42-px,
+  .t-xl-42-px,
+  .font-xl-42-px {
     font-size: 42px !important;
   }
-  .t-xl-42-pt {
+  .text-xl-42-pt,
+  .t-xl-42-pt,
+  .font-xl-42-pt {
     font-size: 42pt !important;
   }
-  .t-xl-43-px {
+  .text-xl-43-px,
+  .t-xl-43-px,
+  .font-xl-43-px {
     font-size: 43px !important;
   }
-  .t-xl-43-pt {
+  .text-xl-43-pt,
+  .t-xl-43-pt,
+  .font-xl-43-pt {
     font-size: 43pt !important;
   }
-  .t-xl-44-px {
+  .text-xl-44-px,
+  .t-xl-44-px,
+  .font-xl-44-px {
     font-size: 44px !important;
   }
-  .t-xl-44-pt {
+  .text-xl-44-pt,
+  .t-xl-44-pt,
+  .font-xl-44-pt {
     font-size: 44pt !important;
   }
-  .t-xl-45-px {
+  .text-xl-45-px,
+  .t-xl-45-px,
+  .font-xl-45-px {
     font-size: 45px !important;
   }
-  .t-xl-45-pt {
+  .text-xl-45-pt,
+  .t-xl-45-pt,
+  .font-xl-45-pt {
     font-size: 45pt !important;
   }
-  .t-xl-46-px {
+  .text-xl-46-px,
+  .t-xl-46-px,
+  .font-xl-46-px {
     font-size: 46px !important;
   }
-  .t-xl-46-pt {
+  .text-xl-46-pt,
+  .t-xl-46-pt,
+  .font-xl-46-pt {
     font-size: 46pt !important;
   }
-  .t-xl-47-px {
+  .text-xl-47-px,
+  .t-xl-47-px,
+  .font-xl-47-px {
     font-size: 47px !important;
   }
-  .t-xl-47-pt {
+  .text-xl-47-pt,
+  .t-xl-47-pt,
+  .font-xl-47-pt {
     font-size: 47pt !important;
   }
-  .t-xl-48-px {
+  .text-xl-48-px,
+  .t-xl-48-px,
+  .font-xl-48-px {
     font-size: 48px !important;
   }
-  .t-xl-48-pt {
+  .text-xl-48-pt,
+  .t-xl-48-pt,
+  .font-xl-48-pt {
     font-size: 48pt !important;
   }
-  .t-xl-49-px {
+  .text-xl-49-px,
+  .t-xl-49-px,
+  .font-xl-49-px {
     font-size: 49px !important;
   }
-  .t-xl-49-pt {
+  .text-xl-49-pt,
+  .t-xl-49-pt,
+  .font-xl-49-pt {
     font-size: 49pt !important;
   }
-  .t-xl-50-px {
+  .text-xl-50-px,
+  .t-xl-50-px,
+  .font-xl-50-px {
     font-size: 50px !important;
   }
-  .t-xl-50-pt {
+  .text-xl-50-pt,
+  .t-xl-50-pt,
+  .font-xl-50-pt {
     font-size: 50pt !important;
   }
-  .t-xl-1-rem {
+  .text-xl-1-rem,
+  .t-xl-1-rem,
+  .font-xl-1-rem {
     font-size: 1rem !important;
   }
-  .t-xl-1-em {
+  .text-xl-1-em,
+  .t-xl-1-em,
+  .font-xl-1-em {
     font-size: 1em !important;
   }
-  .t-xl-2-rem {
+  .text-xl-2-rem,
+  .t-xl-2-rem,
+  .font-xl-2-rem {
     font-size: 2rem !important;
   }
-  .t-xl-2-em {
+  .text-xl-2-em,
+  .t-xl-2-em,
+  .font-xl-2-em {
     font-size: 2em !important;
   }
-  .t-xl-3-rem {
+  .text-xl-3-rem,
+  .t-xl-3-rem,
+  .font-xl-3-rem {
     font-size: 3rem !important;
   }
-  .t-xl-3-em {
+  .text-xl-3-em,
+  .t-xl-3-em,
+  .font-xl-3-em {
     font-size: 3em !important;
   }
-  .t-xl-4-rem {
+  .text-xl-4-rem,
+  .t-xl-4-rem,
+  .font-xl-4-rem {
     font-size: 4rem !important;
   }
-  .t-xl-4-em {
+  .text-xl-4-em,
+  .t-xl-4-em,
+  .font-xl-4-em {
     font-size: 4em !important;
   }
-  .t-xl-5-rem {
+  .text-xl-5-rem,
+  .t-xl-5-rem,
+  .font-xl-5-rem {
     font-size: 5rem !important;
   }
-  .t-xl-5-em {
+  .text-xl-5-em,
+  .t-xl-5-em,
+  .font-xl-5-em {
     font-size: 5em !important;
   }
-  .t-xl-6-rem {
+  .text-xl-6-rem,
+  .t-xl-6-rem,
+  .font-xl-6-rem {
     font-size: 6rem !important;
   }
-  .t-xl-6-em {
+  .text-xl-6-em,
+  .t-xl-6-em,
+  .font-xl-6-em {
     font-size: 6em !important;
   }
-  .t-xl-7-rem {
+  .text-xl-7-rem,
+  .t-xl-7-rem,
+  .font-xl-7-rem {
     font-size: 7rem !important;
   }
-  .t-xl-7-em {
+  .text-xl-7-em,
+  .t-xl-7-em,
+  .font-xl-7-em {
     font-size: 7em !important;
   }
-  .t-xl-8-rem {
+  .text-xl-8-rem,
+  .t-xl-8-rem,
+  .font-xl-8-rem {
     font-size: 8rem !important;
   }
-  .t-xl-8-em {
+  .text-xl-8-em,
+  .t-xl-8-em,
+  .font-xl-8-em {
     font-size: 8em !important;
   }
-  .t-xl-9-rem {
+  .text-xl-9-rem,
+  .t-xl-9-rem,
+  .font-xl-9-rem {
     font-size: 9rem !important;
   }
-  .t-xl-9-em {
+  .text-xl-9-em,
+  .t-xl-9-em,
+  .font-xl-9-em {
     font-size: 9em !important;
   }
-  .t-xl-10-rem {
+  .text-xl-10-rem,
+  .t-xl-10-rem,
+  .font-xl-10-rem {
     font-size: 10rem !important;
   }
-  .t-xl-10-em {
+  .text-xl-10-em,
+  .t-xl-10-em,
+  .font-xl-10-em {
     font-size: 10em !important;
   }
 }
@@ -31623,430 +32216,714 @@
   .small-t {
     font-size: 85% !important;
   }
-  .text-t-center {
+  .text-t-center,
+  .t-t-center,
+  .font-t-center {
     text-align: center !important;
   }
-  .text-t-justify {
+  .text-t-justify,
+  .t-t-justify,
+  .font-t-justify {
     text-align: justify !important;
   }
-  .text-t-right {
+  .text-t-right,
+  .t-t-right,
+  .font-t-right {
     text-align: right !important;
   }
-  .text-t-left {
+  .text-t-left,
+  .t-t-left,
+  .font-t-left {
     text-align: left !important;
   }
-  .text-t-start {
+  .text-t-start,
+  .t-t-start,
+  .font-t-start {
     text-align: start !important;
   }
-  .text-t-end {
+  .text-t-end,
+  .t-t-end,
+  .font-t-end {
     text-align: end !important;
   }
-  .text-t-unset {
+  .text-t-unset,
+  .t-t-unset,
+  .font-t-unset {
     text-align: unset !important;
   }
-  .text-t-tops {
+  .text-t-tops,
+  .t-t-tops,
+  .font-t-tops {
     vertical-align: tops !important;
   }
-  .text-t-bottom {
+  .text-t-bottom,
+  .t-t-bottom,
+  .font-t-bottom {
     vertical-align: bottom !important;
   }
-  .text-t-middle {
+  .text-t-middle,
+  .t-t-middle,
+  .font-t-middle {
     vertical-align: middle !important;
   }
-  .text-t-baseline {
+  .text-t-baseline,
+  .t-t-baseline,
+  .font-t-baseline {
     vertical-align: baseline !important;
   }
-  .text-t-text-top {
+  .text-t-text-top,
+  .t-t-text-top,
+  .font-t-text-top {
     vertical-align: text-top !important;
   }
-  .text-t-text-bottom {
+  .text-t-text-bottom,
+  .t-t-text-bottom,
+  .font-t-text-bottom {
     vertical-align: text-bottom !important;
   }
-  .text-t-light {
+  .text-t-light,
+  .t-t-light,
+  .font-t-light {
     color: #dee2e6 !important;
   }
-  .text-t-grey {
+  .text-t-grey,
+  .t-t-grey,
+  .font-t-grey {
     color: #6c757d !important;
   }
-  .text-t-red {
+  .text-t-red,
+  .t-t-red,
+  .font-t-red {
     color: red !important;
   }
-  .text-t-dark-red {
+  .text-t-dark-red,
+  .t-t-dark-red,
+  .font-t-dark-red {
     color: #dc3545 !important;
   }
-  .text-t-green {
+  .text-t-green,
+  .t-t-green,
+  .font-t-green {
     color: #27e178 !important;
   }
-  .text-t-blue {
+  .text-t-blue,
+  .t-t-blue,
+  .font-t-blue {
     color: #279EDA !important;
   }
-  .text-t-yellow {
+  .text-t-yellow,
+  .t-t-yellow,
+  .font-t-yellow {
     color: #ffc107 !important;
   }
-  .text-t-fade-blue {
+  .text-t-fade-blue,
+  .t-t-fade-blue,
+  .font-t-fade-blue {
     color: #34435E !important;
   }
-  .text-t-transparent {
+  .text-t-transparent,
+  .t-t-transparent,
+  .font-t-transparent {
     color: transparent !important;
   }
-  .t-t-1-px {
+  .text-t-1-px,
+  .t-t-1-px,
+  .font-t-1-px {
     font-size: 1px !important;
   }
-  .t-t-1-pt {
+  .text-t-1-pt,
+  .t-t-1-pt,
+  .font-t-1-pt {
     font-size: 1pt !important;
   }
-  .t-t-2-px {
+  .text-t-2-px,
+  .t-t-2-px,
+  .font-t-2-px {
     font-size: 2px !important;
   }
-  .t-t-2-pt {
+  .text-t-2-pt,
+  .t-t-2-pt,
+  .font-t-2-pt {
     font-size: 2pt !important;
   }
-  .t-t-3-px {
+  .text-t-3-px,
+  .t-t-3-px,
+  .font-t-3-px {
     font-size: 3px !important;
   }
-  .t-t-3-pt {
+  .text-t-3-pt,
+  .t-t-3-pt,
+  .font-t-3-pt {
     font-size: 3pt !important;
   }
-  .t-t-4-px {
+  .text-t-4-px,
+  .t-t-4-px,
+  .font-t-4-px {
     font-size: 4px !important;
   }
-  .t-t-4-pt {
+  .text-t-4-pt,
+  .t-t-4-pt,
+  .font-t-4-pt {
     font-size: 4pt !important;
   }
-  .t-t-5-px {
+  .text-t-5-px,
+  .t-t-5-px,
+  .font-t-5-px {
     font-size: 5px !important;
   }
-  .t-t-5-pt {
+  .text-t-5-pt,
+  .t-t-5-pt,
+  .font-t-5-pt {
     font-size: 5pt !important;
   }
-  .t-t-6-px {
+  .text-t-6-px,
+  .t-t-6-px,
+  .font-t-6-px {
     font-size: 6px !important;
   }
-  .t-t-6-pt {
+  .text-t-6-pt,
+  .t-t-6-pt,
+  .font-t-6-pt {
     font-size: 6pt !important;
   }
-  .t-t-7-px {
+  .text-t-7-px,
+  .t-t-7-px,
+  .font-t-7-px {
     font-size: 7px !important;
   }
-  .t-t-7-pt {
+  .text-t-7-pt,
+  .t-t-7-pt,
+  .font-t-7-pt {
     font-size: 7pt !important;
   }
-  .t-t-8-px {
+  .text-t-8-px,
+  .t-t-8-px,
+  .font-t-8-px {
     font-size: 8px !important;
   }
-  .t-t-8-pt {
+  .text-t-8-pt,
+  .t-t-8-pt,
+  .font-t-8-pt {
     font-size: 8pt !important;
   }
-  .t-t-9-px {
+  .text-t-9-px,
+  .t-t-9-px,
+  .font-t-9-px {
     font-size: 9px !important;
   }
-  .t-t-9-pt {
+  .text-t-9-pt,
+  .t-t-9-pt,
+  .font-t-9-pt {
     font-size: 9pt !important;
   }
-  .t-t-10-px {
+  .text-t-10-px,
+  .t-t-10-px,
+  .font-t-10-px {
     font-size: 10px !important;
   }
-  .t-t-10-pt {
+  .text-t-10-pt,
+  .t-t-10-pt,
+  .font-t-10-pt {
     font-size: 10pt !important;
   }
-  .t-t-11-px {
+  .text-t-11-px,
+  .t-t-11-px,
+  .font-t-11-px {
     font-size: 11px !important;
   }
-  .t-t-11-pt {
+  .text-t-11-pt,
+  .t-t-11-pt,
+  .font-t-11-pt {
     font-size: 11pt !important;
   }
-  .t-t-12-px {
+  .text-t-12-px,
+  .t-t-12-px,
+  .font-t-12-px {
     font-size: 12px !important;
   }
-  .t-t-12-pt {
+  .text-t-12-pt,
+  .t-t-12-pt,
+  .font-t-12-pt {
     font-size: 12pt !important;
   }
-  .t-t-13-px {
+  .text-t-13-px,
+  .t-t-13-px,
+  .font-t-13-px {
     font-size: 13px !important;
   }
-  .t-t-13-pt {
+  .text-t-13-pt,
+  .t-t-13-pt,
+  .font-t-13-pt {
     font-size: 13pt !important;
   }
-  .t-t-14-px {
+  .text-t-14-px,
+  .t-t-14-px,
+  .font-t-14-px {
     font-size: 14px !important;
   }
-  .t-t-14-pt {
+  .text-t-14-pt,
+  .t-t-14-pt,
+  .font-t-14-pt {
     font-size: 14pt !important;
   }
-  .t-t-15-px {
+  .text-t-15-px,
+  .t-t-15-px,
+  .font-t-15-px {
     font-size: 15px !important;
   }
-  .t-t-15-pt {
+  .text-t-15-pt,
+  .t-t-15-pt,
+  .font-t-15-pt {
     font-size: 15pt !important;
   }
-  .t-t-16-px {
+  .text-t-16-px,
+  .t-t-16-px,
+  .font-t-16-px {
     font-size: 16px !important;
   }
-  .t-t-16-pt {
+  .text-t-16-pt,
+  .t-t-16-pt,
+  .font-t-16-pt {
     font-size: 16pt !important;
   }
-  .t-t-17-px {
+  .text-t-17-px,
+  .t-t-17-px,
+  .font-t-17-px {
     font-size: 17px !important;
   }
-  .t-t-17-pt {
+  .text-t-17-pt,
+  .t-t-17-pt,
+  .font-t-17-pt {
     font-size: 17pt !important;
   }
-  .t-t-18-px {
+  .text-t-18-px,
+  .t-t-18-px,
+  .font-t-18-px {
     font-size: 18px !important;
   }
-  .t-t-18-pt {
+  .text-t-18-pt,
+  .t-t-18-pt,
+  .font-t-18-pt {
     font-size: 18pt !important;
   }
-  .t-t-19-px {
+  .text-t-19-px,
+  .t-t-19-px,
+  .font-t-19-px {
     font-size: 19px !important;
   }
-  .t-t-19-pt {
+  .text-t-19-pt,
+  .t-t-19-pt,
+  .font-t-19-pt {
     font-size: 19pt !important;
   }
-  .t-t-20-px {
+  .text-t-20-px,
+  .t-t-20-px,
+  .font-t-20-px {
     font-size: 20px !important;
   }
-  .t-t-20-pt {
+  .text-t-20-pt,
+  .t-t-20-pt,
+  .font-t-20-pt {
     font-size: 20pt !important;
   }
-  .t-t-21-px {
+  .text-t-21-px,
+  .t-t-21-px,
+  .font-t-21-px {
     font-size: 21px !important;
   }
-  .t-t-21-pt {
+  .text-t-21-pt,
+  .t-t-21-pt,
+  .font-t-21-pt {
     font-size: 21pt !important;
   }
-  .t-t-22-px {
+  .text-t-22-px,
+  .t-t-22-px,
+  .font-t-22-px {
     font-size: 22px !important;
   }
-  .t-t-22-pt {
+  .text-t-22-pt,
+  .t-t-22-pt,
+  .font-t-22-pt {
     font-size: 22pt !important;
   }
-  .t-t-23-px {
+  .text-t-23-px,
+  .t-t-23-px,
+  .font-t-23-px {
     font-size: 23px !important;
   }
-  .t-t-23-pt {
+  .text-t-23-pt,
+  .t-t-23-pt,
+  .font-t-23-pt {
     font-size: 23pt !important;
   }
-  .t-t-24-px {
+  .text-t-24-px,
+  .t-t-24-px,
+  .font-t-24-px {
     font-size: 24px !important;
   }
-  .t-t-24-pt {
+  .text-t-24-pt,
+  .t-t-24-pt,
+  .font-t-24-pt {
     font-size: 24pt !important;
   }
-  .t-t-25-px {
+  .text-t-25-px,
+  .t-t-25-px,
+  .font-t-25-px {
     font-size: 25px !important;
   }
-  .t-t-25-pt {
+  .text-t-25-pt,
+  .t-t-25-pt,
+  .font-t-25-pt {
     font-size: 25pt !important;
   }
-  .t-t-26-px {
+  .text-t-26-px,
+  .t-t-26-px,
+  .font-t-26-px {
     font-size: 26px !important;
   }
-  .t-t-26-pt {
+  .text-t-26-pt,
+  .t-t-26-pt,
+  .font-t-26-pt {
     font-size: 26pt !important;
   }
-  .t-t-27-px {
+  .text-t-27-px,
+  .t-t-27-px,
+  .font-t-27-px {
     font-size: 27px !important;
   }
-  .t-t-27-pt {
+  .text-t-27-pt,
+  .t-t-27-pt,
+  .font-t-27-pt {
     font-size: 27pt !important;
   }
-  .t-t-28-px {
+  .text-t-28-px,
+  .t-t-28-px,
+  .font-t-28-px {
     font-size: 28px !important;
   }
-  .t-t-28-pt {
+  .text-t-28-pt,
+  .t-t-28-pt,
+  .font-t-28-pt {
     font-size: 28pt !important;
   }
-  .t-t-29-px {
+  .text-t-29-px,
+  .t-t-29-px,
+  .font-t-29-px {
     font-size: 29px !important;
   }
-  .t-t-29-pt {
+  .text-t-29-pt,
+  .t-t-29-pt,
+  .font-t-29-pt {
     font-size: 29pt !important;
   }
-  .t-t-30-px {
+  .text-t-30-px,
+  .t-t-30-px,
+  .font-t-30-px {
     font-size: 30px !important;
   }
-  .t-t-30-pt {
+  .text-t-30-pt,
+  .t-t-30-pt,
+  .font-t-30-pt {
     font-size: 30pt !important;
   }
-  .t-t-31-px {
+  .text-t-31-px,
+  .t-t-31-px,
+  .font-t-31-px {
     font-size: 31px !important;
   }
-  .t-t-31-pt {
+  .text-t-31-pt,
+  .t-t-31-pt,
+  .font-t-31-pt {
     font-size: 31pt !important;
   }
-  .t-t-32-px {
+  .text-t-32-px,
+  .t-t-32-px,
+  .font-t-32-px {
     font-size: 32px !important;
   }
-  .t-t-32-pt {
+  .text-t-32-pt,
+  .t-t-32-pt,
+  .font-t-32-pt {
     font-size: 32pt !important;
   }
-  .t-t-33-px {
+  .text-t-33-px,
+  .t-t-33-px,
+  .font-t-33-px {
     font-size: 33px !important;
   }
-  .t-t-33-pt {
+  .text-t-33-pt,
+  .t-t-33-pt,
+  .font-t-33-pt {
     font-size: 33pt !important;
   }
-  .t-t-34-px {
+  .text-t-34-px,
+  .t-t-34-px,
+  .font-t-34-px {
     font-size: 34px !important;
   }
-  .t-t-34-pt {
+  .text-t-34-pt,
+  .t-t-34-pt,
+  .font-t-34-pt {
     font-size: 34pt !important;
   }
-  .t-t-35-px {
+  .text-t-35-px,
+  .t-t-35-px,
+  .font-t-35-px {
     font-size: 35px !important;
   }
-  .t-t-35-pt {
+  .text-t-35-pt,
+  .t-t-35-pt,
+  .font-t-35-pt {
     font-size: 35pt !important;
   }
-  .t-t-36-px {
+  .text-t-36-px,
+  .t-t-36-px,
+  .font-t-36-px {
     font-size: 36px !important;
   }
-  .t-t-36-pt {
+  .text-t-36-pt,
+  .t-t-36-pt,
+  .font-t-36-pt {
     font-size: 36pt !important;
   }
-  .t-t-37-px {
+  .text-t-37-px,
+  .t-t-37-px,
+  .font-t-37-px {
     font-size: 37px !important;
   }
-  .t-t-37-pt {
+  .text-t-37-pt,
+  .t-t-37-pt,
+  .font-t-37-pt {
     font-size: 37pt !important;
   }
-  .t-t-38-px {
+  .text-t-38-px,
+  .t-t-38-px,
+  .font-t-38-px {
     font-size: 38px !important;
   }
-  .t-t-38-pt {
+  .text-t-38-pt,
+  .t-t-38-pt,
+  .font-t-38-pt {
     font-size: 38pt !important;
   }
-  .t-t-39-px {
+  .text-t-39-px,
+  .t-t-39-px,
+  .font-t-39-px {
     font-size: 39px !important;
   }
-  .t-t-39-pt {
+  .text-t-39-pt,
+  .t-t-39-pt,
+  .font-t-39-pt {
     font-size: 39pt !important;
   }
-  .t-t-40-px {
+  .text-t-40-px,
+  .t-t-40-px,
+  .font-t-40-px {
     font-size: 40px !important;
   }
-  .t-t-40-pt {
+  .text-t-40-pt,
+  .t-t-40-pt,
+  .font-t-40-pt {
     font-size: 40pt !important;
   }
-  .t-t-41-px {
+  .text-t-41-px,
+  .t-t-41-px,
+  .font-t-41-px {
     font-size: 41px !important;
   }
-  .t-t-41-pt {
+  .text-t-41-pt,
+  .t-t-41-pt,
+  .font-t-41-pt {
     font-size: 41pt !important;
   }
-  .t-t-42-px {
+  .text-t-42-px,
+  .t-t-42-px,
+  .font-t-42-px {
     font-size: 42px !important;
   }
-  .t-t-42-pt {
+  .text-t-42-pt,
+  .t-t-42-pt,
+  .font-t-42-pt {
     font-size: 42pt !important;
   }
-  .t-t-43-px {
+  .text-t-43-px,
+  .t-t-43-px,
+  .font-t-43-px {
     font-size: 43px !important;
   }
-  .t-t-43-pt {
+  .text-t-43-pt,
+  .t-t-43-pt,
+  .font-t-43-pt {
     font-size: 43pt !important;
   }
-  .t-t-44-px {
+  .text-t-44-px,
+  .t-t-44-px,
+  .font-t-44-px {
     font-size: 44px !important;
   }
-  .t-t-44-pt {
+  .text-t-44-pt,
+  .t-t-44-pt,
+  .font-t-44-pt {
     font-size: 44pt !important;
   }
-  .t-t-45-px {
+  .text-t-45-px,
+  .t-t-45-px,
+  .font-t-45-px {
     font-size: 45px !important;
   }
-  .t-t-45-pt {
+  .text-t-45-pt,
+  .t-t-45-pt,
+  .font-t-45-pt {
     font-size: 45pt !important;
   }
-  .t-t-46-px {
+  .text-t-46-px,
+  .t-t-46-px,
+  .font-t-46-px {
     font-size: 46px !important;
   }
-  .t-t-46-pt {
+  .text-t-46-pt,
+  .t-t-46-pt,
+  .font-t-46-pt {
     font-size: 46pt !important;
   }
-  .t-t-47-px {
+  .text-t-47-px,
+  .t-t-47-px,
+  .font-t-47-px {
     font-size: 47px !important;
   }
-  .t-t-47-pt {
+  .text-t-47-pt,
+  .t-t-47-pt,
+  .font-t-47-pt {
     font-size: 47pt !important;
   }
-  .t-t-48-px {
+  .text-t-48-px,
+  .t-t-48-px,
+  .font-t-48-px {
     font-size: 48px !important;
   }
-  .t-t-48-pt {
+  .text-t-48-pt,
+  .t-t-48-pt,
+  .font-t-48-pt {
     font-size: 48pt !important;
   }
-  .t-t-49-px {
+  .text-t-49-px,
+  .t-t-49-px,
+  .font-t-49-px {
     font-size: 49px !important;
   }
-  .t-t-49-pt {
+  .text-t-49-pt,
+  .t-t-49-pt,
+  .font-t-49-pt {
     font-size: 49pt !important;
   }
-  .t-t-50-px {
+  .text-t-50-px,
+  .t-t-50-px,
+  .font-t-50-px {
     font-size: 50px !important;
   }
-  .t-t-50-pt {
+  .text-t-50-pt,
+  .t-t-50-pt,
+  .font-t-50-pt {
     font-size: 50pt !important;
   }
-  .t-t-1-rem {
+  .text-t-1-rem,
+  .t-t-1-rem,
+  .font-t-1-rem {
     font-size: 1rem !important;
   }
-  .t-t-1-em {
+  .text-t-1-em,
+  .t-t-1-em,
+  .font-t-1-em {
     font-size: 1em !important;
   }
-  .t-t-2-rem {
+  .text-t-2-rem,
+  .t-t-2-rem,
+  .font-t-2-rem {
     font-size: 2rem !important;
   }
-  .t-t-2-em {
+  .text-t-2-em,
+  .t-t-2-em,
+  .font-t-2-em {
     font-size: 2em !important;
   }
-  .t-t-3-rem {
+  .text-t-3-rem,
+  .t-t-3-rem,
+  .font-t-3-rem {
     font-size: 3rem !important;
   }
-  .t-t-3-em {
+  .text-t-3-em,
+  .t-t-3-em,
+  .font-t-3-em {
     font-size: 3em !important;
   }
-  .t-t-4-rem {
+  .text-t-4-rem,
+  .t-t-4-rem,
+  .font-t-4-rem {
     font-size: 4rem !important;
   }
-  .t-t-4-em {
+  .text-t-4-em,
+  .t-t-4-em,
+  .font-t-4-em {
     font-size: 4em !important;
   }
-  .t-t-5-rem {
+  .text-t-5-rem,
+  .t-t-5-rem,
+  .font-t-5-rem {
     font-size: 5rem !important;
   }
-  .t-t-5-em {
+  .text-t-5-em,
+  .t-t-5-em,
+  .font-t-5-em {
     font-size: 5em !important;
   }
-  .t-t-6-rem {
+  .text-t-6-rem,
+  .t-t-6-rem,
+  .font-t-6-rem {
     font-size: 6rem !important;
   }
-  .t-t-6-em {
+  .text-t-6-em,
+  .t-t-6-em,
+  .font-t-6-em {
     font-size: 6em !important;
   }
-  .t-t-7-rem {
+  .text-t-7-rem,
+  .t-t-7-rem,
+  .font-t-7-rem {
     font-size: 7rem !important;
   }
-  .t-t-7-em {
+  .text-t-7-em,
+  .t-t-7-em,
+  .font-t-7-em {
     font-size: 7em !important;
   }
-  .t-t-8-rem {
+  .text-t-8-rem,
+  .t-t-8-rem,
+  .font-t-8-rem {
     font-size: 8rem !important;
   }
-  .t-t-8-em {
+  .text-t-8-em,
+  .t-t-8-em,
+  .font-t-8-em {
     font-size: 8em !important;
   }
-  .t-t-9-rem {
+  .text-t-9-rem,
+  .t-t-9-rem,
+  .font-t-9-rem {
     font-size: 9rem !important;
   }
-  .t-t-9-em {
+  .text-t-9-em,
+  .t-t-9-em,
+  .font-t-9-em {
     font-size: 9em !important;
   }
-  .t-t-10-rem {
+  .text-t-10-rem,
+  .t-t-10-rem,
+  .font-t-10-rem {
     font-size: 10rem !important;
   }
-  .t-t-10-em {
+  .text-t-10-em,
+  .t-t-10-em,
+  .font-t-10-em {
     font-size: 10em !important;
   }
 }
@@ -32138,430 +33015,714 @@
   .small-m {
     font-size: 85% !important;
   }
-  .text-m-center {
+  .text-m-center,
+  .t-m-center,
+  .font-m-center {
     text-align: center !important;
   }
-  .text-m-justify {
+  .text-m-justify,
+  .t-m-justify,
+  .font-m-justify {
     text-align: justify !important;
   }
-  .text-m-right {
+  .text-m-right,
+  .t-m-right,
+  .font-m-right {
     text-align: right !important;
   }
-  .text-m-left {
+  .text-m-left,
+  .t-m-left,
+  .font-m-left {
     text-align: left !important;
   }
-  .text-m-start {
+  .text-m-start,
+  .t-m-start,
+  .font-m-start {
     text-align: start !important;
   }
-  .text-m-end {
+  .text-m-end,
+  .t-m-end,
+  .font-m-end {
     text-align: end !important;
   }
-  .text-m-unset {
+  .text-m-unset,
+  .t-m-unset,
+  .font-m-unset {
     text-align: unset !important;
   }
-  .text-m-tops {
+  .text-m-tops,
+  .t-m-tops,
+  .font-m-tops {
     vertical-align: tops !important;
   }
-  .text-m-bottom {
+  .text-m-bottom,
+  .t-m-bottom,
+  .font-m-bottom {
     vertical-align: bottom !important;
   }
-  .text-m-middle {
+  .text-m-middle,
+  .t-m-middle,
+  .font-m-middle {
     vertical-align: middle !important;
   }
-  .text-m-baseline {
+  .text-m-baseline,
+  .t-m-baseline,
+  .font-m-baseline {
     vertical-align: baseline !important;
   }
-  .text-m-text-top {
+  .text-m-text-top,
+  .t-m-text-top,
+  .font-m-text-top {
     vertical-align: text-top !important;
   }
-  .text-m-text-bottom {
+  .text-m-text-bottom,
+  .t-m-text-bottom,
+  .font-m-text-bottom {
     vertical-align: text-bottom !important;
   }
-  .text-m-light {
+  .text-m-light,
+  .t-m-light,
+  .font-m-light {
     color: #dee2e6 !important;
   }
-  .text-m-grey {
+  .text-m-grey,
+  .t-m-grey,
+  .font-m-grey {
     color: #6c757d !important;
   }
-  .text-m-red {
+  .text-m-red,
+  .t-m-red,
+  .font-m-red {
     color: red !important;
   }
-  .text-m-dark-red {
+  .text-m-dark-red,
+  .t-m-dark-red,
+  .font-m-dark-red {
     color: #dc3545 !important;
   }
-  .text-m-green {
+  .text-m-green,
+  .t-m-green,
+  .font-m-green {
     color: #27e178 !important;
   }
-  .text-m-blue {
+  .text-m-blue,
+  .t-m-blue,
+  .font-m-blue {
     color: #279EDA !important;
   }
-  .text-m-yellow {
+  .text-m-yellow,
+  .t-m-yellow,
+  .font-m-yellow {
     color: #ffc107 !important;
   }
-  .text-m-fade-blue {
+  .text-m-fade-blue,
+  .t-m-fade-blue,
+  .font-m-fade-blue {
     color: #34435E !important;
   }
-  .text-m-transparent {
+  .text-m-transparent,
+  .t-m-transparent,
+  .font-m-transparent {
     color: transparent !important;
   }
-  .t-m-1-px {
+  .text-m-1-px,
+  .t-m-1-px,
+  .font-m-1-px {
     font-size: 1px !important;
   }
-  .t-m-1-pt {
+  .text-m-1-pt,
+  .t-m-1-pt,
+  .font-m-1-pt {
     font-size: 1pt !important;
   }
-  .t-m-2-px {
+  .text-m-2-px,
+  .t-m-2-px,
+  .font-m-2-px {
     font-size: 2px !important;
   }
-  .t-m-2-pt {
+  .text-m-2-pt,
+  .t-m-2-pt,
+  .font-m-2-pt {
     font-size: 2pt !important;
   }
-  .t-m-3-px {
+  .text-m-3-px,
+  .t-m-3-px,
+  .font-m-3-px {
     font-size: 3px !important;
   }
-  .t-m-3-pt {
+  .text-m-3-pt,
+  .t-m-3-pt,
+  .font-m-3-pt {
     font-size: 3pt !important;
   }
-  .t-m-4-px {
+  .text-m-4-px,
+  .t-m-4-px,
+  .font-m-4-px {
     font-size: 4px !important;
   }
-  .t-m-4-pt {
+  .text-m-4-pt,
+  .t-m-4-pt,
+  .font-m-4-pt {
     font-size: 4pt !important;
   }
-  .t-m-5-px {
+  .text-m-5-px,
+  .t-m-5-px,
+  .font-m-5-px {
     font-size: 5px !important;
   }
-  .t-m-5-pt {
+  .text-m-5-pt,
+  .t-m-5-pt,
+  .font-m-5-pt {
     font-size: 5pt !important;
   }
-  .t-m-6-px {
+  .text-m-6-px,
+  .t-m-6-px,
+  .font-m-6-px {
     font-size: 6px !important;
   }
-  .t-m-6-pt {
+  .text-m-6-pt,
+  .t-m-6-pt,
+  .font-m-6-pt {
     font-size: 6pt !important;
   }
-  .t-m-7-px {
+  .text-m-7-px,
+  .t-m-7-px,
+  .font-m-7-px {
     font-size: 7px !important;
   }
-  .t-m-7-pt {
+  .text-m-7-pt,
+  .t-m-7-pt,
+  .font-m-7-pt {
     font-size: 7pt !important;
   }
-  .t-m-8-px {
+  .text-m-8-px,
+  .t-m-8-px,
+  .font-m-8-px {
     font-size: 8px !important;
   }
-  .t-m-8-pt {
+  .text-m-8-pt,
+  .t-m-8-pt,
+  .font-m-8-pt {
     font-size: 8pt !important;
   }
-  .t-m-9-px {
+  .text-m-9-px,
+  .t-m-9-px,
+  .font-m-9-px {
     font-size: 9px !important;
   }
-  .t-m-9-pt {
+  .text-m-9-pt,
+  .t-m-9-pt,
+  .font-m-9-pt {
     font-size: 9pt !important;
   }
-  .t-m-10-px {
+  .text-m-10-px,
+  .t-m-10-px,
+  .font-m-10-px {
     font-size: 10px !important;
   }
-  .t-m-10-pt {
+  .text-m-10-pt,
+  .t-m-10-pt,
+  .font-m-10-pt {
     font-size: 10pt !important;
   }
-  .t-m-11-px {
+  .text-m-11-px,
+  .t-m-11-px,
+  .font-m-11-px {
     font-size: 11px !important;
   }
-  .t-m-11-pt {
+  .text-m-11-pt,
+  .t-m-11-pt,
+  .font-m-11-pt {
     font-size: 11pt !important;
   }
-  .t-m-12-px {
+  .text-m-12-px,
+  .t-m-12-px,
+  .font-m-12-px {
     font-size: 12px !important;
   }
-  .t-m-12-pt {
+  .text-m-12-pt,
+  .t-m-12-pt,
+  .font-m-12-pt {
     font-size: 12pt !important;
   }
-  .t-m-13-px {
+  .text-m-13-px,
+  .t-m-13-px,
+  .font-m-13-px {
     font-size: 13px !important;
   }
-  .t-m-13-pt {
+  .text-m-13-pt,
+  .t-m-13-pt,
+  .font-m-13-pt {
     font-size: 13pt !important;
   }
-  .t-m-14-px {
+  .text-m-14-px,
+  .t-m-14-px,
+  .font-m-14-px {
     font-size: 14px !important;
   }
-  .t-m-14-pt {
+  .text-m-14-pt,
+  .t-m-14-pt,
+  .font-m-14-pt {
     font-size: 14pt !important;
   }
-  .t-m-15-px {
+  .text-m-15-px,
+  .t-m-15-px,
+  .font-m-15-px {
     font-size: 15px !important;
   }
-  .t-m-15-pt {
+  .text-m-15-pt,
+  .t-m-15-pt,
+  .font-m-15-pt {
     font-size: 15pt !important;
   }
-  .t-m-16-px {
+  .text-m-16-px,
+  .t-m-16-px,
+  .font-m-16-px {
     font-size: 16px !important;
   }
-  .t-m-16-pt {
+  .text-m-16-pt,
+  .t-m-16-pt,
+  .font-m-16-pt {
     font-size: 16pt !important;
   }
-  .t-m-17-px {
+  .text-m-17-px,
+  .t-m-17-px,
+  .font-m-17-px {
     font-size: 17px !important;
   }
-  .t-m-17-pt {
+  .text-m-17-pt,
+  .t-m-17-pt,
+  .font-m-17-pt {
     font-size: 17pt !important;
   }
-  .t-m-18-px {
+  .text-m-18-px,
+  .t-m-18-px,
+  .font-m-18-px {
     font-size: 18px !important;
   }
-  .t-m-18-pt {
+  .text-m-18-pt,
+  .t-m-18-pt,
+  .font-m-18-pt {
     font-size: 18pt !important;
   }
-  .t-m-19-px {
+  .text-m-19-px,
+  .t-m-19-px,
+  .font-m-19-px {
     font-size: 19px !important;
   }
-  .t-m-19-pt {
+  .text-m-19-pt,
+  .t-m-19-pt,
+  .font-m-19-pt {
     font-size: 19pt !important;
   }
-  .t-m-20-px {
+  .text-m-20-px,
+  .t-m-20-px,
+  .font-m-20-px {
     font-size: 20px !important;
   }
-  .t-m-20-pt {
+  .text-m-20-pt,
+  .t-m-20-pt,
+  .font-m-20-pt {
     font-size: 20pt !important;
   }
-  .t-m-21-px {
+  .text-m-21-px,
+  .t-m-21-px,
+  .font-m-21-px {
     font-size: 21px !important;
   }
-  .t-m-21-pt {
+  .text-m-21-pt,
+  .t-m-21-pt,
+  .font-m-21-pt {
     font-size: 21pt !important;
   }
-  .t-m-22-px {
+  .text-m-22-px,
+  .t-m-22-px,
+  .font-m-22-px {
     font-size: 22px !important;
   }
-  .t-m-22-pt {
+  .text-m-22-pt,
+  .t-m-22-pt,
+  .font-m-22-pt {
     font-size: 22pt !important;
   }
-  .t-m-23-px {
+  .text-m-23-px,
+  .t-m-23-px,
+  .font-m-23-px {
     font-size: 23px !important;
   }
-  .t-m-23-pt {
+  .text-m-23-pt,
+  .t-m-23-pt,
+  .font-m-23-pt {
     font-size: 23pt !important;
   }
-  .t-m-24-px {
+  .text-m-24-px,
+  .t-m-24-px,
+  .font-m-24-px {
     font-size: 24px !important;
   }
-  .t-m-24-pt {
+  .text-m-24-pt,
+  .t-m-24-pt,
+  .font-m-24-pt {
     font-size: 24pt !important;
   }
-  .t-m-25-px {
+  .text-m-25-px,
+  .t-m-25-px,
+  .font-m-25-px {
     font-size: 25px !important;
   }
-  .t-m-25-pt {
+  .text-m-25-pt,
+  .t-m-25-pt,
+  .font-m-25-pt {
     font-size: 25pt !important;
   }
-  .t-m-26-px {
+  .text-m-26-px,
+  .t-m-26-px,
+  .font-m-26-px {
     font-size: 26px !important;
   }
-  .t-m-26-pt {
+  .text-m-26-pt,
+  .t-m-26-pt,
+  .font-m-26-pt {
     font-size: 26pt !important;
   }
-  .t-m-27-px {
+  .text-m-27-px,
+  .t-m-27-px,
+  .font-m-27-px {
     font-size: 27px !important;
   }
-  .t-m-27-pt {
+  .text-m-27-pt,
+  .t-m-27-pt,
+  .font-m-27-pt {
     font-size: 27pt !important;
   }
-  .t-m-28-px {
+  .text-m-28-px,
+  .t-m-28-px,
+  .font-m-28-px {
     font-size: 28px !important;
   }
-  .t-m-28-pt {
+  .text-m-28-pt,
+  .t-m-28-pt,
+  .font-m-28-pt {
     font-size: 28pt !important;
   }
-  .t-m-29-px {
+  .text-m-29-px,
+  .t-m-29-px,
+  .font-m-29-px {
     font-size: 29px !important;
   }
-  .t-m-29-pt {
+  .text-m-29-pt,
+  .t-m-29-pt,
+  .font-m-29-pt {
     font-size: 29pt !important;
   }
-  .t-m-30-px {
+  .text-m-30-px,
+  .t-m-30-px,
+  .font-m-30-px {
     font-size: 30px !important;
   }
-  .t-m-30-pt {
+  .text-m-30-pt,
+  .t-m-30-pt,
+  .font-m-30-pt {
     font-size: 30pt !important;
   }
-  .t-m-31-px {
+  .text-m-31-px,
+  .t-m-31-px,
+  .font-m-31-px {
     font-size: 31px !important;
   }
-  .t-m-31-pt {
+  .text-m-31-pt,
+  .t-m-31-pt,
+  .font-m-31-pt {
     font-size: 31pt !important;
   }
-  .t-m-32-px {
+  .text-m-32-px,
+  .t-m-32-px,
+  .font-m-32-px {
     font-size: 32px !important;
   }
-  .t-m-32-pt {
+  .text-m-32-pt,
+  .t-m-32-pt,
+  .font-m-32-pt {
     font-size: 32pt !important;
   }
-  .t-m-33-px {
+  .text-m-33-px,
+  .t-m-33-px,
+  .font-m-33-px {
     font-size: 33px !important;
   }
-  .t-m-33-pt {
+  .text-m-33-pt,
+  .t-m-33-pt,
+  .font-m-33-pt {
     font-size: 33pt !important;
   }
-  .t-m-34-px {
+  .text-m-34-px,
+  .t-m-34-px,
+  .font-m-34-px {
     font-size: 34px !important;
   }
-  .t-m-34-pt {
+  .text-m-34-pt,
+  .t-m-34-pt,
+  .font-m-34-pt {
     font-size: 34pt !important;
   }
-  .t-m-35-px {
+  .text-m-35-px,
+  .t-m-35-px,
+  .font-m-35-px {
     font-size: 35px !important;
   }
-  .t-m-35-pt {
+  .text-m-35-pt,
+  .t-m-35-pt,
+  .font-m-35-pt {
     font-size: 35pt !important;
   }
-  .t-m-36-px {
+  .text-m-36-px,
+  .t-m-36-px,
+  .font-m-36-px {
     font-size: 36px !important;
   }
-  .t-m-36-pt {
+  .text-m-36-pt,
+  .t-m-36-pt,
+  .font-m-36-pt {
     font-size: 36pt !important;
   }
-  .t-m-37-px {
+  .text-m-37-px,
+  .t-m-37-px,
+  .font-m-37-px {
     font-size: 37px !important;
   }
-  .t-m-37-pt {
+  .text-m-37-pt,
+  .t-m-37-pt,
+  .font-m-37-pt {
     font-size: 37pt !important;
   }
-  .t-m-38-px {
+  .text-m-38-px,
+  .t-m-38-px,
+  .font-m-38-px {
     font-size: 38px !important;
   }
-  .t-m-38-pt {
+  .text-m-38-pt,
+  .t-m-38-pt,
+  .font-m-38-pt {
     font-size: 38pt !important;
   }
-  .t-m-39-px {
+  .text-m-39-px,
+  .t-m-39-px,
+  .font-m-39-px {
     font-size: 39px !important;
   }
-  .t-m-39-pt {
+  .text-m-39-pt,
+  .t-m-39-pt,
+  .font-m-39-pt {
     font-size: 39pt !important;
   }
-  .t-m-40-px {
+  .text-m-40-px,
+  .t-m-40-px,
+  .font-m-40-px {
     font-size: 40px !important;
   }
-  .t-m-40-pt {
+  .text-m-40-pt,
+  .t-m-40-pt,
+  .font-m-40-pt {
     font-size: 40pt !important;
   }
-  .t-m-41-px {
+  .text-m-41-px,
+  .t-m-41-px,
+  .font-m-41-px {
     font-size: 41px !important;
   }
-  .t-m-41-pt {
+  .text-m-41-pt,
+  .t-m-41-pt,
+  .font-m-41-pt {
     font-size: 41pt !important;
   }
-  .t-m-42-px {
+  .text-m-42-px,
+  .t-m-42-px,
+  .font-m-42-px {
     font-size: 42px !important;
   }
-  .t-m-42-pt {
+  .text-m-42-pt,
+  .t-m-42-pt,
+  .font-m-42-pt {
     font-size: 42pt !important;
   }
-  .t-m-43-px {
+  .text-m-43-px,
+  .t-m-43-px,
+  .font-m-43-px {
     font-size: 43px !important;
   }
-  .t-m-43-pt {
+  .text-m-43-pt,
+  .t-m-43-pt,
+  .font-m-43-pt {
     font-size: 43pt !important;
   }
-  .t-m-44-px {
+  .text-m-44-px,
+  .t-m-44-px,
+  .font-m-44-px {
     font-size: 44px !important;
   }
-  .t-m-44-pt {
+  .text-m-44-pt,
+  .t-m-44-pt,
+  .font-m-44-pt {
     font-size: 44pt !important;
   }
-  .t-m-45-px {
+  .text-m-45-px,
+  .t-m-45-px,
+  .font-m-45-px {
     font-size: 45px !important;
   }
-  .t-m-45-pt {
+  .text-m-45-pt,
+  .t-m-45-pt,
+  .font-m-45-pt {
     font-size: 45pt !important;
   }
-  .t-m-46-px {
+  .text-m-46-px,
+  .t-m-46-px,
+  .font-m-46-px {
     font-size: 46px !important;
   }
-  .t-m-46-pt {
+  .text-m-46-pt,
+  .t-m-46-pt,
+  .font-m-46-pt {
     font-size: 46pt !important;
   }
-  .t-m-47-px {
+  .text-m-47-px,
+  .t-m-47-px,
+  .font-m-47-px {
     font-size: 47px !important;
   }
-  .t-m-47-pt {
+  .text-m-47-pt,
+  .t-m-47-pt,
+  .font-m-47-pt {
     font-size: 47pt !important;
   }
-  .t-m-48-px {
+  .text-m-48-px,
+  .t-m-48-px,
+  .font-m-48-px {
     font-size: 48px !important;
   }
-  .t-m-48-pt {
+  .text-m-48-pt,
+  .t-m-48-pt,
+  .font-m-48-pt {
     font-size: 48pt !important;
   }
-  .t-m-49-px {
+  .text-m-49-px,
+  .t-m-49-px,
+  .font-m-49-px {
     font-size: 49px !important;
   }
-  .t-m-49-pt {
+  .text-m-49-pt,
+  .t-m-49-pt,
+  .font-m-49-pt {
     font-size: 49pt !important;
   }
-  .t-m-50-px {
+  .text-m-50-px,
+  .t-m-50-px,
+  .font-m-50-px {
     font-size: 50px !important;
   }
-  .t-m-50-pt {
+  .text-m-50-pt,
+  .t-m-50-pt,
+  .font-m-50-pt {
     font-size: 50pt !important;
   }
-  .t-m-1-rem {
+  .text-m-1-rem,
+  .t-m-1-rem,
+  .font-m-1-rem {
     font-size: 1rem !important;
   }
-  .t-m-1-em {
+  .text-m-1-em,
+  .t-m-1-em,
+  .font-m-1-em {
     font-size: 1em !important;
   }
-  .t-m-2-rem {
+  .text-m-2-rem,
+  .t-m-2-rem,
+  .font-m-2-rem {
     font-size: 2rem !important;
   }
-  .t-m-2-em {
+  .text-m-2-em,
+  .t-m-2-em,
+  .font-m-2-em {
     font-size: 2em !important;
   }
-  .t-m-3-rem {
+  .text-m-3-rem,
+  .t-m-3-rem,
+  .font-m-3-rem {
     font-size: 3rem !important;
   }
-  .t-m-3-em {
+  .text-m-3-em,
+  .t-m-3-em,
+  .font-m-3-em {
     font-size: 3em !important;
   }
-  .t-m-4-rem {
+  .text-m-4-rem,
+  .t-m-4-rem,
+  .font-m-4-rem {
     font-size: 4rem !important;
   }
-  .t-m-4-em {
+  .text-m-4-em,
+  .t-m-4-em,
+  .font-m-4-em {
     font-size: 4em !important;
   }
-  .t-m-5-rem {
+  .text-m-5-rem,
+  .t-m-5-rem,
+  .font-m-5-rem {
     font-size: 5rem !important;
   }
-  .t-m-5-em {
+  .text-m-5-em,
+  .t-m-5-em,
+  .font-m-5-em {
     font-size: 5em !important;
   }
-  .t-m-6-rem {
+  .text-m-6-rem,
+  .t-m-6-rem,
+  .font-m-6-rem {
     font-size: 6rem !important;
   }
-  .t-m-6-em {
+  .text-m-6-em,
+  .t-m-6-em,
+  .font-m-6-em {
     font-size: 6em !important;
   }
-  .t-m-7-rem {
+  .text-m-7-rem,
+  .t-m-7-rem,
+  .font-m-7-rem {
     font-size: 7rem !important;
   }
-  .t-m-7-em {
+  .text-m-7-em,
+  .t-m-7-em,
+  .font-m-7-em {
     font-size: 7em !important;
   }
-  .t-m-8-rem {
+  .text-m-8-rem,
+  .t-m-8-rem,
+  .font-m-8-rem {
     font-size: 8rem !important;
   }
-  .t-m-8-em {
+  .text-m-8-em,
+  .t-m-8-em,
+  .font-m-8-em {
     font-size: 8em !important;
   }
-  .t-m-9-rem {
+  .text-m-9-rem,
+  .t-m-9-rem,
+  .font-m-9-rem {
     font-size: 9rem !important;
   }
-  .t-m-9-em {
+  .text-m-9-em,
+  .t-m-9-em,
+  .font-m-9-em {
     font-size: 9em !important;
   }
-  .t-m-10-rem {
+  .text-m-10-rem,
+  .t-m-10-rem,
+  .font-m-10-rem {
     font-size: 10rem !important;
   }
-  .t-m-10-em {
+  .text-m-10-em,
+  .t-m-10-em,
+  .font-m-10-em {
     font-size: 10em !important;
   }
 }
@@ -32862,6 +34023,10 @@
   background-color: gray !important;
 }
 
+.btn-grey {
+  background-color: grey !important;
+}
+
 .btn-green {
   background-color: green !important;
 }
@@ -32878,12 +34043,12 @@
   background-color: hotpink !important;
 }
 
-.btn-indianred  {
-  background-color: indianred  !important;
+.btn-indianred {
+  background-color: indianred !important;
 }
 
-.btn-indigo  {
-  background-color: indigo  !important;
+.btn-indigo {
+  background-color: indigo !important;
 }
 
 .btn-ivory {

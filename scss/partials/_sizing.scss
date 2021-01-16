@@ -1,4 +1,4 @@
-@import 'variables';
+@import "variables";
 
 /*Sizing*/
 /*Width*/
@@ -100,7 +100,8 @@
 }
 
 @each $breakpoint,
-$minWidth, $maxWidth in $breakpoints {
+$minWidth,
+$maxWidth in $breakpoints {
     @media screen and (min-width: $minWidth) and (max-width: $maxWidth) {
 
         /*Sizing*/
@@ -213,6 +214,5 @@ $minWidth, $maxWidth in $breakpoints {
                 }
             }
         }
-
     }
 }
