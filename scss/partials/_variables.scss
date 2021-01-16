@@ -1,28 +1,33 @@
 @import 'breakpoints';
 @import 'colors';
 
-$alignment: 
-    center,
-    justify,
-    right,
-    left,
-    start,
-    end,
-    unset;
+$alignment: center,
+justify,
+right,
+left,
+start,
+end,
+unset;
 
-$alignment-content:
-    center,
-    justify,
-    right,
-    left,
-    start,
-    end,
-    space-around,
-    space-between,
-    space-evenly,
-    unset;
+$alignment-content: center,
+justify,
+right,
+left,
+start,
+end,
+space-around,
+space-between,
+space-evenly,
+unset;
 
-$border-styles: dotted, dashed, solid, double, groove, ridge, inset, outset;
+$border-styles: dotted,
+dashed,
+solid,
+double,
+groove,
+ridge,
+inset,
+outset;
 
 $colors: (light:#dee2e6,
     grey:#6c757d,
@@ -34,24 +39,57 @@ $colors: (light:#dee2e6,
     fade-blue: #34435E,
     transparent: transparent);
 
-$direction: row, column;
+$direction: row,
+column;
 
-$display: flex, inline, inline-grid, table, list-item, block, grid, none;
+$display: flex,
+inline,
+inline-grid,
+table,
+list-item,
+block,
+grid,
+none;
 
-$placements: top, bottom, right, left;
+$placements: top,
+bottom,
+right,
+left;
 
-$placementY: top, bottom;
+$placementY: top,
+bottom;
 
-$position: absolute, fixed, inherit, initial, relative, revert, static, sticky, unset;
+$position: absolute,
+fixed,
+inherit,
+initial,
+relative,
+revert,
+static,
+sticky,
+unset;
 
-$scale: contain, cover, fill, inherit, initial, none, revert, scale-down, unset;
+$scale: contain,
+cover,
+fill,
+inherit,
+initial,
+none,
+revert,
+scale-down,
+unset;
 
-$vertical: 
-    tops,
-    bottom,
-    middle,
-    baseline,
-    text-top,
-    text-bottom;
+$vertical: tops,
+bottom,
+middle,
+baseline,
+text-top,
+text-bottom;
 
-$wrap: inherit, initial, nowrap, revert, unset, wrap, wrap-reverse;
+$wrap: inherit,
+initial,
+nowrap,
+revert,
+unset,
+wrap,
+wrap-reverse;

@@ -153,7 +153,7 @@
 
         &-#{$prop},
         &-#{$prop}-hover:hover {
-            color: $prop !important;
+            color: $code !important;
         }
     }
 
@@ -349,7 +349,7 @@ $maxWidth in $breakpoints {
 
                     &-#{$prop},
                     &-#{$prop}-hover:hover {
-                        color: $prop !important;
+                        color: $code !important;
                     }
                 }
 

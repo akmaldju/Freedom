@@ -40,9 +40,10 @@
         }
     }
 
-    @each $prop in $all-colors {
+    @each $prop,
+    $code in $all-colors {
         &-#{$prop} {
-            border-color: $prop !important;
+            border-color: $code !important;
         }
     }
 
@@ -74,7 +75,8 @@
 }
 
 @each $breakpoint,
-$minWidth, $maxWidth in $breakpoints {
+$minWidth,
+$maxWidth in $breakpoints {
     @media screen and (min-width: $minWidth) and (max-width: $maxWidth) {
 
         /*Borders*/
@@ -129,9 +131,10 @@ $minWidth, $maxWidth in $breakpoints {
 
             &-#{$breakpoint} {
 
-                @each $prop in $all-colors {
+                @each $prop,
+                $code in $all-colors {
                     &-#{$prop} {
-                        border-color: $prop !important;
+                        border-color: $code !important;
                     }
                 }
 

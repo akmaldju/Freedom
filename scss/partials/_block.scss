@@ -23,11 +23,12 @@
         }
     }
 
-    @each $prop in $all-colors {
+    @each $prop,
+    $code in $all-colors {
 
         &-#{$prop},
         &-#{$prop}-hover:hover {
-            background-color: $prop !important;
+            background-color: $code !important;
         }
 
     }
@@ -80,11 +81,12 @@ $maxWidth in $breakpoints {
                     }
                 }
 
-                @each $prop in $all-colors {
+                @each $prop,
+                $code in $all-colors {
 
                     &-#{$prop},
                     &-#{$prop}-hover:hover {
-                        background-color: $prop !important;
+                        background-color: $code !important;
                     }
 
                 }
