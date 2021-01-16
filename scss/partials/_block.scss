@@ -24,7 +24,9 @@
     }
 
     @each $prop in $all-colors {
-        &-#{$prop} {
+
+        &-#{$prop},
+        &-#{$prop}-hover:hover {
             background-color: $prop !important;
         }
 
@@ -48,7 +50,8 @@
 }
 
 @each $breakpoint,
-$minWidth, $maxWidth in $breakpoints {
+$minWidth,
+$maxWidth in $breakpoints {
     @media screen and (min-width: $minWidth) and (max-width: $maxWidth) {
 
         /*Block Styles*/
@@ -78,7 +81,9 @@ $minWidth, $maxWidth in $breakpoints {
                 }
 
                 @each $prop in $all-colors {
-                    &-#{$prop} {
+
+                    &-#{$prop},
+                    &-#{$prop}-hover:hover {
                         background-color: $prop !important;
                     }
 
