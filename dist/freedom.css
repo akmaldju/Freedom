@@ -30594,58 +30594,1132 @@
   vertical-align: text-bottom !important;
 }
 
-.text-light,
-.t-light,
-.font-light {
-  color: #dee2e6 !important;
+.text-aliceblue, .text-aliceblue-hover:hover,
+.t-aliceblue,
+.t-aliceblue-hover:hover,
+.font-aliceblue,
+.font-aliceblue-hover:hover {
+  color: aliceblue !important;
 }
 
-.text-grey,
+.text-antiquewhite, .text-antiquewhite-hover:hover,
+.t-antiquewhite,
+.t-antiquewhite-hover:hover,
+.font-antiquewhite,
+.font-antiquewhite-hover:hover {
+  color: antiquewhite !important;
+}
+
+.text-aqua, .text-aqua-hover:hover,
+.t-aqua,
+.t-aqua-hover:hover,
+.font-aqua,
+.font-aqua-hover:hover {
+  color: aqua !important;
+}
+
+.text-aquamarine, .text-aquamarine-hover:hover,
+.t-aquamarine,
+.t-aquamarine-hover:hover,
+.font-aquamarine,
+.font-aquamarine-hover:hover {
+  color: aquamarine !important;
+}
+
+.text-azure, .text-azure-hover:hover,
+.t-azure,
+.t-azure-hover:hover,
+.font-azure,
+.font-azure-hover:hover {
+  color: azure !important;
+}
+
+.text-beige, .text-beige-hover:hover,
+.t-beige,
+.t-beige-hover:hover,
+.font-beige,
+.font-beige-hover:hover {
+  color: beige !important;
+}
+
+.text-bisque, .text-bisque-hover:hover,
+.t-bisque,
+.t-bisque-hover:hover,
+.font-bisque,
+.font-bisque-hover:hover {
+  color: bisque !important;
+}
+
+.text-black, .text-black-hover:hover,
+.t-black,
+.t-black-hover:hover,
+.font-black,
+.font-black-hover:hover {
+  color: black !important;
+}
+
+.text-blanchedalmond, .text-blanchedalmond-hover:hover,
+.t-blanchedalmond,
+.t-blanchedalmond-hover:hover,
+.font-blanchedalmond,
+.font-blanchedalmond-hover:hover {
+  color: blanchedalmond !important;
+}
+
+.text-blue, .text-blue-hover:hover,
+.t-blue,
+.t-blue-hover:hover,
+.font-blue,
+.font-blue-hover:hover {
+  color: blue !important;
+}
+
+.text-blueviolet, .text-blueviolet-hover:hover,
+.t-blueviolet,
+.t-blueviolet-hover:hover,
+.font-blueviolet,
+.font-blueviolet-hover:hover {
+  color: blueviolet !important;
+}
+
+.text-brown, .text-brown-hover:hover,
+.t-brown,
+.t-brown-hover:hover,
+.font-brown,
+.font-brown-hover:hover {
+  color: brown !important;
+}
+
+.text-burlywood, .text-burlywood-hover:hover,
+.t-burlywood,
+.t-burlywood-hover:hover,
+.font-burlywood,
+.font-burlywood-hover:hover {
+  color: burlywood !important;
+}
+
+.text-cadetblue, .text-cadetblue-hover:hover,
+.t-cadetblue,
+.t-cadetblue-hover:hover,
+.font-cadetblue,
+.font-cadetblue-hover:hover {
+  color: cadetblue !important;
+}
+
+.text-chartreuse, .text-chartreuse-hover:hover,
+.t-chartreuse,
+.t-chartreuse-hover:hover,
+.font-chartreuse,
+.font-chartreuse-hover:hover {
+  color: chartreuse !important;
+}
+
+.text-chocolate, .text-chocolate-hover:hover,
+.t-chocolate,
+.t-chocolate-hover:hover,
+.font-chocolate,
+.font-chocolate-hover:hover {
+  color: chocolate !important;
+}
+
+.text-coral, .text-coral-hover:hover,
+.t-coral,
+.t-coral-hover:hover,
+.font-coral,
+.font-coral-hover:hover {
+  color: coral !important;
+}
+
+.text-cornflowerblue, .text-cornflowerblue-hover:hover,
+.t-cornflowerblue,
+.t-cornflowerblue-hover:hover,
+.font-cornflowerblue,
+.font-cornflowerblue-hover:hover {
+  color: cornflowerblue !important;
+}
+
+.text-cornsilk, .text-cornsilk-hover:hover,
+.t-cornsilk,
+.t-cornsilk-hover:hover,
+.font-cornsilk,
+.font-cornsilk-hover:hover {
+  color: cornsilk !important;
+}
+
+.text-crimson, .text-crimson-hover:hover,
+.t-crimson,
+.t-crimson-hover:hover,
+.font-crimson,
+.font-crimson-hover:hover {
+  color: crimson !important;
+}
+
+.text-cyan, .text-cyan-hover:hover,
+.t-cyan,
+.t-cyan-hover:hover,
+.font-cyan,
+.font-cyan-hover:hover {
+  color: cyan !important;
+}
+
+.text-darkblue, .text-darkblue-hover:hover,
+.t-darkblue,
+.t-darkblue-hover:hover,
+.font-darkblue,
+.font-darkblue-hover:hover {
+  color: darkblue !important;
+}
+
+.text-darkcyan, .text-darkcyan-hover:hover,
+.t-darkcyan,
+.t-darkcyan-hover:hover,
+.font-darkcyan,
+.font-darkcyan-hover:hover {
+  color: darkcyan !important;
+}
+
+.text-darkgoldenrod, .text-darkgoldenrod-hover:hover,
+.t-darkgoldenrod,
+.t-darkgoldenrod-hover:hover,
+.font-darkgoldenrod,
+.font-darkgoldenrod-hover:hover {
+  color: darkgoldenrod !important;
+}
+
+.text-darkgray, .text-darkgray-hover:hover,
+.t-darkgray,
+.t-darkgray-hover:hover,
+.font-darkgray,
+.font-darkgray-hover:hover {
+  color: darkgray !important;
+}
+
+.text-darkgreen, .text-darkgreen-hover:hover,
+.t-darkgreen,
+.t-darkgreen-hover:hover,
+.font-darkgreen,
+.font-darkgreen-hover:hover {
+  color: darkgreen !important;
+}
+
+.text-darkkhaki, .text-darkkhaki-hover:hover,
+.t-darkkhaki,
+.t-darkkhaki-hover:hover,
+.font-darkkhaki,
+.font-darkkhaki-hover:hover {
+  color: darkkhaki !important;
+}
+
+.text-darkmagenta, .text-darkmagenta-hover:hover,
+.t-darkmagenta,
+.t-darkmagenta-hover:hover,
+.font-darkmagenta,
+.font-darkmagenta-hover:hover {
+  color: darkmagenta !important;
+}
+
+.text-darkolivegreen, .text-darkolivegreen-hover:hover,
+.t-darkolivegreen,
+.t-darkolivegreen-hover:hover,
+.font-darkolivegreen,
+.font-darkolivegreen-hover:hover {
+  color: darkolivegreen !important;
+}
+
+.text-darkorange, .text-darkorange-hover:hover,
+.t-darkorange,
+.t-darkorange-hover:hover,
+.font-darkorange,
+.font-darkorange-hover:hover {
+  color: darkorange !important;
+}
+
+.text-darkorchid, .text-darkorchid-hover:hover,
+.t-darkorchid,
+.t-darkorchid-hover:hover,
+.font-darkorchid,
+.font-darkorchid-hover:hover {
+  color: darkorchid !important;
+}
+
+.text-darkred, .text-darkred-hover:hover,
+.t-darkred,
+.t-darkred-hover:hover,
+.font-darkred,
+.font-darkred-hover:hover {
+  color: darkred !important;
+}
+
+.text-darksalmon, .text-darksalmon-hover:hover,
+.t-darksalmon,
+.t-darksalmon-hover:hover,
+.font-darksalmon,
+.font-darksalmon-hover:hover {
+  color: darksalmon !important;
+}
+
+.text-darkseagreen, .text-darkseagreen-hover:hover,
+.t-darkseagreen,
+.t-darkseagreen-hover:hover,
+.font-darkseagreen,
+.font-darkseagreen-hover:hover {
+  color: darkseagreen !important;
+}
+
+.text-darkslateblue, .text-darkslateblue-hover:hover,
+.t-darkslateblue,
+.t-darkslateblue-hover:hover,
+.font-darkslateblue,
+.font-darkslateblue-hover:hover {
+  color: darkslateblue !important;
+}
+
+.text-darkslategray, .text-darkslategray-hover:hover,
+.t-darkslategray,
+.t-darkslategray-hover:hover,
+.font-darkslategray,
+.font-darkslategray-hover:hover {
+  color: darkslategray !important;
+}
+
+.text-darkturquoise, .text-darkturquoise-hover:hover,
+.t-darkturquoise,
+.t-darkturquoise-hover:hover,
+.font-darkturquoise,
+.font-darkturquoise-hover:hover {
+  color: darkturquoise !important;
+}
+
+.text-darkviolet, .text-darkviolet-hover:hover,
+.t-darkviolet,
+.t-darkviolet-hover:hover,
+.font-darkviolet,
+.font-darkviolet-hover:hover {
+  color: darkviolet !important;
+}
+
+.text-deeppink, .text-deeppink-hover:hover,
+.t-deeppink,
+.t-deeppink-hover:hover,
+.font-deeppink,
+.font-deeppink-hover:hover {
+  color: deeppink !important;
+}
+
+.text-deepskyblue, .text-deepskyblue-hover:hover,
+.t-deepskyblue,
+.t-deepskyblue-hover:hover,
+.font-deepskyblue,
+.font-deepskyblue-hover:hover {
+  color: deepskyblue !important;
+}
+
+.text-dimgray, .text-dimgray-hover:hover,
+.t-dimgray,
+.t-dimgray-hover:hover,
+.font-dimgray,
+.font-dimgray-hover:hover {
+  color: dimgray !important;
+}
+
+.text-dodgerblue, .text-dodgerblue-hover:hover,
+.t-dodgerblue,
+.t-dodgerblue-hover:hover,
+.font-dodgerblue,
+.font-dodgerblue-hover:hover {
+  color: dodgerblue !important;
+}
+
+.text-firebrick, .text-firebrick-hover:hover,
+.t-firebrick,
+.t-firebrick-hover:hover,
+.font-firebrick,
+.font-firebrick-hover:hover {
+  color: firebrick !important;
+}
+
+.text-floralwhite, .text-floralwhite-hover:hover,
+.t-floralwhite,
+.t-floralwhite-hover:hover,
+.font-floralwhite,
+.font-floralwhite-hover:hover {
+  color: floralwhite !important;
+}
+
+.text-forestgreen, .text-forestgreen-hover:hover,
+.t-forestgreen,
+.t-forestgreen-hover:hover,
+.font-forestgreen,
+.font-forestgreen-hover:hover {
+  color: forestgreen !important;
+}
+
+.text-fuchsia, .text-fuchsia-hover:hover,
+.t-fuchsia,
+.t-fuchsia-hover:hover,
+.font-fuchsia,
+.font-fuchsia-hover:hover {
+  color: fuchsia !important;
+}
+
+.text-gainsboro, .text-gainsboro-hover:hover,
+.t-gainsboro,
+.t-gainsboro-hover:hover,
+.font-gainsboro,
+.font-gainsboro-hover:hover {
+  color: gainsboro !important;
+}
+
+.text-ghostwhite, .text-ghostwhite-hover:hover,
+.t-ghostwhite,
+.t-ghostwhite-hover:hover,
+.font-ghostwhite,
+.font-ghostwhite-hover:hover {
+  color: ghostwhite !important;
+}
+
+.text-gold, .text-gold-hover:hover,
+.t-gold,
+.t-gold-hover:hover,
+.font-gold,
+.font-gold-hover:hover {
+  color: gold !important;
+}
+
+.text-goldenrod, .text-goldenrod-hover:hover,
+.t-goldenrod,
+.t-goldenrod-hover:hover,
+.font-goldenrod,
+.font-goldenrod-hover:hover {
+  color: goldenrod !important;
+}
+
+.text-gray, .text-gray-hover:hover,
+.t-gray,
+.t-gray-hover:hover,
+.font-gray,
+.font-gray-hover:hover {
+  color: gray !important;
+}
+
+.text-grey, .text-grey-hover:hover,
 .t-grey,
-.font-grey {
-  color: #6c757d !important;
+.t-grey-hover:hover,
+.font-grey,
+.font-grey-hover:hover {
+  color: grey !important;
 }
 
-.text-red,
+.text-green, .text-green-hover:hover,
+.t-green,
+.t-green-hover:hover,
+.font-green,
+.font-green-hover:hover {
+  color: green !important;
+}
+
+.text-greenyellow, .text-greenyellow-hover:hover,
+.t-greenyellow,
+.t-greenyellow-hover:hover,
+.font-greenyellow,
+.font-greenyellow-hover:hover {
+  color: greenyellow !important;
+}
+
+.text-honeydew, .text-honeydew-hover:hover,
+.t-honeydew,
+.t-honeydew-hover:hover,
+.font-honeydew,
+.font-honeydew-hover:hover {
+  color: honeydew !important;
+}
+
+.text-hotpink, .text-hotpink-hover:hover,
+.t-hotpink,
+.t-hotpink-hover:hover,
+.font-hotpink,
+.font-hotpink-hover:hover {
+  color: hotpink !important;
+}
+
+.text-indianred, .text-indianred-hover:hover,
+.t-indianred,
+.t-indianred-hover:hover,
+.font-indianred,
+.font-indianred-hover:hover {
+  color: indianred !important;
+}
+
+.text-indigo, .text-indigo-hover:hover,
+.t-indigo,
+.t-indigo-hover:hover,
+.font-indigo,
+.font-indigo-hover:hover {
+  color: indigo !important;
+}
+
+.text-ivory, .text-ivory-hover:hover,
+.t-ivory,
+.t-ivory-hover:hover,
+.font-ivory,
+.font-ivory-hover:hover {
+  color: ivory !important;
+}
+
+.text-khaki, .text-khaki-hover:hover,
+.t-khaki,
+.t-khaki-hover:hover,
+.font-khaki,
+.font-khaki-hover:hover {
+  color: khaki !important;
+}
+
+.text-lavender, .text-lavender-hover:hover,
+.t-lavender,
+.t-lavender-hover:hover,
+.font-lavender,
+.font-lavender-hover:hover {
+  color: lavender !important;
+}
+
+.text-lavenderblush, .text-lavenderblush-hover:hover,
+.t-lavenderblush,
+.t-lavenderblush-hover:hover,
+.font-lavenderblush,
+.font-lavenderblush-hover:hover {
+  color: lavenderblush !important;
+}
+
+.text-lawngreen, .text-lawngreen-hover:hover,
+.t-lawngreen,
+.t-lawngreen-hover:hover,
+.font-lawngreen,
+.font-lawngreen-hover:hover {
+  color: lawngreen !important;
+}
+
+.text-lemonchiffon, .text-lemonchiffon-hover:hover,
+.t-lemonchiffon,
+.t-lemonchiffon-hover:hover,
+.font-lemonchiffon,
+.font-lemonchiffon-hover:hover {
+  color: lemonchiffon !important;
+}
+
+.text-lightblue, .text-lightblue-hover:hover,
+.t-lightblue,
+.t-lightblue-hover:hover,
+.font-lightblue,
+.font-lightblue-hover:hover {
+  color: lightblue !important;
+}
+
+.text-lightcoral, .text-lightcoral-hover:hover,
+.t-lightcoral,
+.t-lightcoral-hover:hover,
+.font-lightcoral,
+.font-lightcoral-hover:hover {
+  color: lightcoral !important;
+}
+
+.text-lightcyan, .text-lightcyan-hover:hover,
+.t-lightcyan,
+.t-lightcyan-hover:hover,
+.font-lightcyan,
+.font-lightcyan-hover:hover {
+  color: lightcyan !important;
+}
+
+.text-lightgoldenrodyellow, .text-lightgoldenrodyellow-hover:hover,
+.t-lightgoldenrodyellow,
+.t-lightgoldenrodyellow-hover:hover,
+.font-lightgoldenrodyellow,
+.font-lightgoldenrodyellow-hover:hover {
+  color: lightgoldenrodyellow !important;
+}
+
+.text-lightgrey, .text-lightgrey-hover:hover,
+.t-lightgrey,
+.t-lightgrey-hover:hover,
+.font-lightgrey,
+.font-lightgrey-hover:hover {
+  color: lightgrey !important;
+}
+
+.text-lightgreen, .text-lightgreen-hover:hover,
+.t-lightgreen,
+.t-lightgreen-hover:hover,
+.font-lightgreen,
+.font-lightgreen-hover:hover {
+  color: lightgreen !important;
+}
+
+.text-lightpink, .text-lightpink-hover:hover,
+.t-lightpink,
+.t-lightpink-hover:hover,
+.font-lightpink,
+.font-lightpink-hover:hover {
+  color: lightpink !important;
+}
+
+.text-lightsalmon, .text-lightsalmon-hover:hover,
+.t-lightsalmon,
+.t-lightsalmon-hover:hover,
+.font-lightsalmon,
+.font-lightsalmon-hover:hover {
+  color: lightsalmon !important;
+}
+
+.text-lightseagreen, .text-lightseagreen-hover:hover,
+.t-lightseagreen,
+.t-lightseagreen-hover:hover,
+.font-lightseagreen,
+.font-lightseagreen-hover:hover {
+  color: lightseagreen !important;
+}
+
+.text-lightskyblue, .text-lightskyblue-hover:hover,
+.t-lightskyblue,
+.t-lightskyblue-hover:hover,
+.font-lightskyblue,
+.font-lightskyblue-hover:hover {
+  color: lightskyblue !important;
+}
+
+.text-lightslategray, .text-lightslategray-hover:hover,
+.t-lightslategray,
+.t-lightslategray-hover:hover,
+.font-lightslategray,
+.font-lightslategray-hover:hover {
+  color: lightslategray !important;
+}
+
+.text-lightsteelblue, .text-lightsteelblue-hover:hover,
+.t-lightsteelblue,
+.t-lightsteelblue-hover:hover,
+.font-lightsteelblue,
+.font-lightsteelblue-hover:hover {
+  color: lightsteelblue !important;
+}
+
+.text-lightyellow, .text-lightyellow-hover:hover,
+.t-lightyellow,
+.t-lightyellow-hover:hover,
+.font-lightyellow,
+.font-lightyellow-hover:hover {
+  color: lightyellow !important;
+}
+
+.text-lime, .text-lime-hover:hover,
+.t-lime,
+.t-lime-hover:hover,
+.font-lime,
+.font-lime-hover:hover {
+  color: lime !important;
+}
+
+.text-limegreen, .text-limegreen-hover:hover,
+.t-limegreen,
+.t-limegreen-hover:hover,
+.font-limegreen,
+.font-limegreen-hover:hover {
+  color: limegreen !important;
+}
+
+.text-linen, .text-linen-hover:hover,
+.t-linen,
+.t-linen-hover:hover,
+.font-linen,
+.font-linen-hover:hover {
+  color: linen !important;
+}
+
+.text-magenta, .text-magenta-hover:hover,
+.t-magenta,
+.t-magenta-hover:hover,
+.font-magenta,
+.font-magenta-hover:hover {
+  color: magenta !important;
+}
+
+.text-maroon, .text-maroon-hover:hover,
+.t-maroon,
+.t-maroon-hover:hover,
+.font-maroon,
+.font-maroon-hover:hover {
+  color: maroon !important;
+}
+
+.text-mediumaquamarine, .text-mediumaquamarine-hover:hover,
+.t-mediumaquamarine,
+.t-mediumaquamarine-hover:hover,
+.font-mediumaquamarine,
+.font-mediumaquamarine-hover:hover {
+  color: mediumaquamarine !important;
+}
+
+.text-mediumblue, .text-mediumblue-hover:hover,
+.t-mediumblue,
+.t-mediumblue-hover:hover,
+.font-mediumblue,
+.font-mediumblue-hover:hover {
+  color: mediumblue !important;
+}
+
+.text-mediumorchid, .text-mediumorchid-hover:hover,
+.t-mediumorchid,
+.t-mediumorchid-hover:hover,
+.font-mediumorchid,
+.font-mediumorchid-hover:hover {
+  color: mediumorchid !important;
+}
+
+.text-mediumpurple, .text-mediumpurple-hover:hover,
+.t-mediumpurple,
+.t-mediumpurple-hover:hover,
+.font-mediumpurple,
+.font-mediumpurple-hover:hover {
+  color: mediumpurple !important;
+}
+
+.text-mediumseagreen, .text-mediumseagreen-hover:hover,
+.t-mediumseagreen,
+.t-mediumseagreen-hover:hover,
+.font-mediumseagreen,
+.font-mediumseagreen-hover:hover {
+  color: mediumseagreen !important;
+}
+
+.text-mediumslateblue, .text-mediumslateblue-hover:hover,
+.t-mediumslateblue,
+.t-mediumslateblue-hover:hover,
+.font-mediumslateblue,
+.font-mediumslateblue-hover:hover {
+  color: mediumslateblue !important;
+}
+
+.text-mediumspringgreen, .text-mediumspringgreen-hover:hover,
+.t-mediumspringgreen,
+.t-mediumspringgreen-hover:hover,
+.font-mediumspringgreen,
+.font-mediumspringgreen-hover:hover {
+  color: mediumspringgreen !important;
+}
+
+.text-mediumturquoise, .text-mediumturquoise-hover:hover,
+.t-mediumturquoise,
+.t-mediumturquoise-hover:hover,
+.font-mediumturquoise,
+.font-mediumturquoise-hover:hover {
+  color: mediumturquoise !important;
+}
+
+.text-mediumvioletred, .text-mediumvioletred-hover:hover,
+.t-mediumvioletred,
+.t-mediumvioletred-hover:hover,
+.font-mediumvioletred,
+.font-mediumvioletred-hover:hover {
+  color: mediumvioletred !important;
+}
+
+.text-midnightblue, .text-midnightblue-hover:hover,
+.t-midnightblue,
+.t-midnightblue-hover:hover,
+.font-midnightblue,
+.font-midnightblue-hover:hover {
+  color: midnightblue !important;
+}
+
+.text-mintcream, .text-mintcream-hover:hover,
+.t-mintcream,
+.t-mintcream-hover:hover,
+.font-mintcream,
+.font-mintcream-hover:hover {
+  color: mintcream !important;
+}
+
+.text-mistyrose, .text-mistyrose-hover:hover,
+.t-mistyrose,
+.t-mistyrose-hover:hover,
+.font-mistyrose,
+.font-mistyrose-hover:hover {
+  color: mistyrose !important;
+}
+
+.text-moccasin, .text-moccasin-hover:hover,
+.t-moccasin,
+.t-moccasin-hover:hover,
+.font-moccasin,
+.font-moccasin-hover:hover {
+  color: moccasin !important;
+}
+
+.text-navajowhite, .text-navajowhite-hover:hover,
+.t-navajowhite,
+.t-navajowhite-hover:hover,
+.font-navajowhite,
+.font-navajowhite-hover:hover {
+  color: navajowhite !important;
+}
+
+.text-navy, .text-navy-hover:hover,
+.t-navy,
+.t-navy-hover:hover,
+.font-navy,
+.font-navy-hover:hover {
+  color: navy !important;
+}
+
+.text-oldlace, .text-oldlace-hover:hover,
+.t-oldlace,
+.t-oldlace-hover:hover,
+.font-oldlace,
+.font-oldlace-hover:hover {
+  color: oldlace !important;
+}
+
+.text-olive, .text-olive-hover:hover,
+.t-olive,
+.t-olive-hover:hover,
+.font-olive,
+.font-olive-hover:hover {
+  color: olive !important;
+}
+
+.text-olivedrab, .text-olivedrab-hover:hover,
+.t-olivedrab,
+.t-olivedrab-hover:hover,
+.font-olivedrab,
+.font-olivedrab-hover:hover {
+  color: olivedrab !important;
+}
+
+.text-orange, .text-orange-hover:hover,
+.t-orange,
+.t-orange-hover:hover,
+.font-orange,
+.font-orange-hover:hover {
+  color: orange !important;
+}
+
+.text-orangered, .text-orangered-hover:hover,
+.t-orangered,
+.t-orangered-hover:hover,
+.font-orangered,
+.font-orangered-hover:hover {
+  color: orangered !important;
+}
+
+.text-orchid, .text-orchid-hover:hover,
+.t-orchid,
+.t-orchid-hover:hover,
+.font-orchid,
+.font-orchid-hover:hover {
+  color: orchid !important;
+}
+
+.text-palegoldenrod, .text-palegoldenrod-hover:hover,
+.t-palegoldenrod,
+.t-palegoldenrod-hover:hover,
+.font-palegoldenrod,
+.font-palegoldenrod-hover:hover {
+  color: palegoldenrod !important;
+}
+
+.text-palegreen, .text-palegreen-hover:hover,
+.t-palegreen,
+.t-palegreen-hover:hover,
+.font-palegreen,
+.font-palegreen-hover:hover {
+  color: palegreen !important;
+}
+
+.text-paleturquoise, .text-paleturquoise-hover:hover,
+.t-paleturquoise,
+.t-paleturquoise-hover:hover,
+.font-paleturquoise,
+.font-paleturquoise-hover:hover {
+  color: paleturquoise !important;
+}
+
+.text-palevioletred, .text-palevioletred-hover:hover,
+.t-palevioletred,
+.t-palevioletred-hover:hover,
+.font-palevioletred,
+.font-palevioletred-hover:hover {
+  color: palevioletred !important;
+}
+
+.text-papayawhip, .text-papayawhip-hover:hover,
+.t-papayawhip,
+.t-papayawhip-hover:hover,
+.font-papayawhip,
+.font-papayawhip-hover:hover {
+  color: papayawhip !important;
+}
+
+.text-peachpuff, .text-peachpuff-hover:hover,
+.t-peachpuff,
+.t-peachpuff-hover:hover,
+.font-peachpuff,
+.font-peachpuff-hover:hover {
+  color: peachpuff !important;
+}
+
+.text-peru, .text-peru-hover:hover,
+.t-peru,
+.t-peru-hover:hover,
+.font-peru,
+.font-peru-hover:hover {
+  color: peru !important;
+}
+
+.text-pink, .text-pink-hover:hover,
+.t-pink,
+.t-pink-hover:hover,
+.font-pink,
+.font-pink-hover:hover {
+  color: pink !important;
+}
+
+.text-plum, .text-plum-hover:hover,
+.t-plum,
+.t-plum-hover:hover,
+.font-plum,
+.font-plum-hover:hover {
+  color: plum !important;
+}
+
+.text-powderblue, .text-powderblue-hover:hover,
+.t-powderblue,
+.t-powderblue-hover:hover,
+.font-powderblue,
+.font-powderblue-hover:hover {
+  color: powderblue !important;
+}
+
+.text-purple, .text-purple-hover:hover,
+.t-purple,
+.t-purple-hover:hover,
+.font-purple,
+.font-purple-hover:hover {
+  color: purple !important;
+}
+
+.text-red, .text-red-hover:hover,
 .t-red,
-.font-red {
+.t-red-hover:hover,
+.font-red,
+.font-red-hover:hover {
   color: red !important;
 }
 
-.text-dark-red,
-.t-dark-red,
-.font-dark-red {
-  color: #dc3545 !important;
+.text-rosybrown, .text-rosybrown-hover:hover,
+.t-rosybrown,
+.t-rosybrown-hover:hover,
+.font-rosybrown,
+.font-rosybrown-hover:hover {
+  color: rosybrown !important;
 }
 
-.text-green,
-.t-green,
-.font-green {
-  color: #27e178 !important;
+.text-royalblue, .text-royalblue-hover:hover,
+.t-royalblue,
+.t-royalblue-hover:hover,
+.font-royalblue,
+.font-royalblue-hover:hover {
+  color: royalblue !important;
 }
 
-.text-blue,
-.t-blue,
-.font-blue {
-  color: #279EDA !important;
+.text-saddlebrown, .text-saddlebrown-hover:hover,
+.t-saddlebrown,
+.t-saddlebrown-hover:hover,
+.font-saddlebrown,
+.font-saddlebrown-hover:hover {
+  color: saddlebrown !important;
 }
 
-.text-yellow,
+.text-salmon, .text-salmon-hover:hover,
+.t-salmon,
+.t-salmon-hover:hover,
+.font-salmon,
+.font-salmon-hover:hover {
+  color: salmon !important;
+}
+
+.text-sandybrown, .text-sandybrown-hover:hover,
+.t-sandybrown,
+.t-sandybrown-hover:hover,
+.font-sandybrown,
+.font-sandybrown-hover:hover {
+  color: sandybrown !important;
+}
+
+.text-seagreen, .text-seagreen-hover:hover,
+.t-seagreen,
+.t-seagreen-hover:hover,
+.font-seagreen,
+.font-seagreen-hover:hover {
+  color: seagreen !important;
+}
+
+.text-seashell, .text-seashell-hover:hover,
+.t-seashell,
+.t-seashell-hover:hover,
+.font-seashell,
+.font-seashell-hover:hover {
+  color: seashell !important;
+}
+
+.text-sienna, .text-sienna-hover:hover,
+.t-sienna,
+.t-sienna-hover:hover,
+.font-sienna,
+.font-sienna-hover:hover {
+  color: sienna !important;
+}
+
+.text-silver, .text-silver-hover:hover,
+.t-silver,
+.t-silver-hover:hover,
+.font-silver,
+.font-silver-hover:hover {
+  color: silver !important;
+}
+
+.text-skyblue, .text-skyblue-hover:hover,
+.t-skyblue,
+.t-skyblue-hover:hover,
+.font-skyblue,
+.font-skyblue-hover:hover {
+  color: skyblue !important;
+}
+
+.text-slateblue, .text-slateblue-hover:hover,
+.t-slateblue,
+.t-slateblue-hover:hover,
+.font-slateblue,
+.font-slateblue-hover:hover {
+  color: slateblue !important;
+}
+
+.text-slategray, .text-slategray-hover:hover,
+.t-slategray,
+.t-slategray-hover:hover,
+.font-slategray,
+.font-slategray-hover:hover {
+  color: slategray !important;
+}
+
+.text-snow, .text-snow-hover:hover,
+.t-snow,
+.t-snow-hover:hover,
+.font-snow,
+.font-snow-hover:hover {
+  color: snow !important;
+}
+
+.text-springgreen, .text-springgreen-hover:hover,
+.t-springgreen,
+.t-springgreen-hover:hover,
+.font-springgreen,
+.font-springgreen-hover:hover {
+  color: springgreen !important;
+}
+
+.text-steelblue, .text-steelblue-hover:hover,
+.t-steelblue,
+.t-steelblue-hover:hover,
+.font-steelblue,
+.font-steelblue-hover:hover {
+  color: steelblue !important;
+}
+
+.text-tan, .text-tan-hover:hover,
+.t-tan,
+.t-tan-hover:hover,
+.font-tan,
+.font-tan-hover:hover {
+  color: tan !important;
+}
+
+.text-teal, .text-teal-hover:hover,
+.t-teal,
+.t-teal-hover:hover,
+.font-teal,
+.font-teal-hover:hover {
+  color: teal !important;
+}
+
+.text-thistle, .text-thistle-hover:hover,
+.t-thistle,
+.t-thistle-hover:hover,
+.font-thistle,
+.font-thistle-hover:hover {
+  color: thistle !important;
+}
+
+.text-tomato, .text-tomato-hover:hover,
+.t-tomato,
+.t-tomato-hover:hover,
+.font-tomato,
+.font-tomato-hover:hover {
+  color: tomato !important;
+}
+
+.text-turquoise, .text-turquoise-hover:hover,
+.t-turquoise,
+.t-turquoise-hover:hover,
+.font-turquoise,
+.font-turquoise-hover:hover {
+  color: turquoise !important;
+}
+
+.text-violet, .text-violet-hover:hover,
+.t-violet,
+.t-violet-hover:hover,
+.font-violet,
+.font-violet-hover:hover {
+  color: violet !important;
+}
+
+.text-wheat, .text-wheat-hover:hover,
+.t-wheat,
+.t-wheat-hover:hover,
+.font-wheat,
+.font-wheat-hover:hover {
+  color: wheat !important;
+}
+
+.text-white, .text-white-hover:hover,
+.t-white,
+.t-white-hover:hover,
+.font-white,
+.font-white-hover:hover {
+  color: white !important;
+}
+
+.text-whitesmoke, .text-whitesmoke-hover:hover,
+.t-whitesmoke,
+.t-whitesmoke-hover:hover,
+.font-whitesmoke,
+.font-whitesmoke-hover:hover {
+  color: whitesmoke !important;
+}
+
+.text-yellow, .text-yellow-hover:hover,
 .t-yellow,
-.font-yellow {
-  color: #ffc107 !important;
+.t-yellow-hover:hover,
+.font-yellow,
+.font-yellow-hover:hover {
+  color: yellow !important;
 }
 
-.text-fade-blue,
-.t-fade-blue,
-.font-fade-blue {
-  color: #34435E !important;
-}
-
-.text-transparent,
-.t-transparent,
-.font-transparent {
-  color: transparent !important;
+.text-yellowgreen, .text-yellowgreen-hover:hover,
+.t-yellowgreen,
+.t-yellowgreen-hover:hover,
+.font-yellowgreen,
+.font-yellowgreen-hover:hover {
+  color: yellowgreen !important;
 }
 
 .text-1-px,
@@ -31557,50 +32631,992 @@
   .font-xl-text-bottom {
     vertical-align: text-bottom !important;
   }
-  .text-xl-light,
-  .t-xl-light,
-  .font-xl-light {
-    color: #dee2e6 !important;
+  .text-xl-aliceblue, .text-xl-aliceblue-hover:hover,
+  .t-xl-aliceblue,
+  .t-xl-aliceblue-hover:hover,
+  .font-xl-aliceblue,
+  .font-xl-aliceblue-hover:hover {
+    color: aliceblue !important;
   }
-  .text-xl-grey,
+  .text-xl-antiquewhite, .text-xl-antiquewhite-hover:hover,
+  .t-xl-antiquewhite,
+  .t-xl-antiquewhite-hover:hover,
+  .font-xl-antiquewhite,
+  .font-xl-antiquewhite-hover:hover {
+    color: antiquewhite !important;
+  }
+  .text-xl-aqua, .text-xl-aqua-hover:hover,
+  .t-xl-aqua,
+  .t-xl-aqua-hover:hover,
+  .font-xl-aqua,
+  .font-xl-aqua-hover:hover {
+    color: aqua !important;
+  }
+  .text-xl-aquamarine, .text-xl-aquamarine-hover:hover,
+  .t-xl-aquamarine,
+  .t-xl-aquamarine-hover:hover,
+  .font-xl-aquamarine,
+  .font-xl-aquamarine-hover:hover {
+    color: aquamarine !important;
+  }
+  .text-xl-azure, .text-xl-azure-hover:hover,
+  .t-xl-azure,
+  .t-xl-azure-hover:hover,
+  .font-xl-azure,
+  .font-xl-azure-hover:hover {
+    color: azure !important;
+  }
+  .text-xl-beige, .text-xl-beige-hover:hover,
+  .t-xl-beige,
+  .t-xl-beige-hover:hover,
+  .font-xl-beige,
+  .font-xl-beige-hover:hover {
+    color: beige !important;
+  }
+  .text-xl-bisque, .text-xl-bisque-hover:hover,
+  .t-xl-bisque,
+  .t-xl-bisque-hover:hover,
+  .font-xl-bisque,
+  .font-xl-bisque-hover:hover {
+    color: bisque !important;
+  }
+  .text-xl-black, .text-xl-black-hover:hover,
+  .t-xl-black,
+  .t-xl-black-hover:hover,
+  .font-xl-black,
+  .font-xl-black-hover:hover {
+    color: black !important;
+  }
+  .text-xl-blanchedalmond, .text-xl-blanchedalmond-hover:hover,
+  .t-xl-blanchedalmond,
+  .t-xl-blanchedalmond-hover:hover,
+  .font-xl-blanchedalmond,
+  .font-xl-blanchedalmond-hover:hover {
+    color: blanchedalmond !important;
+  }
+  .text-xl-blue, .text-xl-blue-hover:hover,
+  .t-xl-blue,
+  .t-xl-blue-hover:hover,
+  .font-xl-blue,
+  .font-xl-blue-hover:hover {
+    color: blue !important;
+  }
+  .text-xl-blueviolet, .text-xl-blueviolet-hover:hover,
+  .t-xl-blueviolet,
+  .t-xl-blueviolet-hover:hover,
+  .font-xl-blueviolet,
+  .font-xl-blueviolet-hover:hover {
+    color: blueviolet !important;
+  }
+  .text-xl-brown, .text-xl-brown-hover:hover,
+  .t-xl-brown,
+  .t-xl-brown-hover:hover,
+  .font-xl-brown,
+  .font-xl-brown-hover:hover {
+    color: brown !important;
+  }
+  .text-xl-burlywood, .text-xl-burlywood-hover:hover,
+  .t-xl-burlywood,
+  .t-xl-burlywood-hover:hover,
+  .font-xl-burlywood,
+  .font-xl-burlywood-hover:hover {
+    color: burlywood !important;
+  }
+  .text-xl-cadetblue, .text-xl-cadetblue-hover:hover,
+  .t-xl-cadetblue,
+  .t-xl-cadetblue-hover:hover,
+  .font-xl-cadetblue,
+  .font-xl-cadetblue-hover:hover {
+    color: cadetblue !important;
+  }
+  .text-xl-chartreuse, .text-xl-chartreuse-hover:hover,
+  .t-xl-chartreuse,
+  .t-xl-chartreuse-hover:hover,
+  .font-xl-chartreuse,
+  .font-xl-chartreuse-hover:hover {
+    color: chartreuse !important;
+  }
+  .text-xl-chocolate, .text-xl-chocolate-hover:hover,
+  .t-xl-chocolate,
+  .t-xl-chocolate-hover:hover,
+  .font-xl-chocolate,
+  .font-xl-chocolate-hover:hover {
+    color: chocolate !important;
+  }
+  .text-xl-coral, .text-xl-coral-hover:hover,
+  .t-xl-coral,
+  .t-xl-coral-hover:hover,
+  .font-xl-coral,
+  .font-xl-coral-hover:hover {
+    color: coral !important;
+  }
+  .text-xl-cornflowerblue, .text-xl-cornflowerblue-hover:hover,
+  .t-xl-cornflowerblue,
+  .t-xl-cornflowerblue-hover:hover,
+  .font-xl-cornflowerblue,
+  .font-xl-cornflowerblue-hover:hover {
+    color: cornflowerblue !important;
+  }
+  .text-xl-cornsilk, .text-xl-cornsilk-hover:hover,
+  .t-xl-cornsilk,
+  .t-xl-cornsilk-hover:hover,
+  .font-xl-cornsilk,
+  .font-xl-cornsilk-hover:hover {
+    color: cornsilk !important;
+  }
+  .text-xl-crimson, .text-xl-crimson-hover:hover,
+  .t-xl-crimson,
+  .t-xl-crimson-hover:hover,
+  .font-xl-crimson,
+  .font-xl-crimson-hover:hover {
+    color: crimson !important;
+  }
+  .text-xl-cyan, .text-xl-cyan-hover:hover,
+  .t-xl-cyan,
+  .t-xl-cyan-hover:hover,
+  .font-xl-cyan,
+  .font-xl-cyan-hover:hover {
+    color: cyan !important;
+  }
+  .text-xl-darkblue, .text-xl-darkblue-hover:hover,
+  .t-xl-darkblue,
+  .t-xl-darkblue-hover:hover,
+  .font-xl-darkblue,
+  .font-xl-darkblue-hover:hover {
+    color: darkblue !important;
+  }
+  .text-xl-darkcyan, .text-xl-darkcyan-hover:hover,
+  .t-xl-darkcyan,
+  .t-xl-darkcyan-hover:hover,
+  .font-xl-darkcyan,
+  .font-xl-darkcyan-hover:hover {
+    color: darkcyan !important;
+  }
+  .text-xl-darkgoldenrod, .text-xl-darkgoldenrod-hover:hover,
+  .t-xl-darkgoldenrod,
+  .t-xl-darkgoldenrod-hover:hover,
+  .font-xl-darkgoldenrod,
+  .font-xl-darkgoldenrod-hover:hover {
+    color: darkgoldenrod !important;
+  }
+  .text-xl-darkgray, .text-xl-darkgray-hover:hover,
+  .t-xl-darkgray,
+  .t-xl-darkgray-hover:hover,
+  .font-xl-darkgray,
+  .font-xl-darkgray-hover:hover {
+    color: darkgray !important;
+  }
+  .text-xl-darkgreen, .text-xl-darkgreen-hover:hover,
+  .t-xl-darkgreen,
+  .t-xl-darkgreen-hover:hover,
+  .font-xl-darkgreen,
+  .font-xl-darkgreen-hover:hover {
+    color: darkgreen !important;
+  }
+  .text-xl-darkkhaki, .text-xl-darkkhaki-hover:hover,
+  .t-xl-darkkhaki,
+  .t-xl-darkkhaki-hover:hover,
+  .font-xl-darkkhaki,
+  .font-xl-darkkhaki-hover:hover {
+    color: darkkhaki !important;
+  }
+  .text-xl-darkmagenta, .text-xl-darkmagenta-hover:hover,
+  .t-xl-darkmagenta,
+  .t-xl-darkmagenta-hover:hover,
+  .font-xl-darkmagenta,
+  .font-xl-darkmagenta-hover:hover {
+    color: darkmagenta !important;
+  }
+  .text-xl-darkolivegreen, .text-xl-darkolivegreen-hover:hover,
+  .t-xl-darkolivegreen,
+  .t-xl-darkolivegreen-hover:hover,
+  .font-xl-darkolivegreen,
+  .font-xl-darkolivegreen-hover:hover {
+    color: darkolivegreen !important;
+  }
+  .text-xl-darkorange, .text-xl-darkorange-hover:hover,
+  .t-xl-darkorange,
+  .t-xl-darkorange-hover:hover,
+  .font-xl-darkorange,
+  .font-xl-darkorange-hover:hover {
+    color: darkorange !important;
+  }
+  .text-xl-darkorchid, .text-xl-darkorchid-hover:hover,
+  .t-xl-darkorchid,
+  .t-xl-darkorchid-hover:hover,
+  .font-xl-darkorchid,
+  .font-xl-darkorchid-hover:hover {
+    color: darkorchid !important;
+  }
+  .text-xl-darkred, .text-xl-darkred-hover:hover,
+  .t-xl-darkred,
+  .t-xl-darkred-hover:hover,
+  .font-xl-darkred,
+  .font-xl-darkred-hover:hover {
+    color: darkred !important;
+  }
+  .text-xl-darksalmon, .text-xl-darksalmon-hover:hover,
+  .t-xl-darksalmon,
+  .t-xl-darksalmon-hover:hover,
+  .font-xl-darksalmon,
+  .font-xl-darksalmon-hover:hover {
+    color: darksalmon !important;
+  }
+  .text-xl-darkseagreen, .text-xl-darkseagreen-hover:hover,
+  .t-xl-darkseagreen,
+  .t-xl-darkseagreen-hover:hover,
+  .font-xl-darkseagreen,
+  .font-xl-darkseagreen-hover:hover {
+    color: darkseagreen !important;
+  }
+  .text-xl-darkslateblue, .text-xl-darkslateblue-hover:hover,
+  .t-xl-darkslateblue,
+  .t-xl-darkslateblue-hover:hover,
+  .font-xl-darkslateblue,
+  .font-xl-darkslateblue-hover:hover {
+    color: darkslateblue !important;
+  }
+  .text-xl-darkslategray, .text-xl-darkslategray-hover:hover,
+  .t-xl-darkslategray,
+  .t-xl-darkslategray-hover:hover,
+  .font-xl-darkslategray,
+  .font-xl-darkslategray-hover:hover {
+    color: darkslategray !important;
+  }
+  .text-xl-darkturquoise, .text-xl-darkturquoise-hover:hover,
+  .t-xl-darkturquoise,
+  .t-xl-darkturquoise-hover:hover,
+  .font-xl-darkturquoise,
+  .font-xl-darkturquoise-hover:hover {
+    color: darkturquoise !important;
+  }
+  .text-xl-darkviolet, .text-xl-darkviolet-hover:hover,
+  .t-xl-darkviolet,
+  .t-xl-darkviolet-hover:hover,
+  .font-xl-darkviolet,
+  .font-xl-darkviolet-hover:hover {
+    color: darkviolet !important;
+  }
+  .text-xl-deeppink, .text-xl-deeppink-hover:hover,
+  .t-xl-deeppink,
+  .t-xl-deeppink-hover:hover,
+  .font-xl-deeppink,
+  .font-xl-deeppink-hover:hover {
+    color: deeppink !important;
+  }
+  .text-xl-deepskyblue, .text-xl-deepskyblue-hover:hover,
+  .t-xl-deepskyblue,
+  .t-xl-deepskyblue-hover:hover,
+  .font-xl-deepskyblue,
+  .font-xl-deepskyblue-hover:hover {
+    color: deepskyblue !important;
+  }
+  .text-xl-dimgray, .text-xl-dimgray-hover:hover,
+  .t-xl-dimgray,
+  .t-xl-dimgray-hover:hover,
+  .font-xl-dimgray,
+  .font-xl-dimgray-hover:hover {
+    color: dimgray !important;
+  }
+  .text-xl-dodgerblue, .text-xl-dodgerblue-hover:hover,
+  .t-xl-dodgerblue,
+  .t-xl-dodgerblue-hover:hover,
+  .font-xl-dodgerblue,
+  .font-xl-dodgerblue-hover:hover {
+    color: dodgerblue !important;
+  }
+  .text-xl-firebrick, .text-xl-firebrick-hover:hover,
+  .t-xl-firebrick,
+  .t-xl-firebrick-hover:hover,
+  .font-xl-firebrick,
+  .font-xl-firebrick-hover:hover {
+    color: firebrick !important;
+  }
+  .text-xl-floralwhite, .text-xl-floralwhite-hover:hover,
+  .t-xl-floralwhite,
+  .t-xl-floralwhite-hover:hover,
+  .font-xl-floralwhite,
+  .font-xl-floralwhite-hover:hover {
+    color: floralwhite !important;
+  }
+  .text-xl-forestgreen, .text-xl-forestgreen-hover:hover,
+  .t-xl-forestgreen,
+  .t-xl-forestgreen-hover:hover,
+  .font-xl-forestgreen,
+  .font-xl-forestgreen-hover:hover {
+    color: forestgreen !important;
+  }
+  .text-xl-fuchsia, .text-xl-fuchsia-hover:hover,
+  .t-xl-fuchsia,
+  .t-xl-fuchsia-hover:hover,
+  .font-xl-fuchsia,
+  .font-xl-fuchsia-hover:hover {
+    color: fuchsia !important;
+  }
+  .text-xl-gainsboro, .text-xl-gainsboro-hover:hover,
+  .t-xl-gainsboro,
+  .t-xl-gainsboro-hover:hover,
+  .font-xl-gainsboro,
+  .font-xl-gainsboro-hover:hover {
+    color: gainsboro !important;
+  }
+  .text-xl-ghostwhite, .text-xl-ghostwhite-hover:hover,
+  .t-xl-ghostwhite,
+  .t-xl-ghostwhite-hover:hover,
+  .font-xl-ghostwhite,
+  .font-xl-ghostwhite-hover:hover {
+    color: ghostwhite !important;
+  }
+  .text-xl-gold, .text-xl-gold-hover:hover,
+  .t-xl-gold,
+  .t-xl-gold-hover:hover,
+  .font-xl-gold,
+  .font-xl-gold-hover:hover {
+    color: gold !important;
+  }
+  .text-xl-goldenrod, .text-xl-goldenrod-hover:hover,
+  .t-xl-goldenrod,
+  .t-xl-goldenrod-hover:hover,
+  .font-xl-goldenrod,
+  .font-xl-goldenrod-hover:hover {
+    color: goldenrod !important;
+  }
+  .text-xl-gray, .text-xl-gray-hover:hover,
+  .t-xl-gray,
+  .t-xl-gray-hover:hover,
+  .font-xl-gray,
+  .font-xl-gray-hover:hover {
+    color: gray !important;
+  }
+  .text-xl-grey, .text-xl-grey-hover:hover,
   .t-xl-grey,
-  .font-xl-grey {
-    color: #6c757d !important;
+  .t-xl-grey-hover:hover,
+  .font-xl-grey,
+  .font-xl-grey-hover:hover {
+    color: grey !important;
   }
-  .text-xl-red,
+  .text-xl-green, .text-xl-green-hover:hover,
+  .t-xl-green,
+  .t-xl-green-hover:hover,
+  .font-xl-green,
+  .font-xl-green-hover:hover {
+    color: green !important;
+  }
+  .text-xl-greenyellow, .text-xl-greenyellow-hover:hover,
+  .t-xl-greenyellow,
+  .t-xl-greenyellow-hover:hover,
+  .font-xl-greenyellow,
+  .font-xl-greenyellow-hover:hover {
+    color: greenyellow !important;
+  }
+  .text-xl-honeydew, .text-xl-honeydew-hover:hover,
+  .t-xl-honeydew,
+  .t-xl-honeydew-hover:hover,
+  .font-xl-honeydew,
+  .font-xl-honeydew-hover:hover {
+    color: honeydew !important;
+  }
+  .text-xl-hotpink, .text-xl-hotpink-hover:hover,
+  .t-xl-hotpink,
+  .t-xl-hotpink-hover:hover,
+  .font-xl-hotpink,
+  .font-xl-hotpink-hover:hover {
+    color: hotpink !important;
+  }
+  .text-xl-indianred, .text-xl-indianred-hover:hover,
+  .t-xl-indianred,
+  .t-xl-indianred-hover:hover,
+  .font-xl-indianred,
+  .font-xl-indianred-hover:hover {
+    color: indianred !important;
+  }
+  .text-xl-indigo, .text-xl-indigo-hover:hover,
+  .t-xl-indigo,
+  .t-xl-indigo-hover:hover,
+  .font-xl-indigo,
+  .font-xl-indigo-hover:hover {
+    color: indigo !important;
+  }
+  .text-xl-ivory, .text-xl-ivory-hover:hover,
+  .t-xl-ivory,
+  .t-xl-ivory-hover:hover,
+  .font-xl-ivory,
+  .font-xl-ivory-hover:hover {
+    color: ivory !important;
+  }
+  .text-xl-khaki, .text-xl-khaki-hover:hover,
+  .t-xl-khaki,
+  .t-xl-khaki-hover:hover,
+  .font-xl-khaki,
+  .font-xl-khaki-hover:hover {
+    color: khaki !important;
+  }
+  .text-xl-lavender, .text-xl-lavender-hover:hover,
+  .t-xl-lavender,
+  .t-xl-lavender-hover:hover,
+  .font-xl-lavender,
+  .font-xl-lavender-hover:hover {
+    color: lavender !important;
+  }
+  .text-xl-lavenderblush, .text-xl-lavenderblush-hover:hover,
+  .t-xl-lavenderblush,
+  .t-xl-lavenderblush-hover:hover,
+  .font-xl-lavenderblush,
+  .font-xl-lavenderblush-hover:hover {
+    color: lavenderblush !important;
+  }
+  .text-xl-lawngreen, .text-xl-lawngreen-hover:hover,
+  .t-xl-lawngreen,
+  .t-xl-lawngreen-hover:hover,
+  .font-xl-lawngreen,
+  .font-xl-lawngreen-hover:hover {
+    color: lawngreen !important;
+  }
+  .text-xl-lemonchiffon, .text-xl-lemonchiffon-hover:hover,
+  .t-xl-lemonchiffon,
+  .t-xl-lemonchiffon-hover:hover,
+  .font-xl-lemonchiffon,
+  .font-xl-lemonchiffon-hover:hover {
+    color: lemonchiffon !important;
+  }
+  .text-xl-lightblue, .text-xl-lightblue-hover:hover,
+  .t-xl-lightblue,
+  .t-xl-lightblue-hover:hover,
+  .font-xl-lightblue,
+  .font-xl-lightblue-hover:hover {
+    color: lightblue !important;
+  }
+  .text-xl-lightcoral, .text-xl-lightcoral-hover:hover,
+  .t-xl-lightcoral,
+  .t-xl-lightcoral-hover:hover,
+  .font-xl-lightcoral,
+  .font-xl-lightcoral-hover:hover {
+    color: lightcoral !important;
+  }
+  .text-xl-lightcyan, .text-xl-lightcyan-hover:hover,
+  .t-xl-lightcyan,
+  .t-xl-lightcyan-hover:hover,
+  .font-xl-lightcyan,
+  .font-xl-lightcyan-hover:hover {
+    color: lightcyan !important;
+  }
+  .text-xl-lightgoldenrodyellow, .text-xl-lightgoldenrodyellow-hover:hover,
+  .t-xl-lightgoldenrodyellow,
+  .t-xl-lightgoldenrodyellow-hover:hover,
+  .font-xl-lightgoldenrodyellow,
+  .font-xl-lightgoldenrodyellow-hover:hover {
+    color: lightgoldenrodyellow !important;
+  }
+  .text-xl-lightgrey, .text-xl-lightgrey-hover:hover,
+  .t-xl-lightgrey,
+  .t-xl-lightgrey-hover:hover,
+  .font-xl-lightgrey,
+  .font-xl-lightgrey-hover:hover {
+    color: lightgrey !important;
+  }
+  .text-xl-lightgreen, .text-xl-lightgreen-hover:hover,
+  .t-xl-lightgreen,
+  .t-xl-lightgreen-hover:hover,
+  .font-xl-lightgreen,
+  .font-xl-lightgreen-hover:hover {
+    color: lightgreen !important;
+  }
+  .text-xl-lightpink, .text-xl-lightpink-hover:hover,
+  .t-xl-lightpink,
+  .t-xl-lightpink-hover:hover,
+  .font-xl-lightpink,
+  .font-xl-lightpink-hover:hover {
+    color: lightpink !important;
+  }
+  .text-xl-lightsalmon, .text-xl-lightsalmon-hover:hover,
+  .t-xl-lightsalmon,
+  .t-xl-lightsalmon-hover:hover,
+  .font-xl-lightsalmon,
+  .font-xl-lightsalmon-hover:hover {
+    color: lightsalmon !important;
+  }
+  .text-xl-lightseagreen, .text-xl-lightseagreen-hover:hover,
+  .t-xl-lightseagreen,
+  .t-xl-lightseagreen-hover:hover,
+  .font-xl-lightseagreen,
+  .font-xl-lightseagreen-hover:hover {
+    color: lightseagreen !important;
+  }
+  .text-xl-lightskyblue, .text-xl-lightskyblue-hover:hover,
+  .t-xl-lightskyblue,
+  .t-xl-lightskyblue-hover:hover,
+  .font-xl-lightskyblue,
+  .font-xl-lightskyblue-hover:hover {
+    color: lightskyblue !important;
+  }
+  .text-xl-lightslategray, .text-xl-lightslategray-hover:hover,
+  .t-xl-lightslategray,
+  .t-xl-lightslategray-hover:hover,
+  .font-xl-lightslategray,
+  .font-xl-lightslategray-hover:hover {
+    color: lightslategray !important;
+  }
+  .text-xl-lightsteelblue, .text-xl-lightsteelblue-hover:hover,
+  .t-xl-lightsteelblue,
+  .t-xl-lightsteelblue-hover:hover,
+  .font-xl-lightsteelblue,
+  .font-xl-lightsteelblue-hover:hover {
+    color: lightsteelblue !important;
+  }
+  .text-xl-lightyellow, .text-xl-lightyellow-hover:hover,
+  .t-xl-lightyellow,
+  .t-xl-lightyellow-hover:hover,
+  .font-xl-lightyellow,
+  .font-xl-lightyellow-hover:hover {
+    color: lightyellow !important;
+  }
+  .text-xl-lime, .text-xl-lime-hover:hover,
+  .t-xl-lime,
+  .t-xl-lime-hover:hover,
+  .font-xl-lime,
+  .font-xl-lime-hover:hover {
+    color: lime !important;
+  }
+  .text-xl-limegreen, .text-xl-limegreen-hover:hover,
+  .t-xl-limegreen,
+  .t-xl-limegreen-hover:hover,
+  .font-xl-limegreen,
+  .font-xl-limegreen-hover:hover {
+    color: limegreen !important;
+  }
+  .text-xl-linen, .text-xl-linen-hover:hover,
+  .t-xl-linen,
+  .t-xl-linen-hover:hover,
+  .font-xl-linen,
+  .font-xl-linen-hover:hover {
+    color: linen !important;
+  }
+  .text-xl-magenta, .text-xl-magenta-hover:hover,
+  .t-xl-magenta,
+  .t-xl-magenta-hover:hover,
+  .font-xl-magenta,
+  .font-xl-magenta-hover:hover {
+    color: magenta !important;
+  }
+  .text-xl-maroon, .text-xl-maroon-hover:hover,
+  .t-xl-maroon,
+  .t-xl-maroon-hover:hover,
+  .font-xl-maroon,
+  .font-xl-maroon-hover:hover {
+    color: maroon !important;
+  }
+  .text-xl-mediumaquamarine, .text-xl-mediumaquamarine-hover:hover,
+  .t-xl-mediumaquamarine,
+  .t-xl-mediumaquamarine-hover:hover,
+  .font-xl-mediumaquamarine,
+  .font-xl-mediumaquamarine-hover:hover {
+    color: mediumaquamarine !important;
+  }
+  .text-xl-mediumblue, .text-xl-mediumblue-hover:hover,
+  .t-xl-mediumblue,
+  .t-xl-mediumblue-hover:hover,
+  .font-xl-mediumblue,
+  .font-xl-mediumblue-hover:hover {
+    color: mediumblue !important;
+  }
+  .text-xl-mediumorchid, .text-xl-mediumorchid-hover:hover,
+  .t-xl-mediumorchid,
+  .t-xl-mediumorchid-hover:hover,
+  .font-xl-mediumorchid,
+  .font-xl-mediumorchid-hover:hover {
+    color: mediumorchid !important;
+  }
+  .text-xl-mediumpurple, .text-xl-mediumpurple-hover:hover,
+  .t-xl-mediumpurple,
+  .t-xl-mediumpurple-hover:hover,
+  .font-xl-mediumpurple,
+  .font-xl-mediumpurple-hover:hover {
+    color: mediumpurple !important;
+  }
+  .text-xl-mediumseagreen, .text-xl-mediumseagreen-hover:hover,
+  .t-xl-mediumseagreen,
+  .t-xl-mediumseagreen-hover:hover,
+  .font-xl-mediumseagreen,
+  .font-xl-mediumseagreen-hover:hover {
+    color: mediumseagreen !important;
+  }
+  .text-xl-mediumslateblue, .text-xl-mediumslateblue-hover:hover,
+  .t-xl-mediumslateblue,
+  .t-xl-mediumslateblue-hover:hover,
+  .font-xl-mediumslateblue,
+  .font-xl-mediumslateblue-hover:hover {
+    color: mediumslateblue !important;
+  }
+  .text-xl-mediumspringgreen, .text-xl-mediumspringgreen-hover:hover,
+  .t-xl-mediumspringgreen,
+  .t-xl-mediumspringgreen-hover:hover,
+  .font-xl-mediumspringgreen,
+  .font-xl-mediumspringgreen-hover:hover {
+    color: mediumspringgreen !important;
+  }
+  .text-xl-mediumturquoise, .text-xl-mediumturquoise-hover:hover,
+  .t-xl-mediumturquoise,
+  .t-xl-mediumturquoise-hover:hover,
+  .font-xl-mediumturquoise,
+  .font-xl-mediumturquoise-hover:hover {
+    color: mediumturquoise !important;
+  }
+  .text-xl-mediumvioletred, .text-xl-mediumvioletred-hover:hover,
+  .t-xl-mediumvioletred,
+  .t-xl-mediumvioletred-hover:hover,
+  .font-xl-mediumvioletred,
+  .font-xl-mediumvioletred-hover:hover {
+    color: mediumvioletred !important;
+  }
+  .text-xl-midnightblue, .text-xl-midnightblue-hover:hover,
+  .t-xl-midnightblue,
+  .t-xl-midnightblue-hover:hover,
+  .font-xl-midnightblue,
+  .font-xl-midnightblue-hover:hover {
+    color: midnightblue !important;
+  }
+  .text-xl-mintcream, .text-xl-mintcream-hover:hover,
+  .t-xl-mintcream,
+  .t-xl-mintcream-hover:hover,
+  .font-xl-mintcream,
+  .font-xl-mintcream-hover:hover {
+    color: mintcream !important;
+  }
+  .text-xl-mistyrose, .text-xl-mistyrose-hover:hover,
+  .t-xl-mistyrose,
+  .t-xl-mistyrose-hover:hover,
+  .font-xl-mistyrose,
+  .font-xl-mistyrose-hover:hover {
+    color: mistyrose !important;
+  }
+  .text-xl-moccasin, .text-xl-moccasin-hover:hover,
+  .t-xl-moccasin,
+  .t-xl-moccasin-hover:hover,
+  .font-xl-moccasin,
+  .font-xl-moccasin-hover:hover {
+    color: moccasin !important;
+  }
+  .text-xl-navajowhite, .text-xl-navajowhite-hover:hover,
+  .t-xl-navajowhite,
+  .t-xl-navajowhite-hover:hover,
+  .font-xl-navajowhite,
+  .font-xl-navajowhite-hover:hover {
+    color: navajowhite !important;
+  }
+  .text-xl-navy, .text-xl-navy-hover:hover,
+  .t-xl-navy,
+  .t-xl-navy-hover:hover,
+  .font-xl-navy,
+  .font-xl-navy-hover:hover {
+    color: navy !important;
+  }
+  .text-xl-oldlace, .text-xl-oldlace-hover:hover,
+  .t-xl-oldlace,
+  .t-xl-oldlace-hover:hover,
+  .font-xl-oldlace,
+  .font-xl-oldlace-hover:hover {
+    color: oldlace !important;
+  }
+  .text-xl-olive, .text-xl-olive-hover:hover,
+  .t-xl-olive,
+  .t-xl-olive-hover:hover,
+  .font-xl-olive,
+  .font-xl-olive-hover:hover {
+    color: olive !important;
+  }
+  .text-xl-olivedrab, .text-xl-olivedrab-hover:hover,
+  .t-xl-olivedrab,
+  .t-xl-olivedrab-hover:hover,
+  .font-xl-olivedrab,
+  .font-xl-olivedrab-hover:hover {
+    color: olivedrab !important;
+  }
+  .text-xl-orange, .text-xl-orange-hover:hover,
+  .t-xl-orange,
+  .t-xl-orange-hover:hover,
+  .font-xl-orange,
+  .font-xl-orange-hover:hover {
+    color: orange !important;
+  }
+  .text-xl-orangered, .text-xl-orangered-hover:hover,
+  .t-xl-orangered,
+  .t-xl-orangered-hover:hover,
+  .font-xl-orangered,
+  .font-xl-orangered-hover:hover {
+    color: orangered !important;
+  }
+  .text-xl-orchid, .text-xl-orchid-hover:hover,
+  .t-xl-orchid,
+  .t-xl-orchid-hover:hover,
+  .font-xl-orchid,
+  .font-xl-orchid-hover:hover {
+    color: orchid !important;
+  }
+  .text-xl-palegoldenrod, .text-xl-palegoldenrod-hover:hover,
+  .t-xl-palegoldenrod,
+  .t-xl-palegoldenrod-hover:hover,
+  .font-xl-palegoldenrod,
+  .font-xl-palegoldenrod-hover:hover {
+    color: palegoldenrod !important;
+  }
+  .text-xl-palegreen, .text-xl-palegreen-hover:hover,
+  .t-xl-palegreen,
+  .t-xl-palegreen-hover:hover,
+  .font-xl-palegreen,
+  .font-xl-palegreen-hover:hover {
+    color: palegreen !important;
+  }
+  .text-xl-paleturquoise, .text-xl-paleturquoise-hover:hover,
+  .t-xl-paleturquoise,
+  .t-xl-paleturquoise-hover:hover,
+  .font-xl-paleturquoise,
+  .font-xl-paleturquoise-hover:hover {
+    color: paleturquoise !important;
+  }
+  .text-xl-palevioletred, .text-xl-palevioletred-hover:hover,
+  .t-xl-palevioletred,
+  .t-xl-palevioletred-hover:hover,
+  .font-xl-palevioletred,
+  .font-xl-palevioletred-hover:hover {
+    color: palevioletred !important;
+  }
+  .text-xl-papayawhip, .text-xl-papayawhip-hover:hover,
+  .t-xl-papayawhip,
+  .t-xl-papayawhip-hover:hover,
+  .font-xl-papayawhip,
+  .font-xl-papayawhip-hover:hover {
+    color: papayawhip !important;
+  }
+  .text-xl-peachpuff, .text-xl-peachpuff-hover:hover,
+  .t-xl-peachpuff,
+  .t-xl-peachpuff-hover:hover,
+  .font-xl-peachpuff,
+  .font-xl-peachpuff-hover:hover {
+    color: peachpuff !important;
+  }
+  .text-xl-peru, .text-xl-peru-hover:hover,
+  .t-xl-peru,
+  .t-xl-peru-hover:hover,
+  .font-xl-peru,
+  .font-xl-peru-hover:hover {
+    color: peru !important;
+  }
+  .text-xl-pink, .text-xl-pink-hover:hover,
+  .t-xl-pink,
+  .t-xl-pink-hover:hover,
+  .font-xl-pink,
+  .font-xl-pink-hover:hover {
+    color: pink !important;
+  }
+  .text-xl-plum, .text-xl-plum-hover:hover,
+  .t-xl-plum,
+  .t-xl-plum-hover:hover,
+  .font-xl-plum,
+  .font-xl-plum-hover:hover {
+    color: plum !important;
+  }
+  .text-xl-powderblue, .text-xl-powderblue-hover:hover,
+  .t-xl-powderblue,
+  .t-xl-powderblue-hover:hover,
+  .font-xl-powderblue,
+  .font-xl-powderblue-hover:hover {
+    color: powderblue !important;
+  }
+  .text-xl-purple, .text-xl-purple-hover:hover,
+  .t-xl-purple,
+  .t-xl-purple-hover:hover,
+  .font-xl-purple,
+  .font-xl-purple-hover:hover {
+    color: purple !important;
+  }
+  .text-xl-red, .text-xl-red-hover:hover,
   .t-xl-red,
-  .font-xl-red {
+  .t-xl-red-hover:hover,
+  .font-xl-red,
+  .font-xl-red-hover:hover {
     color: red !important;
   }
-  .text-xl-dark-red,
-  .t-xl-dark-red,
-  .font-xl-dark-red {
-    color: #dc3545 !important;
+  .text-xl-rosybrown, .text-xl-rosybrown-hover:hover,
+  .t-xl-rosybrown,
+  .t-xl-rosybrown-hover:hover,
+  .font-xl-rosybrown,
+  .font-xl-rosybrown-hover:hover {
+    color: rosybrown !important;
   }
-  .text-xl-green,
-  .t-xl-green,
-  .font-xl-green {
-    color: #27e178 !important;
+  .text-xl-royalblue, .text-xl-royalblue-hover:hover,
+  .t-xl-royalblue,
+  .t-xl-royalblue-hover:hover,
+  .font-xl-royalblue,
+  .font-xl-royalblue-hover:hover {
+    color: royalblue !important;
   }
-  .text-xl-blue,
-  .t-xl-blue,
-  .font-xl-blue {
-    color: #279EDA !important;
+  .text-xl-saddlebrown, .text-xl-saddlebrown-hover:hover,
+  .t-xl-saddlebrown,
+  .t-xl-saddlebrown-hover:hover,
+  .font-xl-saddlebrown,
+  .font-xl-saddlebrown-hover:hover {
+    color: saddlebrown !important;
   }
-  .text-xl-yellow,
+  .text-xl-salmon, .text-xl-salmon-hover:hover,
+  .t-xl-salmon,
+  .t-xl-salmon-hover:hover,
+  .font-xl-salmon,
+  .font-xl-salmon-hover:hover {
+    color: salmon !important;
+  }
+  .text-xl-sandybrown, .text-xl-sandybrown-hover:hover,
+  .t-xl-sandybrown,
+  .t-xl-sandybrown-hover:hover,
+  .font-xl-sandybrown,
+  .font-xl-sandybrown-hover:hover {
+    color: sandybrown !important;
+  }
+  .text-xl-seagreen, .text-xl-seagreen-hover:hover,
+  .t-xl-seagreen,
+  .t-xl-seagreen-hover:hover,
+  .font-xl-seagreen,
+  .font-xl-seagreen-hover:hover {
+    color: seagreen !important;
+  }
+  .text-xl-seashell, .text-xl-seashell-hover:hover,
+  .t-xl-seashell,
+  .t-xl-seashell-hover:hover,
+  .font-xl-seashell,
+  .font-xl-seashell-hover:hover {
+    color: seashell !important;
+  }
+  .text-xl-sienna, .text-xl-sienna-hover:hover,
+  .t-xl-sienna,
+  .t-xl-sienna-hover:hover,
+  .font-xl-sienna,
+  .font-xl-sienna-hover:hover {
+    color: sienna !important;
+  }
+  .text-xl-silver, .text-xl-silver-hover:hover,
+  .t-xl-silver,
+  .t-xl-silver-hover:hover,
+  .font-xl-silver,
+  .font-xl-silver-hover:hover {
+    color: silver !important;
+  }
+  .text-xl-skyblue, .text-xl-skyblue-hover:hover,
+  .t-xl-skyblue,
+  .t-xl-skyblue-hover:hover,
+  .font-xl-skyblue,
+  .font-xl-skyblue-hover:hover {
+    color: skyblue !important;
+  }
+  .text-xl-slateblue, .text-xl-slateblue-hover:hover,
+  .t-xl-slateblue,
+  .t-xl-slateblue-hover:hover,
+  .font-xl-slateblue,
+  .font-xl-slateblue-hover:hover {
+    color: slateblue !important;
+  }
+  .text-xl-slategray, .text-xl-slategray-hover:hover,
+  .t-xl-slategray,
+  .t-xl-slategray-hover:hover,
+  .font-xl-slategray,
+  .font-xl-slategray-hover:hover {
+    color: slategray !important;
+  }
+  .text-xl-snow, .text-xl-snow-hover:hover,
+  .t-xl-snow,
+  .t-xl-snow-hover:hover,
+  .font-xl-snow,
+  .font-xl-snow-hover:hover {
+    color: snow !important;
+  }
+  .text-xl-springgreen, .text-xl-springgreen-hover:hover,
+  .t-xl-springgreen,
+  .t-xl-springgreen-hover:hover,
+  .font-xl-springgreen,
+  .font-xl-springgreen-hover:hover {
+    color: springgreen !important;
+  }
+  .text-xl-steelblue, .text-xl-steelblue-hover:hover,
+  .t-xl-steelblue,
+  .t-xl-steelblue-hover:hover,
+  .font-xl-steelblue,
+  .font-xl-steelblue-hover:hover {
+    color: steelblue !important;
+  }
+  .text-xl-tan, .text-xl-tan-hover:hover,
+  .t-xl-tan,
+  .t-xl-tan-hover:hover,
+  .font-xl-tan,
+  .font-xl-tan-hover:hover {
+    color: tan !important;
+  }
+  .text-xl-teal, .text-xl-teal-hover:hover,
+  .t-xl-teal,
+  .t-xl-teal-hover:hover,
+  .font-xl-teal,
+  .font-xl-teal-hover:hover {
+    color: teal !important;
+  }
+  .text-xl-thistle, .text-xl-thistle-hover:hover,
+  .t-xl-thistle,
+  .t-xl-thistle-hover:hover,
+  .font-xl-thistle,
+  .font-xl-thistle-hover:hover {
+    color: thistle !important;
+  }
+  .text-xl-tomato, .text-xl-tomato-hover:hover,
+  .t-xl-tomato,
+  .t-xl-tomato-hover:hover,
+  .font-xl-tomato,
+  .font-xl-tomato-hover:hover {
+    color: tomato !important;
+  }
+  .text-xl-turquoise, .text-xl-turquoise-hover:hover,
+  .t-xl-turquoise,
+  .t-xl-turquoise-hover:hover,
+  .font-xl-turquoise,
+  .font-xl-turquoise-hover:hover {
+    color: turquoise !important;
+  }
+  .text-xl-violet, .text-xl-violet-hover:hover,
+  .t-xl-violet,
+  .t-xl-violet-hover:hover,
+  .font-xl-violet,
+  .font-xl-violet-hover:hover {
+    color: violet !important;
+  }
+  .text-xl-wheat, .text-xl-wheat-hover:hover,
+  .t-xl-wheat,
+  .t-xl-wheat-hover:hover,
+  .font-xl-wheat,
+  .font-xl-wheat-hover:hover {
+    color: wheat !important;
+  }
+  .text-xl-white, .text-xl-white-hover:hover,
+  .t-xl-white,
+  .t-xl-white-hover:hover,
+  .font-xl-white,
+  .font-xl-white-hover:hover {
+    color: white !important;
+  }
+  .text-xl-whitesmoke, .text-xl-whitesmoke-hover:hover,
+  .t-xl-whitesmoke,
+  .t-xl-whitesmoke-hover:hover,
+  .font-xl-whitesmoke,
+  .font-xl-whitesmoke-hover:hover {
+    color: whitesmoke !important;
+  }
+  .text-xl-yellow, .text-xl-yellow-hover:hover,
   .t-xl-yellow,
-  .font-xl-yellow {
-    color: #ffc107 !important;
+  .t-xl-yellow-hover:hover,
+  .font-xl-yellow,
+  .font-xl-yellow-hover:hover {
+    color: yellow !important;
   }
-  .text-xl-fade-blue,
-  .t-xl-fade-blue,
-  .font-xl-fade-blue {
-    color: #34435E !important;
-  }
-  .text-xl-transparent,
-  .t-xl-transparent,
-  .font-xl-transparent {
-    color: transparent !important;
+  .text-xl-yellowgreen, .text-xl-yellowgreen-hover:hover,
+  .t-xl-yellowgreen,
+  .t-xl-yellowgreen-hover:hover,
+  .font-xl-yellowgreen,
+  .font-xl-yellowgreen-hover:hover {
+    color: yellowgreen !important;
   }
   .text-xl-1-px,
   .t-xl-1-px,
@@ -32393,50 +34409,992 @@
   .font-t-text-bottom {
     vertical-align: text-bottom !important;
   }
-  .text-t-light,
-  .t-t-light,
-  .font-t-light {
-    color: #dee2e6 !important;
+  .text-t-aliceblue, .text-t-aliceblue-hover:hover,
+  .t-t-aliceblue,
+  .t-t-aliceblue-hover:hover,
+  .font-t-aliceblue,
+  .font-t-aliceblue-hover:hover {
+    color: aliceblue !important;
   }
-  .text-t-grey,
+  .text-t-antiquewhite, .text-t-antiquewhite-hover:hover,
+  .t-t-antiquewhite,
+  .t-t-antiquewhite-hover:hover,
+  .font-t-antiquewhite,
+  .font-t-antiquewhite-hover:hover {
+    color: antiquewhite !important;
+  }
+  .text-t-aqua, .text-t-aqua-hover:hover,
+  .t-t-aqua,
+  .t-t-aqua-hover:hover,
+  .font-t-aqua,
+  .font-t-aqua-hover:hover {
+    color: aqua !important;
+  }
+  .text-t-aquamarine, .text-t-aquamarine-hover:hover,
+  .t-t-aquamarine,
+  .t-t-aquamarine-hover:hover,
+  .font-t-aquamarine,
+  .font-t-aquamarine-hover:hover {
+    color: aquamarine !important;
+  }
+  .text-t-azure, .text-t-azure-hover:hover,
+  .t-t-azure,
+  .t-t-azure-hover:hover,
+  .font-t-azure,
+  .font-t-azure-hover:hover {
+    color: azure !important;
+  }
+  .text-t-beige, .text-t-beige-hover:hover,
+  .t-t-beige,
+  .t-t-beige-hover:hover,
+  .font-t-beige,
+  .font-t-beige-hover:hover {
+    color: beige !important;
+  }
+  .text-t-bisque, .text-t-bisque-hover:hover,
+  .t-t-bisque,
+  .t-t-bisque-hover:hover,
+  .font-t-bisque,
+  .font-t-bisque-hover:hover {
+    color: bisque !important;
+  }
+  .text-t-black, .text-t-black-hover:hover,
+  .t-t-black,
+  .t-t-black-hover:hover,
+  .font-t-black,
+  .font-t-black-hover:hover {
+    color: black !important;
+  }
+  .text-t-blanchedalmond, .text-t-blanchedalmond-hover:hover,
+  .t-t-blanchedalmond,
+  .t-t-blanchedalmond-hover:hover,
+  .font-t-blanchedalmond,
+  .font-t-blanchedalmond-hover:hover {
+    color: blanchedalmond !important;
+  }
+  .text-t-blue, .text-t-blue-hover:hover,
+  .t-t-blue,
+  .t-t-blue-hover:hover,
+  .font-t-blue,
+  .font-t-blue-hover:hover {
+    color: blue !important;
+  }
+  .text-t-blueviolet, .text-t-blueviolet-hover:hover,
+  .t-t-blueviolet,
+  .t-t-blueviolet-hover:hover,
+  .font-t-blueviolet,
+  .font-t-blueviolet-hover:hover {
+    color: blueviolet !important;
+  }
+  .text-t-brown, .text-t-brown-hover:hover,
+  .t-t-brown,
+  .t-t-brown-hover:hover,
+  .font-t-brown,
+  .font-t-brown-hover:hover {
+    color: brown !important;
+  }
+  .text-t-burlywood, .text-t-burlywood-hover:hover,
+  .t-t-burlywood,
+  .t-t-burlywood-hover:hover,
+  .font-t-burlywood,
+  .font-t-burlywood-hover:hover {
+    color: burlywood !important;
+  }
+  .text-t-cadetblue, .text-t-cadetblue-hover:hover,
+  .t-t-cadetblue,
+  .t-t-cadetblue-hover:hover,
+  .font-t-cadetblue,
+  .font-t-cadetblue-hover:hover {
+    color: cadetblue !important;
+  }
+  .text-t-chartreuse, .text-t-chartreuse-hover:hover,
+  .t-t-chartreuse,
+  .t-t-chartreuse-hover:hover,
+  .font-t-chartreuse,
+  .font-t-chartreuse-hover:hover {
+    color: chartreuse !important;
+  }
+  .text-t-chocolate, .text-t-chocolate-hover:hover,
+  .t-t-chocolate,
+  .t-t-chocolate-hover:hover,
+  .font-t-chocolate,
+  .font-t-chocolate-hover:hover {
+    color: chocolate !important;
+  }
+  .text-t-coral, .text-t-coral-hover:hover,
+  .t-t-coral,
+  .t-t-coral-hover:hover,
+  .font-t-coral,
+  .font-t-coral-hover:hover {
+    color: coral !important;
+  }
+  .text-t-cornflowerblue, .text-t-cornflowerblue-hover:hover,
+  .t-t-cornflowerblue,
+  .t-t-cornflowerblue-hover:hover,
+  .font-t-cornflowerblue,
+  .font-t-cornflowerblue-hover:hover {
+    color: cornflowerblue !important;
+  }
+  .text-t-cornsilk, .text-t-cornsilk-hover:hover,
+  .t-t-cornsilk,
+  .t-t-cornsilk-hover:hover,
+  .font-t-cornsilk,
+  .font-t-cornsilk-hover:hover {
+    color: cornsilk !important;
+  }
+  .text-t-crimson, .text-t-crimson-hover:hover,
+  .t-t-crimson,
+  .t-t-crimson-hover:hover,
+  .font-t-crimson,
+  .font-t-crimson-hover:hover {
+    color: crimson !important;
+  }
+  .text-t-cyan, .text-t-cyan-hover:hover,
+  .t-t-cyan,
+  .t-t-cyan-hover:hover,
+  .font-t-cyan,
+  .font-t-cyan-hover:hover {
+    color: cyan !important;
+  }
+  .text-t-darkblue, .text-t-darkblue-hover:hover,
+  .t-t-darkblue,
+  .t-t-darkblue-hover:hover,
+  .font-t-darkblue,
+  .font-t-darkblue-hover:hover {
+    color: darkblue !important;
+  }
+  .text-t-darkcyan, .text-t-darkcyan-hover:hover,
+  .t-t-darkcyan,
+  .t-t-darkcyan-hover:hover,
+  .font-t-darkcyan,
+  .font-t-darkcyan-hover:hover {
+    color: darkcyan !important;
+  }
+  .text-t-darkgoldenrod, .text-t-darkgoldenrod-hover:hover,
+  .t-t-darkgoldenrod,
+  .t-t-darkgoldenrod-hover:hover,
+  .font-t-darkgoldenrod,
+  .font-t-darkgoldenrod-hover:hover {
+    color: darkgoldenrod !important;
+  }
+  .text-t-darkgray, .text-t-darkgray-hover:hover,
+  .t-t-darkgray,
+  .t-t-darkgray-hover:hover,
+  .font-t-darkgray,
+  .font-t-darkgray-hover:hover {
+    color: darkgray !important;
+  }
+  .text-t-darkgreen, .text-t-darkgreen-hover:hover,
+  .t-t-darkgreen,
+  .t-t-darkgreen-hover:hover,
+  .font-t-darkgreen,
+  .font-t-darkgreen-hover:hover {
+    color: darkgreen !important;
+  }
+  .text-t-darkkhaki, .text-t-darkkhaki-hover:hover,
+  .t-t-darkkhaki,
+  .t-t-darkkhaki-hover:hover,
+  .font-t-darkkhaki,
+  .font-t-darkkhaki-hover:hover {
+    color: darkkhaki !important;
+  }
+  .text-t-darkmagenta, .text-t-darkmagenta-hover:hover,
+  .t-t-darkmagenta,
+  .t-t-darkmagenta-hover:hover,
+  .font-t-darkmagenta,
+  .font-t-darkmagenta-hover:hover {
+    color: darkmagenta !important;
+  }
+  .text-t-darkolivegreen, .text-t-darkolivegreen-hover:hover,
+  .t-t-darkolivegreen,
+  .t-t-darkolivegreen-hover:hover,
+  .font-t-darkolivegreen,
+  .font-t-darkolivegreen-hover:hover {
+    color: darkolivegreen !important;
+  }
+  .text-t-darkorange, .text-t-darkorange-hover:hover,
+  .t-t-darkorange,
+  .t-t-darkorange-hover:hover,
+  .font-t-darkorange,
+  .font-t-darkorange-hover:hover {
+    color: darkorange !important;
+  }
+  .text-t-darkorchid, .text-t-darkorchid-hover:hover,
+  .t-t-darkorchid,
+  .t-t-darkorchid-hover:hover,
+  .font-t-darkorchid,
+  .font-t-darkorchid-hover:hover {
+    color: darkorchid !important;
+  }
+  .text-t-darkred, .text-t-darkred-hover:hover,
+  .t-t-darkred,
+  .t-t-darkred-hover:hover,
+  .font-t-darkred,
+  .font-t-darkred-hover:hover {
+    color: darkred !important;
+  }
+  .text-t-darksalmon, .text-t-darksalmon-hover:hover,
+  .t-t-darksalmon,
+  .t-t-darksalmon-hover:hover,
+  .font-t-darksalmon,
+  .font-t-darksalmon-hover:hover {
+    color: darksalmon !important;
+  }
+  .text-t-darkseagreen, .text-t-darkseagreen-hover:hover,
+  .t-t-darkseagreen,
+  .t-t-darkseagreen-hover:hover,
+  .font-t-darkseagreen,
+  .font-t-darkseagreen-hover:hover {
+    color: darkseagreen !important;
+  }
+  .text-t-darkslateblue, .text-t-darkslateblue-hover:hover,
+  .t-t-darkslateblue,
+  .t-t-darkslateblue-hover:hover,
+  .font-t-darkslateblue,
+  .font-t-darkslateblue-hover:hover {
+    color: darkslateblue !important;
+  }
+  .text-t-darkslategray, .text-t-darkslategray-hover:hover,
+  .t-t-darkslategray,
+  .t-t-darkslategray-hover:hover,
+  .font-t-darkslategray,
+  .font-t-darkslategray-hover:hover {
+    color: darkslategray !important;
+  }
+  .text-t-darkturquoise, .text-t-darkturquoise-hover:hover,
+  .t-t-darkturquoise,
+  .t-t-darkturquoise-hover:hover,
+  .font-t-darkturquoise,
+  .font-t-darkturquoise-hover:hover {
+    color: darkturquoise !important;
+  }
+  .text-t-darkviolet, .text-t-darkviolet-hover:hover,
+  .t-t-darkviolet,
+  .t-t-darkviolet-hover:hover,
+  .font-t-darkviolet,
+  .font-t-darkviolet-hover:hover {
+    color: darkviolet !important;
+  }
+  .text-t-deeppink, .text-t-deeppink-hover:hover,
+  .t-t-deeppink,
+  .t-t-deeppink-hover:hover,
+  .font-t-deeppink,
+  .font-t-deeppink-hover:hover {
+    color: deeppink !important;
+  }
+  .text-t-deepskyblue, .text-t-deepskyblue-hover:hover,
+  .t-t-deepskyblue,
+  .t-t-deepskyblue-hover:hover,
+  .font-t-deepskyblue,
+  .font-t-deepskyblue-hover:hover {
+    color: deepskyblue !important;
+  }
+  .text-t-dimgray, .text-t-dimgray-hover:hover,
+  .t-t-dimgray,
+  .t-t-dimgray-hover:hover,
+  .font-t-dimgray,
+  .font-t-dimgray-hover:hover {
+    color: dimgray !important;
+  }
+  .text-t-dodgerblue, .text-t-dodgerblue-hover:hover,
+  .t-t-dodgerblue,
+  .t-t-dodgerblue-hover:hover,
+  .font-t-dodgerblue,
+  .font-t-dodgerblue-hover:hover {
+    color: dodgerblue !important;
+  }
+  .text-t-firebrick, .text-t-firebrick-hover:hover,
+  .t-t-firebrick,
+  .t-t-firebrick-hover:hover,
+  .font-t-firebrick,
+  .font-t-firebrick-hover:hover {
+    color: firebrick !important;
+  }
+  .text-t-floralwhite, .text-t-floralwhite-hover:hover,
+  .t-t-floralwhite,
+  .t-t-floralwhite-hover:hover,
+  .font-t-floralwhite,
+  .font-t-floralwhite-hover:hover {
+    color: floralwhite !important;
+  }
+  .text-t-forestgreen, .text-t-forestgreen-hover:hover,
+  .t-t-forestgreen,
+  .t-t-forestgreen-hover:hover,
+  .font-t-forestgreen,
+  .font-t-forestgreen-hover:hover {
+    color: forestgreen !important;
+  }
+  .text-t-fuchsia, .text-t-fuchsia-hover:hover,
+  .t-t-fuchsia,
+  .t-t-fuchsia-hover:hover,
+  .font-t-fuchsia,
+  .font-t-fuchsia-hover:hover {
+    color: fuchsia !important;
+  }
+  .text-t-gainsboro, .text-t-gainsboro-hover:hover,
+  .t-t-gainsboro,
+  .t-t-gainsboro-hover:hover,
+  .font-t-gainsboro,
+  .font-t-gainsboro-hover:hover {
+    color: gainsboro !important;
+  }
+  .text-t-ghostwhite, .text-t-ghostwhite-hover:hover,
+  .t-t-ghostwhite,
+  .t-t-ghostwhite-hover:hover,
+  .font-t-ghostwhite,
+  .font-t-ghostwhite-hover:hover {
+    color: ghostwhite !important;
+  }
+  .text-t-gold, .text-t-gold-hover:hover,
+  .t-t-gold,
+  .t-t-gold-hover:hover,
+  .font-t-gold,
+  .font-t-gold-hover:hover {
+    color: gold !important;
+  }
+  .text-t-goldenrod, .text-t-goldenrod-hover:hover,
+  .t-t-goldenrod,
+  .t-t-goldenrod-hover:hover,
+  .font-t-goldenrod,
+  .font-t-goldenrod-hover:hover {
+    color: goldenrod !important;
+  }
+  .text-t-gray, .text-t-gray-hover:hover,
+  .t-t-gray,
+  .t-t-gray-hover:hover,
+  .font-t-gray,
+  .font-t-gray-hover:hover {
+    color: gray !important;
+  }
+  .text-t-grey, .text-t-grey-hover:hover,
   .t-t-grey,
-  .font-t-grey {
-    color: #6c757d !important;
+  .t-t-grey-hover:hover,
+  .font-t-grey,
+  .font-t-grey-hover:hover {
+    color: grey !important;
   }
-  .text-t-red,
+  .text-t-green, .text-t-green-hover:hover,
+  .t-t-green,
+  .t-t-green-hover:hover,
+  .font-t-green,
+  .font-t-green-hover:hover {
+    color: green !important;
+  }
+  .text-t-greenyellow, .text-t-greenyellow-hover:hover,
+  .t-t-greenyellow,
+  .t-t-greenyellow-hover:hover,
+  .font-t-greenyellow,
+  .font-t-greenyellow-hover:hover {
+    color: greenyellow !important;
+  }
+  .text-t-honeydew, .text-t-honeydew-hover:hover,
+  .t-t-honeydew,
+  .t-t-honeydew-hover:hover,
+  .font-t-honeydew,
+  .font-t-honeydew-hover:hover {
+    color: honeydew !important;
+  }
+  .text-t-hotpink, .text-t-hotpink-hover:hover,
+  .t-t-hotpink,
+  .t-t-hotpink-hover:hover,
+  .font-t-hotpink,
+  .font-t-hotpink-hover:hover {
+    color: hotpink !important;
+  }
+  .text-t-indianred, .text-t-indianred-hover:hover,
+  .t-t-indianred,
+  .t-t-indianred-hover:hover,
+  .font-t-indianred,
+  .font-t-indianred-hover:hover {
+    color: indianred !important;
+  }
+  .text-t-indigo, .text-t-indigo-hover:hover,
+  .t-t-indigo,
+  .t-t-indigo-hover:hover,
+  .font-t-indigo,
+  .font-t-indigo-hover:hover {
+    color: indigo !important;
+  }
+  .text-t-ivory, .text-t-ivory-hover:hover,
+  .t-t-ivory,
+  .t-t-ivory-hover:hover,
+  .font-t-ivory,
+  .font-t-ivory-hover:hover {
+    color: ivory !important;
+  }
+  .text-t-khaki, .text-t-khaki-hover:hover,
+  .t-t-khaki,
+  .t-t-khaki-hover:hover,
+  .font-t-khaki,
+  .font-t-khaki-hover:hover {
+    color: khaki !important;
+  }
+  .text-t-lavender, .text-t-lavender-hover:hover,
+  .t-t-lavender,
+  .t-t-lavender-hover:hover,
+  .font-t-lavender,
+  .font-t-lavender-hover:hover {
+    color: lavender !important;
+  }
+  .text-t-lavenderblush, .text-t-lavenderblush-hover:hover,
+  .t-t-lavenderblush,
+  .t-t-lavenderblush-hover:hover,
+  .font-t-lavenderblush,
+  .font-t-lavenderblush-hover:hover {
+    color: lavenderblush !important;
+  }
+  .text-t-lawngreen, .text-t-lawngreen-hover:hover,
+  .t-t-lawngreen,
+  .t-t-lawngreen-hover:hover,
+  .font-t-lawngreen,
+  .font-t-lawngreen-hover:hover {
+    color: lawngreen !important;
+  }
+  .text-t-lemonchiffon, .text-t-lemonchiffon-hover:hover,
+  .t-t-lemonchiffon,
+  .t-t-lemonchiffon-hover:hover,
+  .font-t-lemonchiffon,
+  .font-t-lemonchiffon-hover:hover {
+    color: lemonchiffon !important;
+  }
+  .text-t-lightblue, .text-t-lightblue-hover:hover,
+  .t-t-lightblue,
+  .t-t-lightblue-hover:hover,
+  .font-t-lightblue,
+  .font-t-lightblue-hover:hover {
+    color: lightblue !important;
+  }
+  .text-t-lightcoral, .text-t-lightcoral-hover:hover,
+  .t-t-lightcoral,
+  .t-t-lightcoral-hover:hover,
+  .font-t-lightcoral,
+  .font-t-lightcoral-hover:hover {
+    color: lightcoral !important;
+  }
+  .text-t-lightcyan, .text-t-lightcyan-hover:hover,
+  .t-t-lightcyan,
+  .t-t-lightcyan-hover:hover,
+  .font-t-lightcyan,
+  .font-t-lightcyan-hover:hover {
+    color: lightcyan !important;
+  }
+  .text-t-lightgoldenrodyellow, .text-t-lightgoldenrodyellow-hover:hover,
+  .t-t-lightgoldenrodyellow,
+  .t-t-lightgoldenrodyellow-hover:hover,
+  .font-t-lightgoldenrodyellow,
+  .font-t-lightgoldenrodyellow-hover:hover {
+    color: lightgoldenrodyellow !important;
+  }
+  .text-t-lightgrey, .text-t-lightgrey-hover:hover,
+  .t-t-lightgrey,
+  .t-t-lightgrey-hover:hover,
+  .font-t-lightgrey,
+  .font-t-lightgrey-hover:hover {
+    color: lightgrey !important;
+  }
+  .text-t-lightgreen, .text-t-lightgreen-hover:hover,
+  .t-t-lightgreen,
+  .t-t-lightgreen-hover:hover,
+  .font-t-lightgreen,
+  .font-t-lightgreen-hover:hover {
+    color: lightgreen !important;
+  }
+  .text-t-lightpink, .text-t-lightpink-hover:hover,
+  .t-t-lightpink,
+  .t-t-lightpink-hover:hover,
+  .font-t-lightpink,
+  .font-t-lightpink-hover:hover {
+    color: lightpink !important;
+  }
+  .text-t-lightsalmon, .text-t-lightsalmon-hover:hover,
+  .t-t-lightsalmon,
+  .t-t-lightsalmon-hover:hover,
+  .font-t-lightsalmon,
+  .font-t-lightsalmon-hover:hover {
+    color: lightsalmon !important;
+  }
+  .text-t-lightseagreen, .text-t-lightseagreen-hover:hover,
+  .t-t-lightseagreen,
+  .t-t-lightseagreen-hover:hover,
+  .font-t-lightseagreen,
+  .font-t-lightseagreen-hover:hover {
+    color: lightseagreen !important;
+  }
+  .text-t-lightskyblue, .text-t-lightskyblue-hover:hover,
+  .t-t-lightskyblue,
+  .t-t-lightskyblue-hover:hover,
+  .font-t-lightskyblue,
+  .font-t-lightskyblue-hover:hover {
+    color: lightskyblue !important;
+  }
+  .text-t-lightslategray, .text-t-lightslategray-hover:hover,
+  .t-t-lightslategray,
+  .t-t-lightslategray-hover:hover,
+  .font-t-lightslategray,
+  .font-t-lightslategray-hover:hover {
+    color: lightslategray !important;
+  }
+  .text-t-lightsteelblue, .text-t-lightsteelblue-hover:hover,
+  .t-t-lightsteelblue,
+  .t-t-lightsteelblue-hover:hover,
+  .font-t-lightsteelblue,
+  .font-t-lightsteelblue-hover:hover {
+    color: lightsteelblue !important;
+  }
+  .text-t-lightyellow, .text-t-lightyellow-hover:hover,
+  .t-t-lightyellow,
+  .t-t-lightyellow-hover:hover,
+  .font-t-lightyellow,
+  .font-t-lightyellow-hover:hover {
+    color: lightyellow !important;
+  }
+  .text-t-lime, .text-t-lime-hover:hover,
+  .t-t-lime,
+  .t-t-lime-hover:hover,
+  .font-t-lime,
+  .font-t-lime-hover:hover {
+    color: lime !important;
+  }
+  .text-t-limegreen, .text-t-limegreen-hover:hover,
+  .t-t-limegreen,
+  .t-t-limegreen-hover:hover,
+  .font-t-limegreen,
+  .font-t-limegreen-hover:hover {
+    color: limegreen !important;
+  }
+  .text-t-linen, .text-t-linen-hover:hover,
+  .t-t-linen,
+  .t-t-linen-hover:hover,
+  .font-t-linen,
+  .font-t-linen-hover:hover {
+    color: linen !important;
+  }
+  .text-t-magenta, .text-t-magenta-hover:hover,
+  .t-t-magenta,
+  .t-t-magenta-hover:hover,
+  .font-t-magenta,
+  .font-t-magenta-hover:hover {
+    color: magenta !important;
+  }
+  .text-t-maroon, .text-t-maroon-hover:hover,
+  .t-t-maroon,
+  .t-t-maroon-hover:hover,
+  .font-t-maroon,
+  .font-t-maroon-hover:hover {
+    color: maroon !important;
+  }
+  .text-t-mediumaquamarine, .text-t-mediumaquamarine-hover:hover,
+  .t-t-mediumaquamarine,
+  .t-t-mediumaquamarine-hover:hover,
+  .font-t-mediumaquamarine,
+  .font-t-mediumaquamarine-hover:hover {
+    color: mediumaquamarine !important;
+  }
+  .text-t-mediumblue, .text-t-mediumblue-hover:hover,
+  .t-t-mediumblue,
+  .t-t-mediumblue-hover:hover,
+  .font-t-mediumblue,
+  .font-t-mediumblue-hover:hover {
+    color: mediumblue !important;
+  }
+  .text-t-mediumorchid, .text-t-mediumorchid-hover:hover,
+  .t-t-mediumorchid,
+  .t-t-mediumorchid-hover:hover,
+  .font-t-mediumorchid,
+  .font-t-mediumorchid-hover:hover {
+    color: mediumorchid !important;
+  }
+  .text-t-mediumpurple, .text-t-mediumpurple-hover:hover,
+  .t-t-mediumpurple,
+  .t-t-mediumpurple-hover:hover,
+  .font-t-mediumpurple,
+  .font-t-mediumpurple-hover:hover {
+    color: mediumpurple !important;
+  }
+  .text-t-mediumseagreen, .text-t-mediumseagreen-hover:hover,
+  .t-t-mediumseagreen,
+  .t-t-mediumseagreen-hover:hover,
+  .font-t-mediumseagreen,
+  .font-t-mediumseagreen-hover:hover {
+    color: mediumseagreen !important;
+  }
+  .text-t-mediumslateblue, .text-t-mediumslateblue-hover:hover,
+  .t-t-mediumslateblue,
+  .t-t-mediumslateblue-hover:hover,
+  .font-t-mediumslateblue,
+  .font-t-mediumslateblue-hover:hover {
+    color: mediumslateblue !important;
+  }
+  .text-t-mediumspringgreen, .text-t-mediumspringgreen-hover:hover,
+  .t-t-mediumspringgreen,
+  .t-t-mediumspringgreen-hover:hover,
+  .font-t-mediumspringgreen,
+  .font-t-mediumspringgreen-hover:hover {
+    color: mediumspringgreen !important;
+  }
+  .text-t-mediumturquoise, .text-t-mediumturquoise-hover:hover,
+  .t-t-mediumturquoise,
+  .t-t-mediumturquoise-hover:hover,
+  .font-t-mediumturquoise,
+  .font-t-mediumturquoise-hover:hover {
+    color: mediumturquoise !important;
+  }
+  .text-t-mediumvioletred, .text-t-mediumvioletred-hover:hover,
+  .t-t-mediumvioletred,
+  .t-t-mediumvioletred-hover:hover,
+  .font-t-mediumvioletred,
+  .font-t-mediumvioletred-hover:hover {
+    color: mediumvioletred !important;
+  }
+  .text-t-midnightblue, .text-t-midnightblue-hover:hover,
+  .t-t-midnightblue,
+  .t-t-midnightblue-hover:hover,
+  .font-t-midnightblue,
+  .font-t-midnightblue-hover:hover {
+    color: midnightblue !important;
+  }
+  .text-t-mintcream, .text-t-mintcream-hover:hover,
+  .t-t-mintcream,
+  .t-t-mintcream-hover:hover,
+  .font-t-mintcream,
+  .font-t-mintcream-hover:hover {
+    color: mintcream !important;
+  }
+  .text-t-mistyrose, .text-t-mistyrose-hover:hover,
+  .t-t-mistyrose,
+  .t-t-mistyrose-hover:hover,
+  .font-t-mistyrose,
+  .font-t-mistyrose-hover:hover {
+    color: mistyrose !important;
+  }
+  .text-t-moccasin, .text-t-moccasin-hover:hover,
+  .t-t-moccasin,
+  .t-t-moccasin-hover:hover,
+  .font-t-moccasin,
+  .font-t-moccasin-hover:hover {
+    color: moccasin !important;
+  }
+  .text-t-navajowhite, .text-t-navajowhite-hover:hover,
+  .t-t-navajowhite,
+  .t-t-navajowhite-hover:hover,
+  .font-t-navajowhite,
+  .font-t-navajowhite-hover:hover {
+    color: navajowhite !important;
+  }
+  .text-t-navy, .text-t-navy-hover:hover,
+  .t-t-navy,
+  .t-t-navy-hover:hover,
+  .font-t-navy,
+  .font-t-navy-hover:hover {
+    color: navy !important;
+  }
+  .text-t-oldlace, .text-t-oldlace-hover:hover,
+  .t-t-oldlace,
+  .t-t-oldlace-hover:hover,
+  .font-t-oldlace,
+  .font-t-oldlace-hover:hover {
+    color: oldlace !important;
+  }
+  .text-t-olive, .text-t-olive-hover:hover,
+  .t-t-olive,
+  .t-t-olive-hover:hover,
+  .font-t-olive,
+  .font-t-olive-hover:hover {
+    color: olive !important;
+  }
+  .text-t-olivedrab, .text-t-olivedrab-hover:hover,
+  .t-t-olivedrab,
+  .t-t-olivedrab-hover:hover,
+  .font-t-olivedrab,
+  .font-t-olivedrab-hover:hover {
+    color: olivedrab !important;
+  }
+  .text-t-orange, .text-t-orange-hover:hover,
+  .t-t-orange,
+  .t-t-orange-hover:hover,
+  .font-t-orange,
+  .font-t-orange-hover:hover {
+    color: orange !important;
+  }
+  .text-t-orangered, .text-t-orangered-hover:hover,
+  .t-t-orangered,
+  .t-t-orangered-hover:hover,
+  .font-t-orangered,
+  .font-t-orangered-hover:hover {
+    color: orangered !important;
+  }
+  .text-t-orchid, .text-t-orchid-hover:hover,
+  .t-t-orchid,
+  .t-t-orchid-hover:hover,
+  .font-t-orchid,
+  .font-t-orchid-hover:hover {
+    color: orchid !important;
+  }
+  .text-t-palegoldenrod, .text-t-palegoldenrod-hover:hover,
+  .t-t-palegoldenrod,
+  .t-t-palegoldenrod-hover:hover,
+  .font-t-palegoldenrod,
+  .font-t-palegoldenrod-hover:hover {
+    color: palegoldenrod !important;
+  }
+  .text-t-palegreen, .text-t-palegreen-hover:hover,
+  .t-t-palegreen,
+  .t-t-palegreen-hover:hover,
+  .font-t-palegreen,
+  .font-t-palegreen-hover:hover {
+    color: palegreen !important;
+  }
+  .text-t-paleturquoise, .text-t-paleturquoise-hover:hover,
+  .t-t-paleturquoise,
+  .t-t-paleturquoise-hover:hover,
+  .font-t-paleturquoise,
+  .font-t-paleturquoise-hover:hover {
+    color: paleturquoise !important;
+  }
+  .text-t-palevioletred, .text-t-palevioletred-hover:hover,
+  .t-t-palevioletred,
+  .t-t-palevioletred-hover:hover,
+  .font-t-palevioletred,
+  .font-t-palevioletred-hover:hover {
+    color: palevioletred !important;
+  }
+  .text-t-papayawhip, .text-t-papayawhip-hover:hover,
+  .t-t-papayawhip,
+  .t-t-papayawhip-hover:hover,
+  .font-t-papayawhip,
+  .font-t-papayawhip-hover:hover {
+    color: papayawhip !important;
+  }
+  .text-t-peachpuff, .text-t-peachpuff-hover:hover,
+  .t-t-peachpuff,
+  .t-t-peachpuff-hover:hover,
+  .font-t-peachpuff,
+  .font-t-peachpuff-hover:hover {
+    color: peachpuff !important;
+  }
+  .text-t-peru, .text-t-peru-hover:hover,
+  .t-t-peru,
+  .t-t-peru-hover:hover,
+  .font-t-peru,
+  .font-t-peru-hover:hover {
+    color: peru !important;
+  }
+  .text-t-pink, .text-t-pink-hover:hover,
+  .t-t-pink,
+  .t-t-pink-hover:hover,
+  .font-t-pink,
+  .font-t-pink-hover:hover {
+    color: pink !important;
+  }
+  .text-t-plum, .text-t-plum-hover:hover,
+  .t-t-plum,
+  .t-t-plum-hover:hover,
+  .font-t-plum,
+  .font-t-plum-hover:hover {
+    color: plum !important;
+  }
+  .text-t-powderblue, .text-t-powderblue-hover:hover,
+  .t-t-powderblue,
+  .t-t-powderblue-hover:hover,
+  .font-t-powderblue,
+  .font-t-powderblue-hover:hover {
+    color: powderblue !important;
+  }
+  .text-t-purple, .text-t-purple-hover:hover,
+  .t-t-purple,
+  .t-t-purple-hover:hover,
+  .font-t-purple,
+  .font-t-purple-hover:hover {
+    color: purple !important;
+  }
+  .text-t-red, .text-t-red-hover:hover,
   .t-t-red,
-  .font-t-red {
+  .t-t-red-hover:hover,
+  .font-t-red,
+  .font-t-red-hover:hover {
     color: red !important;
   }
-  .text-t-dark-red,
-  .t-t-dark-red,
-  .font-t-dark-red {
-    color: #dc3545 !important;
+  .text-t-rosybrown, .text-t-rosybrown-hover:hover,
+  .t-t-rosybrown,
+  .t-t-rosybrown-hover:hover,
+  .font-t-rosybrown,
+  .font-t-rosybrown-hover:hover {
+    color: rosybrown !important;
   }
-  .text-t-green,
-  .t-t-green,
-  .font-t-green {
-    color: #27e178 !important;
+  .text-t-royalblue, .text-t-royalblue-hover:hover,
+  .t-t-royalblue,
+  .t-t-royalblue-hover:hover,
+  .font-t-royalblue,
+  .font-t-royalblue-hover:hover {
+    color: royalblue !important;
   }
-  .text-t-blue,
-  .t-t-blue,
-  .font-t-blue {
-    color: #279EDA !important;
+  .text-t-saddlebrown, .text-t-saddlebrown-hover:hover,
+  .t-t-saddlebrown,
+  .t-t-saddlebrown-hover:hover,
+  .font-t-saddlebrown,
+  .font-t-saddlebrown-hover:hover {
+    color: saddlebrown !important;
   }
-  .text-t-yellow,
+  .text-t-salmon, .text-t-salmon-hover:hover,
+  .t-t-salmon,
+  .t-t-salmon-hover:hover,
+  .font-t-salmon,
+  .font-t-salmon-hover:hover {
+    color: salmon !important;
+  }
+  .text-t-sandybrown, .text-t-sandybrown-hover:hover,
+  .t-t-sandybrown,
+  .t-t-sandybrown-hover:hover,
+  .font-t-sandybrown,
+  .font-t-sandybrown-hover:hover {
+    color: sandybrown !important;
+  }
+  .text-t-seagreen, .text-t-seagreen-hover:hover,
+  .t-t-seagreen,
+  .t-t-seagreen-hover:hover,
+  .font-t-seagreen,
+  .font-t-seagreen-hover:hover {
+    color: seagreen !important;
+  }
+  .text-t-seashell, .text-t-seashell-hover:hover,
+  .t-t-seashell,
+  .t-t-seashell-hover:hover,
+  .font-t-seashell,
+  .font-t-seashell-hover:hover {
+    color: seashell !important;
+  }
+  .text-t-sienna, .text-t-sienna-hover:hover,
+  .t-t-sienna,
+  .t-t-sienna-hover:hover,
+  .font-t-sienna,
+  .font-t-sienna-hover:hover {
+    color: sienna !important;
+  }
+  .text-t-silver, .text-t-silver-hover:hover,
+  .t-t-silver,
+  .t-t-silver-hover:hover,
+  .font-t-silver,
+  .font-t-silver-hover:hover {
+    color: silver !important;
+  }
+  .text-t-skyblue, .text-t-skyblue-hover:hover,
+  .t-t-skyblue,
+  .t-t-skyblue-hover:hover,
+  .font-t-skyblue,
+  .font-t-skyblue-hover:hover {
+    color: skyblue !important;
+  }
+  .text-t-slateblue, .text-t-slateblue-hover:hover,
+  .t-t-slateblue,
+  .t-t-slateblue-hover:hover,
+  .font-t-slateblue,
+  .font-t-slateblue-hover:hover {
+    color: slateblue !important;
+  }
+  .text-t-slategray, .text-t-slategray-hover:hover,
+  .t-t-slategray,
+  .t-t-slategray-hover:hover,
+  .font-t-slategray,
+  .font-t-slategray-hover:hover {
+    color: slategray !important;
+  }
+  .text-t-snow, .text-t-snow-hover:hover,
+  .t-t-snow,
+  .t-t-snow-hover:hover,
+  .font-t-snow,
+  .font-t-snow-hover:hover {
+    color: snow !important;
+  }
+  .text-t-springgreen, .text-t-springgreen-hover:hover,
+  .t-t-springgreen,
+  .t-t-springgreen-hover:hover,
+  .font-t-springgreen,
+  .font-t-springgreen-hover:hover {
+    color: springgreen !important;
+  }
+  .text-t-steelblue, .text-t-steelblue-hover:hover,
+  .t-t-steelblue,
+  .t-t-steelblue-hover:hover,
+  .font-t-steelblue,
+  .font-t-steelblue-hover:hover {
+    color: steelblue !important;
+  }
+  .text-t-tan, .text-t-tan-hover:hover,
+  .t-t-tan,
+  .t-t-tan-hover:hover,
+  .font-t-tan,
+  .font-t-tan-hover:hover {
+    color: tan !important;
+  }
+  .text-t-teal, .text-t-teal-hover:hover,
+  .t-t-teal,
+  .t-t-teal-hover:hover,
+  .font-t-teal,
+  .font-t-teal-hover:hover {
+    color: teal !important;
+  }
+  .text-t-thistle, .text-t-thistle-hover:hover,
+  .t-t-thistle,
+  .t-t-thistle-hover:hover,
+  .font-t-thistle,
+  .font-t-thistle-hover:hover {
+    color: thistle !important;
+  }
+  .text-t-tomato, .text-t-tomato-hover:hover,
+  .t-t-tomato,
+  .t-t-tomato-hover:hover,
+  .font-t-tomato,
+  .font-t-tomato-hover:hover {
+    color: tomato !important;
+  }
+  .text-t-turquoise, .text-t-turquoise-hover:hover,
+  .t-t-turquoise,
+  .t-t-turquoise-hover:hover,
+  .font-t-turquoise,
+  .font-t-turquoise-hover:hover {
+    color: turquoise !important;
+  }
+  .text-t-violet, .text-t-violet-hover:hover,
+  .t-t-violet,
+  .t-t-violet-hover:hover,
+  .font-t-violet,
+  .font-t-violet-hover:hover {
+    color: violet !important;
+  }
+  .text-t-wheat, .text-t-wheat-hover:hover,
+  .t-t-wheat,
+  .t-t-wheat-hover:hover,
+  .font-t-wheat,
+  .font-t-wheat-hover:hover {
+    color: wheat !important;
+  }
+  .text-t-white, .text-t-white-hover:hover,
+  .t-t-white,
+  .t-t-white-hover:hover,
+  .font-t-white,
+  .font-t-white-hover:hover {
+    color: white !important;
+  }
+  .text-t-whitesmoke, .text-t-whitesmoke-hover:hover,
+  .t-t-whitesmoke,
+  .t-t-whitesmoke-hover:hover,
+  .font-t-whitesmoke,
+  .font-t-whitesmoke-hover:hover {
+    color: whitesmoke !important;
+  }
+  .text-t-yellow, .text-t-yellow-hover:hover,
   .t-t-yellow,
-  .font-t-yellow {
-    color: #ffc107 !important;
+  .t-t-yellow-hover:hover,
+  .font-t-yellow,
+  .font-t-yellow-hover:hover {
+    color: yellow !important;
   }
-  .text-t-fade-blue,
-  .t-t-fade-blue,
-  .font-t-fade-blue {
-    color: #34435E !important;
-  }
-  .text-t-transparent,
-  .t-t-transparent,
-  .font-t-transparent {
-    color: transparent !important;
+  .text-t-yellowgreen, .text-t-yellowgreen-hover:hover,
+  .t-t-yellowgreen,
+  .t-t-yellowgreen-hover:hover,
+  .font-t-yellowgreen,
+  .font-t-yellowgreen-hover:hover {
+    color: yellowgreen !important;
   }
   .text-t-1-px,
   .t-t-1-px,
@@ -33229,50 +36187,992 @@
   .font-m-text-bottom {
     vertical-align: text-bottom !important;
   }
-  .text-m-light,
-  .t-m-light,
-  .font-m-light {
-    color: #dee2e6 !important;
+  .text-m-aliceblue, .text-m-aliceblue-hover:hover,
+  .t-m-aliceblue,
+  .t-m-aliceblue-hover:hover,
+  .font-m-aliceblue,
+  .font-m-aliceblue-hover:hover {
+    color: aliceblue !important;
   }
-  .text-m-grey,
+  .text-m-antiquewhite, .text-m-antiquewhite-hover:hover,
+  .t-m-antiquewhite,
+  .t-m-antiquewhite-hover:hover,
+  .font-m-antiquewhite,
+  .font-m-antiquewhite-hover:hover {
+    color: antiquewhite !important;
+  }
+  .text-m-aqua, .text-m-aqua-hover:hover,
+  .t-m-aqua,
+  .t-m-aqua-hover:hover,
+  .font-m-aqua,
+  .font-m-aqua-hover:hover {
+    color: aqua !important;
+  }
+  .text-m-aquamarine, .text-m-aquamarine-hover:hover,
+  .t-m-aquamarine,
+  .t-m-aquamarine-hover:hover,
+  .font-m-aquamarine,
+  .font-m-aquamarine-hover:hover {
+    color: aquamarine !important;
+  }
+  .text-m-azure, .text-m-azure-hover:hover,
+  .t-m-azure,
+  .t-m-azure-hover:hover,
+  .font-m-azure,
+  .font-m-azure-hover:hover {
+    color: azure !important;
+  }
+  .text-m-beige, .text-m-beige-hover:hover,
+  .t-m-beige,
+  .t-m-beige-hover:hover,
+  .font-m-beige,
+  .font-m-beige-hover:hover {
+    color: beige !important;
+  }
+  .text-m-bisque, .text-m-bisque-hover:hover,
+  .t-m-bisque,
+  .t-m-bisque-hover:hover,
+  .font-m-bisque,
+  .font-m-bisque-hover:hover {
+    color: bisque !important;
+  }
+  .text-m-black, .text-m-black-hover:hover,
+  .t-m-black,
+  .t-m-black-hover:hover,
+  .font-m-black,
+  .font-m-black-hover:hover {
+    color: black !important;
+  }
+  .text-m-blanchedalmond, .text-m-blanchedalmond-hover:hover,
+  .t-m-blanchedalmond,
+  .t-m-blanchedalmond-hover:hover,
+  .font-m-blanchedalmond,
+  .font-m-blanchedalmond-hover:hover {
+    color: blanchedalmond !important;
+  }
+  .text-m-blue, .text-m-blue-hover:hover,
+  .t-m-blue,
+  .t-m-blue-hover:hover,
+  .font-m-blue,
+  .font-m-blue-hover:hover {
+    color: blue !important;
+  }
+  .text-m-blueviolet, .text-m-blueviolet-hover:hover,
+  .t-m-blueviolet,
+  .t-m-blueviolet-hover:hover,
+  .font-m-blueviolet,
+  .font-m-blueviolet-hover:hover {
+    color: blueviolet !important;
+  }
+  .text-m-brown, .text-m-brown-hover:hover,
+  .t-m-brown,
+  .t-m-brown-hover:hover,
+  .font-m-brown,
+  .font-m-brown-hover:hover {
+    color: brown !important;
+  }
+  .text-m-burlywood, .text-m-burlywood-hover:hover,
+  .t-m-burlywood,
+  .t-m-burlywood-hover:hover,
+  .font-m-burlywood,
+  .font-m-burlywood-hover:hover {
+    color: burlywood !important;
+  }
+  .text-m-cadetblue, .text-m-cadetblue-hover:hover,
+  .t-m-cadetblue,
+  .t-m-cadetblue-hover:hover,
+  .font-m-cadetblue,
+  .font-m-cadetblue-hover:hover {
+    color: cadetblue !important;
+  }
+  .text-m-chartreuse, .text-m-chartreuse-hover:hover,
+  .t-m-chartreuse,
+  .t-m-chartreuse-hover:hover,
+  .font-m-chartreuse,
+  .font-m-chartreuse-hover:hover {
+    color: chartreuse !important;
+  }
+  .text-m-chocolate, .text-m-chocolate-hover:hover,
+  .t-m-chocolate,
+  .t-m-chocolate-hover:hover,
+  .font-m-chocolate,
+  .font-m-chocolate-hover:hover {
+    color: chocolate !important;
+  }
+  .text-m-coral, .text-m-coral-hover:hover,
+  .t-m-coral,
+  .t-m-coral-hover:hover,
+  .font-m-coral,
+  .font-m-coral-hover:hover {
+    color: coral !important;
+  }
+  .text-m-cornflowerblue, .text-m-cornflowerblue-hover:hover,
+  .t-m-cornflowerblue,
+  .t-m-cornflowerblue-hover:hover,
+  .font-m-cornflowerblue,
+  .font-m-cornflowerblue-hover:hover {
+    color: cornflowerblue !important;
+  }
+  .text-m-cornsilk, .text-m-cornsilk-hover:hover,
+  .t-m-cornsilk,
+  .t-m-cornsilk-hover:hover,
+  .font-m-cornsilk,
+  .font-m-cornsilk-hover:hover {
+    color: cornsilk !important;
+  }
+  .text-m-crimson, .text-m-crimson-hover:hover,
+  .t-m-crimson,
+  .t-m-crimson-hover:hover,
+  .font-m-crimson,
+  .font-m-crimson-hover:hover {
+    color: crimson !important;
+  }
+  .text-m-cyan, .text-m-cyan-hover:hover,
+  .t-m-cyan,
+  .t-m-cyan-hover:hover,
+  .font-m-cyan,
+  .font-m-cyan-hover:hover {
+    color: cyan !important;
+  }
+  .text-m-darkblue, .text-m-darkblue-hover:hover,
+  .t-m-darkblue,
+  .t-m-darkblue-hover:hover,
+  .font-m-darkblue,
+  .font-m-darkblue-hover:hover {
+    color: darkblue !important;
+  }
+  .text-m-darkcyan, .text-m-darkcyan-hover:hover,
+  .t-m-darkcyan,
+  .t-m-darkcyan-hover:hover,
+  .font-m-darkcyan,
+  .font-m-darkcyan-hover:hover {
+    color: darkcyan !important;
+  }
+  .text-m-darkgoldenrod, .text-m-darkgoldenrod-hover:hover,
+  .t-m-darkgoldenrod,
+  .t-m-darkgoldenrod-hover:hover,
+  .font-m-darkgoldenrod,
+  .font-m-darkgoldenrod-hover:hover {
+    color: darkgoldenrod !important;
+  }
+  .text-m-darkgray, .text-m-darkgray-hover:hover,
+  .t-m-darkgray,
+  .t-m-darkgray-hover:hover,
+  .font-m-darkgray,
+  .font-m-darkgray-hover:hover {
+    color: darkgray !important;
+  }
+  .text-m-darkgreen, .text-m-darkgreen-hover:hover,
+  .t-m-darkgreen,
+  .t-m-darkgreen-hover:hover,
+  .font-m-darkgreen,
+  .font-m-darkgreen-hover:hover {
+    color: darkgreen !important;
+  }
+  .text-m-darkkhaki, .text-m-darkkhaki-hover:hover,
+  .t-m-darkkhaki,
+  .t-m-darkkhaki-hover:hover,
+  .font-m-darkkhaki,
+  .font-m-darkkhaki-hover:hover {
+    color: darkkhaki !important;
+  }
+  .text-m-darkmagenta, .text-m-darkmagenta-hover:hover,
+  .t-m-darkmagenta,
+  .t-m-darkmagenta-hover:hover,
+  .font-m-darkmagenta,
+  .font-m-darkmagenta-hover:hover {
+    color: darkmagenta !important;
+  }
+  .text-m-darkolivegreen, .text-m-darkolivegreen-hover:hover,
+  .t-m-darkolivegreen,
+  .t-m-darkolivegreen-hover:hover,
+  .font-m-darkolivegreen,
+  .font-m-darkolivegreen-hover:hover {
+    color: darkolivegreen !important;
+  }
+  .text-m-darkorange, .text-m-darkorange-hover:hover,
+  .t-m-darkorange,
+  .t-m-darkorange-hover:hover,
+  .font-m-darkorange,
+  .font-m-darkorange-hover:hover {
+    color: darkorange !important;
+  }
+  .text-m-darkorchid, .text-m-darkorchid-hover:hover,
+  .t-m-darkorchid,
+  .t-m-darkorchid-hover:hover,
+  .font-m-darkorchid,
+  .font-m-darkorchid-hover:hover {
+    color: darkorchid !important;
+  }
+  .text-m-darkred, .text-m-darkred-hover:hover,
+  .t-m-darkred,
+  .t-m-darkred-hover:hover,
+  .font-m-darkred,
+  .font-m-darkred-hover:hover {
+    color: darkred !important;
+  }
+  .text-m-darksalmon, .text-m-darksalmon-hover:hover,
+  .t-m-darksalmon,
+  .t-m-darksalmon-hover:hover,
+  .font-m-darksalmon,
+  .font-m-darksalmon-hover:hover {
+    color: darksalmon !important;
+  }
+  .text-m-darkseagreen, .text-m-darkseagreen-hover:hover,
+  .t-m-darkseagreen,
+  .t-m-darkseagreen-hover:hover,
+  .font-m-darkseagreen,
+  .font-m-darkseagreen-hover:hover {
+    color: darkseagreen !important;
+  }
+  .text-m-darkslateblue, .text-m-darkslateblue-hover:hover,
+  .t-m-darkslateblue,
+  .t-m-darkslateblue-hover:hover,
+  .font-m-darkslateblue,
+  .font-m-darkslateblue-hover:hover {
+    color: darkslateblue !important;
+  }
+  .text-m-darkslategray, .text-m-darkslategray-hover:hover,
+  .t-m-darkslategray,
+  .t-m-darkslategray-hover:hover,
+  .font-m-darkslategray,
+  .font-m-darkslategray-hover:hover {
+    color: darkslategray !important;
+  }
+  .text-m-darkturquoise, .text-m-darkturquoise-hover:hover,
+  .t-m-darkturquoise,
+  .t-m-darkturquoise-hover:hover,
+  .font-m-darkturquoise,
+  .font-m-darkturquoise-hover:hover {
+    color: darkturquoise !important;
+  }
+  .text-m-darkviolet, .text-m-darkviolet-hover:hover,
+  .t-m-darkviolet,
+  .t-m-darkviolet-hover:hover,
+  .font-m-darkviolet,
+  .font-m-darkviolet-hover:hover {
+    color: darkviolet !important;
+  }
+  .text-m-deeppink, .text-m-deeppink-hover:hover,
+  .t-m-deeppink,
+  .t-m-deeppink-hover:hover,
+  .font-m-deeppink,
+  .font-m-deeppink-hover:hover {
+    color: deeppink !important;
+  }
+  .text-m-deepskyblue, .text-m-deepskyblue-hover:hover,
+  .t-m-deepskyblue,
+  .t-m-deepskyblue-hover:hover,
+  .font-m-deepskyblue,
+  .font-m-deepskyblue-hover:hover {
+    color: deepskyblue !important;
+  }
+  .text-m-dimgray, .text-m-dimgray-hover:hover,
+  .t-m-dimgray,
+  .t-m-dimgray-hover:hover,
+  .font-m-dimgray,
+  .font-m-dimgray-hover:hover {
+    color: dimgray !important;
+  }
+  .text-m-dodgerblue, .text-m-dodgerblue-hover:hover,
+  .t-m-dodgerblue,
+  .t-m-dodgerblue-hover:hover,
+  .font-m-dodgerblue,
+  .font-m-dodgerblue-hover:hover {
+    color: dodgerblue !important;
+  }
+  .text-m-firebrick, .text-m-firebrick-hover:hover,
+  .t-m-firebrick,
+  .t-m-firebrick-hover:hover,
+  .font-m-firebrick,
+  .font-m-firebrick-hover:hover {
+    color: firebrick !important;
+  }
+  .text-m-floralwhite, .text-m-floralwhite-hover:hover,
+  .t-m-floralwhite,
+  .t-m-floralwhite-hover:hover,
+  .font-m-floralwhite,
+  .font-m-floralwhite-hover:hover {
+    color: floralwhite !important;
+  }
+  .text-m-forestgreen, .text-m-forestgreen-hover:hover,
+  .t-m-forestgreen,
+  .t-m-forestgreen-hover:hover,
+  .font-m-forestgreen,
+  .font-m-forestgreen-hover:hover {
+    color: forestgreen !important;
+  }
+  .text-m-fuchsia, .text-m-fuchsia-hover:hover,
+  .t-m-fuchsia,
+  .t-m-fuchsia-hover:hover,
+  .font-m-fuchsia,
+  .font-m-fuchsia-hover:hover {
+    color: fuchsia !important;
+  }
+  .text-m-gainsboro, .text-m-gainsboro-hover:hover,
+  .t-m-gainsboro,
+  .t-m-gainsboro-hover:hover,
+  .font-m-gainsboro,
+  .font-m-gainsboro-hover:hover {
+    color: gainsboro !important;
+  }
+  .text-m-ghostwhite, .text-m-ghostwhite-hover:hover,
+  .t-m-ghostwhite,
+  .t-m-ghostwhite-hover:hover,
+  .font-m-ghostwhite,
+  .font-m-ghostwhite-hover:hover {
+    color: ghostwhite !important;
+  }
+  .text-m-gold, .text-m-gold-hover:hover,
+  .t-m-gold,
+  .t-m-gold-hover:hover,
+  .font-m-gold,
+  .font-m-gold-hover:hover {
+    color: gold !important;
+  }
+  .text-m-goldenrod, .text-m-goldenrod-hover:hover,
+  .t-m-goldenrod,
+  .t-m-goldenrod-hover:hover,
+  .font-m-goldenrod,
+  .font-m-goldenrod-hover:hover {
+    color: goldenrod !important;
+  }
+  .text-m-gray, .text-m-gray-hover:hover,
+  .t-m-gray,
+  .t-m-gray-hover:hover,
+  .font-m-gray,
+  .font-m-gray-hover:hover {
+    color: gray !important;
+  }
+  .text-m-grey, .text-m-grey-hover:hover,
   .t-m-grey,
-  .font-m-grey {
-    color: #6c757d !important;
+  .t-m-grey-hover:hover,
+  .font-m-grey,
+  .font-m-grey-hover:hover {
+    color: grey !important;
   }
-  .text-m-red,
+  .text-m-green, .text-m-green-hover:hover,
+  .t-m-green,
+  .t-m-green-hover:hover,
+  .font-m-green,
+  .font-m-green-hover:hover {
+    color: green !important;
+  }
+  .text-m-greenyellow, .text-m-greenyellow-hover:hover,
+  .t-m-greenyellow,
+  .t-m-greenyellow-hover:hover,
+  .font-m-greenyellow,
+  .font-m-greenyellow-hover:hover {
+    color: greenyellow !important;
+  }
+  .text-m-honeydew, .text-m-honeydew-hover:hover,
+  .t-m-honeydew,
+  .t-m-honeydew-hover:hover,
+  .font-m-honeydew,
+  .font-m-honeydew-hover:hover {
+    color: honeydew !important;
+  }
+  .text-m-hotpink, .text-m-hotpink-hover:hover,
+  .t-m-hotpink,
+  .t-m-hotpink-hover:hover,
+  .font-m-hotpink,
+  .font-m-hotpink-hover:hover {
+    color: hotpink !important;
+  }
+  .text-m-indianred, .text-m-indianred-hover:hover,
+  .t-m-indianred,
+  .t-m-indianred-hover:hover,
+  .font-m-indianred,
+  .font-m-indianred-hover:hover {
+    color: indianred !important;
+  }
+  .text-m-indigo, .text-m-indigo-hover:hover,
+  .t-m-indigo,
+  .t-m-indigo-hover:hover,
+  .font-m-indigo,
+  .font-m-indigo-hover:hover {
+    color: indigo !important;
+  }
+  .text-m-ivory, .text-m-ivory-hover:hover,
+  .t-m-ivory,
+  .t-m-ivory-hover:hover,
+  .font-m-ivory,
+  .font-m-ivory-hover:hover {
+    color: ivory !important;
+  }
+  .text-m-khaki, .text-m-khaki-hover:hover,
+  .t-m-khaki,
+  .t-m-khaki-hover:hover,
+  .font-m-khaki,
+  .font-m-khaki-hover:hover {
+    color: khaki !important;
+  }
+  .text-m-lavender, .text-m-lavender-hover:hover,
+  .t-m-lavender,
+  .t-m-lavender-hover:hover,
+  .font-m-lavender,
+  .font-m-lavender-hover:hover {
+    color: lavender !important;
+  }
+  .text-m-lavenderblush, .text-m-lavenderblush-hover:hover,
+  .t-m-lavenderblush,
+  .t-m-lavenderblush-hover:hover,
+  .font-m-lavenderblush,
+  .font-m-lavenderblush-hover:hover {
+    color: lavenderblush !important;
+  }
+  .text-m-lawngreen, .text-m-lawngreen-hover:hover,
+  .t-m-lawngreen,
+  .t-m-lawngreen-hover:hover,
+  .font-m-lawngreen,
+  .font-m-lawngreen-hover:hover {
+    color: lawngreen !important;
+  }
+  .text-m-lemonchiffon, .text-m-lemonchiffon-hover:hover,
+  .t-m-lemonchiffon,
+  .t-m-lemonchiffon-hover:hover,
+  .font-m-lemonchiffon,
+  .font-m-lemonchiffon-hover:hover {
+    color: lemonchiffon !important;
+  }
+  .text-m-lightblue, .text-m-lightblue-hover:hover,
+  .t-m-lightblue,
+  .t-m-lightblue-hover:hover,
+  .font-m-lightblue,
+  .font-m-lightblue-hover:hover {
+    color: lightblue !important;
+  }
+  .text-m-lightcoral, .text-m-lightcoral-hover:hover,
+  .t-m-lightcoral,
+  .t-m-lightcoral-hover:hover,
+  .font-m-lightcoral,
+  .font-m-lightcoral-hover:hover {
+    color: lightcoral !important;
+  }
+  .text-m-lightcyan, .text-m-lightcyan-hover:hover,
+  .t-m-lightcyan,
+  .t-m-lightcyan-hover:hover,
+  .font-m-lightcyan,
+  .font-m-lightcyan-hover:hover {
+    color: lightcyan !important;
+  }
+  .text-m-lightgoldenrodyellow, .text-m-lightgoldenrodyellow-hover:hover,
+  .t-m-lightgoldenrodyellow,
+  .t-m-lightgoldenrodyellow-hover:hover,
+  .font-m-lightgoldenrodyellow,
+  .font-m-lightgoldenrodyellow-hover:hover {
+    color: lightgoldenrodyellow !important;
+  }
+  .text-m-lightgrey, .text-m-lightgrey-hover:hover,
+  .t-m-lightgrey,
+  .t-m-lightgrey-hover:hover,
+  .font-m-lightgrey,
+  .font-m-lightgrey-hover:hover {
+    color: lightgrey !important;
+  }
+  .text-m-lightgreen, .text-m-lightgreen-hover:hover,
+  .t-m-lightgreen,
+  .t-m-lightgreen-hover:hover,
+  .font-m-lightgreen,
+  .font-m-lightgreen-hover:hover {
+    color: lightgreen !important;
+  }
+  .text-m-lightpink, .text-m-lightpink-hover:hover,
+  .t-m-lightpink,
+  .t-m-lightpink-hover:hover,
+  .font-m-lightpink,
+  .font-m-lightpink-hover:hover {
+    color: lightpink !important;
+  }
+  .text-m-lightsalmon, .text-m-lightsalmon-hover:hover,
+  .t-m-lightsalmon,
+  .t-m-lightsalmon-hover:hover,
+  .font-m-lightsalmon,
+  .font-m-lightsalmon-hover:hover {
+    color: lightsalmon !important;
+  }
+  .text-m-lightseagreen, .text-m-lightseagreen-hover:hover,
+  .t-m-lightseagreen,
+  .t-m-lightseagreen-hover:hover,
+  .font-m-lightseagreen,
+  .font-m-lightseagreen-hover:hover {
+    color: lightseagreen !important;
+  }
+  .text-m-lightskyblue, .text-m-lightskyblue-hover:hover,
+  .t-m-lightskyblue,
+  .t-m-lightskyblue-hover:hover,
+  .font-m-lightskyblue,
+  .font-m-lightskyblue-hover:hover {
+    color: lightskyblue !important;
+  }
+  .text-m-lightslategray, .text-m-lightslategray-hover:hover,
+  .t-m-lightslategray,
+  .t-m-lightslategray-hover:hover,
+  .font-m-lightslategray,
+  .font-m-lightslategray-hover:hover {
+    color: lightslategray !important;
+  }
+  .text-m-lightsteelblue, .text-m-lightsteelblue-hover:hover,
+  .t-m-lightsteelblue,
+  .t-m-lightsteelblue-hover:hover,
+  .font-m-lightsteelblue,
+  .font-m-lightsteelblue-hover:hover {
+    color: lightsteelblue !important;
+  }
+  .text-m-lightyellow, .text-m-lightyellow-hover:hover,
+  .t-m-lightyellow,
+  .t-m-lightyellow-hover:hover,
+  .font-m-lightyellow,
+  .font-m-lightyellow-hover:hover {
+    color: lightyellow !important;
+  }
+  .text-m-lime, .text-m-lime-hover:hover,
+  .t-m-lime,
+  .t-m-lime-hover:hover,
+  .font-m-lime,
+  .font-m-lime-hover:hover {
+    color: lime !important;
+  }
+  .text-m-limegreen, .text-m-limegreen-hover:hover,
+  .t-m-limegreen,
+  .t-m-limegreen-hover:hover,
+  .font-m-limegreen,
+  .font-m-limegreen-hover:hover {
+    color: limegreen !important;
+  }
+  .text-m-linen, .text-m-linen-hover:hover,
+  .t-m-linen,
+  .t-m-linen-hover:hover,
+  .font-m-linen,
+  .font-m-linen-hover:hover {
+    color: linen !important;
+  }
+  .text-m-magenta, .text-m-magenta-hover:hover,
+  .t-m-magenta,
+  .t-m-magenta-hover:hover,
+  .font-m-magenta,
+  .font-m-magenta-hover:hover {
+    color: magenta !important;
+  }
+  .text-m-maroon, .text-m-maroon-hover:hover,
+  .t-m-maroon,
+  .t-m-maroon-hover:hover,
+  .font-m-maroon,
+  .font-m-maroon-hover:hover {
+    color: maroon !important;
+  }
+  .text-m-mediumaquamarine, .text-m-mediumaquamarine-hover:hover,
+  .t-m-mediumaquamarine,
+  .t-m-mediumaquamarine-hover:hover,
+  .font-m-mediumaquamarine,
+  .font-m-mediumaquamarine-hover:hover {
+    color: mediumaquamarine !important;
+  }
+  .text-m-mediumblue, .text-m-mediumblue-hover:hover,
+  .t-m-mediumblue,
+  .t-m-mediumblue-hover:hover,
+  .font-m-mediumblue,
+  .font-m-mediumblue-hover:hover {
+    color: mediumblue !important;
+  }
+  .text-m-mediumorchid, .text-m-mediumorchid-hover:hover,
+  .t-m-mediumorchid,
+  .t-m-mediumorchid-hover:hover,
+  .font-m-mediumorchid,
+  .font-m-mediumorchid-hover:hover {
+    color: mediumorchid !important;
+  }
+  .text-m-mediumpurple, .text-m-mediumpurple-hover:hover,
+  .t-m-mediumpurple,
+  .t-m-mediumpurple-hover:hover,
+  .font-m-mediumpurple,
+  .font-m-mediumpurple-hover:hover {
+    color: mediumpurple !important;
+  }
+  .text-m-mediumseagreen, .text-m-mediumseagreen-hover:hover,
+  .t-m-mediumseagreen,
+  .t-m-mediumseagreen-hover:hover,
+  .font-m-mediumseagreen,
+  .font-m-mediumseagreen-hover:hover {
+    color: mediumseagreen !important;
+  }
+  .text-m-mediumslateblue, .text-m-mediumslateblue-hover:hover,
+  .t-m-mediumslateblue,
+  .t-m-mediumslateblue-hover:hover,
+  .font-m-mediumslateblue,
+  .font-m-mediumslateblue-hover:hover {
+    color: mediumslateblue !important;
+  }
+  .text-m-mediumspringgreen, .text-m-mediumspringgreen-hover:hover,
+  .t-m-mediumspringgreen,
+  .t-m-mediumspringgreen-hover:hover,
+  .font-m-mediumspringgreen,
+  .font-m-mediumspringgreen-hover:hover {
+    color: mediumspringgreen !important;
+  }
+  .text-m-mediumturquoise, .text-m-mediumturquoise-hover:hover,
+  .t-m-mediumturquoise,
+  .t-m-mediumturquoise-hover:hover,
+  .font-m-mediumturquoise,
+  .font-m-mediumturquoise-hover:hover {
+    color: mediumturquoise !important;
+  }
+  .text-m-mediumvioletred, .text-m-mediumvioletred-hover:hover,
+  .t-m-mediumvioletred,
+  .t-m-mediumvioletred-hover:hover,
+  .font-m-mediumvioletred,
+  .font-m-mediumvioletred-hover:hover {
+    color: mediumvioletred !important;
+  }
+  .text-m-midnightblue, .text-m-midnightblue-hover:hover,
+  .t-m-midnightblue,
+  .t-m-midnightblue-hover:hover,
+  .font-m-midnightblue,
+  .font-m-midnightblue-hover:hover {
+    color: midnightblue !important;
+  }
+  .text-m-mintcream, .text-m-mintcream-hover:hover,
+  .t-m-mintcream,
+  .t-m-mintcream-hover:hover,
+  .font-m-mintcream,
+  .font-m-mintcream-hover:hover {
+    color: mintcream !important;
+  }
+  .text-m-mistyrose, .text-m-mistyrose-hover:hover,
+  .t-m-mistyrose,
+  .t-m-mistyrose-hover:hover,
+  .font-m-mistyrose,
+  .font-m-mistyrose-hover:hover {
+    color: mistyrose !important;
+  }
+  .text-m-moccasin, .text-m-moccasin-hover:hover,
+  .t-m-moccasin,
+  .t-m-moccasin-hover:hover,
+  .font-m-moccasin,
+  .font-m-moccasin-hover:hover {
+    color: moccasin !important;
+  }
+  .text-m-navajowhite, .text-m-navajowhite-hover:hover,
+  .t-m-navajowhite,
+  .t-m-navajowhite-hover:hover,
+  .font-m-navajowhite,
+  .font-m-navajowhite-hover:hover {
+    color: navajowhite !important;
+  }
+  .text-m-navy, .text-m-navy-hover:hover,
+  .t-m-navy,
+  .t-m-navy-hover:hover,
+  .font-m-navy,
+  .font-m-navy-hover:hover {
+    color: navy !important;
+  }
+  .text-m-oldlace, .text-m-oldlace-hover:hover,
+  .t-m-oldlace,
+  .t-m-oldlace-hover:hover,
+  .font-m-oldlace,
+  .font-m-oldlace-hover:hover {
+    color: oldlace !important;
+  }
+  .text-m-olive, .text-m-olive-hover:hover,
+  .t-m-olive,
+  .t-m-olive-hover:hover,
+  .font-m-olive,
+  .font-m-olive-hover:hover {
+    color: olive !important;
+  }
+  .text-m-olivedrab, .text-m-olivedrab-hover:hover,
+  .t-m-olivedrab,
+  .t-m-olivedrab-hover:hover,
+  .font-m-olivedrab,
+  .font-m-olivedrab-hover:hover {
+    color: olivedrab !important;
+  }
+  .text-m-orange, .text-m-orange-hover:hover,
+  .t-m-orange,
+  .t-m-orange-hover:hover,
+  .font-m-orange,
+  .font-m-orange-hover:hover {
+    color: orange !important;
+  }
+  .text-m-orangered, .text-m-orangered-hover:hover,
+  .t-m-orangered,
+  .t-m-orangered-hover:hover,
+  .font-m-orangered,
+  .font-m-orangered-hover:hover {
+    color: orangered !important;
+  }
+  .text-m-orchid, .text-m-orchid-hover:hover,
+  .t-m-orchid,
+  .t-m-orchid-hover:hover,
+  .font-m-orchid,
+  .font-m-orchid-hover:hover {
+    color: orchid !important;
+  }
+  .text-m-palegoldenrod, .text-m-palegoldenrod-hover:hover,
+  .t-m-palegoldenrod,
+  .t-m-palegoldenrod-hover:hover,
+  .font-m-palegoldenrod,
+  .font-m-palegoldenrod-hover:hover {
+    color: palegoldenrod !important;
+  }
+  .text-m-palegreen, .text-m-palegreen-hover:hover,
+  .t-m-palegreen,
+  .t-m-palegreen-hover:hover,
+  .font-m-palegreen,
+  .font-m-palegreen-hover:hover {
+    color: palegreen !important;
+  }
+  .text-m-paleturquoise, .text-m-paleturquoise-hover:hover,
+  .t-m-paleturquoise,
+  .t-m-paleturquoise-hover:hover,
+  .font-m-paleturquoise,
+  .font-m-paleturquoise-hover:hover {
+    color: paleturquoise !important;
+  }
+  .text-m-palevioletred, .text-m-palevioletred-hover:hover,
+  .t-m-palevioletred,
+  .t-m-palevioletred-hover:hover,
+  .font-m-palevioletred,
+  .font-m-palevioletred-hover:hover {
+    color: palevioletred !important;
+  }
+  .text-m-papayawhip, .text-m-papayawhip-hover:hover,
+  .t-m-papayawhip,
+  .t-m-papayawhip-hover:hover,
+  .font-m-papayawhip,
+  .font-m-papayawhip-hover:hover {
+    color: papayawhip !important;
+  }
+  .text-m-peachpuff, .text-m-peachpuff-hover:hover,
+  .t-m-peachpuff,
+  .t-m-peachpuff-hover:hover,
+  .font-m-peachpuff,
+  .font-m-peachpuff-hover:hover {
+    color: peachpuff !important;
+  }
+  .text-m-peru, .text-m-peru-hover:hover,
+  .t-m-peru,
+  .t-m-peru-hover:hover,
+  .font-m-peru,
+  .font-m-peru-hover:hover {
+    color: peru !important;
+  }
+  .text-m-pink, .text-m-pink-hover:hover,
+  .t-m-pink,
+  .t-m-pink-hover:hover,
+  .font-m-pink,
+  .font-m-pink-hover:hover {
+    color: pink !important;
+  }
+  .text-m-plum, .text-m-plum-hover:hover,
+  .t-m-plum,
+  .t-m-plum-hover:hover,
+  .font-m-plum,
+  .font-m-plum-hover:hover {
+    color: plum !important;
+  }
+  .text-m-powderblue, .text-m-powderblue-hover:hover,
+  .t-m-powderblue,
+  .t-m-powderblue-hover:hover,
+  .font-m-powderblue,
+  .font-m-powderblue-hover:hover {
+    color: powderblue !important;
+  }
+  .text-m-purple, .text-m-purple-hover:hover,
+  .t-m-purple,
+  .t-m-purple-hover:hover,
+  .font-m-purple,
+  .font-m-purple-hover:hover {
+    color: purple !important;
+  }
+  .text-m-red, .text-m-red-hover:hover,
   .t-m-red,
-  .font-m-red {
+  .t-m-red-hover:hover,
+  .font-m-red,
+  .font-m-red-hover:hover {
     color: red !important;
   }
-  .text-m-dark-red,
-  .t-m-dark-red,
-  .font-m-dark-red {
-    color: #dc3545 !important;
+  .text-m-rosybrown, .text-m-rosybrown-hover:hover,
+  .t-m-rosybrown,
+  .t-m-rosybrown-hover:hover,
+  .font-m-rosybrown,
+  .font-m-rosybrown-hover:hover {
+    color: rosybrown !important;
   }
-  .text-m-green,
-  .t-m-green,
-  .font-m-green {
-    color: #27e178 !important;
+  .text-m-royalblue, .text-m-royalblue-hover:hover,
+  .t-m-royalblue,
+  .t-m-royalblue-hover:hover,
+  .font-m-royalblue,
+  .font-m-royalblue-hover:hover {
+    color: royalblue !important;
   }
-  .text-m-blue,
-  .t-m-blue,
-  .font-m-blue {
-    color: #279EDA !important;
+  .text-m-saddlebrown, .text-m-saddlebrown-hover:hover,
+  .t-m-saddlebrown,
+  .t-m-saddlebrown-hover:hover,
+  .font-m-saddlebrown,
+  .font-m-saddlebrown-hover:hover {
+    color: saddlebrown !important;
   }
-  .text-m-yellow,
+  .text-m-salmon, .text-m-salmon-hover:hover,
+  .t-m-salmon,
+  .t-m-salmon-hover:hover,
+  .font-m-salmon,
+  .font-m-salmon-hover:hover {
+    color: salmon !important;
+  }
+  .text-m-sandybrown, .text-m-sandybrown-hover:hover,
+  .t-m-sandybrown,
+  .t-m-sandybrown-hover:hover,
+  .font-m-sandybrown,
+  .font-m-sandybrown-hover:hover {
+    color: sandybrown !important;
+  }
+  .text-m-seagreen, .text-m-seagreen-hover:hover,
+  .t-m-seagreen,
+  .t-m-seagreen-hover:hover,
+  .font-m-seagreen,
+  .font-m-seagreen-hover:hover {
+    color: seagreen !important;
+  }
+  .text-m-seashell, .text-m-seashell-hover:hover,
+  .t-m-seashell,
+  .t-m-seashell-hover:hover,
+  .font-m-seashell,
+  .font-m-seashell-hover:hover {
+    color: seashell !important;
+  }
+  .text-m-sienna, .text-m-sienna-hover:hover,
+  .t-m-sienna,
+  .t-m-sienna-hover:hover,
+  .font-m-sienna,
+  .font-m-sienna-hover:hover {
+    color: sienna !important;
+  }
+  .text-m-silver, .text-m-silver-hover:hover,
+  .t-m-silver,
+  .t-m-silver-hover:hover,
+  .font-m-silver,
+  .font-m-silver-hover:hover {
+    color: silver !important;
+  }
+  .text-m-skyblue, .text-m-skyblue-hover:hover,
+  .t-m-skyblue,
+  .t-m-skyblue-hover:hover,
+  .font-m-skyblue,
+  .font-m-skyblue-hover:hover {
+    color: skyblue !important;
+  }
+  .text-m-slateblue, .text-m-slateblue-hover:hover,
+  .t-m-slateblue,
+  .t-m-slateblue-hover:hover,
+  .font-m-slateblue,
+  .font-m-slateblue-hover:hover {
+    color: slateblue !important;
+  }
+  .text-m-slategray, .text-m-slategray-hover:hover,
+  .t-m-slategray,
+  .t-m-slategray-hover:hover,
+  .font-m-slategray,
+  .font-m-slategray-hover:hover {
+    color: slategray !important;
+  }
+  .text-m-snow, .text-m-snow-hover:hover,
+  .t-m-snow,
+  .t-m-snow-hover:hover,
+  .font-m-snow,
+  .font-m-snow-hover:hover {
+    color: snow !important;
+  }
+  .text-m-springgreen, .text-m-springgreen-hover:hover,
+  .t-m-springgreen,
+  .t-m-springgreen-hover:hover,
+  .font-m-springgreen,
+  .font-m-springgreen-hover:hover {
+    color: springgreen !important;
+  }
+  .text-m-steelblue, .text-m-steelblue-hover:hover,
+  .t-m-steelblue,
+  .t-m-steelblue-hover:hover,
+  .font-m-steelblue,
+  .font-m-steelblue-hover:hover {
+    color: steelblue !important;
+  }
+  .text-m-tan, .text-m-tan-hover:hover,
+  .t-m-tan,
+  .t-m-tan-hover:hover,
+  .font-m-tan,
+  .font-m-tan-hover:hover {
+    color: tan !important;
+  }
+  .text-m-teal, .text-m-teal-hover:hover,
+  .t-m-teal,
+  .t-m-teal-hover:hover,
+  .font-m-teal,
+  .font-m-teal-hover:hover {
+    color: teal !important;
+  }
+  .text-m-thistle, .text-m-thistle-hover:hover,
+  .t-m-thistle,
+  .t-m-thistle-hover:hover,
+  .font-m-thistle,
+  .font-m-thistle-hover:hover {
+    color: thistle !important;
+  }
+  .text-m-tomato, .text-m-tomato-hover:hover,
+  .t-m-tomato,
+  .t-m-tomato-hover:hover,
+  .font-m-tomato,
+  .font-m-tomato-hover:hover {
+    color: tomato !important;
+  }
+  .text-m-turquoise, .text-m-turquoise-hover:hover,
+  .t-m-turquoise,
+  .t-m-turquoise-hover:hover,
+  .font-m-turquoise,
+  .font-m-turquoise-hover:hover {
+    color: turquoise !important;
+  }
+  .text-m-violet, .text-m-violet-hover:hover,
+  .t-m-violet,
+  .t-m-violet-hover:hover,
+  .font-m-violet,
+  .font-m-violet-hover:hover {
+    color: violet !important;
+  }
+  .text-m-wheat, .text-m-wheat-hover:hover,
+  .t-m-wheat,
+  .t-m-wheat-hover:hover,
+  .font-m-wheat,
+  .font-m-wheat-hover:hover {
+    color: wheat !important;
+  }
+  .text-m-white, .text-m-white-hover:hover,
+  .t-m-white,
+  .t-m-white-hover:hover,
+  .font-m-white,
+  .font-m-white-hover:hover {
+    color: white !important;
+  }
+  .text-m-whitesmoke, .text-m-whitesmoke-hover:hover,
+  .t-m-whitesmoke,
+  .t-m-whitesmoke-hover:hover,
+  .font-m-whitesmoke,
+  .font-m-whitesmoke-hover:hover {
+    color: whitesmoke !important;
+  }
+  .text-m-yellow, .text-m-yellow-hover:hover,
   .t-m-yellow,
-  .font-m-yellow {
-    color: #ffc107 !important;
+  .t-m-yellow-hover:hover,
+  .font-m-yellow,
+  .font-m-yellow-hover:hover {
+    color: yellow !important;
   }
-  .text-m-fade-blue,
-  .t-m-fade-blue,
-  .font-m-fade-blue {
-    color: #34435E !important;
-  }
-  .text-m-transparent,
-  .t-m-transparent,
-  .font-m-transparent {
-    color: transparent !important;
+  .text-m-yellowgreen, .text-m-yellowgreen-hover:hover,
+  .t-m-yellowgreen,
+  .t-m-yellowgreen-hover:hover,
+  .font-m-yellowgreen,
+  .font-m-yellowgreen-hover:hover {
+    color: yellowgreen !important;
   }
   .text-m-1-px,
   .t-m-1-px,

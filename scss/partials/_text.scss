@@ -149,9 +149,11 @@
     }
 
     @each $prop,
-    $code in $colors {
-        &-#{$prop} {
-            color: $code !important;
+    $code in $all-colors {
+
+        &-#{$prop},
+        &-#{$prop}-hover:hover {
+            color: $prop !important;
         }
     }
 
@@ -343,9 +345,11 @@ $maxWidth in $breakpoints {
                 }
 
                 @each $prop,
-                $code in $colors {
-                    &-#{$prop} {
-                        color: $code !important;
+                $code in $all-colors {
+
+                    &-#{$prop},
+                    &-#{$prop}-hover:hover {
+                        color: $prop !important;
                     }
                 }
 
