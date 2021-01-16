@@ -30401,80 +30401,118 @@
 }
 
 /*Text Styling*/
-.bold {
+.bold, .text-bold,
+.t-bold,
+.font-bold {
   font-weight: bold !important;
 }
 
-.italic {
+.italic, .text-italic,
+.t-italic,
+.font-italic {
   font-style: italic !important;
 }
 
-.normal {
+.normal, .text-normal,
+.t-normal,
+.font-normal {
   font-weight: normal !important;
   font-style: normal !important;
 }
 
-.uppercase {
+.uppercase, .text-uppercase,
+.t-uppercase,
+.font-uppercase {
   text-transform: uppercase !important;
 }
 
-.lowercase {
+.lowercase, .text-lowercase,
+.t-lowercase,
+.font-lowercase {
   text-transform: lowercase !important;
 }
 
-.capitalize {
+.capitalize, .text-capitalize,
+.t-capitalize,
+.font-capitalize {
   text-transform: capitalize !important;
 }
 
-.revert {
+.revert, .text-revert,
+.t-revert,
+.font-revert {
   direction: rtl !important;
   unicode-bidi: bidi-override !important;
 }
 
-.underline {
+.underline, .text-underline,
+.t-underline,
+.font-underline {
   text-decoration: underline !important;
 }
 
-.overline {
+.overline, .text-overline,
+.t-overline,
+.font-overline {
   text-decoration: overline !important;
 }
 
-.noline {
+.noline, .text-noline,
+.t-noline,
+.font-noline {
   text-decoration: none !important;
 }
 
 .line-through,
-.del {
+.del, .text-line-through, .text-del,
+.t-line-through,
+.t-del,
+.font-line-through,
+.font-del {
   text-decoration: line-through !important;
 }
 
 .highlight,
-.mark {
+.mark, .text-highlight, .text-mark,
+.t-highlight,
+.t-mark,
+.font-highlight,
+.font-mark {
   padding: .2em !important;
   background-color: #fcf8e3 !important;
 }
 
-.quote {
+.quote, .text-quote,
+.t-quote,
+.font-quote {
   font-family: 'Handlee', sans-serif !important;
   font-weight: bold !important;
 }
 
-.quote-footer {
+.quote-footer, .text-quote-footer,
+.t-quote-footer,
+.font-quote-footer {
   display: block !important;
   font-size: 80% !important;
   color: #6c757d !important;
 }
 
-.monospace {
+.monospace, .text-monospace,
+.t-monospace,
+.font-monospace {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
 }
 
-.lead {
+.lead, .text-lead,
+.t-lead,
+.font-lead {
   font-size: 1.25rem !important;
   font-weight: 300 !important;
 }
 
-.small {
+.small, .text-small,
+.t-small,
+.font-small {
   font-size: 85% !important;
 }
 
@@ -31356,65 +31394,102 @@
   .h8-xl {
     font-size: xx-small !important;
   }
-  /*Text Styling*/
-  .bold-xl {
+  .bold-xl, .text-xl-bold,
+  .t-xl-bold,
+  .font-xl-bold {
     font-weight: bold !important;
   }
-  .italic-xl {
+  .italic-xl, .text-xl-italic,
+  .t-xl-italic,
+  .font-xl-italic {
     font-style: italic !important;
   }
-  .normal-xl {
+  .normal-xl, .text-xl-normal,
+  .t-xl-normal,
+  .font-xl-normal {
     font-weight: normal !important;
     font-style: normal !important;
   }
-  .uppercase-xl {
+  .uppercase-xl, .text-xl-uppercase,
+  .t-xl-uppercase,
+  .font-xl-uppercase {
     text-transform: uppercase !important;
   }
-  .lowercase-xl {
+  .lowercase-xl, .text-xl-lowercase,
+  .t-xl-lowercase,
+  .font-xl-lowercase {
     text-transform: lowercase !important;
   }
-  .capitalize-xl {
+  .capitalize-xl, .text-xl-capitalize,
+  .t-xl-capitalize,
+  .font-xl-capitalize {
     text-transform: capitalize !important;
   }
-  .revert-xl {
+  .revert-xl, .text-xl-revert,
+  .t-xl-revert,
+  .font-xl-revert {
     direction: rtl !important;
     unicode-bidi: bidi-override !important;
   }
-  .underline-xl {
+  .underline-xl, .text-xl-underline,
+  .t-xl-underline,
+  .font-xl-underline {
     text-decoration: underline !important;
   }
-  .overline-xl {
+  .overline-xl, .text-xl-overline,
+  .t-xl-overline,
+  .font-xl-overline {
     text-decoration: overline !important;
   }
-  .noline-xl {
+  .noline-xl, .text-xl-noline,
+  .t-xl-noline,
+  .font-xl-noline {
     text-decoration: none !important;
   }
   .line-through-xl,
-  .del-xl {
+  .del-xl, .text-xl-line-through, .text-xl-del,
+  .t-xl-line-through,
+  .t-xl-del,
+  .font-xl-line-through,
+  .font-xl-del {
     text-decoration: line-through !important;
   }
   .highlight-xl,
-  .mark-xl {
+  .mark-xl, .text-xl-highlight, .text-xl-mark,
+  .t-xl-highlight,
+  .t-xl-mark,
+  .font-xl-highlight,
+  .font-xl-mark {
     padding: .2em !important;
     background-color: #fcf8e3 !important;
   }
-  .quote-xl {
+  .quote-xl, .text-xl-quote,
+  .t-xl-quote,
+  .font-xl-quote {
     font-family: 'Handlee', sans-serif !important;
     font-weight: bold !important;
   }
-  .quote-xl-footer {
+  .quote-xl-footer, .text-xl-quote-footer,
+  .t-xl-quote-footer,
+  .font-xl-quote-footer {
     display: block !important;
     font-size: 80% !important;
     color: #6c757d !important;
   }
-  .monospace-xl {
+  .monospace-xl, .text-xl-monospace,
+  .t-xl-monospace,
+  .font-xl-monospace {
     font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
   }
-  .lead-xl {
+  .lead-xl, .text-xl-lead,
+  .t-xl-lead,
+  .font-xl-lead {
     font-size: 1.25rem !important;
     font-weight: 300 !important;
   }
-  .small-xl {
+  .small-xl, .text-xl-small,
+  .t-xl-small,
+  .font-xl-small {
     font-size: 85% !important;
   }
   .text-xl-center,
@@ -32155,65 +32230,102 @@
   .h8-t {
     font-size: xx-small !important;
   }
-  /*Text Styling*/
-  .bold-t {
+  .bold-t, .text-t-bold,
+  .t-t-bold,
+  .font-t-bold {
     font-weight: bold !important;
   }
-  .italic-t {
+  .italic-t, .text-t-italic,
+  .t-t-italic,
+  .font-t-italic {
     font-style: italic !important;
   }
-  .normal-t {
+  .normal-t, .text-t-normal,
+  .t-t-normal,
+  .font-t-normal {
     font-weight: normal !important;
     font-style: normal !important;
   }
-  .uppercase-t {
+  .uppercase-t, .text-t-uppercase,
+  .t-t-uppercase,
+  .font-t-uppercase {
     text-transform: uppercase !important;
   }
-  .lowercase-t {
+  .lowercase-t, .text-t-lowercase,
+  .t-t-lowercase,
+  .font-t-lowercase {
     text-transform: lowercase !important;
   }
-  .capitalize-t {
+  .capitalize-t, .text-t-capitalize,
+  .t-t-capitalize,
+  .font-t-capitalize {
     text-transform: capitalize !important;
   }
-  .revert-t {
+  .revert-t, .text-t-revert,
+  .t-t-revert,
+  .font-t-revert {
     direction: rtl !important;
     unicode-bidi: bidi-override !important;
   }
-  .underline-t {
+  .underline-t, .text-t-underline,
+  .t-t-underline,
+  .font-t-underline {
     text-decoration: underline !important;
   }
-  .overline-t {
+  .overline-t, .text-t-overline,
+  .t-t-overline,
+  .font-t-overline {
     text-decoration: overline !important;
   }
-  .noline-t {
+  .noline-t, .text-t-noline,
+  .t-t-noline,
+  .font-t-noline {
     text-decoration: none !important;
   }
   .line-through-t,
-  .del-t {
+  .del-t, .text-t-line-through, .text-t-del,
+  .t-t-line-through,
+  .t-t-del,
+  .font-t-line-through,
+  .font-t-del {
     text-decoration: line-through !important;
   }
   .highlight-t,
-  .mark-t {
+  .mark-t, .text-t-highlight, .text-t-mark,
+  .t-t-highlight,
+  .t-t-mark,
+  .font-t-highlight,
+  .font-t-mark {
     padding: .2em !important;
     background-color: #fcf8e3 !important;
   }
-  .quote-t {
+  .quote-t, .text-t-quote,
+  .t-t-quote,
+  .font-t-quote {
     font-family: 'Handlee', sans-serif !important;
     font-weight: bold !important;
   }
-  .quote-t-footer {
+  .quote-t-footer, .text-t-quote-footer,
+  .t-t-quote-footer,
+  .font-t-quote-footer {
     display: block !important;
     font-size: 80% !important;
     color: #6c757d !important;
   }
-  .monospace-t {
+  .monospace-t, .text-t-monospace,
+  .t-t-monospace,
+  .font-t-monospace {
     font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
   }
-  .lead-t {
+  .lead-t, .text-t-lead,
+  .t-t-lead,
+  .font-t-lead {
     font-size: 1.25rem !important;
     font-weight: 300 !important;
   }
-  .small-t {
+  .small-t, .text-t-small,
+  .t-t-small,
+  .font-t-small {
     font-size: 85% !important;
   }
   .text-t-center,
@@ -32954,65 +33066,102 @@
   .h8-m {
     font-size: xx-small !important;
   }
-  /*Text Styling*/
-  .bold-m {
+  .bold-m, .text-m-bold,
+  .t-m-bold,
+  .font-m-bold {
     font-weight: bold !important;
   }
-  .italic-m {
+  .italic-m, .text-m-italic,
+  .t-m-italic,
+  .font-m-italic {
     font-style: italic !important;
   }
-  .normal-m {
+  .normal-m, .text-m-normal,
+  .t-m-normal,
+  .font-m-normal {
     font-weight: normal !important;
     font-style: normal !important;
   }
-  .uppercase-m {
+  .uppercase-m, .text-m-uppercase,
+  .t-m-uppercase,
+  .font-m-uppercase {
     text-transform: uppercase !important;
   }
-  .lowercase-m {
+  .lowercase-m, .text-m-lowercase,
+  .t-m-lowercase,
+  .font-m-lowercase {
     text-transform: lowercase !important;
   }
-  .capitalize-m {
+  .capitalize-m, .text-m-capitalize,
+  .t-m-capitalize,
+  .font-m-capitalize {
     text-transform: capitalize !important;
   }
-  .revert-m {
+  .revert-m, .text-m-revert,
+  .t-m-revert,
+  .font-m-revert {
     direction: rtl !important;
     unicode-bidi: bidi-override !important;
   }
-  .underline-m {
+  .underline-m, .text-m-underline,
+  .t-m-underline,
+  .font-m-underline {
     text-decoration: underline !important;
   }
-  .overline-m {
+  .overline-m, .text-m-overline,
+  .t-m-overline,
+  .font-m-overline {
     text-decoration: overline !important;
   }
-  .noline-m {
+  .noline-m, .text-m-noline,
+  .t-m-noline,
+  .font-m-noline {
     text-decoration: none !important;
   }
   .line-through-m,
-  .del-m {
+  .del-m, .text-m-line-through, .text-m-del,
+  .t-m-line-through,
+  .t-m-del,
+  .font-m-line-through,
+  .font-m-del {
     text-decoration: line-through !important;
   }
   .highlight-m,
-  .mark-m {
+  .mark-m, .text-m-highlight, .text-m-mark,
+  .t-m-highlight,
+  .t-m-mark,
+  .font-m-highlight,
+  .font-m-mark {
     padding: .2em !important;
     background-color: #fcf8e3 !important;
   }
-  .quote-m {
+  .quote-m, .text-m-quote,
+  .t-m-quote,
+  .font-m-quote {
     font-family: 'Handlee', sans-serif !important;
     font-weight: bold !important;
   }
-  .quote-m-footer {
+  .quote-m-footer, .text-m-quote-footer,
+  .t-m-quote-footer,
+  .font-m-quote-footer {
     display: block !important;
     font-size: 80% !important;
     color: #6c757d !important;
   }
-  .monospace-m {
+  .monospace-m, .text-m-monospace,
+  .t-m-monospace,
+  .font-m-monospace {
     font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
   }
-  .lead-m {
+  .lead-m, .text-m-lead,
+  .t-m-lead,
+  .font-m-lead {
     font-size: 1.25rem !important;
     font-weight: 300 !important;
   }
-  .small-m {
+  .small-m, .text-m-small,
+  .t-m-small,
+  .font-m-small {
     font-size: 85% !important;
   }
   .text-m-center,
