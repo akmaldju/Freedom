@@ -1,7 +1,8 @@
 @import 'variables';
 
 /*Margin*/
-.m {
+.m,
+.margin {
     &-auto {
         margin: auto !important;
     }
@@ -12,7 +13,8 @@
         }
     }
 
-    &t {
+    &t,
+    &-top {
         &-auto {
             margin-top: auto !important;
         }
@@ -24,7 +26,8 @@
         }
     }
 
-    &b {
+    &b,
+    &-bottom {
         &-auto {
             margin-bottom: auto !important;
         }
@@ -36,7 +39,8 @@
         }
     }
 
-    &r {
+    &r,
+    &-right {
         &-auto {
             margin-right: auto !important;
         }
@@ -48,7 +52,8 @@
         }
     }
 
-    &l {
+    &l,
+    &-left {
         &-auto {
             margin-left: auto !important;
         }
@@ -90,12 +95,14 @@
 }
 
 @each $breakpoint,
-$minWidth, $maxWidth in $breakpoints {
+$minWidth,
+$maxWidth in $breakpoints {
 
     @media screen and (min-width: $minWidth) and (max-width: $maxWidth) {
 
         /*Margin*/
-        .m {
+        .m,
+        .margin {
             &-#{$breakpoint} {
                 &-auto {
                     margin: auto !important;
@@ -108,7 +115,8 @@ $minWidth, $maxWidth in $breakpoints {
                 }
             }
 
-            &t {
+            &t,
+            &-top {
                 &-#{$breakpoint} {
                     &-auto {
                         margin-top: auto !important;
@@ -122,7 +130,8 @@ $minWidth, $maxWidth in $breakpoints {
                 }
             }
 
-            &b {
+            &b,
+            &-bottom {
                 &-#{$breakpoint} {
                     &-auto {
                         margin-bottom: auto !important;
@@ -136,7 +145,8 @@ $minWidth, $maxWidth in $breakpoints {
                 }
             }
 
-            &r {
+            &r,
+            &-right {
                 &-#{$breakpoint} {
                     &-auto {
                         margin-right: auto !important;
@@ -150,7 +160,8 @@ $minWidth, $maxWidth in $breakpoints {
                 }
             }
 
-            &l {
+            &l,
+            &-left {
                 &-#{$breakpoint} {
                     &-auto {
                         margin-left: auto !important;

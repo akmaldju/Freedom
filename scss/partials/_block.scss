@@ -2,10 +2,10 @@
 
 /*Block Styles*/
 .fixed {
-    @each $prop in $placementY {
-        &-#{$prop} {
+    @each $placement in $placementY {
+        &-#{$placement} {
             position: fixed !important;
-            #{$prop}: 0 !important;
+            #{$placement}: 0 !important;
             right: 0 !important;
             left: 0 !important;
             z-index: 1030 !important;
@@ -14,20 +14,21 @@
     }
 }
 
-.bg {
+.bg,
+.background {
 
-    @each $prop,
+    @each $color,
     $code in $colors {
-        &-#{$prop} {
+        &-#{$color} {
             background-color: $code !important;
         }
     }
 
-    @each $prop,
+    @each $color,
     $code in $all-colors {
 
-        &-#{$prop},
-        &-#{$prop}-hover:hover {
+        &-#{$color},
+        &-#{$color}-hover:hover {
             background-color: $code !important;
         }
 
@@ -58,10 +59,10 @@ $maxWidth in $breakpoints {
         /*Block Styles*/
         .fixed {
             &-#{$breakpoint} {
-                @each $prop in $placementY {
-                    &-#{$prop} {
+                @each $placement in $placementY {
+                    &-#{$placement} {
                         position: fixed !important;
-                        #{$prop}: 0 !important;
+                        #{$placement}: 0 !important;
                         right: 0 !important;
                         left: 0 !important;
                         z-index: 1030 !important;
@@ -71,21 +72,22 @@ $maxWidth in $breakpoints {
             }
         }
 
-        .bg {
+        .bg,
+        .background {
             &-#{$breakpoint} {
 
-                @each $prop,
+                @each $color,
                 $code in $colors {
-                    &-#{$prop} {
+                    &-#{$color} {
                         background-color: $code !important;
                     }
                 }
 
-                @each $prop,
+                @each $color,
                 $code in $all-colors {
 
-                    &-#{$prop},
-                    &-#{$prop}-hover:hover {
+                    &-#{$color},
+                    &-#{$color}-hover:hover {
                         background-color: $code !important;
                     }
 

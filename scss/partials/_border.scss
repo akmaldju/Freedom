@@ -1,14 +1,16 @@
 @import '_variables';
 
 /*Borders*/
-.b {
+.b,
+.border {
     @for $i from 0 through 5 {
         &-#{$i} {
             border: #{$i}px solid white !important;
         }
     }
 
-    &r {
+    &r,
+    &-right {
         @for $i from 0 through 5 {
             &-#{$i} {
                 border-right: #{$i}px solid white !important;
@@ -16,7 +18,8 @@
         }
     }
 
-    &t {
+    &t,
+    &-top {
         @for $i from 0 through 5 {
             &-#{$i} {
                 border-top: #{$i}px solid white !important;
@@ -24,7 +27,8 @@
         }
     }
 
-    &b {
+    &b,
+    &-bottom {
         @for $i from 0 through 5 {
             &-#{$i} {
                 border-bottom: #{$i}px solid white !important;
@@ -32,7 +36,8 @@
         }
     }
 
-    &l {
+    &l,
+    &-left {
         @for $i from 0 through 5 {
             &-#{$i} {
                 border-left: #{$i}px solid white !important;
@@ -40,16 +45,16 @@
         }
     }
 
-    @each $prop,
+    @each $color,
     $code in $all-colors {
-        &-#{$prop} {
+        &-#{$color} {
             border-color: $code !important;
         }
     }
 
-    @each $prop in $border-styles {
-        &-#{$prop} {
-            border-style: $prop !important;
+    @each $style in $border-styles {
+        &-#{$style} {
+            border-style: $style !important;
         }
     }
 
@@ -80,7 +85,8 @@ $maxWidth in $breakpoints {
     @media screen and (min-width: $minWidth) and (max-width: $maxWidth) {
 
         /*Borders*/
-        .b {
+        .b,
+        .border {
             @for $i from 0 through 5 {
                 &-#{$breakpoint} {
                     &-#{$i} {
@@ -89,7 +95,8 @@ $maxWidth in $breakpoints {
                 }
             }
 
-            &r {
+            &r,
+            &-right {
                 &-#{$breakpoint} {
                     @for $i from 0 through 5 {
                         &-#{$i} {
@@ -99,7 +106,8 @@ $maxWidth in $breakpoints {
                 }
             }
 
-            &t {
+            &t,
+            &-top {
                 &-#{$breakpoint} {
                     @for $i from 0 through 5 {
                         &-#{$i} {
@@ -109,7 +117,8 @@ $maxWidth in $breakpoints {
                 }
             }
 
-            &b {
+            &b,
+            &-bottom {
                 &-#{$breakpoint} {
                     @for $i from 0 through 5 {
                         &-#{$i} {
@@ -119,7 +128,8 @@ $maxWidth in $breakpoints {
                 }
             }
 
-            &l {
+            &l,
+            &-left {
                 &-#{$breakpoint} {
                     @for $i from 0 through 5 {
                         &-#{$i} {
@@ -131,16 +141,16 @@ $maxWidth in $breakpoints {
 
             &-#{$breakpoint} {
 
-                @each $prop,
+                @each $color,
                 $code in $all-colors {
-                    &-#{$prop} {
+                    &-#{$color} {
                         border-color: $code !important;
                     }
                 }
 
-                @each $prop in $border-styles {
-                    &-#{$prop} {
-                        border-style: $prop !important;
+                @each $style in $border-styles {
+                    &-#{$style} {
+                        border-style: $style !important;
                     }
                 }
 

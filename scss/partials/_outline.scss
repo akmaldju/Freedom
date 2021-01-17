@@ -1,33 +1,36 @@
 @import '_variables';
 
 /*outlines*/
-.o {
+.o,
+.outline {
     @for $i from 0 through 5 {
         &-#{$i} {
             outline-width: #{$i}px !important;
         }
     }
 
-    @each $prop,
+    @each $color,
     $code in $colors {
-        &-#{$prop} {
+        &-#{$color} {
             outline-color: $code !important;
         }
     }
 
-    @each $prop in $border-styles {
-        &-#{$prop} {
-            outline-style: $prop !important;
+    @each $style in $border-styles {
+        &-#{$style} {
+            outline-style: $style !important;
         }
     }
 }
 
 @each $breakpoint,
-$minWidth, $maxWidth in $breakpoints {
+$minWidth,
+$maxWidth in $breakpoints {
     @media screen and (min-width: $minWidth) and (max-width: $maxWidth) {
 
         /*outlines*/
-        .o {
+        .o,
+        .outline {
             &-#{$breakpoint} {
                 @for $i from 0 through 5 {
                     &-#{$i} {
@@ -35,16 +38,16 @@ $minWidth, $maxWidth in $breakpoints {
                     }
                 }
 
-                @each $prop,
+                @each $color,
                 $code in $colors {
-                    &-#{$prop} {
+                    &-#{$color} {
                         outline-color: $code !important;
                     }
                 }
 
-                @each $prop in $border-styles {
-                    &-#{$prop} {
-                        outline-style: $prop !important;
+                @each $style in $border-styles {
+                    &-#{$style} {
+                        outline-style: $style !important;
                     }
                 }
             }

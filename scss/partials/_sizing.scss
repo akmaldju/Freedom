@@ -2,7 +2,8 @@
 
 /*Sizing*/
 /*Width*/
-.w {
+.w,
+.width {
     &-auto {
         width: auto !important;
     }
@@ -51,7 +52,8 @@
 }
 
 /*Height*/
-.h {
+.h,
+.height {
     &-auto {
         height: auto !important;
     }
@@ -136,7 +138,8 @@ $maxWidth in $breakpoints {
 
         /*Sizing*/
         /*Width*/
-        .w {
+        .w,
+        .width {
             &-#{$breakpoint} {
                 &-auto {
                     width: auto !important;
@@ -191,7 +194,8 @@ $maxWidth in $breakpoints {
         }
 
         /*Height*/
-        .h {
+        .h,
+        .height {
             &-#{$breakpoint} {
                 &-auto {
                     height: auto !important;

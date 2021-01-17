@@ -1,19 +1,20 @@
 @import 'variables';
 
 /*Display*/
-.d {
-    @each $prop in $display {
-        &-#{$prop} {
-            display: $prop !important;
+.d,
+.display {
+    @each $style in $display {
+        &-#{$style} {
+            display: $style !important;
         }
     }
 }
 
 .position,
 .pos {
-    @each $prop in $position {
-        &-#{$prop} {
-            position: $prop !important;
+    @each $placement in $position {
+        &-#{$placement} {
+            position: $placement !important;
         }
     }
 }
@@ -60,9 +61,9 @@
 
 .justify-content,
 .jc {
-    @each $prop in $alignment-content {
-        &-#{$prop} {
-            justify-content: $prop !important;
+    @each $alignment in $alignment-content {
+        &-#{$alignment} {
+            justify-content: $alignment !important;
         }
     }
 }
@@ -78,15 +79,17 @@
 }
 
 @each $breakpoint,
-$minWidth, $maxWidth in $breakpoints {
+$minWidth,
+$maxWidth in $breakpoints {
     @media screen and (min-width: $minWidth) and (max-width: $maxWidth) {
 
         /*Display*/
-        .d {
+        .d,
+        .display {
             &-#{$breakpoint} {
-                @each $prop in $display {
-                    &-#{$prop} {
-                        display: $prop !important;
+                @each $style in $display {
+                    &-#{$style} {
+                        display: $style !important;
                     }
                 }
             }
@@ -95,9 +98,9 @@ $minWidth, $maxWidth in $breakpoints {
         .position,
         .pos {
             &-#{$breakpoint} {
-                @each $prop in $position {
-                    &-#{$prop} {
-                        position: $prop !important;
+                @each $placement in $position {
+                    &-#{$placement} {
+                        position: $placement !important;
                     }
                 }
             }
@@ -158,9 +161,9 @@ $minWidth, $maxWidth in $breakpoints {
         .justify-content,
         .jc {
             &-#{$breakpoint} {
-                @each $prop in $alignment-content {
-                    &-#{$prop} {
-                        justify-content: $prop !important;
+                @each $alignment in $alignment-content {
+                    &-#{$alignment} {
+                        justify-content: $alignment !important;
                     }
                 }
             }

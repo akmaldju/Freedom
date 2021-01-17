@@ -1,7 +1,8 @@
 @import "variables";
 
 /*Padding*/
-.p {
+.p,
+.padding {
     &-auto {
         padding: auto !important;
     }
@@ -12,7 +13,8 @@
         }
     }
 
-    &t {
+    &t,
+    &-top {
         &-auto {
             padding-top: auto !important;
         }
@@ -24,7 +26,8 @@
         }
     }
 
-    &b {
+    &b,
+    &-bottom {
         &-auto {
             padding-bottom: auto !important;
         }
@@ -36,7 +39,8 @@
         }
     }
 
-    &r {
+    &r,
+    &-right {
         &-auto {
             padding-right: auto !important;
         }
@@ -48,7 +52,8 @@
         }
     }
 
-    &l {
+    &l,
+    &-left {
         &-auto {
             padding-left: auto !important;
         }
@@ -95,7 +100,8 @@ $maxWidth in $breakpoints {
     @media screen and (min-width: $minWidth) and (max-width: $maxWidth) {
 
         /*Padding*/
-        .p {
+        .p,
+        .padding {
             &-#{$breakpoint} {
                 &-auto {
                     padding: auto !important;
@@ -108,7 +114,8 @@ $maxWidth in $breakpoints {
                 }
             }
 
-            &t {
+            &t,
+            &-top {
                 &-#{$breakpoint} {
                     &-auto {
                         padding-top: auto !important;
@@ -122,7 +129,8 @@ $maxWidth in $breakpoints {
                 }
             }
 
-            &b {
+            &b,
+            &-bottom {
                 &-#{$breakpoint} {
                     &-auto {
                         padding-bottom: auto !important;
@@ -136,7 +144,8 @@ $maxWidth in $breakpoints {
                 }
             }
 
-            &r {
+            &r,
+            &-right {
                 &-#{$breakpoint} {
                     &-auto {
                         padding-right: auto !important;
@@ -150,7 +159,8 @@ $maxWidth in $breakpoints {
                 }
             }
 
-            &l {
+            &l,
+            &-left {
                 &-#{$breakpoint} {
                     &-auto {
                         padding-left: auto !important;

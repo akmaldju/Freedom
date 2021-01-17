@@ -1,7 +1,8 @@
 @import 'variables';
 
 /*Image Styles*/
-.img {
+.img,
+.image {
 
     &-fit,
     &-object-fit,
@@ -127,11 +128,13 @@
 }
 
 @each $breakpoint,
-$minWidth, $maxWidth in $breakpoints {
+$minWidth,
+$maxWidth in $breakpoints {
     @media screen and (min-width: $minWidth) and (max-width: $maxWidth) {
 
         /*Image Styles*/
-        .img {
+        .img,
+        .image {
             &-#{$breakpoint} {
 
                 &-fit,
