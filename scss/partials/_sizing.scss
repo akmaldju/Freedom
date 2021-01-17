@@ -64,6 +64,16 @@
         &-#{$i}-vh {
             height: #{$i}vh !important;
         }
+
+        @if $i <=50 {
+            &-#{$i}-rem {
+                height: #{$i}rem !important;
+            }
+
+            &-#{$i}-px {
+                height: #{$i}px !important;
+            }
+        }
     }
 
     &-min {
@@ -78,6 +88,16 @@
 
             &-#{$i}-vh {
                 min-height: #{$i}vh !important;
+            }
+
+            @if $i <=50 {
+                &-#{$i}-rem {
+                    min-height: #{$i}rem !important;
+                }
+
+                &-#{$i}-px {
+                    min-height: #{$i}px !important;
+                }
             }
         }
     }
@@ -94,6 +114,16 @@
 
             &-#{$i}-vh {
                 max-height: #{$i}vh !important;
+            }
+
+            @if $i <=50 {
+                &-#{$i}-rem {
+                    max-height: #{$i}rem !important;
+                }
+
+                &-#{$i}-px {
+                    max-height: #{$i}px !important;
+                }
             }
         }
     }
@@ -175,6 +205,16 @@ $maxWidth in $breakpoints {
                     &-#{$i}-vh {
                         height: #{$i}vh !important;
                     }
+
+                    @if $i <=50 {
+                        &-#{$i}-rem {
+                            height: #{$i}rem !important;
+                        }
+
+                        &-#{$i}-px {
+                            height: #{$i}px !important;
+                        }
+                    }
                 }
             }
 
@@ -191,6 +231,16 @@ $maxWidth in $breakpoints {
 
                         &-#{$i}-vh {
                             min-height: #{$i}vh !important;
+                        }
+
+                        @if $i <=50 {
+                            &-#{$i}-rem {
+                                min-height: #{$i}rem !important;
+                            }
+
+                            &-#{$i}-px {
+                                min-height: #{$i}px !important;
+                            }
                         }
                     }
                 }
@@ -209,6 +259,16 @@ $maxWidth in $breakpoints {
 
                         &-#{$i}-vh {
                             max-height: #{$i}vh !important;
+                        }
+
+                        @if $i <=50 {
+                            &-#{$i}-rem {
+                                max-height: #{$i}rem !important;
+                            }
+
+                            &-#{$i}-px {
+                                max-height: #{$i}px !important;
+                            }
                         }
                     }
                 }

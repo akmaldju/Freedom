@@ -1,6 +1,6 @@
 {
   "name": "css-freedom",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "CSS FreeDOM - a light-weight simplified and improved version of Bootstrap.",
   "main": "index.js",
   "dependencies": {
