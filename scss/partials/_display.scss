@@ -54,7 +54,8 @@
     visibility: visible !important;
 }
 
-.flex {
+.flex,
+.f {
     @each $prop in $direction {
         &-#{$prop} {
             flex-direction: $prop !important;
@@ -64,6 +65,15 @@
     @each $prop in $wrap {
         &-#{$prop} {
             flex-wrap: $prop !important;
+        }
+    }
+
+    @at-root .fb,
+    &-basis {
+        @for $i from 0 through 100 {
+            &-#{$i} {
+                flex-basis: $i * 1% !important;
+            }
         }
     }
 }
@@ -162,17 +172,29 @@ $maxWidth in $breakpoints {
             }
         }
 
-        .flex {
+        .flex,
+        .f {
             &-#{$breakpoint} {
                 @each $prop in $direction {
+
                     &-#{$prop} {
                         flex-direction: $prop !important;
                     }
                 }
 
                 @each $prop in $wrap {
+
                     &-#{$prop} {
                         flex-wrap: $prop !important;
+                    }
+                }
+
+                @at-root .fb-#{$breakpoint},
+                &-basis {
+                    @for $i from 0 through 100 {
+                        &-#{$i} {
+                            flex-basis: $i * 1% !important;
+                        }
                     }
                 }
             }

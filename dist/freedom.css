@@ -661,40 +661,554 @@
   visibility: visible !important;
 }
 
-.flex-row {
+.flex-row,
+.f-row {
   flex-direction: row !important;
 }
 
-.flex-column {
+.flex-column,
+.f-column {
   flex-direction: column !important;
 }
 
-.flex-inherit {
+.flex-inherit,
+.f-inherit {
   flex-wrap: inherit !important;
 }
 
-.flex-initial {
+.flex-initial,
+.f-initial {
   flex-wrap: initial !important;
 }
 
-.flex-nowrap {
+.flex-nowrap,
+.f-nowrap {
   flex-wrap: nowrap !important;
 }
 
-.flex-revert {
+.flex-revert,
+.f-revert {
   flex-wrap: revert !important;
 }
 
-.flex-unset {
+.flex-unset,
+.f-unset {
   flex-wrap: unset !important;
 }
 
-.flex-wrap {
+.flex-wrap,
+.f-wrap {
   flex-wrap: wrap !important;
 }
 
-.flex-wrap-reverse {
+.flex-wrap-reverse,
+.f-wrap-reverse {
   flex-wrap: wrap-reverse !important;
+}
+
+.fb-0, .flex-basis-0,
+.f-basis-0 {
+  flex-basis: 0% !important;
+}
+
+.fb-1, .flex-basis-1,
+.f-basis-1 {
+  flex-basis: 1% !important;
+}
+
+.fb-2, .flex-basis-2,
+.f-basis-2 {
+  flex-basis: 2% !important;
+}
+
+.fb-3, .flex-basis-3,
+.f-basis-3 {
+  flex-basis: 3% !important;
+}
+
+.fb-4, .flex-basis-4,
+.f-basis-4 {
+  flex-basis: 4% !important;
+}
+
+.fb-5, .flex-basis-5,
+.f-basis-5 {
+  flex-basis: 5% !important;
+}
+
+.fb-6, .flex-basis-6,
+.f-basis-6 {
+  flex-basis: 6% !important;
+}
+
+.fb-7, .flex-basis-7,
+.f-basis-7 {
+  flex-basis: 7% !important;
+}
+
+.fb-8, .flex-basis-8,
+.f-basis-8 {
+  flex-basis: 8% !important;
+}
+
+.fb-9, .flex-basis-9,
+.f-basis-9 {
+  flex-basis: 9% !important;
+}
+
+.fb-10, .flex-basis-10,
+.f-basis-10 {
+  flex-basis: 10% !important;
+}
+
+.fb-11, .flex-basis-11,
+.f-basis-11 {
+  flex-basis: 11% !important;
+}
+
+.fb-12, .flex-basis-12,
+.f-basis-12 {
+  flex-basis: 12% !important;
+}
+
+.fb-13, .flex-basis-13,
+.f-basis-13 {
+  flex-basis: 13% !important;
+}
+
+.fb-14, .flex-basis-14,
+.f-basis-14 {
+  flex-basis: 14% !important;
+}
+
+.fb-15, .flex-basis-15,
+.f-basis-15 {
+  flex-basis: 15% !important;
+}
+
+.fb-16, .flex-basis-16,
+.f-basis-16 {
+  flex-basis: 16% !important;
+}
+
+.fb-17, .flex-basis-17,
+.f-basis-17 {
+  flex-basis: 17% !important;
+}
+
+.fb-18, .flex-basis-18,
+.f-basis-18 {
+  flex-basis: 18% !important;
+}
+
+.fb-19, .flex-basis-19,
+.f-basis-19 {
+  flex-basis: 19% !important;
+}
+
+.fb-20, .flex-basis-20,
+.f-basis-20 {
+  flex-basis: 20% !important;
+}
+
+.fb-21, .flex-basis-21,
+.f-basis-21 {
+  flex-basis: 21% !important;
+}
+
+.fb-22, .flex-basis-22,
+.f-basis-22 {
+  flex-basis: 22% !important;
+}
+
+.fb-23, .flex-basis-23,
+.f-basis-23 {
+  flex-basis: 23% !important;
+}
+
+.fb-24, .flex-basis-24,
+.f-basis-24 {
+  flex-basis: 24% !important;
+}
+
+.fb-25, .flex-basis-25,
+.f-basis-25 {
+  flex-basis: 25% !important;
+}
+
+.fb-26, .flex-basis-26,
+.f-basis-26 {
+  flex-basis: 26% !important;
+}
+
+.fb-27, .flex-basis-27,
+.f-basis-27 {
+  flex-basis: 27% !important;
+}
+
+.fb-28, .flex-basis-28,
+.f-basis-28 {
+  flex-basis: 28% !important;
+}
+
+.fb-29, .flex-basis-29,
+.f-basis-29 {
+  flex-basis: 29% !important;
+}
+
+.fb-30, .flex-basis-30,
+.f-basis-30 {
+  flex-basis: 30% !important;
+}
+
+.fb-31, .flex-basis-31,
+.f-basis-31 {
+  flex-basis: 31% !important;
+}
+
+.fb-32, .flex-basis-32,
+.f-basis-32 {
+  flex-basis: 32% !important;
+}
+
+.fb-33, .flex-basis-33,
+.f-basis-33 {
+  flex-basis: 33% !important;
+}
+
+.fb-34, .flex-basis-34,
+.f-basis-34 {
+  flex-basis: 34% !important;
+}
+
+.fb-35, .flex-basis-35,
+.f-basis-35 {
+  flex-basis: 35% !important;
+}
+
+.fb-36, .flex-basis-36,
+.f-basis-36 {
+  flex-basis: 36% !important;
+}
+
+.fb-37, .flex-basis-37,
+.f-basis-37 {
+  flex-basis: 37% !important;
+}
+
+.fb-38, .flex-basis-38,
+.f-basis-38 {
+  flex-basis: 38% !important;
+}
+
+.fb-39, .flex-basis-39,
+.f-basis-39 {
+  flex-basis: 39% !important;
+}
+
+.fb-40, .flex-basis-40,
+.f-basis-40 {
+  flex-basis: 40% !important;
+}
+
+.fb-41, .flex-basis-41,
+.f-basis-41 {
+  flex-basis: 41% !important;
+}
+
+.fb-42, .flex-basis-42,
+.f-basis-42 {
+  flex-basis: 42% !important;
+}
+
+.fb-43, .flex-basis-43,
+.f-basis-43 {
+  flex-basis: 43% !important;
+}
+
+.fb-44, .flex-basis-44,
+.f-basis-44 {
+  flex-basis: 44% !important;
+}
+
+.fb-45, .flex-basis-45,
+.f-basis-45 {
+  flex-basis: 45% !important;
+}
+
+.fb-46, .flex-basis-46,
+.f-basis-46 {
+  flex-basis: 46% !important;
+}
+
+.fb-47, .flex-basis-47,
+.f-basis-47 {
+  flex-basis: 47% !important;
+}
+
+.fb-48, .flex-basis-48,
+.f-basis-48 {
+  flex-basis: 48% !important;
+}
+
+.fb-49, .flex-basis-49,
+.f-basis-49 {
+  flex-basis: 49% !important;
+}
+
+.fb-50, .flex-basis-50,
+.f-basis-50 {
+  flex-basis: 50% !important;
+}
+
+.fb-51, .flex-basis-51,
+.f-basis-51 {
+  flex-basis: 51% !important;
+}
+
+.fb-52, .flex-basis-52,
+.f-basis-52 {
+  flex-basis: 52% !important;
+}
+
+.fb-53, .flex-basis-53,
+.f-basis-53 {
+  flex-basis: 53% !important;
+}
+
+.fb-54, .flex-basis-54,
+.f-basis-54 {
+  flex-basis: 54% !important;
+}
+
+.fb-55, .flex-basis-55,
+.f-basis-55 {
+  flex-basis: 55% !important;
+}
+
+.fb-56, .flex-basis-56,
+.f-basis-56 {
+  flex-basis: 56% !important;
+}
+
+.fb-57, .flex-basis-57,
+.f-basis-57 {
+  flex-basis: 57% !important;
+}
+
+.fb-58, .flex-basis-58,
+.f-basis-58 {
+  flex-basis: 58% !important;
+}
+
+.fb-59, .flex-basis-59,
+.f-basis-59 {
+  flex-basis: 59% !important;
+}
+
+.fb-60, .flex-basis-60,
+.f-basis-60 {
+  flex-basis: 60% !important;
+}
+
+.fb-61, .flex-basis-61,
+.f-basis-61 {
+  flex-basis: 61% !important;
+}
+
+.fb-62, .flex-basis-62,
+.f-basis-62 {
+  flex-basis: 62% !important;
+}
+
+.fb-63, .flex-basis-63,
+.f-basis-63 {
+  flex-basis: 63% !important;
+}
+
+.fb-64, .flex-basis-64,
+.f-basis-64 {
+  flex-basis: 64% !important;
+}
+
+.fb-65, .flex-basis-65,
+.f-basis-65 {
+  flex-basis: 65% !important;
+}
+
+.fb-66, .flex-basis-66,
+.f-basis-66 {
+  flex-basis: 66% !important;
+}
+
+.fb-67, .flex-basis-67,
+.f-basis-67 {
+  flex-basis: 67% !important;
+}
+
+.fb-68, .flex-basis-68,
+.f-basis-68 {
+  flex-basis: 68% !important;
+}
+
+.fb-69, .flex-basis-69,
+.f-basis-69 {
+  flex-basis: 69% !important;
+}
+
+.fb-70, .flex-basis-70,
+.f-basis-70 {
+  flex-basis: 70% !important;
+}
+
+.fb-71, .flex-basis-71,
+.f-basis-71 {
+  flex-basis: 71% !important;
+}
+
+.fb-72, .flex-basis-72,
+.f-basis-72 {
+  flex-basis: 72% !important;
+}
+
+.fb-73, .flex-basis-73,
+.f-basis-73 {
+  flex-basis: 73% !important;
+}
+
+.fb-74, .flex-basis-74,
+.f-basis-74 {
+  flex-basis: 74% !important;
+}
+
+.fb-75, .flex-basis-75,
+.f-basis-75 {
+  flex-basis: 75% !important;
+}
+
+.fb-76, .flex-basis-76,
+.f-basis-76 {
+  flex-basis: 76% !important;
+}
+
+.fb-77, .flex-basis-77,
+.f-basis-77 {
+  flex-basis: 77% !important;
+}
+
+.fb-78, .flex-basis-78,
+.f-basis-78 {
+  flex-basis: 78% !important;
+}
+
+.fb-79, .flex-basis-79,
+.f-basis-79 {
+  flex-basis: 79% !important;
+}
+
+.fb-80, .flex-basis-80,
+.f-basis-80 {
+  flex-basis: 80% !important;
+}
+
+.fb-81, .flex-basis-81,
+.f-basis-81 {
+  flex-basis: 81% !important;
+}
+
+.fb-82, .flex-basis-82,
+.f-basis-82 {
+  flex-basis: 82% !important;
+}
+
+.fb-83, .flex-basis-83,
+.f-basis-83 {
+  flex-basis: 83% !important;
+}
+
+.fb-84, .flex-basis-84,
+.f-basis-84 {
+  flex-basis: 84% !important;
+}
+
+.fb-85, .flex-basis-85,
+.f-basis-85 {
+  flex-basis: 85% !important;
+}
+
+.fb-86, .flex-basis-86,
+.f-basis-86 {
+  flex-basis: 86% !important;
+}
+
+.fb-87, .flex-basis-87,
+.f-basis-87 {
+  flex-basis: 87% !important;
+}
+
+.fb-88, .flex-basis-88,
+.f-basis-88 {
+  flex-basis: 88% !important;
+}
+
+.fb-89, .flex-basis-89,
+.f-basis-89 {
+  flex-basis: 89% !important;
+}
+
+.fb-90, .flex-basis-90,
+.f-basis-90 {
+  flex-basis: 90% !important;
+}
+
+.fb-91, .flex-basis-91,
+.f-basis-91 {
+  flex-basis: 91% !important;
+}
+
+.fb-92, .flex-basis-92,
+.f-basis-92 {
+  flex-basis: 92% !important;
+}
+
+.fb-93, .flex-basis-93,
+.f-basis-93 {
+  flex-basis: 93% !important;
+}
+
+.fb-94, .flex-basis-94,
+.f-basis-94 {
+  flex-basis: 94% !important;
+}
+
+.fb-95, .flex-basis-95,
+.f-basis-95 {
+  flex-basis: 95% !important;
+}
+
+.fb-96, .flex-basis-96,
+.f-basis-96 {
+  flex-basis: 96% !important;
+}
+
+.fb-97, .flex-basis-97,
+.f-basis-97 {
+  flex-basis: 97% !important;
+}
+
+.fb-98, .flex-basis-98,
+.f-basis-98 {
+  flex-basis: 98% !important;
+}
+
+.fb-99, .flex-basis-99,
+.f-basis-99 {
+  flex-basis: 99% !important;
+}
+
+.fb-100, .flex-basis-100,
+.f-basis-100 {
+  flex-basis: 100% !important;
 }
 
 .justify-content-center,
@@ -1694,32 +2208,445 @@
   .visible-xl {
     visibility: visible !important;
   }
-  .flex-xl-row {
+  .flex-xl-row,
+  .f-xl-row {
     flex-direction: row !important;
   }
-  .flex-xl-column {
+  .flex-xl-column,
+  .f-xl-column {
     flex-direction: column !important;
   }
-  .flex-xl-inherit {
+  .flex-xl-inherit,
+  .f-xl-inherit {
     flex-wrap: inherit !important;
   }
-  .flex-xl-initial {
+  .flex-xl-initial,
+  .f-xl-initial {
     flex-wrap: initial !important;
   }
-  .flex-xl-nowrap {
+  .flex-xl-nowrap,
+  .f-xl-nowrap {
     flex-wrap: nowrap !important;
   }
-  .flex-xl-revert {
+  .flex-xl-revert,
+  .f-xl-revert {
     flex-wrap: revert !important;
   }
-  .flex-xl-unset {
+  .flex-xl-unset,
+  .f-xl-unset {
     flex-wrap: unset !important;
   }
-  .flex-xl-wrap {
+  .flex-xl-wrap,
+  .f-xl-wrap {
     flex-wrap: wrap !important;
   }
-  .flex-xl-wrap-reverse {
+  .flex-xl-wrap-reverse,
+  .f-xl-wrap-reverse {
     flex-wrap: wrap-reverse !important;
+  }
+  .fb-xl-0, .flex-xl-basis-0,
+  .f-xl-basis-0 {
+    flex-basis: 0% !important;
+  }
+  .fb-xl-1, .flex-xl-basis-1,
+  .f-xl-basis-1 {
+    flex-basis: 1% !important;
+  }
+  .fb-xl-2, .flex-xl-basis-2,
+  .f-xl-basis-2 {
+    flex-basis: 2% !important;
+  }
+  .fb-xl-3, .flex-xl-basis-3,
+  .f-xl-basis-3 {
+    flex-basis: 3% !important;
+  }
+  .fb-xl-4, .flex-xl-basis-4,
+  .f-xl-basis-4 {
+    flex-basis: 4% !important;
+  }
+  .fb-xl-5, .flex-xl-basis-5,
+  .f-xl-basis-5 {
+    flex-basis: 5% !important;
+  }
+  .fb-xl-6, .flex-xl-basis-6,
+  .f-xl-basis-6 {
+    flex-basis: 6% !important;
+  }
+  .fb-xl-7, .flex-xl-basis-7,
+  .f-xl-basis-7 {
+    flex-basis: 7% !important;
+  }
+  .fb-xl-8, .flex-xl-basis-8,
+  .f-xl-basis-8 {
+    flex-basis: 8% !important;
+  }
+  .fb-xl-9, .flex-xl-basis-9,
+  .f-xl-basis-9 {
+    flex-basis: 9% !important;
+  }
+  .fb-xl-10, .flex-xl-basis-10,
+  .f-xl-basis-10 {
+    flex-basis: 10% !important;
+  }
+  .fb-xl-11, .flex-xl-basis-11,
+  .f-xl-basis-11 {
+    flex-basis: 11% !important;
+  }
+  .fb-xl-12, .flex-xl-basis-12,
+  .f-xl-basis-12 {
+    flex-basis: 12% !important;
+  }
+  .fb-xl-13, .flex-xl-basis-13,
+  .f-xl-basis-13 {
+    flex-basis: 13% !important;
+  }
+  .fb-xl-14, .flex-xl-basis-14,
+  .f-xl-basis-14 {
+    flex-basis: 14% !important;
+  }
+  .fb-xl-15, .flex-xl-basis-15,
+  .f-xl-basis-15 {
+    flex-basis: 15% !important;
+  }
+  .fb-xl-16, .flex-xl-basis-16,
+  .f-xl-basis-16 {
+    flex-basis: 16% !important;
+  }
+  .fb-xl-17, .flex-xl-basis-17,
+  .f-xl-basis-17 {
+    flex-basis: 17% !important;
+  }
+  .fb-xl-18, .flex-xl-basis-18,
+  .f-xl-basis-18 {
+    flex-basis: 18% !important;
+  }
+  .fb-xl-19, .flex-xl-basis-19,
+  .f-xl-basis-19 {
+    flex-basis: 19% !important;
+  }
+  .fb-xl-20, .flex-xl-basis-20,
+  .f-xl-basis-20 {
+    flex-basis: 20% !important;
+  }
+  .fb-xl-21, .flex-xl-basis-21,
+  .f-xl-basis-21 {
+    flex-basis: 21% !important;
+  }
+  .fb-xl-22, .flex-xl-basis-22,
+  .f-xl-basis-22 {
+    flex-basis: 22% !important;
+  }
+  .fb-xl-23, .flex-xl-basis-23,
+  .f-xl-basis-23 {
+    flex-basis: 23% !important;
+  }
+  .fb-xl-24, .flex-xl-basis-24,
+  .f-xl-basis-24 {
+    flex-basis: 24% !important;
+  }
+  .fb-xl-25, .flex-xl-basis-25,
+  .f-xl-basis-25 {
+    flex-basis: 25% !important;
+  }
+  .fb-xl-26, .flex-xl-basis-26,
+  .f-xl-basis-26 {
+    flex-basis: 26% !important;
+  }
+  .fb-xl-27, .flex-xl-basis-27,
+  .f-xl-basis-27 {
+    flex-basis: 27% !important;
+  }
+  .fb-xl-28, .flex-xl-basis-28,
+  .f-xl-basis-28 {
+    flex-basis: 28% !important;
+  }
+  .fb-xl-29, .flex-xl-basis-29,
+  .f-xl-basis-29 {
+    flex-basis: 29% !important;
+  }
+  .fb-xl-30, .flex-xl-basis-30,
+  .f-xl-basis-30 {
+    flex-basis: 30% !important;
+  }
+  .fb-xl-31, .flex-xl-basis-31,
+  .f-xl-basis-31 {
+    flex-basis: 31% !important;
+  }
+  .fb-xl-32, .flex-xl-basis-32,
+  .f-xl-basis-32 {
+    flex-basis: 32% !important;
+  }
+  .fb-xl-33, .flex-xl-basis-33,
+  .f-xl-basis-33 {
+    flex-basis: 33% !important;
+  }
+  .fb-xl-34, .flex-xl-basis-34,
+  .f-xl-basis-34 {
+    flex-basis: 34% !important;
+  }
+  .fb-xl-35, .flex-xl-basis-35,
+  .f-xl-basis-35 {
+    flex-basis: 35% !important;
+  }
+  .fb-xl-36, .flex-xl-basis-36,
+  .f-xl-basis-36 {
+    flex-basis: 36% !important;
+  }
+  .fb-xl-37, .flex-xl-basis-37,
+  .f-xl-basis-37 {
+    flex-basis: 37% !important;
+  }
+  .fb-xl-38, .flex-xl-basis-38,
+  .f-xl-basis-38 {
+    flex-basis: 38% !important;
+  }
+  .fb-xl-39, .flex-xl-basis-39,
+  .f-xl-basis-39 {
+    flex-basis: 39% !important;
+  }
+  .fb-xl-40, .flex-xl-basis-40,
+  .f-xl-basis-40 {
+    flex-basis: 40% !important;
+  }
+  .fb-xl-41, .flex-xl-basis-41,
+  .f-xl-basis-41 {
+    flex-basis: 41% !important;
+  }
+  .fb-xl-42, .flex-xl-basis-42,
+  .f-xl-basis-42 {
+    flex-basis: 42% !important;
+  }
+  .fb-xl-43, .flex-xl-basis-43,
+  .f-xl-basis-43 {
+    flex-basis: 43% !important;
+  }
+  .fb-xl-44, .flex-xl-basis-44,
+  .f-xl-basis-44 {
+    flex-basis: 44% !important;
+  }
+  .fb-xl-45, .flex-xl-basis-45,
+  .f-xl-basis-45 {
+    flex-basis: 45% !important;
+  }
+  .fb-xl-46, .flex-xl-basis-46,
+  .f-xl-basis-46 {
+    flex-basis: 46% !important;
+  }
+  .fb-xl-47, .flex-xl-basis-47,
+  .f-xl-basis-47 {
+    flex-basis: 47% !important;
+  }
+  .fb-xl-48, .flex-xl-basis-48,
+  .f-xl-basis-48 {
+    flex-basis: 48% !important;
+  }
+  .fb-xl-49, .flex-xl-basis-49,
+  .f-xl-basis-49 {
+    flex-basis: 49% !important;
+  }
+  .fb-xl-50, .flex-xl-basis-50,
+  .f-xl-basis-50 {
+    flex-basis: 50% !important;
+  }
+  .fb-xl-51, .flex-xl-basis-51,
+  .f-xl-basis-51 {
+    flex-basis: 51% !important;
+  }
+  .fb-xl-52, .flex-xl-basis-52,
+  .f-xl-basis-52 {
+    flex-basis: 52% !important;
+  }
+  .fb-xl-53, .flex-xl-basis-53,
+  .f-xl-basis-53 {
+    flex-basis: 53% !important;
+  }
+  .fb-xl-54, .flex-xl-basis-54,
+  .f-xl-basis-54 {
+    flex-basis: 54% !important;
+  }
+  .fb-xl-55, .flex-xl-basis-55,
+  .f-xl-basis-55 {
+    flex-basis: 55% !important;
+  }
+  .fb-xl-56, .flex-xl-basis-56,
+  .f-xl-basis-56 {
+    flex-basis: 56% !important;
+  }
+  .fb-xl-57, .flex-xl-basis-57,
+  .f-xl-basis-57 {
+    flex-basis: 57% !important;
+  }
+  .fb-xl-58, .flex-xl-basis-58,
+  .f-xl-basis-58 {
+    flex-basis: 58% !important;
+  }
+  .fb-xl-59, .flex-xl-basis-59,
+  .f-xl-basis-59 {
+    flex-basis: 59% !important;
+  }
+  .fb-xl-60, .flex-xl-basis-60,
+  .f-xl-basis-60 {
+    flex-basis: 60% !important;
+  }
+  .fb-xl-61, .flex-xl-basis-61,
+  .f-xl-basis-61 {
+    flex-basis: 61% !important;
+  }
+  .fb-xl-62, .flex-xl-basis-62,
+  .f-xl-basis-62 {
+    flex-basis: 62% !important;
+  }
+  .fb-xl-63, .flex-xl-basis-63,
+  .f-xl-basis-63 {
+    flex-basis: 63% !important;
+  }
+  .fb-xl-64, .flex-xl-basis-64,
+  .f-xl-basis-64 {
+    flex-basis: 64% !important;
+  }
+  .fb-xl-65, .flex-xl-basis-65,
+  .f-xl-basis-65 {
+    flex-basis: 65% !important;
+  }
+  .fb-xl-66, .flex-xl-basis-66,
+  .f-xl-basis-66 {
+    flex-basis: 66% !important;
+  }
+  .fb-xl-67, .flex-xl-basis-67,
+  .f-xl-basis-67 {
+    flex-basis: 67% !important;
+  }
+  .fb-xl-68, .flex-xl-basis-68,
+  .f-xl-basis-68 {
+    flex-basis: 68% !important;
+  }
+  .fb-xl-69, .flex-xl-basis-69,
+  .f-xl-basis-69 {
+    flex-basis: 69% !important;
+  }
+  .fb-xl-70, .flex-xl-basis-70,
+  .f-xl-basis-70 {
+    flex-basis: 70% !important;
+  }
+  .fb-xl-71, .flex-xl-basis-71,
+  .f-xl-basis-71 {
+    flex-basis: 71% !important;
+  }
+  .fb-xl-72, .flex-xl-basis-72,
+  .f-xl-basis-72 {
+    flex-basis: 72% !important;
+  }
+  .fb-xl-73, .flex-xl-basis-73,
+  .f-xl-basis-73 {
+    flex-basis: 73% !important;
+  }
+  .fb-xl-74, .flex-xl-basis-74,
+  .f-xl-basis-74 {
+    flex-basis: 74% !important;
+  }
+  .fb-xl-75, .flex-xl-basis-75,
+  .f-xl-basis-75 {
+    flex-basis: 75% !important;
+  }
+  .fb-xl-76, .flex-xl-basis-76,
+  .f-xl-basis-76 {
+    flex-basis: 76% !important;
+  }
+  .fb-xl-77, .flex-xl-basis-77,
+  .f-xl-basis-77 {
+    flex-basis: 77% !important;
+  }
+  .fb-xl-78, .flex-xl-basis-78,
+  .f-xl-basis-78 {
+    flex-basis: 78% !important;
+  }
+  .fb-xl-79, .flex-xl-basis-79,
+  .f-xl-basis-79 {
+    flex-basis: 79% !important;
+  }
+  .fb-xl-80, .flex-xl-basis-80,
+  .f-xl-basis-80 {
+    flex-basis: 80% !important;
+  }
+  .fb-xl-81, .flex-xl-basis-81,
+  .f-xl-basis-81 {
+    flex-basis: 81% !important;
+  }
+  .fb-xl-82, .flex-xl-basis-82,
+  .f-xl-basis-82 {
+    flex-basis: 82% !important;
+  }
+  .fb-xl-83, .flex-xl-basis-83,
+  .f-xl-basis-83 {
+    flex-basis: 83% !important;
+  }
+  .fb-xl-84, .flex-xl-basis-84,
+  .f-xl-basis-84 {
+    flex-basis: 84% !important;
+  }
+  .fb-xl-85, .flex-xl-basis-85,
+  .f-xl-basis-85 {
+    flex-basis: 85% !important;
+  }
+  .fb-xl-86, .flex-xl-basis-86,
+  .f-xl-basis-86 {
+    flex-basis: 86% !important;
+  }
+  .fb-xl-87, .flex-xl-basis-87,
+  .f-xl-basis-87 {
+    flex-basis: 87% !important;
+  }
+  .fb-xl-88, .flex-xl-basis-88,
+  .f-xl-basis-88 {
+    flex-basis: 88% !important;
+  }
+  .fb-xl-89, .flex-xl-basis-89,
+  .f-xl-basis-89 {
+    flex-basis: 89% !important;
+  }
+  .fb-xl-90, .flex-xl-basis-90,
+  .f-xl-basis-90 {
+    flex-basis: 90% !important;
+  }
+  .fb-xl-91, .flex-xl-basis-91,
+  .f-xl-basis-91 {
+    flex-basis: 91% !important;
+  }
+  .fb-xl-92, .flex-xl-basis-92,
+  .f-xl-basis-92 {
+    flex-basis: 92% !important;
+  }
+  .fb-xl-93, .flex-xl-basis-93,
+  .f-xl-basis-93 {
+    flex-basis: 93% !important;
+  }
+  .fb-xl-94, .flex-xl-basis-94,
+  .f-xl-basis-94 {
+    flex-basis: 94% !important;
+  }
+  .fb-xl-95, .flex-xl-basis-95,
+  .f-xl-basis-95 {
+    flex-basis: 95% !important;
+  }
+  .fb-xl-96, .flex-xl-basis-96,
+  .f-xl-basis-96 {
+    flex-basis: 96% !important;
+  }
+  .fb-xl-97, .flex-xl-basis-97,
+  .f-xl-basis-97 {
+    flex-basis: 97% !important;
+  }
+  .fb-xl-98, .flex-xl-basis-98,
+  .f-xl-basis-98 {
+    flex-basis: 98% !important;
+  }
+  .fb-xl-99, .flex-xl-basis-99,
+  .f-xl-basis-99 {
+    flex-basis: 99% !important;
+  }
+  .fb-xl-100, .flex-xl-basis-100,
+  .f-xl-basis-100 {
+    flex-basis: 100% !important;
   }
   .justify-content-xl-center,
   .jc-xl-center {
@@ -2606,32 +3533,445 @@
   .visible-t {
     visibility: visible !important;
   }
-  .flex-t-row {
+  .flex-t-row,
+  .f-t-row {
     flex-direction: row !important;
   }
-  .flex-t-column {
+  .flex-t-column,
+  .f-t-column {
     flex-direction: column !important;
   }
-  .flex-t-inherit {
+  .flex-t-inherit,
+  .f-t-inherit {
     flex-wrap: inherit !important;
   }
-  .flex-t-initial {
+  .flex-t-initial,
+  .f-t-initial {
     flex-wrap: initial !important;
   }
-  .flex-t-nowrap {
+  .flex-t-nowrap,
+  .f-t-nowrap {
     flex-wrap: nowrap !important;
   }
-  .flex-t-revert {
+  .flex-t-revert,
+  .f-t-revert {
     flex-wrap: revert !important;
   }
-  .flex-t-unset {
+  .flex-t-unset,
+  .f-t-unset {
     flex-wrap: unset !important;
   }
-  .flex-t-wrap {
+  .flex-t-wrap,
+  .f-t-wrap {
     flex-wrap: wrap !important;
   }
-  .flex-t-wrap-reverse {
+  .flex-t-wrap-reverse,
+  .f-t-wrap-reverse {
     flex-wrap: wrap-reverse !important;
+  }
+  .fb-t-0, .flex-t-basis-0,
+  .f-t-basis-0 {
+    flex-basis: 0% !important;
+  }
+  .fb-t-1, .flex-t-basis-1,
+  .f-t-basis-1 {
+    flex-basis: 1% !important;
+  }
+  .fb-t-2, .flex-t-basis-2,
+  .f-t-basis-2 {
+    flex-basis: 2% !important;
+  }
+  .fb-t-3, .flex-t-basis-3,
+  .f-t-basis-3 {
+    flex-basis: 3% !important;
+  }
+  .fb-t-4, .flex-t-basis-4,
+  .f-t-basis-4 {
+    flex-basis: 4% !important;
+  }
+  .fb-t-5, .flex-t-basis-5,
+  .f-t-basis-5 {
+    flex-basis: 5% !important;
+  }
+  .fb-t-6, .flex-t-basis-6,
+  .f-t-basis-6 {
+    flex-basis: 6% !important;
+  }
+  .fb-t-7, .flex-t-basis-7,
+  .f-t-basis-7 {
+    flex-basis: 7% !important;
+  }
+  .fb-t-8, .flex-t-basis-8,
+  .f-t-basis-8 {
+    flex-basis: 8% !important;
+  }
+  .fb-t-9, .flex-t-basis-9,
+  .f-t-basis-9 {
+    flex-basis: 9% !important;
+  }
+  .fb-t-10, .flex-t-basis-10,
+  .f-t-basis-10 {
+    flex-basis: 10% !important;
+  }
+  .fb-t-11, .flex-t-basis-11,
+  .f-t-basis-11 {
+    flex-basis: 11% !important;
+  }
+  .fb-t-12, .flex-t-basis-12,
+  .f-t-basis-12 {
+    flex-basis: 12% !important;
+  }
+  .fb-t-13, .flex-t-basis-13,
+  .f-t-basis-13 {
+    flex-basis: 13% !important;
+  }
+  .fb-t-14, .flex-t-basis-14,
+  .f-t-basis-14 {
+    flex-basis: 14% !important;
+  }
+  .fb-t-15, .flex-t-basis-15,
+  .f-t-basis-15 {
+    flex-basis: 15% !important;
+  }
+  .fb-t-16, .flex-t-basis-16,
+  .f-t-basis-16 {
+    flex-basis: 16% !important;
+  }
+  .fb-t-17, .flex-t-basis-17,
+  .f-t-basis-17 {
+    flex-basis: 17% !important;
+  }
+  .fb-t-18, .flex-t-basis-18,
+  .f-t-basis-18 {
+    flex-basis: 18% !important;
+  }
+  .fb-t-19, .flex-t-basis-19,
+  .f-t-basis-19 {
+    flex-basis: 19% !important;
+  }
+  .fb-t-20, .flex-t-basis-20,
+  .f-t-basis-20 {
+    flex-basis: 20% !important;
+  }
+  .fb-t-21, .flex-t-basis-21,
+  .f-t-basis-21 {
+    flex-basis: 21% !important;
+  }
+  .fb-t-22, .flex-t-basis-22,
+  .f-t-basis-22 {
+    flex-basis: 22% !important;
+  }
+  .fb-t-23, .flex-t-basis-23,
+  .f-t-basis-23 {
+    flex-basis: 23% !important;
+  }
+  .fb-t-24, .flex-t-basis-24,
+  .f-t-basis-24 {
+    flex-basis: 24% !important;
+  }
+  .fb-t-25, .flex-t-basis-25,
+  .f-t-basis-25 {
+    flex-basis: 25% !important;
+  }
+  .fb-t-26, .flex-t-basis-26,
+  .f-t-basis-26 {
+    flex-basis: 26% !important;
+  }
+  .fb-t-27, .flex-t-basis-27,
+  .f-t-basis-27 {
+    flex-basis: 27% !important;
+  }
+  .fb-t-28, .flex-t-basis-28,
+  .f-t-basis-28 {
+    flex-basis: 28% !important;
+  }
+  .fb-t-29, .flex-t-basis-29,
+  .f-t-basis-29 {
+    flex-basis: 29% !important;
+  }
+  .fb-t-30, .flex-t-basis-30,
+  .f-t-basis-30 {
+    flex-basis: 30% !important;
+  }
+  .fb-t-31, .flex-t-basis-31,
+  .f-t-basis-31 {
+    flex-basis: 31% !important;
+  }
+  .fb-t-32, .flex-t-basis-32,
+  .f-t-basis-32 {
+    flex-basis: 32% !important;
+  }
+  .fb-t-33, .flex-t-basis-33,
+  .f-t-basis-33 {
+    flex-basis: 33% !important;
+  }
+  .fb-t-34, .flex-t-basis-34,
+  .f-t-basis-34 {
+    flex-basis: 34% !important;
+  }
+  .fb-t-35, .flex-t-basis-35,
+  .f-t-basis-35 {
+    flex-basis: 35% !important;
+  }
+  .fb-t-36, .flex-t-basis-36,
+  .f-t-basis-36 {
+    flex-basis: 36% !important;
+  }
+  .fb-t-37, .flex-t-basis-37,
+  .f-t-basis-37 {
+    flex-basis: 37% !important;
+  }
+  .fb-t-38, .flex-t-basis-38,
+  .f-t-basis-38 {
+    flex-basis: 38% !important;
+  }
+  .fb-t-39, .flex-t-basis-39,
+  .f-t-basis-39 {
+    flex-basis: 39% !important;
+  }
+  .fb-t-40, .flex-t-basis-40,
+  .f-t-basis-40 {
+    flex-basis: 40% !important;
+  }
+  .fb-t-41, .flex-t-basis-41,
+  .f-t-basis-41 {
+    flex-basis: 41% !important;
+  }
+  .fb-t-42, .flex-t-basis-42,
+  .f-t-basis-42 {
+    flex-basis: 42% !important;
+  }
+  .fb-t-43, .flex-t-basis-43,
+  .f-t-basis-43 {
+    flex-basis: 43% !important;
+  }
+  .fb-t-44, .flex-t-basis-44,
+  .f-t-basis-44 {
+    flex-basis: 44% !important;
+  }
+  .fb-t-45, .flex-t-basis-45,
+  .f-t-basis-45 {
+    flex-basis: 45% !important;
+  }
+  .fb-t-46, .flex-t-basis-46,
+  .f-t-basis-46 {
+    flex-basis: 46% !important;
+  }
+  .fb-t-47, .flex-t-basis-47,
+  .f-t-basis-47 {
+    flex-basis: 47% !important;
+  }
+  .fb-t-48, .flex-t-basis-48,
+  .f-t-basis-48 {
+    flex-basis: 48% !important;
+  }
+  .fb-t-49, .flex-t-basis-49,
+  .f-t-basis-49 {
+    flex-basis: 49% !important;
+  }
+  .fb-t-50, .flex-t-basis-50,
+  .f-t-basis-50 {
+    flex-basis: 50% !important;
+  }
+  .fb-t-51, .flex-t-basis-51,
+  .f-t-basis-51 {
+    flex-basis: 51% !important;
+  }
+  .fb-t-52, .flex-t-basis-52,
+  .f-t-basis-52 {
+    flex-basis: 52% !important;
+  }
+  .fb-t-53, .flex-t-basis-53,
+  .f-t-basis-53 {
+    flex-basis: 53% !important;
+  }
+  .fb-t-54, .flex-t-basis-54,
+  .f-t-basis-54 {
+    flex-basis: 54% !important;
+  }
+  .fb-t-55, .flex-t-basis-55,
+  .f-t-basis-55 {
+    flex-basis: 55% !important;
+  }
+  .fb-t-56, .flex-t-basis-56,
+  .f-t-basis-56 {
+    flex-basis: 56% !important;
+  }
+  .fb-t-57, .flex-t-basis-57,
+  .f-t-basis-57 {
+    flex-basis: 57% !important;
+  }
+  .fb-t-58, .flex-t-basis-58,
+  .f-t-basis-58 {
+    flex-basis: 58% !important;
+  }
+  .fb-t-59, .flex-t-basis-59,
+  .f-t-basis-59 {
+    flex-basis: 59% !important;
+  }
+  .fb-t-60, .flex-t-basis-60,
+  .f-t-basis-60 {
+    flex-basis: 60% !important;
+  }
+  .fb-t-61, .flex-t-basis-61,
+  .f-t-basis-61 {
+    flex-basis: 61% !important;
+  }
+  .fb-t-62, .flex-t-basis-62,
+  .f-t-basis-62 {
+    flex-basis: 62% !important;
+  }
+  .fb-t-63, .flex-t-basis-63,
+  .f-t-basis-63 {
+    flex-basis: 63% !important;
+  }
+  .fb-t-64, .flex-t-basis-64,
+  .f-t-basis-64 {
+    flex-basis: 64% !important;
+  }
+  .fb-t-65, .flex-t-basis-65,
+  .f-t-basis-65 {
+    flex-basis: 65% !important;
+  }
+  .fb-t-66, .flex-t-basis-66,
+  .f-t-basis-66 {
+    flex-basis: 66% !important;
+  }
+  .fb-t-67, .flex-t-basis-67,
+  .f-t-basis-67 {
+    flex-basis: 67% !important;
+  }
+  .fb-t-68, .flex-t-basis-68,
+  .f-t-basis-68 {
+    flex-basis: 68% !important;
+  }
+  .fb-t-69, .flex-t-basis-69,
+  .f-t-basis-69 {
+    flex-basis: 69% !important;
+  }
+  .fb-t-70, .flex-t-basis-70,
+  .f-t-basis-70 {
+    flex-basis: 70% !important;
+  }
+  .fb-t-71, .flex-t-basis-71,
+  .f-t-basis-71 {
+    flex-basis: 71% !important;
+  }
+  .fb-t-72, .flex-t-basis-72,
+  .f-t-basis-72 {
+    flex-basis: 72% !important;
+  }
+  .fb-t-73, .flex-t-basis-73,
+  .f-t-basis-73 {
+    flex-basis: 73% !important;
+  }
+  .fb-t-74, .flex-t-basis-74,
+  .f-t-basis-74 {
+    flex-basis: 74% !important;
+  }
+  .fb-t-75, .flex-t-basis-75,
+  .f-t-basis-75 {
+    flex-basis: 75% !important;
+  }
+  .fb-t-76, .flex-t-basis-76,
+  .f-t-basis-76 {
+    flex-basis: 76% !important;
+  }
+  .fb-t-77, .flex-t-basis-77,
+  .f-t-basis-77 {
+    flex-basis: 77% !important;
+  }
+  .fb-t-78, .flex-t-basis-78,
+  .f-t-basis-78 {
+    flex-basis: 78% !important;
+  }
+  .fb-t-79, .flex-t-basis-79,
+  .f-t-basis-79 {
+    flex-basis: 79% !important;
+  }
+  .fb-t-80, .flex-t-basis-80,
+  .f-t-basis-80 {
+    flex-basis: 80% !important;
+  }
+  .fb-t-81, .flex-t-basis-81,
+  .f-t-basis-81 {
+    flex-basis: 81% !important;
+  }
+  .fb-t-82, .flex-t-basis-82,
+  .f-t-basis-82 {
+    flex-basis: 82% !important;
+  }
+  .fb-t-83, .flex-t-basis-83,
+  .f-t-basis-83 {
+    flex-basis: 83% !important;
+  }
+  .fb-t-84, .flex-t-basis-84,
+  .f-t-basis-84 {
+    flex-basis: 84% !important;
+  }
+  .fb-t-85, .flex-t-basis-85,
+  .f-t-basis-85 {
+    flex-basis: 85% !important;
+  }
+  .fb-t-86, .flex-t-basis-86,
+  .f-t-basis-86 {
+    flex-basis: 86% !important;
+  }
+  .fb-t-87, .flex-t-basis-87,
+  .f-t-basis-87 {
+    flex-basis: 87% !important;
+  }
+  .fb-t-88, .flex-t-basis-88,
+  .f-t-basis-88 {
+    flex-basis: 88% !important;
+  }
+  .fb-t-89, .flex-t-basis-89,
+  .f-t-basis-89 {
+    flex-basis: 89% !important;
+  }
+  .fb-t-90, .flex-t-basis-90,
+  .f-t-basis-90 {
+    flex-basis: 90% !important;
+  }
+  .fb-t-91, .flex-t-basis-91,
+  .f-t-basis-91 {
+    flex-basis: 91% !important;
+  }
+  .fb-t-92, .flex-t-basis-92,
+  .f-t-basis-92 {
+    flex-basis: 92% !important;
+  }
+  .fb-t-93, .flex-t-basis-93,
+  .f-t-basis-93 {
+    flex-basis: 93% !important;
+  }
+  .fb-t-94, .flex-t-basis-94,
+  .f-t-basis-94 {
+    flex-basis: 94% !important;
+  }
+  .fb-t-95, .flex-t-basis-95,
+  .f-t-basis-95 {
+    flex-basis: 95% !important;
+  }
+  .fb-t-96, .flex-t-basis-96,
+  .f-t-basis-96 {
+    flex-basis: 96% !important;
+  }
+  .fb-t-97, .flex-t-basis-97,
+  .f-t-basis-97 {
+    flex-basis: 97% !important;
+  }
+  .fb-t-98, .flex-t-basis-98,
+  .f-t-basis-98 {
+    flex-basis: 98% !important;
+  }
+  .fb-t-99, .flex-t-basis-99,
+  .f-t-basis-99 {
+    flex-basis: 99% !important;
+  }
+  .fb-t-100, .flex-t-basis-100,
+  .f-t-basis-100 {
+    flex-basis: 100% !important;
   }
   .justify-content-t-center,
   .jc-t-center {
@@ -3518,32 +4858,445 @@
   .visible-m {
     visibility: visible !important;
   }
-  .flex-m-row {
+  .flex-m-row,
+  .f-m-row {
     flex-direction: row !important;
   }
-  .flex-m-column {
+  .flex-m-column,
+  .f-m-column {
     flex-direction: column !important;
   }
-  .flex-m-inherit {
+  .flex-m-inherit,
+  .f-m-inherit {
     flex-wrap: inherit !important;
   }
-  .flex-m-initial {
+  .flex-m-initial,
+  .f-m-initial {
     flex-wrap: initial !important;
   }
-  .flex-m-nowrap {
+  .flex-m-nowrap,
+  .f-m-nowrap {
     flex-wrap: nowrap !important;
   }
-  .flex-m-revert {
+  .flex-m-revert,
+  .f-m-revert {
     flex-wrap: revert !important;
   }
-  .flex-m-unset {
+  .flex-m-unset,
+  .f-m-unset {
     flex-wrap: unset !important;
   }
-  .flex-m-wrap {
+  .flex-m-wrap,
+  .f-m-wrap {
     flex-wrap: wrap !important;
   }
-  .flex-m-wrap-reverse {
+  .flex-m-wrap-reverse,
+  .f-m-wrap-reverse {
     flex-wrap: wrap-reverse !important;
+  }
+  .fb-m-0, .flex-m-basis-0,
+  .f-m-basis-0 {
+    flex-basis: 0% !important;
+  }
+  .fb-m-1, .flex-m-basis-1,
+  .f-m-basis-1 {
+    flex-basis: 1% !important;
+  }
+  .fb-m-2, .flex-m-basis-2,
+  .f-m-basis-2 {
+    flex-basis: 2% !important;
+  }
+  .fb-m-3, .flex-m-basis-3,
+  .f-m-basis-3 {
+    flex-basis: 3% !important;
+  }
+  .fb-m-4, .flex-m-basis-4,
+  .f-m-basis-4 {
+    flex-basis: 4% !important;
+  }
+  .fb-m-5, .flex-m-basis-5,
+  .f-m-basis-5 {
+    flex-basis: 5% !important;
+  }
+  .fb-m-6, .flex-m-basis-6,
+  .f-m-basis-6 {
+    flex-basis: 6% !important;
+  }
+  .fb-m-7, .flex-m-basis-7,
+  .f-m-basis-7 {
+    flex-basis: 7% !important;
+  }
+  .fb-m-8, .flex-m-basis-8,
+  .f-m-basis-8 {
+    flex-basis: 8% !important;
+  }
+  .fb-m-9, .flex-m-basis-9,
+  .f-m-basis-9 {
+    flex-basis: 9% !important;
+  }
+  .fb-m-10, .flex-m-basis-10,
+  .f-m-basis-10 {
+    flex-basis: 10% !important;
+  }
+  .fb-m-11, .flex-m-basis-11,
+  .f-m-basis-11 {
+    flex-basis: 11% !important;
+  }
+  .fb-m-12, .flex-m-basis-12,
+  .f-m-basis-12 {
+    flex-basis: 12% !important;
+  }
+  .fb-m-13, .flex-m-basis-13,
+  .f-m-basis-13 {
+    flex-basis: 13% !important;
+  }
+  .fb-m-14, .flex-m-basis-14,
+  .f-m-basis-14 {
+    flex-basis: 14% !important;
+  }
+  .fb-m-15, .flex-m-basis-15,
+  .f-m-basis-15 {
+    flex-basis: 15% !important;
+  }
+  .fb-m-16, .flex-m-basis-16,
+  .f-m-basis-16 {
+    flex-basis: 16% !important;
+  }
+  .fb-m-17, .flex-m-basis-17,
+  .f-m-basis-17 {
+    flex-basis: 17% !important;
+  }
+  .fb-m-18, .flex-m-basis-18,
+  .f-m-basis-18 {
+    flex-basis: 18% !important;
+  }
+  .fb-m-19, .flex-m-basis-19,
+  .f-m-basis-19 {
+    flex-basis: 19% !important;
+  }
+  .fb-m-20, .flex-m-basis-20,
+  .f-m-basis-20 {
+    flex-basis: 20% !important;
+  }
+  .fb-m-21, .flex-m-basis-21,
+  .f-m-basis-21 {
+    flex-basis: 21% !important;
+  }
+  .fb-m-22, .flex-m-basis-22,
+  .f-m-basis-22 {
+    flex-basis: 22% !important;
+  }
+  .fb-m-23, .flex-m-basis-23,
+  .f-m-basis-23 {
+    flex-basis: 23% !important;
+  }
+  .fb-m-24, .flex-m-basis-24,
+  .f-m-basis-24 {
+    flex-basis: 24% !important;
+  }
+  .fb-m-25, .flex-m-basis-25,
+  .f-m-basis-25 {
+    flex-basis: 25% !important;
+  }
+  .fb-m-26, .flex-m-basis-26,
+  .f-m-basis-26 {
+    flex-basis: 26% !important;
+  }
+  .fb-m-27, .flex-m-basis-27,
+  .f-m-basis-27 {
+    flex-basis: 27% !important;
+  }
+  .fb-m-28, .flex-m-basis-28,
+  .f-m-basis-28 {
+    flex-basis: 28% !important;
+  }
+  .fb-m-29, .flex-m-basis-29,
+  .f-m-basis-29 {
+    flex-basis: 29% !important;
+  }
+  .fb-m-30, .flex-m-basis-30,
+  .f-m-basis-30 {
+    flex-basis: 30% !important;
+  }
+  .fb-m-31, .flex-m-basis-31,
+  .f-m-basis-31 {
+    flex-basis: 31% !important;
+  }
+  .fb-m-32, .flex-m-basis-32,
+  .f-m-basis-32 {
+    flex-basis: 32% !important;
+  }
+  .fb-m-33, .flex-m-basis-33,
+  .f-m-basis-33 {
+    flex-basis: 33% !important;
+  }
+  .fb-m-34, .flex-m-basis-34,
+  .f-m-basis-34 {
+    flex-basis: 34% !important;
+  }
+  .fb-m-35, .flex-m-basis-35,
+  .f-m-basis-35 {
+    flex-basis: 35% !important;
+  }
+  .fb-m-36, .flex-m-basis-36,
+  .f-m-basis-36 {
+    flex-basis: 36% !important;
+  }
+  .fb-m-37, .flex-m-basis-37,
+  .f-m-basis-37 {
+    flex-basis: 37% !important;
+  }
+  .fb-m-38, .flex-m-basis-38,
+  .f-m-basis-38 {
+    flex-basis: 38% !important;
+  }
+  .fb-m-39, .flex-m-basis-39,
+  .f-m-basis-39 {
+    flex-basis: 39% !important;
+  }
+  .fb-m-40, .flex-m-basis-40,
+  .f-m-basis-40 {
+    flex-basis: 40% !important;
+  }
+  .fb-m-41, .flex-m-basis-41,
+  .f-m-basis-41 {
+    flex-basis: 41% !important;
+  }
+  .fb-m-42, .flex-m-basis-42,
+  .f-m-basis-42 {
+    flex-basis: 42% !important;
+  }
+  .fb-m-43, .flex-m-basis-43,
+  .f-m-basis-43 {
+    flex-basis: 43% !important;
+  }
+  .fb-m-44, .flex-m-basis-44,
+  .f-m-basis-44 {
+    flex-basis: 44% !important;
+  }
+  .fb-m-45, .flex-m-basis-45,
+  .f-m-basis-45 {
+    flex-basis: 45% !important;
+  }
+  .fb-m-46, .flex-m-basis-46,
+  .f-m-basis-46 {
+    flex-basis: 46% !important;
+  }
+  .fb-m-47, .flex-m-basis-47,
+  .f-m-basis-47 {
+    flex-basis: 47% !important;
+  }
+  .fb-m-48, .flex-m-basis-48,
+  .f-m-basis-48 {
+    flex-basis: 48% !important;
+  }
+  .fb-m-49, .flex-m-basis-49,
+  .f-m-basis-49 {
+    flex-basis: 49% !important;
+  }
+  .fb-m-50, .flex-m-basis-50,
+  .f-m-basis-50 {
+    flex-basis: 50% !important;
+  }
+  .fb-m-51, .flex-m-basis-51,
+  .f-m-basis-51 {
+    flex-basis: 51% !important;
+  }
+  .fb-m-52, .flex-m-basis-52,
+  .f-m-basis-52 {
+    flex-basis: 52% !important;
+  }
+  .fb-m-53, .flex-m-basis-53,
+  .f-m-basis-53 {
+    flex-basis: 53% !important;
+  }
+  .fb-m-54, .flex-m-basis-54,
+  .f-m-basis-54 {
+    flex-basis: 54% !important;
+  }
+  .fb-m-55, .flex-m-basis-55,
+  .f-m-basis-55 {
+    flex-basis: 55% !important;
+  }
+  .fb-m-56, .flex-m-basis-56,
+  .f-m-basis-56 {
+    flex-basis: 56% !important;
+  }
+  .fb-m-57, .flex-m-basis-57,
+  .f-m-basis-57 {
+    flex-basis: 57% !important;
+  }
+  .fb-m-58, .flex-m-basis-58,
+  .f-m-basis-58 {
+    flex-basis: 58% !important;
+  }
+  .fb-m-59, .flex-m-basis-59,
+  .f-m-basis-59 {
+    flex-basis: 59% !important;
+  }
+  .fb-m-60, .flex-m-basis-60,
+  .f-m-basis-60 {
+    flex-basis: 60% !important;
+  }
+  .fb-m-61, .flex-m-basis-61,
+  .f-m-basis-61 {
+    flex-basis: 61% !important;
+  }
+  .fb-m-62, .flex-m-basis-62,
+  .f-m-basis-62 {
+    flex-basis: 62% !important;
+  }
+  .fb-m-63, .flex-m-basis-63,
+  .f-m-basis-63 {
+    flex-basis: 63% !important;
+  }
+  .fb-m-64, .flex-m-basis-64,
+  .f-m-basis-64 {
+    flex-basis: 64% !important;
+  }
+  .fb-m-65, .flex-m-basis-65,
+  .f-m-basis-65 {
+    flex-basis: 65% !important;
+  }
+  .fb-m-66, .flex-m-basis-66,
+  .f-m-basis-66 {
+    flex-basis: 66% !important;
+  }
+  .fb-m-67, .flex-m-basis-67,
+  .f-m-basis-67 {
+    flex-basis: 67% !important;
+  }
+  .fb-m-68, .flex-m-basis-68,
+  .f-m-basis-68 {
+    flex-basis: 68% !important;
+  }
+  .fb-m-69, .flex-m-basis-69,
+  .f-m-basis-69 {
+    flex-basis: 69% !important;
+  }
+  .fb-m-70, .flex-m-basis-70,
+  .f-m-basis-70 {
+    flex-basis: 70% !important;
+  }
+  .fb-m-71, .flex-m-basis-71,
+  .f-m-basis-71 {
+    flex-basis: 71% !important;
+  }
+  .fb-m-72, .flex-m-basis-72,
+  .f-m-basis-72 {
+    flex-basis: 72% !important;
+  }
+  .fb-m-73, .flex-m-basis-73,
+  .f-m-basis-73 {
+    flex-basis: 73% !important;
+  }
+  .fb-m-74, .flex-m-basis-74,
+  .f-m-basis-74 {
+    flex-basis: 74% !important;
+  }
+  .fb-m-75, .flex-m-basis-75,
+  .f-m-basis-75 {
+    flex-basis: 75% !important;
+  }
+  .fb-m-76, .flex-m-basis-76,
+  .f-m-basis-76 {
+    flex-basis: 76% !important;
+  }
+  .fb-m-77, .flex-m-basis-77,
+  .f-m-basis-77 {
+    flex-basis: 77% !important;
+  }
+  .fb-m-78, .flex-m-basis-78,
+  .f-m-basis-78 {
+    flex-basis: 78% !important;
+  }
+  .fb-m-79, .flex-m-basis-79,
+  .f-m-basis-79 {
+    flex-basis: 79% !important;
+  }
+  .fb-m-80, .flex-m-basis-80,
+  .f-m-basis-80 {
+    flex-basis: 80% !important;
+  }
+  .fb-m-81, .flex-m-basis-81,
+  .f-m-basis-81 {
+    flex-basis: 81% !important;
+  }
+  .fb-m-82, .flex-m-basis-82,
+  .f-m-basis-82 {
+    flex-basis: 82% !important;
+  }
+  .fb-m-83, .flex-m-basis-83,
+  .f-m-basis-83 {
+    flex-basis: 83% !important;
+  }
+  .fb-m-84, .flex-m-basis-84,
+  .f-m-basis-84 {
+    flex-basis: 84% !important;
+  }
+  .fb-m-85, .flex-m-basis-85,
+  .f-m-basis-85 {
+    flex-basis: 85% !important;
+  }
+  .fb-m-86, .flex-m-basis-86,
+  .f-m-basis-86 {
+    flex-basis: 86% !important;
+  }
+  .fb-m-87, .flex-m-basis-87,
+  .f-m-basis-87 {
+    flex-basis: 87% !important;
+  }
+  .fb-m-88, .flex-m-basis-88,
+  .f-m-basis-88 {
+    flex-basis: 88% !important;
+  }
+  .fb-m-89, .flex-m-basis-89,
+  .f-m-basis-89 {
+    flex-basis: 89% !important;
+  }
+  .fb-m-90, .flex-m-basis-90,
+  .f-m-basis-90 {
+    flex-basis: 90% !important;
+  }
+  .fb-m-91, .flex-m-basis-91,
+  .f-m-basis-91 {
+    flex-basis: 91% !important;
+  }
+  .fb-m-92, .flex-m-basis-92,
+  .f-m-basis-92 {
+    flex-basis: 92% !important;
+  }
+  .fb-m-93, .flex-m-basis-93,
+  .f-m-basis-93 {
+    flex-basis: 93% !important;
+  }
+  .fb-m-94, .flex-m-basis-94,
+  .f-m-basis-94 {
+    flex-basis: 94% !important;
+  }
+  .fb-m-95, .flex-m-basis-95,
+  .f-m-basis-95 {
+    flex-basis: 95% !important;
+  }
+  .fb-m-96, .flex-m-basis-96,
+  .f-m-basis-96 {
+    flex-basis: 96% !important;
+  }
+  .fb-m-97, .flex-m-basis-97,
+  .f-m-basis-97 {
+    flex-basis: 97% !important;
+  }
+  .fb-m-98, .flex-m-basis-98,
+  .f-m-basis-98 {
+    flex-basis: 98% !important;
+  }
+  .fb-m-99, .flex-m-basis-99,
+  .f-m-basis-99 {
+    flex-basis: 99% !important;
+  }
+  .fb-m-100, .flex-m-basis-100,
+  .f-m-basis-100 {
+    flex-basis: 100% !important;
   }
   .justify-content-m-center,
   .jc-m-center {
