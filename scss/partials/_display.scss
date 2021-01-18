@@ -19,6 +19,15 @@
     }
 }
 
+.flex-order,
+.order {
+    @for $i from 0 through 10 {
+        &-#{$i} {
+            order: $i !important;
+        }
+    }
+}
+
 .zi,
 .z-index {
     @for $i from 0 through 100 {
@@ -101,6 +110,17 @@ $maxWidth in $breakpoints {
                 @each $placement in $position {
                     &-#{$placement} {
                         position: $placement !important;
+                    }
+                }
+            }
+        }
+
+        .flex-order,
+        .order {
+            &-#{$breakpoint} {
+                @for $i from 0 through 10 {
+                    &-#{$i} {
+                        order: $i !important;
                     }
                 }
             }
