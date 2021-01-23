@@ -30,7 +30,7 @@
 
 .zi,
 .z-index {
-    @for $i from 0 through 100 {
+    @for $i from 0 through 10 {
         &-#{$i} {
             z-index: $i !important;
         }
