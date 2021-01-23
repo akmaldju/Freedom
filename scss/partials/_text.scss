@@ -158,6 +158,8 @@
     }
 
     @for $i from 1 through 50 {
+
+        &-#{$i},
         &-#{$i}-px {
             font-size: #{$i}px !important;
         }
@@ -354,6 +356,8 @@ $maxWidth in $breakpoints {
                 }
 
                 @for $i from 1 through 50 {
+
+                    &-#{$i},
                     &-#{$i}-px {
                         font-size: #{$i}px !important;
                     }
