@@ -6,7 +6,8 @@
 
     &-fit,
     &-object-fit,
-    &-of {
+    &-of,
+    & {
         @each $prop in $scale {
             &-#{$prop} {
                 object-fit: $prop !important;

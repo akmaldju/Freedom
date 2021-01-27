@@ -5203,66 +5203,75 @@
 }
 
 /*Image Styles*/
-.img-fit-contain, .img-object-fit-contain, .img-of-contain,
+.img-fit-contain, .img-object-fit-contain, .img-of-contain, .img-contain,
 .image-fit-contain,
 .image-object-fit-contain,
-.image-of-contain {
+.image-of-contain,
+.image-contain {
   object-fit: contain !important;
 }
 
-.img-fit-cover, .img-object-fit-cover, .img-of-cover,
+.img-fit-cover, .img-object-fit-cover, .img-of-cover, .img-cover,
 .image-fit-cover,
 .image-object-fit-cover,
-.image-of-cover {
+.image-of-cover,
+.image-cover {
   object-fit: cover !important;
 }
 
-.img-fit-fill, .img-object-fit-fill, .img-of-fill,
+.img-fit-fill, .img-object-fit-fill, .img-of-fill, .img-fill,
 .image-fit-fill,
 .image-object-fit-fill,
-.image-of-fill {
+.image-of-fill,
+.image-fill {
   object-fit: fill !important;
 }
 
-.img-fit-inherit, .img-object-fit-inherit, .img-of-inherit,
+.img-fit-inherit, .img-object-fit-inherit, .img-of-inherit, .img-inherit,
 .image-fit-inherit,
 .image-object-fit-inherit,
-.image-of-inherit {
+.image-of-inherit,
+.image-inherit {
   object-fit: inherit !important;
 }
 
-.img-fit-initial, .img-object-fit-initial, .img-of-initial,
+.img-fit-initial, .img-object-fit-initial, .img-of-initial, .img-initial,
 .image-fit-initial,
 .image-object-fit-initial,
-.image-of-initial {
+.image-of-initial,
+.image-initial {
   object-fit: initial !important;
 }
 
-.img-fit-none, .img-object-fit-none, .img-of-none,
+.img-fit-none, .img-object-fit-none, .img-of-none, .img-none,
 .image-fit-none,
 .image-object-fit-none,
-.image-of-none {
+.image-of-none,
+.image-none {
   object-fit: none !important;
 }
 
-.img-fit-revert, .img-object-fit-revert, .img-of-revert,
+.img-fit-revert, .img-object-fit-revert, .img-of-revert, .img-revert,
 .image-fit-revert,
 .image-object-fit-revert,
-.image-of-revert {
+.image-of-revert,
+.image-revert {
   object-fit: revert !important;
 }
 
-.img-fit-scale-down, .img-object-fit-scale-down, .img-of-scale-down,
+.img-fit-scale-down, .img-object-fit-scale-down, .img-of-scale-down, .img-scale-down,
 .image-fit-scale-down,
 .image-object-fit-scale-down,
-.image-of-scale-down {
+.image-of-scale-down,
+.image-scale-down {
   object-fit: scale-down !important;
 }
 
-.img-fit-unset, .img-object-fit-unset, .img-of-unset,
+.img-fit-unset, .img-object-fit-unset, .img-of-unset, .img-unset,
 .image-fit-unset,
 .image-object-fit-unset,
-.image-of-unset {
+.image-of-unset,
+.image-unset {
   object-fit: unset !important;
 }
 
