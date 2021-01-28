@@ -28,6 +28,16 @@
         &-#{$i}-vw {
             width: #{$i}vw !important;
         }
+
+        @if $i <=50 {
+            &-#{$i}-rem {
+                width: #{$i}rem !important;
+            }
+
+            &-#{$i}-px {
+                width: #{$i}px !important;
+            }
+        }
     }
 
     &-min {
@@ -54,6 +64,16 @@
 
             &-#{$i}-vw {
                 min-width: #{$i}vw !important;
+            }
+
+            @if $i <=50 {
+                &-#{$i}-rem {
+                    min-width: #{$i}rem !important;
+                }
+
+                &-#{$i}-px {
+                    min-width: #{$i}px !important;
+                }
             }
         }
     }
@@ -82,6 +102,16 @@
 
             &-#{$i}-vw {
                 max-width: #{$i}vw !important;
+            }
+
+            @if $i <=50 {
+                &-#{$i}-rem {
+                    max-width: #{$i}rem !important;
+                }
+
+                &-#{$i}-px {
+                    max-width: #{$i}px !important;
+                }
             }
         }
     }
@@ -237,6 +267,16 @@ $maxWidth in $breakpoints {
                     &-#{$i}-vw {
                         width: #{$i}vw !important;
                     }
+
+                    @if $i <=50 {
+                        &-#{$i}-rem {
+                            width: #{$i}rem !important;
+                        }
+
+                        &-#{$i}-px {
+                            width: #{$i}px !important;
+                        }
+                    }
                 }
             }
 
@@ -265,6 +305,16 @@ $maxWidth in $breakpoints {
 
                         &-#{$i}-vw {
                             min-width: #{$i}vw !important;
+                        }
+
+                        @if $i <=50 {
+                            &-#{$i}-rem {
+                                min-width: #{$i}rem !important;
+                            }
+
+                            &-#{$i}-px {
+                                min-width: #{$i}px !important;
+                            }
                         }
                     }
                 }
@@ -295,6 +345,16 @@ $maxWidth in $breakpoints {
 
                         &-#{$i}-vw {
                             max-width: #{$i}vw !important;
+                        }
+
+                        @if $i <=50 {
+                            &-#{$i}-rem {
+                                max-width: #{$i}rem !important;
+                            }
+
+                            &-#{$i}-px {
+                                max-width: #{$i}px !important;
+                            }
                         }
                     }
                 }
