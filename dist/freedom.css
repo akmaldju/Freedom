@@ -806,6 +806,16 @@
   justify-content: space-evenly !important;
 }
 
+.justify-content-flex-start,
+.jc-flex-start {
+  justify-content: flex-start !important;
+}
+
+.justify-content-flex-end,
+.jc-flex-end {
+  justify-content: flex-end !important;
+}
+
 .justify-content-unset,
 .jc-unset {
   justify-content: unset !important;
@@ -2234,6 +2244,14 @@
   .jc-xl-space-evenly {
     justify-content: space-evenly !important;
   }
+  .justify-content-xl-flex-start,
+  .jc-xl-flex-start {
+    justify-content: flex-start !important;
+  }
+  .justify-content-xl-flex-end,
+  .jc-xl-flex-end {
+    justify-content: flex-end !important;
+  }
   .justify-content-xl-unset,
   .jc-xl-unset {
     justify-content: unset !important;
@@ -3559,6 +3577,14 @@
   .jc-t-space-evenly {
     justify-content: space-evenly !important;
   }
+  .justify-content-t-flex-start,
+  .jc-t-flex-start {
+    justify-content: flex-start !important;
+  }
+  .justify-content-t-flex-end,
+  .jc-t-flex-end {
+    justify-content: flex-end !important;
+  }
   .justify-content-t-unset,
   .jc-t-unset {
     justify-content: unset !important;
@@ -4883,6 +4909,14 @@
   .justify-content-m-space-evenly,
   .jc-m-space-evenly {
     justify-content: space-evenly !important;
+  }
+  .justify-content-m-flex-start,
+  .jc-m-flex-start {
+    justify-content: flex-start !important;
+  }
+  .justify-content-m-flex-end,
+  .jc-m-flex-end {
+    justify-content: flex-end !important;
   }
   .justify-content-m-unset,
   .jc-m-unset {
