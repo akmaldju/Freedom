@@ -76,6 +76,26 @@
             }
         }
     }
+
+    @at-root .fg,
+    .grow,
+    &-grow {
+        @for $i from 0 through 10 {
+            &-#{$i} {
+                flex-grow: $i !important;
+            }
+        }
+    }
+
+    @at-root .fs,
+    .shrink,
+    &-shrink {
+        @for $i from 0 through 10 {
+            &-#{$i} {
+                flex-shrink: $i !important;
+            }
+        }
+    }
 }
 
 .justify-content,
@@ -194,6 +214,26 @@ $maxWidth in $breakpoints {
                     @for $i from 0 through 100 {
                         &-#{$i} {
                             flex-basis: $i * 1% !important;
+                        }
+                    }
+                }
+
+                @at-root .fg-#{$breakpoint},
+                .grow-#{$breakpoint},
+                &-grow {
+                    @for $i from 0 through 10 {
+                        &-#{$i} {
+                            flex-grow: $i !important;
+                        }
+                    }
+                }
+
+                @at-root .fs-#{$breakpoint},
+                .shrink-#{$breakpoint},
+                &-shrink {
+                    @for $i from 0 through 10 {
+                        &-#{$i} {
+                            flex-shrink: $i !important;
                         }
                     }
                 }
