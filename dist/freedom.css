@@ -211,13 +211,15 @@
   visibility: visible !important;
 }
 
-.flex-row,
+.row, .flex-row,
 .f-row {
+  display: flex;
   flex-direction: row !important;
 }
 
-.flex-column,
+.column, .flex-column,
 .f-column {
+  display: flex;
   flex-direction: column !important;
 }
 

@@ -57,7 +57,10 @@
 .flex,
 .f {
     @each $prop in $direction {
+
+        @at-root .#{$prop},
         &-#{$prop} {
+            display: flex;
             flex-direction: $prop !important;
         }
     }
