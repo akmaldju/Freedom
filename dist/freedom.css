@@ -53651,6 +53651,12 @@
   font-family: sans-serif !important;
 }
 
+.script, .text-script,
+.t-script,
+.font-script {
+  font-family: script !important;
+}
+
 .serif, .text-serif,
 .t-serif,
 .font-serif {
