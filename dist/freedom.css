@@ -52997,6 +52997,126 @@
   font-size: 85% !important;
 }
 
+.arial-black, .text-arial-black,
+.t-arial-black,
+.font-arial-black {
+  font-family: "Arial Black", sans-serif !important;
+}
+
+.arial, .text-arial,
+.t-arial,
+.font-arial {
+  font-family: Arial, sans-serif !important;
+}
+
+.bookman, .text-bookman,
+.t-bookman,
+.font-bookman {
+  font-family: Bookman, serif !important;
+}
+
+.comic-sans, .text-comic-sans,
+.t-comic-sans,
+.font-comic-sans {
+  font-family: "Comic Sans MS", cursive !important;
+}
+
+.courier-new, .text-courier-new,
+.t-courier-new,
+.font-courier-new {
+  font-family: "Courier New", monospace !important;
+}
+
+.courier, .text-courier,
+.t-courier,
+.font-courier {
+  font-family: Courier, monospace !important;
+}
+
+.cursive, .text-cursive,
+.t-cursive,
+.font-cursive {
+  font-family: cursive !important;
+}
+
+.fantasy, .text-fantasy,
+.t-fantasy,
+.font-fantasy {
+  font-family: fantasy !important;
+}
+
+.garamond, .text-garamond,
+.t-garamond,
+.font-garamond {
+  font-family: Garamond, sans-serif !important;
+}
+
+.georgia, .text-georgia,
+.t-georgia,
+.font-georgia {
+  font-family: Georgia, serif !important;
+}
+
+.impact, .text-impact,
+.t-impact,
+.font-impact {
+  font-family: Impact, fantasy !important;
+}
+
+.monospace, .text-monospace,
+.t-monospace,
+.font-monospace {
+  font-family: monospace !important;
+}
+
+.palatino, .text-palatino,
+.t-palatino,
+.font-palatino {
+  font-family: Palatino, serif !important;
+}
+
+.sans-serif, .text-sans-serif,
+.t-sans-serif,
+.font-sans-serif {
+  font-family: sans-serif !important;
+}
+
+.serif, .text-serif,
+.t-serif,
+.font-serif {
+  font-family: serif !important;
+}
+
+.tahoma, .text-tahoma,
+.t-tahoma,
+.font-tahoma {
+  font-family: Tahoma, sans-serif !important;
+}
+
+.times-new-roman, .text-times-new-roman,
+.t-times-new-roman,
+.font-times-new-roman {
+  font-family: "Times New Roman", serif !important;
+}
+
+.times, .text-times,
+.t-times,
+.font-times {
+  font-family: Times, serif !important;
+}
+
+.trebuchet, .text-trebuchet,
+.t-trebuchet,
+.font-trebuchet {
+  font-family: "Trebuchet MS", sans-serif !important;
+}
+
+.verdana, .text-verdana,
+.t-verdana,
+.font-verdana {
+  font-family: Verdana, sans-serif !important;
+}
+
 .text-center,
 .t-center,
 .font-center {

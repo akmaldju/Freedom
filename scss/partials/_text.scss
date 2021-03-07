@@ -136,6 +136,15 @@
         font-size: 85% !important;
     }
 
+    @each $name,
+    $font in $fonts {
+
+        @at-root .#{$name},
+        &-#{$name} {
+            font-family: $font !important;
+        }
+    }
+
     @each $prop in $alignment {
         &-#{$prop} {
             text-align: $prop !important;
