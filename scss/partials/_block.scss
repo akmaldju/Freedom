@@ -1,6 +1,13 @@
 @import 'variables';
 
 /*Block Styles*/
+.full-screen,
+.full {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+
 .fixed {
     @each $placement in $placementY {
         &-#{$placement} {
@@ -57,6 +64,15 @@ $maxWidth in $breakpoints {
     @media screen and (min-width: $minWidth) and (max-width: $maxWidth) {
 
         /*Block Styles*/
+        .full-screen,
+        .full {
+            &-#{$breakpoint} {
+                display: block;
+                width: 100vw;
+                height: 100vh;
+            }
+        }
+
         .fixed {
             &-#{$breakpoint} {
                 @each $placement in $placementY {

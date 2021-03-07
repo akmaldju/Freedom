@@ -14534,6 +14534,13 @@
 }
 
 /*Block Styles*/
+.full-screen,
+.full {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
 .fixed-top {
   position: fixed !important;
   top: 0 !important;
@@ -15539,6 +15546,12 @@
 
 @media screen and (min-width: 2500px) and (max-width: none) {
   /*Block Styles*/
+  .full-screen-xl,
+  .full-xl {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+  }
   .fixed-xl-top {
     position: fixed !important;
     top: 0 !important;
@@ -16374,6 +16387,12 @@
 
 @media screen and (min-width: 0) and (max-width: 1000px) {
   /*Block Styles*/
+  .full-screen-t,
+  .full-t {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+  }
   .fixed-t-top {
     position: fixed !important;
     top: 0 !important;
@@ -17209,6 +17228,12 @@
 
 @media screen and (min-width: 0) and (max-width: 576px) {
   /*Block Styles*/
+  .full-screen-m,
+  .full-m {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+  }
   .fixed-m-top {
     position: fixed !important;
     top: 0 !important;
