@@ -131,8 +131,7 @@
         font-weight: 300 !important;
     }
 
-    @at-root .small,
-    &-small {
+    @at-root .small {
         font-size: 85% !important;
     }
 
@@ -163,6 +162,12 @@
         &-#{$color},
         &-#{$color}-hover:hover {
             color: $code !important;
+        }
+    }
+
+    @each $size in $font-sizes {
+        &-#{$size} {
+            font-size: $size !important;
         }
     }
 
@@ -338,8 +343,7 @@ $maxWidth in $breakpoints {
                     font-weight: 300 !important;
                 }
 
-                @at-root .small-#{$breakpoint},
-                &-small {
+                @at-root .small-#{$breakpoint} {
                     font-size: 85% !important;
                 }
 
@@ -361,6 +365,12 @@ $maxWidth in $breakpoints {
                     &-#{$color},
                     &-#{$color}-hover:hover {
                         color: $code !important;
+                    }
+                }
+
+                @each $size in $font-sizes {
+                    &-#{$size} {
+                        font-size: $size !important;
                     }
                 }
 

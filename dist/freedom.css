@@ -53382,9 +53382,7 @@
   font-weight: 300 !important;
 }
 
-.small, .text-small,
-.t-small,
-.font-small {
+.small {
   font-size: 85% !important;
 }
 
@@ -54770,6 +54768,72 @@
   color: yellowgreen !important;
 }
 
+.text-medium,
+.t-medium,
+.font-medium {
+  font-size: medium !important;
+}
+
+.text-xx-small,
+.t-xx-small,
+.font-xx-small {
+  font-size: xx-small !important;
+}
+
+.text-x-small,
+.t-x-small,
+.font-x-small {
+  font-size: x-small !important;
+}
+
+.text-small,
+.t-small,
+.font-small {
+  font-size: small !important;
+}
+
+.text-large,
+.t-large,
+.font-large {
+  font-size: large !important;
+}
+
+.text-x-large,
+.t-x-large,
+.font-x-large {
+  font-size: x-large !important;
+}
+
+.text-xx-large,
+.t-xx-large,
+.font-xx-large {
+  font-size: xx-large !important;
+}
+
+.text-smaller,
+.t-smaller,
+.font-smaller {
+  font-size: smaller !important;
+}
+
+.text-larger,
+.t-larger,
+.font-larger {
+  font-size: larger !important;
+}
+
+.text-initial,
+.t-initial,
+.font-initial {
+  font-size: initial !important;
+}
+
+.text-inherit,
+.t-inherit,
+.font-inherit {
+  font-size: inherit !important;
+}
+
 .text-1, .text-1-px,
 .t-1,
 .t-1-px,
@@ -55709,9 +55773,7 @@
     font-size: 1.25rem !important;
     font-weight: 300 !important;
   }
-  .small-xl, .text-xl-small,
-  .t-xl-small,
-  .font-xl-small {
+  .small-xl {
     font-size: 85% !important;
   }
   .text-xl-center,
@@ -56815,6 +56877,61 @@
   .font-xl-yellowgreen-hover:hover {
     color: yellowgreen !important;
   }
+  .text-xl-medium,
+  .t-xl-medium,
+  .font-xl-medium {
+    font-size: medium !important;
+  }
+  .text-xl-xx-small,
+  .t-xl-xx-small,
+  .font-xl-xx-small {
+    font-size: xx-small !important;
+  }
+  .text-xl-x-small,
+  .t-xl-x-small,
+  .font-xl-x-small {
+    font-size: x-small !important;
+  }
+  .text-xl-small,
+  .t-xl-small,
+  .font-xl-small {
+    font-size: small !important;
+  }
+  .text-xl-large,
+  .t-xl-large,
+  .font-xl-large {
+    font-size: large !important;
+  }
+  .text-xl-x-large,
+  .t-xl-x-large,
+  .font-xl-x-large {
+    font-size: x-large !important;
+  }
+  .text-xl-xx-large,
+  .t-xl-xx-large,
+  .font-xl-xx-large {
+    font-size: xx-large !important;
+  }
+  .text-xl-smaller,
+  .t-xl-smaller,
+  .font-xl-smaller {
+    font-size: smaller !important;
+  }
+  .text-xl-larger,
+  .t-xl-larger,
+  .font-xl-larger {
+    font-size: larger !important;
+  }
+  .text-xl-initial,
+  .t-xl-initial,
+  .font-xl-initial {
+    font-size: initial !important;
+  }
+  .text-xl-inherit,
+  .t-xl-inherit,
+  .font-xl-inherit {
+    font-size: inherit !important;
+  }
   .text-xl-1, .text-xl-1-px,
   .t-xl-1,
   .t-xl-1-px,
@@ -57636,9 +57753,7 @@
     font-size: 1.25rem !important;
     font-weight: 300 !important;
   }
-  .small-t, .text-t-small,
-  .t-t-small,
-  .font-t-small {
+  .small-t {
     font-size: 85% !important;
   }
   .text-t-center,
@@ -58742,6 +58857,61 @@
   .font-t-yellowgreen-hover:hover {
     color: yellowgreen !important;
   }
+  .text-t-medium,
+  .t-t-medium,
+  .font-t-medium {
+    font-size: medium !important;
+  }
+  .text-t-xx-small,
+  .t-t-xx-small,
+  .font-t-xx-small {
+    font-size: xx-small !important;
+  }
+  .text-t-x-small,
+  .t-t-x-small,
+  .font-t-x-small {
+    font-size: x-small !important;
+  }
+  .text-t-small,
+  .t-t-small,
+  .font-t-small {
+    font-size: small !important;
+  }
+  .text-t-large,
+  .t-t-large,
+  .font-t-large {
+    font-size: large !important;
+  }
+  .text-t-x-large,
+  .t-t-x-large,
+  .font-t-x-large {
+    font-size: x-large !important;
+  }
+  .text-t-xx-large,
+  .t-t-xx-large,
+  .font-t-xx-large {
+    font-size: xx-large !important;
+  }
+  .text-t-smaller,
+  .t-t-smaller,
+  .font-t-smaller {
+    font-size: smaller !important;
+  }
+  .text-t-larger,
+  .t-t-larger,
+  .font-t-larger {
+    font-size: larger !important;
+  }
+  .text-t-initial,
+  .t-t-initial,
+  .font-t-initial {
+    font-size: initial !important;
+  }
+  .text-t-inherit,
+  .t-t-inherit,
+  .font-t-inherit {
+    font-size: inherit !important;
+  }
   .text-t-1, .text-t-1-px,
   .t-t-1,
   .t-t-1-px,
@@ -59563,9 +59733,7 @@
     font-size: 1.25rem !important;
     font-weight: 300 !important;
   }
-  .small-m, .text-m-small,
-  .t-m-small,
-  .font-m-small {
+  .small-m {
     font-size: 85% !important;
   }
   .text-m-center,
@@ -60668,6 +60836,61 @@
   .font-m-yellowgreen,
   .font-m-yellowgreen-hover:hover {
     color: yellowgreen !important;
+  }
+  .text-m-medium,
+  .t-m-medium,
+  .font-m-medium {
+    font-size: medium !important;
+  }
+  .text-m-xx-small,
+  .t-m-xx-small,
+  .font-m-xx-small {
+    font-size: xx-small !important;
+  }
+  .text-m-x-small,
+  .t-m-x-small,
+  .font-m-x-small {
+    font-size: x-small !important;
+  }
+  .text-m-small,
+  .t-m-small,
+  .font-m-small {
+    font-size: small !important;
+  }
+  .text-m-large,
+  .t-m-large,
+  .font-m-large {
+    font-size: large !important;
+  }
+  .text-m-x-large,
+  .t-m-x-large,
+  .font-m-x-large {
+    font-size: x-large !important;
+  }
+  .text-m-xx-large,
+  .t-m-xx-large,
+  .font-m-xx-large {
+    font-size: xx-large !important;
+  }
+  .text-m-smaller,
+  .t-m-smaller,
+  .font-m-smaller {
+    font-size: smaller !important;
+  }
+  .text-m-larger,
+  .t-m-larger,
+  .font-m-larger {
+    font-size: larger !important;
+  }
+  .text-m-initial,
+  .t-m-initial,
+  .font-m-initial {
+    font-size: initial !important;
+  }
+  .text-m-inherit,
+  .t-m-inherit,
+  .font-m-inherit {
+    font-size: inherit !important;
   }
   .text-m-1, .text-m-1-px,
   .t-m-1,
