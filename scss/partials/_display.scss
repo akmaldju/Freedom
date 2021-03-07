@@ -4,6 +4,8 @@
 .d,
 .display {
     @each $style in $display {
+
+        @at-root .#{$style},
         &-#{$style} {
             display: $style !important;
         }
@@ -130,6 +132,8 @@ $maxWidth in $breakpoints {
         .display {
             &-#{$breakpoint} {
                 @each $style in $display {
+
+                    @at-root .#{$style}-#{$breakpoint},
                     &-#{$style} {
                         display: $style !important;
                     }
