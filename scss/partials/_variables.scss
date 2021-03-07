@@ -112,6 +112,11 @@ $fonts: (arial-black: ("Arial Black", sans-serif),
     trebuchet: ("Trebuchet MS", sans-serif),
     verdana: (Verdana, sans-serif));
 
+$overflows: auto,
+hidden,
+scroll,
+visible;
+
 $placements: top,
 bottom,
 right,

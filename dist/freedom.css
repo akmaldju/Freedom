@@ -1070,6 +1070,54 @@
   align-items: inherit !important;
 }
 
+.overflow-auto {
+  overflow: auto !important;
+}
+
+.overflow-x-auto {
+  overflow-x: auto !important;
+}
+
+.overflow-y-auto {
+  overflow-y: auto !important;
+}
+
+.overflow-hidden {
+  overflow: hidden !important;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden !important;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden !important;
+}
+
+.overflow-scroll {
+  overflow: scroll !important;
+}
+
+.overflow-x-scroll {
+  overflow-x: scroll !important;
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll !important;
+}
+
+.overflow-visible {
+  overflow: visible !important;
+}
+
+.overflow-x-visible {
+  overflow-x: visible !important;
+}
+
+.overflow-y-visible {
+  overflow-y: visible !important;
+}
+
 .top-0 {
   top: 0px !important;
 }
@@ -2707,6 +2755,42 @@
   .ai-xl-inherit {
     align-items: inherit !important;
   }
+  .overflow-xl-auto {
+    overflow: auto !important;
+  }
+  .overflow-x-xl-auto {
+    overflow-x: auto !important;
+  }
+  .overflow-y-xl-auto {
+    overflow-y: auto !important;
+  }
+  .overflow-xl-hidden {
+    overflow: hidden !important;
+  }
+  .overflow-x-xl-hidden {
+    overflow-x: hidden !important;
+  }
+  .overflow-y-xl-hidden {
+    overflow-y: hidden !important;
+  }
+  .overflow-xl-scroll {
+    overflow: scroll !important;
+  }
+  .overflow-x-xl-scroll {
+    overflow-x: scroll !important;
+  }
+  .overflow-y-xl-scroll {
+    overflow-y: scroll !important;
+  }
+  .overflow-xl-visible {
+    overflow: visible !important;
+  }
+  .overflow-x-xl-visible {
+    overflow-x: visible !important;
+  }
+  .overflow-y-xl-visible {
+    overflow-y: visible !important;
+  }
   .top-xl-0 {
     top: 0px !important;
   }
@@ -4242,6 +4326,42 @@
   .ai-t-inherit {
     align-items: inherit !important;
   }
+  .overflow-t-auto {
+    overflow: auto !important;
+  }
+  .overflow-x-t-auto {
+    overflow-x: auto !important;
+  }
+  .overflow-y-t-auto {
+    overflow-y: auto !important;
+  }
+  .overflow-t-hidden {
+    overflow: hidden !important;
+  }
+  .overflow-x-t-hidden {
+    overflow-x: hidden !important;
+  }
+  .overflow-y-t-hidden {
+    overflow-y: hidden !important;
+  }
+  .overflow-t-scroll {
+    overflow: scroll !important;
+  }
+  .overflow-x-t-scroll {
+    overflow-x: scroll !important;
+  }
+  .overflow-y-t-scroll {
+    overflow-y: scroll !important;
+  }
+  .overflow-t-visible {
+    overflow: visible !important;
+  }
+  .overflow-x-t-visible {
+    overflow-x: visible !important;
+  }
+  .overflow-y-t-visible {
+    overflow-y: visible !important;
+  }
   .top-t-0 {
     top: 0px !important;
   }
@@ -5776,6 +5896,42 @@
   .align-items-m-inherit,
   .ai-m-inherit {
     align-items: inherit !important;
+  }
+  .overflow-m-auto {
+    overflow: auto !important;
+  }
+  .overflow-x-m-auto {
+    overflow-x: auto !important;
+  }
+  .overflow-y-m-auto {
+    overflow-y: auto !important;
+  }
+  .overflow-m-hidden {
+    overflow: hidden !important;
+  }
+  .overflow-x-m-hidden {
+    overflow-x: hidden !important;
+  }
+  .overflow-y-m-hidden {
+    overflow-y: hidden !important;
+  }
+  .overflow-m-scroll {
+    overflow: scroll !important;
+  }
+  .overflow-x-m-scroll {
+    overflow-x: scroll !important;
+  }
+  .overflow-y-m-scroll {
+    overflow-y: scroll !important;
+  }
+  .overflow-m-visible {
+    overflow: visible !important;
+  }
+  .overflow-x-m-visible {
+    overflow-x: visible !important;
+  }
+  .overflow-y-m-visible {
+    overflow-y: visible !important;
   }
   .top-m-0 {
     top: 0px !important;

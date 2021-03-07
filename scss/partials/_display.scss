@@ -139,6 +139,26 @@
     }
 }
 
+.overflow {
+    @each $overflow in $overflows {
+        &-#{$overflow} {
+            overflow: $overflow !important;
+        }
+
+        &-x {
+            &-#{$overflow} {
+                overflow-x: $overflow !important;
+            }
+        }
+
+        &-y {
+            &-#{$overflow} {
+                overflow-y: $overflow !important;
+            }
+        }
+    }
+}
+
 @each $placement in $placements {
     .#{$placement} {
         @for $i from 0 through 25 {
@@ -315,6 +335,33 @@ $maxWidth in $breakpoints {
                         align-items: $alignment !important;
                     }
                 }
+            }
+        }
+
+        .overflow {
+            @each $overflow in $overflows {
+                &-#{$breakpoint} {
+                    &-#{$overflow} {
+                        overflow: $overflow !important;
+                    }
+                }
+
+                &-x {
+                    &-#{$breakpoint} {
+                        &-#{$overflow} {
+                            overflow-x: $overflow !important;
+                        }
+                    }
+                }
+
+                &-y {
+                    &-#{$breakpoint} {
+                        &-#{$overflow} {
+                            overflow-y: $overflow !important;
+                        }
+                    }
+                }
+
             }
         }
 
