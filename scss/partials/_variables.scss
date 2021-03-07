@@ -9,7 +9,33 @@ start,
 end,
 unset;
 
-$alignment-content: center,
+$alignment-content : stretch,
+center,
+flex-start,
+flex-end,
+space-between,
+space-around,
+initial,
+inherit;
+
+$alignment-self: auto,
+stretch,
+center,
+flex-start,
+flex-end,
+baseline,
+initial,
+inherit;
+
+$alignment-items: stretch,
+center,
+flex-start,
+flex-end,
+baseline,
+initial,
+inherit;
+
+$justify-content: center,
 justify,
 right,
 left,

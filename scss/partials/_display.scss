@@ -105,9 +105,36 @@
 
 .justify-content,
 .jc {
-    @each $alignment in $alignment-content {
+    @each $alignment in $justify-content {
         &-#{$alignment} {
             justify-content: $alignment !important;
+        }
+    }
+}
+
+.align-content,
+.ac {
+    @each $alignment in $alignment-content {
+        &-#{$alignment} {
+            align-content: $alignment !important;
+        }
+    }
+}
+
+.align-self,
+.as {
+    @each $alignment in $alignment-self {
+        &-#{$alignment} {
+            align-self: $alignment !important;
+        }
+    }
+}
+
+.align-items,
+.ai {
+    @each $alignment in $alignment-items {
+        &-#{$alignment} {
+            align-items: $alignment !important;
         }
     }
 }
@@ -250,9 +277,42 @@ $maxWidth in $breakpoints {
         .justify-content,
         .jc {
             &-#{$breakpoint} {
-                @each $alignment in $alignment-content {
+                @each $alignment in $justify-content {
                     &-#{$alignment} {
                         justify-content: $alignment !important;
+                    }
+                }
+            }
+        }
+
+        .align-content,
+        .ac {
+            &-#{$breakpoint} {
+                @each $alignment in $alignment-content {
+                    &-#{$alignment} {
+                        align-content: $alignment !important;
+                    }
+                }
+            }
+        }
+
+        .align-self,
+        .as {
+            &-#{$breakpoint} {
+                @each $alignment in $alignment-self {
+                    &-#{$alignment} {
+                        align-self: $alignment !important;
+                    }
+                }
+            }
+        }
+
+        .align-items,
+        .ai {
+            &-#{$breakpoint} {
+                @each $alignment in $alignment-items {
+                    &-#{$alignment} {
+                        align-items: $alignment !important;
                     }
                 }
             }

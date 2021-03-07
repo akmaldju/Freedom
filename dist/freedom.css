@@ -955,6 +955,121 @@
   justify-content: unset !important;
 }
 
+.align-content-stretch,
+.ac-stretch {
+  align-content: stretch !important;
+}
+
+.align-content-center,
+.ac-center {
+  align-content: center !important;
+}
+
+.align-content-flex-start,
+.ac-flex-start {
+  align-content: flex-start !important;
+}
+
+.align-content-flex-end,
+.ac-flex-end {
+  align-content: flex-end !important;
+}
+
+.align-content-space-between,
+.ac-space-between {
+  align-content: space-between !important;
+}
+
+.align-content-space-around,
+.ac-space-around {
+  align-content: space-around !important;
+}
+
+.align-content-initial,
+.ac-initial {
+  align-content: initial !important;
+}
+
+.align-content-inherit,
+.ac-inherit {
+  align-content: inherit !important;
+}
+
+.align-self-auto,
+.as-auto {
+  align-self: auto !important;
+}
+
+.align-self-stretch,
+.as-stretch {
+  align-self: stretch !important;
+}
+
+.align-self-center,
+.as-center {
+  align-self: center !important;
+}
+
+.align-self-flex-start,
+.as-flex-start {
+  align-self: flex-start !important;
+}
+
+.align-self-flex-end,
+.as-flex-end {
+  align-self: flex-end !important;
+}
+
+.align-self-baseline,
+.as-baseline {
+  align-self: baseline !important;
+}
+
+.align-self-initial,
+.as-initial {
+  align-self: initial !important;
+}
+
+.align-self-inherit,
+.as-inherit {
+  align-self: inherit !important;
+}
+
+.align-items-stretch,
+.ai-stretch {
+  align-items: stretch !important;
+}
+
+.align-items-center,
+.ai-center {
+  align-items: center !important;
+}
+
+.align-items-flex-start,
+.ai-flex-start {
+  align-items: flex-start !important;
+}
+
+.align-items-flex-end,
+.ai-flex-end {
+  align-items: flex-end !important;
+}
+
+.align-items-baseline,
+.ai-baseline {
+  align-items: baseline !important;
+}
+
+.align-items-initial,
+.ai-initial {
+  align-items: initial !important;
+}
+
+.align-items-inherit,
+.ai-inherit {
+  align-items: inherit !important;
+}
+
 .top-0 {
   top: 0px !important;
 }
@@ -2500,6 +2615,98 @@
   .jc-xl-unset {
     justify-content: unset !important;
   }
+  .align-content-xl-stretch,
+  .ac-xl-stretch {
+    align-content: stretch !important;
+  }
+  .align-content-xl-center,
+  .ac-xl-center {
+    align-content: center !important;
+  }
+  .align-content-xl-flex-start,
+  .ac-xl-flex-start {
+    align-content: flex-start !important;
+  }
+  .align-content-xl-flex-end,
+  .ac-xl-flex-end {
+    align-content: flex-end !important;
+  }
+  .align-content-xl-space-between,
+  .ac-xl-space-between {
+    align-content: space-between !important;
+  }
+  .align-content-xl-space-around,
+  .ac-xl-space-around {
+    align-content: space-around !important;
+  }
+  .align-content-xl-initial,
+  .ac-xl-initial {
+    align-content: initial !important;
+  }
+  .align-content-xl-inherit,
+  .ac-xl-inherit {
+    align-content: inherit !important;
+  }
+  .align-self-xl-auto,
+  .as-xl-auto {
+    align-self: auto !important;
+  }
+  .align-self-xl-stretch,
+  .as-xl-stretch {
+    align-self: stretch !important;
+  }
+  .align-self-xl-center,
+  .as-xl-center {
+    align-self: center !important;
+  }
+  .align-self-xl-flex-start,
+  .as-xl-flex-start {
+    align-self: flex-start !important;
+  }
+  .align-self-xl-flex-end,
+  .as-xl-flex-end {
+    align-self: flex-end !important;
+  }
+  .align-self-xl-baseline,
+  .as-xl-baseline {
+    align-self: baseline !important;
+  }
+  .align-self-xl-initial,
+  .as-xl-initial {
+    align-self: initial !important;
+  }
+  .align-self-xl-inherit,
+  .as-xl-inherit {
+    align-self: inherit !important;
+  }
+  .align-items-xl-stretch,
+  .ai-xl-stretch {
+    align-items: stretch !important;
+  }
+  .align-items-xl-center,
+  .ai-xl-center {
+    align-items: center !important;
+  }
+  .align-items-xl-flex-start,
+  .ai-xl-flex-start {
+    align-items: flex-start !important;
+  }
+  .align-items-xl-flex-end,
+  .ai-xl-flex-end {
+    align-items: flex-end !important;
+  }
+  .align-items-xl-baseline,
+  .ai-xl-baseline {
+    align-items: baseline !important;
+  }
+  .align-items-xl-initial,
+  .ai-xl-initial {
+    align-items: initial !important;
+  }
+  .align-items-xl-inherit,
+  .ai-xl-inherit {
+    align-items: inherit !important;
+  }
   .top-xl-0 {
     top: 0px !important;
   }
@@ -3943,6 +4150,98 @@
   .jc-t-unset {
     justify-content: unset !important;
   }
+  .align-content-t-stretch,
+  .ac-t-stretch {
+    align-content: stretch !important;
+  }
+  .align-content-t-center,
+  .ac-t-center {
+    align-content: center !important;
+  }
+  .align-content-t-flex-start,
+  .ac-t-flex-start {
+    align-content: flex-start !important;
+  }
+  .align-content-t-flex-end,
+  .ac-t-flex-end {
+    align-content: flex-end !important;
+  }
+  .align-content-t-space-between,
+  .ac-t-space-between {
+    align-content: space-between !important;
+  }
+  .align-content-t-space-around,
+  .ac-t-space-around {
+    align-content: space-around !important;
+  }
+  .align-content-t-initial,
+  .ac-t-initial {
+    align-content: initial !important;
+  }
+  .align-content-t-inherit,
+  .ac-t-inherit {
+    align-content: inherit !important;
+  }
+  .align-self-t-auto,
+  .as-t-auto {
+    align-self: auto !important;
+  }
+  .align-self-t-stretch,
+  .as-t-stretch {
+    align-self: stretch !important;
+  }
+  .align-self-t-center,
+  .as-t-center {
+    align-self: center !important;
+  }
+  .align-self-t-flex-start,
+  .as-t-flex-start {
+    align-self: flex-start !important;
+  }
+  .align-self-t-flex-end,
+  .as-t-flex-end {
+    align-self: flex-end !important;
+  }
+  .align-self-t-baseline,
+  .as-t-baseline {
+    align-self: baseline !important;
+  }
+  .align-self-t-initial,
+  .as-t-initial {
+    align-self: initial !important;
+  }
+  .align-self-t-inherit,
+  .as-t-inherit {
+    align-self: inherit !important;
+  }
+  .align-items-t-stretch,
+  .ai-t-stretch {
+    align-items: stretch !important;
+  }
+  .align-items-t-center,
+  .ai-t-center {
+    align-items: center !important;
+  }
+  .align-items-t-flex-start,
+  .ai-t-flex-start {
+    align-items: flex-start !important;
+  }
+  .align-items-t-flex-end,
+  .ai-t-flex-end {
+    align-items: flex-end !important;
+  }
+  .align-items-t-baseline,
+  .ai-t-baseline {
+    align-items: baseline !important;
+  }
+  .align-items-t-initial,
+  .ai-t-initial {
+    align-items: initial !important;
+  }
+  .align-items-t-inherit,
+  .ai-t-inherit {
+    align-items: inherit !important;
+  }
   .top-t-0 {
     top: 0px !important;
   }
@@ -5385,6 +5684,98 @@
   .justify-content-m-unset,
   .jc-m-unset {
     justify-content: unset !important;
+  }
+  .align-content-m-stretch,
+  .ac-m-stretch {
+    align-content: stretch !important;
+  }
+  .align-content-m-center,
+  .ac-m-center {
+    align-content: center !important;
+  }
+  .align-content-m-flex-start,
+  .ac-m-flex-start {
+    align-content: flex-start !important;
+  }
+  .align-content-m-flex-end,
+  .ac-m-flex-end {
+    align-content: flex-end !important;
+  }
+  .align-content-m-space-between,
+  .ac-m-space-between {
+    align-content: space-between !important;
+  }
+  .align-content-m-space-around,
+  .ac-m-space-around {
+    align-content: space-around !important;
+  }
+  .align-content-m-initial,
+  .ac-m-initial {
+    align-content: initial !important;
+  }
+  .align-content-m-inherit,
+  .ac-m-inherit {
+    align-content: inherit !important;
+  }
+  .align-self-m-auto,
+  .as-m-auto {
+    align-self: auto !important;
+  }
+  .align-self-m-stretch,
+  .as-m-stretch {
+    align-self: stretch !important;
+  }
+  .align-self-m-center,
+  .as-m-center {
+    align-self: center !important;
+  }
+  .align-self-m-flex-start,
+  .as-m-flex-start {
+    align-self: flex-start !important;
+  }
+  .align-self-m-flex-end,
+  .as-m-flex-end {
+    align-self: flex-end !important;
+  }
+  .align-self-m-baseline,
+  .as-m-baseline {
+    align-self: baseline !important;
+  }
+  .align-self-m-initial,
+  .as-m-initial {
+    align-self: initial !important;
+  }
+  .align-self-m-inherit,
+  .as-m-inherit {
+    align-self: inherit !important;
+  }
+  .align-items-m-stretch,
+  .ai-m-stretch {
+    align-items: stretch !important;
+  }
+  .align-items-m-center,
+  .ai-m-center {
+    align-items: center !important;
+  }
+  .align-items-m-flex-start,
+  .ai-m-flex-start {
+    align-items: flex-start !important;
+  }
+  .align-items-m-flex-end,
+  .ai-m-flex-end {
+    align-items: flex-end !important;
+  }
+  .align-items-m-baseline,
+  .ai-m-baseline {
+    align-items: baseline !important;
+  }
+  .align-items-m-initial,
+  .ai-m-initial {
+    align-items: initial !important;
+  }
+  .align-items-m-inherit,
+  .ai-m-inherit {
+    align-items: inherit !important;
   }
   .top-m-0 {
     top: 0px !important;
