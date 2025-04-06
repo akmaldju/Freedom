@@ -3,15 +3,15 @@
   "version": "0.2.6",
   "description": "CSS FreeDOM - a light-weight simplified and improved version of Bootstrap.",
   "main": "index.js",
-  "dependencies": {
-    "node-sass": "^5.0.0"
+  "devDependencies": {
+    "sass": "1.86.3"
   },
   "scripts": {
-    "compile": "node-sass scss/freedom.scss dist/freedom.css --output-style expanded && node-sass scss/freedom.scss dist/freedom.min.css --output-style compressed",
-    "minify": "node-sass scss/freedom.scss dist/freedom.min.css --output-style compressed",
-    "publish": "npm run compile && npm publish",
+    "compile": "sass scss/freedom.scss dist/freedom.css --style=expanded && sass scss/freedom.scss dist/freedom.min.css --style=compressed",
+    "minify": "sass scss/freedom.scss dist/freedom.min.css --style=compressed",
+    "publish": "pnpm run compile && pnpm publish",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "node-sass --watch scss -o dist --output-style expanded"
+    "watch": "sass --watch scss:dist --style=expanded"
   },
   "repository": {
     "type": "git",
